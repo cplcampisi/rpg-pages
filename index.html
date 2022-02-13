@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    @font-face { font-family: neo; src: url('../Fonts/neo_gen/Neo Gen Bold.ttf');}
+    @font-face { font-family: xol; src: url('../Fonts/xolonium/Xolonium-Regular.ttf');}
+    div { font-family: xol; font-size: 18px;}
+    a { font-family: xol; font-size: 14px; color:indianred}
+    h1 { font-family: xol; font-size: 18px; color:lightgray}
+  </style>
+  
+  <script>
+    var urlparam="?date=2838.04.9";
+    function gxi50()
+    {
+        document.getElementById("start").style.display='none';
+        document.getElementById("mainframe").src='gxi50.html'+urlparam;
+        document.getElementById("mainframe").style.display='block';
+        document.getElementById("mainframe").focus();
+    }
+  </script>
+  <head>
+    <!-- <title>Title of the document</title> -->
+  </head>
+  <body style="background-color:#000000;">
+    <!-- <h1>Some heading</h1> -->
+    <!-- <p>Some paragraph for example.</p> -->
+    
+    <div id="start" style="
+    height: 600px; width: 800px;
+    margin: auto;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: block;
+   ">
+        <h1>Choose a terminal to access programs:</h1>
+        <!-- <p>Some paragraph for example.</p> -->
+        <a onclick="gxi50()" href="#">GXI-50/2</a><br>
+        <a onclick="gxi85()" href="#">GXI-85 command line terminal</a><br>
+    </div>
+    
+    <iframe id="mainframe" src="" title="GXI Terminal" scrolling="no" style="display: none;
+        width: 100vw;
+        height: 90vh;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0 none;
+        box-sizing: border-box;"></iframe>
+    <!-- <div id="maindiv" style="display: none; margin:auto; border: 5px solid white">
+        
+    </div> -->
+  </body>
+</html>

@@ -1,0 +1,4 @@
+Notes on converting:
+awk 1 ORS="<newline>" <ipinhistory.txt > converted/history.txt
+
+Leaves some lines unconverted, but works reasonably well.

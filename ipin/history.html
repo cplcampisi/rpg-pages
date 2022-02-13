@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    @font-face { font-family: ipin; src: url('../../Fonts/neo_gen/Neo Gen Bold Italic.ttf');}
+    @font-face { font-family: ipinh; src: url('../../Fonts/individigital_black/Individigital black.ttf');}
+    @font-face { font-family: armor; src: url('../../Fonts/armorhide/Armorhide.otf');}
+    @font-face { font-family: armori; src: url('../../Fonts/armorhide/Armorhide Italic.otf');}
+    p { position: absolute; font-family: armor; font-size: 22px; color:#3E7ED9}
+    
+    .title {
+        position: absolute;
+        padding: 0px;
+        font-family: ipinh;
+        color:#55599C;
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .date {
+        position: absolute;
+        padding: 0px;
+        font-family: ipinh;
+        color:#7F7F7F;
+        text-align: right;
+        font-size: 12px;
+    }
+    
+    .ipinbutton {
+        position: absolute;
+        padding: 0px;
+        border: solid #3E4274;
+        border-width: 1px 2px;
+        width: 250px;
+        height: 40px;
+        font-family: ipinh;
+        color:#4F6AD6;
+        line-height: 40px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .ipinbutton:hover {
+        border: 2px solid #55599C;
+        color:#5E7ED9;
+    }
+    .ipinbutton:active {
+        border: 2px solid #7883F6;
+        color:#3E429B;
+    }
+    
+    .ipinbuttonb {
+        position: absolute;
+        padding: 0px;
+        border: solid #14305C;
+        border-width: 1px 2px;
+        width: 250px;
+        height: 40px;
+        font-family: ipinh;
+        color:#1F5869;
+        line-height: 40px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .ipinbuttonb:hover {
+        border: 2px solid #163E78;
+        color:#237187;
+    }
+    .ipinbuttonb:active {
+        border: 2px solid #237187;
+        color:#163E78;
+    }
+    
+  </style>
+  <script>
+    var date = "0000.00.0";
+    const urlparam = window.location.search;
+    const urlParams = new URLSearchParams(urlparam);
+    if (urlParams.has('date'))
+        date = urlParams.get('date');
+        
+    window.onload=function()  //executes when the page finishes loading
+    {
+        document.getElementById("date").innerHTML=date;
+        
+        //load text file
+        textfileStr = document.getElementById("textfile").src="ipinhistory.txt";
+    }
+    
+    function textloaded()
+    {
+        var frameObj =
+                document.getElementById("textfile");
+            var frameContent = frameObj
+                .contentWindow.document.body.innerHTML;
+  
+            alert("frame content : " + frameContent);
+    }
+    
+    function buttonclick(page)
+    {
+        window.location.href = page+urlparam;
+    }
+    
+  </script>
+  <head>
+    <!-- <title>Title of the document</title> -->
+  </head>
+  <body style="background-color:#000000;">
+    <!-- <h1>Some heading</h1> -->
+    <!-- <p>Some paragraph for example.</p> -->
+    <div style="
+   width: 1024px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-image: url(../../Pictures/back2.jpg);
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: block;
+   ">
+        <!-- <p style="color:blue">Some paragraph for example.</p> -->
+        <div id="date" class="date" style="left:890px;top:10px;
+                                  width:120px;height:24px;">
+        </div>
+        
+        <div class="title" style="left:27px;top:40px;">
+        <span style="text-decoration:underline;">IPIN</span>
+            - HISTORY / GENERAL INFORMATION
+        </div>
+   
+        <!-- BUTTONS -->
+        <div class="ipinbutton" style="left:100px;top:155px;">
+        HISTORY/INFO
+        </div>
+        <div class="ipinbutton" style="left:100px;top:210px;">
+        GOVT/POLITICS
+        </div>
+        <div class="ipinbutton" style="left:100px;top:265px;">
+        AGENCIES
+        </div>
+        <div class="ipinbutton" style="left:100px;top:320px;">
+        MILITARY
+        </div>
+        <div class="ipinbutton" style="left:100px;top:375px;">
+        SCIENCE/TECH
+        </div>
+        <div class="ipinbutton" style="left:100px;top:430px;">
+        PROGRAMMING
+        </div>
+        
+        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home.html");'>
+        RETURN
+        </div>
+        
+    </div>
+
+    <iframe id="textfile" style="display: block;" src="" onload="textloaded()"></iframe>
+
+  </body>
+</html>
