@@ -9,12 +9,7 @@
   </style>
   
   <script>
-    window.onload=function()  //executes when the page finishes loading
-    {
-        document.getElementById("mainframe").src='list.html';
-        document.getElementById("mainframe").style.display='block';
-        document.getElementById("mainframe").focus();
-    }
+    var urlparam="?date=2838.04.9";
     function gxi50()
     {
         const soundEffect = new Audio();
@@ -24,11 +19,8 @@
         // (This is a tiny MP3 file that is silent and extremely short - retrieved from https://bigsoundbank.com and then modified)
         soundEffect.src = "data:audio/mpeg;base64,SUQzBAAAAAABEVRYWFgAAAAtAAADY29tbWVudABCaWdTb3VuZEJhbmsuY29tIC8gTGFTb25vdGhlcXVlLm9yZwBURU5DAAAAHQAAA1N3aXRjaCBQbHVzIMKpIE5DSCBTb2Z0d2FyZQBUSVQyAAAABgAAAzIyMzUAVFNTRQAAAA8AAANMYXZmNTcuODMuMTAwAAAAAAAAAAAAAAD/80DEAAAAA0gAAAAATEFNRTMuMTAwVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQsRbAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQMSkAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV";
         soundEffect.play();
-        console.log("played sound effect");
-        document.getElementById("start").style.display='none';
-        document.getElementById("mainframe").src='gxi50.html'+urlparam;
-        document.getElementById("mainframe").style.display='block';
-        document.getElementById("mainframe").focus();
+        console.log("played sound effect2");
+        window.location.href ='gxi50.html'+urlparam;
     }
   </script>
   <head>
@@ -38,15 +30,19 @@
     <!-- <h1>Some heading</h1> -->
     <!-- <p>Some paragraph for example.</p> -->
     
-    <iframe id="mainframe" src="" title="GXI Terminal" scrolling="no" style="display: block;
-        width: 100vw;
-        height: 90vh;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-        border: 0 none;
-        box-sizing: border-box;">
-      </iframe>
+    <div id="start" style="
+    height: 600px; width: 800px;
+    margin: auto;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: block;
+   ">
+   <h1>Choose a terminal to access programs:</h1>
+        <!-- <p>Some paragraph for example.</p> -->
+        <a onclick="gxi50()" href="#">GXI-50/2</a><br>
+        <a onclick="gxi85()" href="#">GXI-85 command line terminal</a><br>
+    </div>
     <!-- <div id="maindiv" style="display: none; margin:auto; border: 5px solid white">
         
     </div> -->
