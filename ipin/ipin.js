@@ -18,6 +18,7 @@ window.onload=function()  //executes when the page finishes loading
         dates[i].innerHTML=date;
 
     historyTxt = loadFile("ipinhistory.txt");
+    console.log("history: \n" + historyTxt);
     governTxt = loadFile("ipingovern.txt");
     agenciesTxt = loadFile("ipinagencies.txt");
     militaryTxt = loadFile("ipinmilitary.txt");
@@ -31,7 +32,7 @@ async function loadFile(url)
     {
       const response = await fetch(url);
       data = await response.text();
-      console.log(data);
+      //console.log(data);
     } catch (err) {
       console.error(err);
     }
