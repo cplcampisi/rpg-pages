@@ -1,26 +1,36 @@
 var view = "home";
 var date = "0000.00.0";
+var historyTxt = "";
+var governTxt = "";
+var agenciesTxt = "";
+var militaryTxt = "";
+var techTxt = "";
+
 const urlparam = window.location.search;
 const urlParams = new URLSearchParams(urlparam);
 if (urlParams.has('date'))
     date = urlParams.get('date');
-    
+  
 window.onload=function()  //executes when the page finishes loading
 {
     var dates = document.getElementsByClassName("date");
     for (var i=0; i<dates.length; i++)
         dates[i].innerHTML=date;
 
-    loadFileAndPrintToConsole("ipinhistory.txt");
+    historyTxt=loadFile("ipinhistory.txt");
+    governTxt=loadFile("ipingovern.txt");
+    agenciesTxt = loadFile("ipinagencies.txt");
+    militaryTxt = loadFile("ipinmilitary.txt");
+    techTxt = loadFile("ipintech.txt");
 }
 
-async function loadFileAndPrintToConsole(url) 
+async function loadFile(url) 
 {
     try 
     {
       const response = await fetch(url);
       const data = await response.text();
-      console.log(data);
+      return data;
     } catch (err) {
       console.error(err);
     }
