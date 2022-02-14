@@ -17,8 +17,8 @@ window.onload=function()  //executes when the page finishes loading
     for (var i=0; i<dates.length; i++)
         dates[i].innerHTML=date;
 
-    historyTxt=loadFile("ipinhistory.txt");
-    governTxt=loadFile("ipingovern.txt");
+    historyTxt = loadFile("ipinhistory.txt");
+    governTxt = loadFile("ipingovern.txt");
     agenciesTxt = loadFile("ipinagencies.txt");
     militaryTxt = loadFile("ipinmilitary.txt");
     techTxt = loadFile("ipintech.txt");
@@ -30,7 +30,7 @@ async function loadFile(url)
     {
       const response = await fetch(url);
       const data = await response.text();
-      return data;
+      return data.toString();
     } catch (err) {
       console.error(err);
     }
