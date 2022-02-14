@@ -65,7 +65,7 @@ async function loadTextFiles()
 
 function exitbutton()
 {
-    window.location.href = "../gxi50.html"+urlparam;
+    window.location.href = "../gxi50.html"+urlparam+"&skip=1";
 }
 
 class information

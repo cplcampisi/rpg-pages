@@ -30,7 +30,7 @@ function beep(volume, frequency, type, duration)
 var vol = 0.3;
 var ready;
 var view = 0;
-const urlparam = window.location.search;
+var urlparam = window.location.search;
 
 function funca()
 {

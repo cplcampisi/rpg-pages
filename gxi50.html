@@ -107,10 +107,18 @@
     window.onload=function()  //executes when the page finishes loading
     {
         ready = false;
-        setTimeout(funca, 200);  //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
         //beep(1.0, 220, "square", 200);
         //document.getElementById("hbutton").click();
-        
+        const urlParams = new URLSearchParams(urlparam);
+        if (urlParams.has('skip'))
+        {
+            //Remove the skip (this assumes that there is a date, and will remove all flags after the first '&')
+            urlparam = urlparam.split('&')[0];
+            go();
+        }
+        else
+            setTimeout(funca, 200);  //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
+            
     };
     
   </script>
