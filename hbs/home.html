@@ -96,9 +96,14 @@
 </style>
 <script type="text/javascript" src="hbs.js"></script>
 <script>
+    var introFanfare;
     window.onload=function()  //executes when the page finishes loading
     {
-        new Audio('../Sounds/FanfareHBS2.mp3').play()
+        //new Audio('../Sounds/FanfareHBS2.mp3').play()
+        introFanfare = new Audio('../Sounds/FanfareHBS2.mp3');
+        introFanfare.load();
+        introFanfare.play();
+        
     }
     /*var pageInfo;
 
