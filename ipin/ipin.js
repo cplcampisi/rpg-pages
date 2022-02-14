@@ -26,15 +26,17 @@ window.onload=function()  //executes when the page finishes loading
 
 async function loadFile(url) 
 {
+    var data = "";
     try 
     {
       const response = await fetch(url);
-      var data = await response.text();
+      data = await response.text();
       console.log(data);
-      return data;
     } catch (err) {
       console.error(err);
     }
+
+    return data;
   }
 
 function exitbutton()
