@@ -94,12 +94,12 @@ function ProcessText(page)
         lines = techTxt.split('\n');
     
     var n = parseInt(lines[0]);
-    console.log(n);
+    console.log(lines[0]);
     var i = 1; //current line number
 
     var sectionArray = [];
 
-    for (var x = 0; x < n; x++)
+    for (var x = 0; x < 1; x++)
     {
         console.log(lines[i]);
         i++; //ignore '---------------' separator
