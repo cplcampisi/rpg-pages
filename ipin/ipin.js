@@ -10,7 +10,21 @@ window.onload=function()  //executes when the page finishes loading
     var dates = document.getElementsByClassName("date");
     for (var i=0; i<dates.length; i++)
         dates[i].innerHTML=date;
+
+    loadFileAndPrintToConsole("ipinhistory.txt");
 }
+
+async function loadFileAndPrintToConsole(url) 
+{
+    try 
+    {
+      const response = await fetch(url);
+      const data = await response.text();
+      console.log(data);
+    } catch (err) {
+      console.error(err);
+    }
+  }
 
 function exitbutton()
 {
