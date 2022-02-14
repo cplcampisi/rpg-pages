@@ -85,24 +85,21 @@ function ProcessText(page)
     if (page=="history")
         lines = historyTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="govern")
-        lines = governTxt.split('\n');
+        lines = governTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="agencies")
-        lines = agenciesTxt.split('\n');
+        lines = agenciesTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="military")
-        lines = militaryTxt.split('\n');
+        lines = militaryTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="tech")
-        lines = techTxt.split('\n');
+        lines = techTxt.split(/(?:\r\n|\r|\n)/g);
     
     var n = parseInt(lines[0]);
-    console.log("test2");
-    console.log(lines[0]);
     var i = 1; //current line number
 
     var sectionArray = [];
 
-    for (var x = 0; x < 1; x++)
+    for (var x = 0; x < n; x++)
     {
-        console.log(lines[i]);
         i++; //ignore '---------------' separator
         var name = lines[i];
         i++;
