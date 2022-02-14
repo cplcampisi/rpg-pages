@@ -10,41 +10,17 @@
   
   <script>
     var urlparam="?date=2838.04.9";
-    audioCtx = new(window.AudioContext || window.webkitAudioContext)();
-    function beep(volume, frequency, type, duration)
-    {
-        var oscillator = audioCtx.createOscillator();
-        var gainNode = audioCtx.createGain();
-
-        oscillator.connect(gainNode);
-        gainNode.connect(audioCtx.destination);
-
-        gainNode.gain.value = volume;
-        oscillator.frequency.value = frequency;
-        oscillator.type = type;
-
-        oscillator.start();
-
-        setTimeout(
-            function()
-            {
-                oscillator.stop();
-            },
-            duration
-        );
-    };
-    
     function gxi50()
     {
-        const soundEffect = new Audio();
+        /*const soundEffect = new Audio();
         soundEffect.autoplay = true;
 
         // onClick of first interaction on page before I need the sounds
         // (This is a tiny MP3 file that is silent and extremely short - retrieved from https://bigsoundbank.com and then modified)
         soundEffect.src = "data:audio/mpeg;base64,SUQzBAAAAAABEVRYWFgAAAAtAAADY29tbWVudABCaWdTb3VuZEJhbmsuY29tIC8gTGFTb25vdGhlcXVlLm9yZwBURU5DAAAAHQAAA1N3aXRjaCBQbHVzIMKpIE5DSCBTb2Z0d2FyZQBUSVQyAAAABgAAAzIyMzUAVFNTRQAAAA8AAANMYXZmNTcuODMuMTAwAAAAAAAAAAAAAAD/80DEAAAAA0gAAAAATEFNRTMuMTAwVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQsRbAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQMSkAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV";
-        soundEffect.play();
-        beep(0.5, 220, "square", 100);
-        console.log("played sound effect3");
+        soundEffect.play();*/
+        //beep(0.5, 220, "square", 100);
+        console.log("played sound effect4");
         window.location.href ='gxi50.html'+urlparam;
     }
   </script>
