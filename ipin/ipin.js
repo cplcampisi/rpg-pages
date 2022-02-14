@@ -29,8 +29,9 @@ async function loadFile(url)
     try 
     {
       const response = await fetch(url);
-      const data = await response.text();
-      return data.toString();
+      var data = await response.text();
+      console.log(data);
+      return data;
     } catch (err) {
       console.error(err);
     }
