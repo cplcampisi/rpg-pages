@@ -83,7 +83,7 @@ function ProcessText(page)
     var lines;
 
     if (page=="history")
-        lines = historyTxt.split('\n');
+        lines = historyTxt.split(/\r?\n/);
     else if (page=="govern")
         lines = governTxt.split('\n');
     else if (page=="agencies")
@@ -94,6 +94,7 @@ function ProcessText(page)
         lines = techTxt.split('\n');
     
     var n = parseInt(lines[0]);
+    console.log("test1");
     console.log(lines[0]);
     var i = 1; //current line number
 
