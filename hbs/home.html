@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <style type="text/css">
+    @font-face { font-family: neo; src: url('../Fonts/neo_gen/Neo Gen.ttf');}
     @font-face { font-family: neob; src: url('../Fonts/neo_gen/Neo Gen Bold.ttf');}
     @font-face { font-family: minf; src: url('../Fonts/mobile_infantry/mobileinfantry.ttf');}
     p { position: absolute; font-family: neob; font-size: 22px; color:#3E7ED9}
     
-    .title {
+.title {
     position: absolute;
     padding: 0px;
     font-family: neob;
@@ -15,35 +16,53 @@
     font-weight: bold;
 }
 
+.footer {
+    position: absolute;
+    padding: 0px;
+    font-family: neob;
+    color:#61908E;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
 .date {
     position: absolute;
     padding: 0px;
-    font-family: ipinh;
-    color:#7F7F7F;
+    font-family: neo;
+    color:#1F5869;
     text-align: right;
     font-size: 12px;
 }
 
-.ipinbutton {
+.box {
     position: absolute;
     padding: 0px;
-    padding-left:10px;
+    border: solid #8CD5D2;
+    border-width: 4px 3px;
+    color:#8CD5D2;
+}
+
+.hbsbutton {
+    position: absolute;
+    padding: 0px;
     border: solid #8CD5D2;
     border-width: 1px 2px;
     width: 250px;
     height: 40px;
-    font-family: ipinh;
+    font-family: neob;
     color:#8CD5D2;
     line-height: 40px;
-    text-align: left;
+    text-align: center;
     font-size: 16px;
 }
 
-.ipinbutton:hover {
+.hbsbutton:hover {
     border: 2px solid #A1F1EE;
     color:#A1F1EE;
 }
-.ipinbutton:active {
+.hbsbutton:active {
     border: 2px solid #61908E;
     color:#61908E;
 }
@@ -103,24 +122,28 @@
         introFanfare = new Audio('../Sounds/FanfareHBS2.mp3');
         introFanfare.load();
         introFanfare.play();
-        
+ 
+        var dates = document.getElementsByClassName("date");
+        for (var i=0; i<dates.length; i++)
+            dates[i].innerHTML=date;
     }
-    /*var pageInfo;
+    var pageInfo;
 
     function buttonclick(page)
     {
-        if (page!="home" && page!="programming")
-            pageInfo = ProcessText(page);
-        document.getElementById("infopage").style.display="none";
+        //if (page!="home" && page!="programming")
+        //    pageInfo = ProcessText(page);
+        //document.getElementById("infopage").style.display="none";
+        document.getElementById("intro").style.display="none";
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
         view=page;
 
-        if (page!="home" && page!="programming")
-            document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
+        //if (page!="home" && page!="programming")
+        //    document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
     }
 
-    function loadPage(n)
+    /*function loadPage(n)
     {
         document.getElementById("iptitle").innerHTML = pageInfo[n].title;
         document.getElementById("iptext").innerHTML = pageInfo[n].text;
@@ -146,12 +169,12 @@
    background-repeat: no-repeat;
    position: relative;
    display: block;
-   ">
+   "
+    onclick='buttonclick("home");'>
         <div class="title" style="left:79px;top:21px;width:845px;height:51px">
         DUCHY OF HARKOR - MINISTRY OF COMMUNICATIONS
         </div>
    
-        <!-- BUTTONS -->
         <div class="title" style="left:41px;top:87px;width:939px;height:458px;font-family:minf;font-size:96px;">
         HARKOR<br>BROADCASTING<br>SERVICE<br>
         </div>
@@ -164,55 +187,42 @@
    width: 1024px; height: 640px;
    margin: auto;
    border: 4px solid #969696;
-   background-image: url(../../Pictures/hbsmain.jpg);
+   background-image: url(../Pictures/hbsmain.jpg);
    background-position:center center;
    background-repeat: no-repeat;
    position: relative;
    display: none;
    ">
-        <!-- <p style="color:blue">Some paragraph for example.</p> -->
-        <div id="date1" class="date" style="left:890px;top:10px;
-                                  width:120px;height:24px;">
-        </div>
-        
-        <div class="title" style="left:28px;top:40px;">
-        IMPERIAL PUBLIC INFORMATION NETWORK
+        <div class="title" style="left:66px;top:22px;width:892px;height:30px">
+        HARKOR BROADCASTING SERVICE
         </div>
    
         <!-- BUTTONS -->
-        <div class="ipinbutton" style="left:100px;top:155px;" onclick='buttonclick("history");'>
-        HISTORY/INFO
-        </div>
-        <div class="ipinbutton" style="left:100px;top:210px;" onclick='buttonclick("govern");'>
-        GOVT/POLITICS
-        </div>
-        <div class="ipinbutton" style="left:100px;top:265px;" onclick='buttonclick("agencies");'>
-        AGENCIES
-        </div>
-        <div class="ipinbutton" style="left:100px;top:320px;" onclick='buttonclick("military");'>
-        MILITARY
-        </div>
-        <div class="ipinbutton" style="left:100px;top:375px;" onclick='buttonclick("tech");'>
-        SCIENCE/TECH
-        </div>
-        <div class="ipinbutton" style="left:100px;top:430px;" onclick='buttonclick("programming");'>
-        PROGRAMMING
+        <div class="box" style="left:300px;top:70px;width:424px;height:500px">
         </div>
         
-        <div class="ipinbuttonb" onclick="exitbutton();" style="left:100px;top:550px;">
-        EXIT IPIN
+        <div class="hbsbutton" style="left:387px;top:100px;" onclick='buttonclick("about");'>
+        ABOUT HBS
+        </div>
+        <div class="hbsbutton" style="left:387px;top:155px;" onclick='buttonclick("about");'>
+        INFORMATION
+        </div>
+        <div class="hbsbutton" style="left:387px;top:210px;" onclick='buttonclick("about");'>
+        NEWS
+        </div>
+        <div class="hbsbutton" style="left:387px;top:265px;" onclick='buttonclick("about");'>
+        ENTERTAINMENT
+        </div>
+        <div class="hbsbutton" style="left:387px;top:490px;" onclick='exitbutton();'>
+        EXIT
         </div>
         
-        <!-- TEXT -->
-        <p style="color:#1794B2;left:530px;top:160px;
-                  width:445px;height:80px;">
-            <span style="color:#3E7ED9;font-family: armori;">Welcome to the </span>IMPERIAL PUBLIC INFORMATION NETWORK
-        </p>
-        <p style="left:530px;top:265px;
-                  width:445px;height:221px;">
-            <span style="color:#1794B2; text-decoration: underline;">IPIN</span> provides information services and quality entertainment programming throughout the Empire. Please select an option.
-        </p>
-        
+        <!-- FOOTER -->
+        <div class="footer" style="left:12px;top:600px;width:640px;height:22px">
+        HARKOR MINISTRY OF COMMUNICATIONS
+        </div>
+        <div class="date" style="left:900px;top:600px;width:100px;height:22px">
+        </div>
     </div>
     <!-- -------------------------------------------------------------------------------  
       HISTORY / INFO
