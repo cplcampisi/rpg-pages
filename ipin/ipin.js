@@ -17,27 +17,50 @@ window.onload=function()  //executes when the page finishes loading
     for (var i=0; i<dates.length; i++)
         dates[i].innerHTML=date;
 
-    historyTxt = loadFile("ipinhistory.txt");
-    console.log("history: \n" + historyTxt);
-    governTxt = loadFile("ipingovern.txt");
-    agenciesTxt = loadFile("ipinagencies.txt");
-    militaryTxt = loadFile("ipinmilitary.txt");
-    techTxt = loadFile("ipintech.txt");
+    loadTextFiles();
 }
 
-async function loadFile(url) 
+async function loadTextFiles() 
 {
-    var data = "";
     try 
     {
-      const response = await fetch(url);
-      data = await response.text();
-      //console.log(data);
+      const response = await fetch("ipinhistory.txt");
+      historyTxt = await response.text();      
     } catch (err) {
       console.error(err);
     }
 
-    return data;
+    try 
+    {
+      const response = await fetch("ipingovern.txt");
+      governTxt = await response.text();      
+    } catch (err) {
+      console.error(err);
+    }
+
+    try 
+    {
+      const response = await fetch("ipinagencies.txt");
+      agenciesTxt = await response.text();      
+    } catch (err) {
+      console.error(err);
+    }
+
+    try 
+    {
+      const response = await fetch("ipinmilitary.txt");
+      militaryTxt = await response.text();      
+    } catch (err) {
+      console.error(err);
+    }
+
+    try 
+    {
+      const response = await fetch("ipintech.txt");
+      techTxt = await response.text();      
+    } catch (err) {
+      console.error(err);
+    }
   }
 
 function exitbutton()
