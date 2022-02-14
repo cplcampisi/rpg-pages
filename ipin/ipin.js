@@ -14,7 +14,7 @@ window.onload=function()  //executes when the page finishes loading
 
 function exitbutton()
 {
-    window.location.href = "../gxi50.html"+urlparam;
+    window.location.href = "./rpg-pages/gxi50.html"+urlparam;
 }
 
 class information
