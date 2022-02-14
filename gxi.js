@@ -258,7 +258,11 @@ document.onkeydown = function(event)
 {
     if (view==0)
     {
-        if (ready)
+        if (!ready)
+        {
+            setTimeout(funca, 200);
+        }
+        else if (ready)
         {
             successSnd();
             setTimeout(go, 200);
