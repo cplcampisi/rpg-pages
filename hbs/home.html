@@ -160,14 +160,14 @@
             document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
     }
 
-    /*function loadPage(n)
+    function loadPage(n)
     {
         document.getElementById("iptitle").innerHTML = pageInfo[n].title;
         document.getElementById("iptext").innerHTML = pageInfo[n].text;
         document.getElementById("ipreturn").setAttribute('onclick','buttonclick("'+view+'");');
         document.getElementById(view).style.display="none";
         document.getElementById("infopage").style.display="block";
-    }*/
+    }
 
 </script>
   <head>
@@ -299,6 +299,10 @@
         <div id="infobuttondiv">
         </div>
         
+        <div class="hbsbuttons" style="left:457px;top:500px;" onclick='buttonclick("home");'>
+        HBS MAIN
+        </div>
+        
         <!-- FOOTER -->
         <div class="footer" style="left:12px;top:600px;width:640px;height:22px">
         HARKOR MINISTRY OF COMMUNICATIONS
@@ -306,212 +310,43 @@
         <div class="date" style="left:900px;top:600px;width:100px;height:22px">
         </div>
     </div>
-
-    <!-- -------------------------------------------------------------------------------  
-      GOVERNMENT / POLITICS
-    ------------------------------------------------------------------------------- -->
-    <div id="govern" style="
-   width: 1024px; height: 640px;
-   margin: auto;
-   border: 4px solid #969696;
-   background-image: url(../../Pictures/back2.jpg);
-   background-position:center center;
-   background-repeat: no-repeat;
-   position: relative;
-   display: none;
-   ">
-        <!-- <p style="color:blue">Some paragraph for example.</p> -->
-        <div id="date2" class="date" style="left:890px;top:10px;
-                                  width:120px;height:24px;">
-        </div>
-        
-        <div class="title" style="left:27px;top:40px;">
-        <span style="text-decoration:underline;">IPIN</span>
-            - GOVERNMENT AND POLITICS
-        </div>
-   
-        <!-- BUTTONS -->
-        <div id="governbuttondiv">
-        </div>
-        
-        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
-        RETURN
-        </div>
-        
-    </div>
-
-    <!-- -------------------------------------------------------------------------------  
-      AGENCIES
-    ------------------------------------------------------------------------------- -->
-    <div id="agencies" style="
-   width: 1024px; height: 640px;
-   margin: auto;
-   border: 4px solid #969696;
-   background-image: url(../../Pictures/back2.jpg);
-   background-position:center center;
-   background-repeat: no-repeat;
-   position: relative;
-   display: none;
-   ">
-        <!-- <p style="color:blue">Some paragraph for example.</p> -->
-        <div id="date2" class="date" style="left:890px;top:10px;
-                                  width:120px;height:24px;">
-        </div>
-        
-        <div class="title" style="left:27px;top:40px;">
-        <span style="text-decoration:underline;">IPIN</span>
-            - LIST OF IMPERIAL AGENCIES
-        </div>
-   
-        <!-- BUTTONS -->
-        <div id="agenciesbuttondiv">
-        </div>
-        
-        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
-        RETURN
-        </div>
-        
-    </div>
-
-    <!-- -------------------------------------------------------------------------------  
-      MILITARIES
-    ------------------------------------------------------------------------------- -->
-    <div id="military" style="
-   width: 1024px; height: 640px;
-   margin: auto;
-   border: 4px solid #969696;
-   background-image: url(../../Pictures/back2.jpg);
-   background-position:center center;
-   background-repeat: no-repeat;
-   position: relative;
-   display: none;
-   ">
-        <!-- <p style="color:blue">Some paragraph for example.</p> -->
-        <div id="date2" class="date" style="left:890px;top:10px;
-                                  width:120px;height:24px;">
-        </div>
-        
-        <div class="title" style="left:27px;top:40px;">
-        <span style="text-decoration:underline;">IPIN</span>
-            - MILITARY
-        </div>
-   
-        <!-- BUTTONS -->
-        <div id="militarybuttondiv">
-        </div>
-        
-        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
-        RETURN
-        </div>
-        
-    </div>
-
-    <!-- -------------------------------------------------------------------------------  
-      TECH
-    ------------------------------------------------------------------------------- -->
-    <div id="tech" style="
-   width: 1024px; height: 640px;
-   margin: auto;
-   border: 4px solid #969696;
-   background-image: url(../../Pictures/back2.jpg);
-   background-position:center center;
-   background-repeat: no-repeat;
-   position: relative;
-   display: none;
-   ">
-        <!-- <p style="color:blue">Some paragraph for example.</p> -->
-        <div id="date2" class="date" style="left:890px;top:10px;
-                                  width:120px;height:24px;">
-        </div>
-        
-        <div class="title" style="left:27px;top:40px;">
-        <span style="text-decoration:underline;">IPIN</span>
-            - SCIENCE AND TECHNOLOGY
-        </div>
-   
-        <!-- BUTTONS -->
-        <div id="techbuttondiv">
-        </div>
-        
-        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
-        RETURN
-        </div>
-        
-    </div>
     
     <!-- -------------------------------------------------------------------------------
-      PROGRAMMING
-    ------------------------------------------------------------------------------- -->
-    <div id="programming" style="
-   width: 1024px; height: 640px;
-   margin: auto;
-   border: 4px solid #969696;
-   background-image: url(../../Pictures/back2.jpg);
-   background-position:center center;
-   background-repeat: no-repeat;
-   position: relative;
-   display: none;
-   ">
-        <!-- <p style="color:blue">Some paragraph for example.</p> -->
-        <div id="date2" class="date" style="left:890px;top:10px;
-                                  width:120px;height:24px;">
-        </div>
-        
-        <div class="title" style="left:27px;top:40px;">
-        <span style="text-decoration:underline;">IPIN</span>
-         
-        </div>
-   
-        <!-- BUTTONS -->
-        <div id="programming error" style="position:absolute;left:5px;top:111px;width:230px;height:120px;background-color:white;font-family:armorb;font-size:18px;">
-         &nbsp;*CONNECTION ERROR* - 87<br>
-         &nbsp;*CONNECTION ERROR* - 34<br>
-         &nbsp;*CONNECTION ERROR* - 34<br>
-         &nbsp;CANNOT DELIVER CONTENT<br>
-         &nbsp;723 EXPIRE
-        </div>
-        
-        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
-        RETURN
-        </div>
-        
-    </div>
-
-    <!-- -------------------------------------------------------------------------------  
       GENERIC INFO PAGE
     ------------------------------------------------------------------------------- -->
     <div id="infopage" style="
    width: 1024px; height: 640px;
    margin: auto;
    border: 4px solid #969696;
-   background-image: url(../../Pictures/back2.jpg);
+   background-image: url(../Pictures/hbsmain.jpg);
    background-position:center center;
    background-repeat: no-repeat;
    position: relative;
    display: none;
    ">
-        <!-- <p style="color:blue">Some paragraph for example.</p> -->
-        <div id="date3" class="date" style="left:890px;top:10px;
-                                  width:120px;height:24px;">
-        </div>
-        
-        <div class="title" style="left:27px;top:40px;">
-        <span style="text-decoration:underline;">IPIN</span>
-            - <span id="iptitle"></span>
+        <div class="title" id="iptitle" style="left:66px;top:22px;width:892px;height:30px">
         </div>
    
-        <!-- Text -->
-        <p id="iptext" style="left:70px;top:115px;width:885px;height:430px;font-family: armori; font-size: 18px;">
-        </p>
+        <!-- TEXT -->
+        <div class="text" id="iptext" style="left:78px;top:77px;width:903px;height:420px">
+        </div>
         
-        <div id="ipreturn" class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
+        <div class="hbsbuttons" id="ipreturn" style="left:850px;top:500px;" onclick='buttonclick("home");'>
         RETURN
         </div>
-
-        <div id="iphome" class="ipinbuttonb" style="left:650px;top:550px;" onclick='buttonclick("home");'>
-        IPIN HOME
+        
+        <div class="hbsbuttons" style="left:850px;top:550px;" onclick='buttonclick("home");'>
+        HBS MAIN
         </div>
         
+        <!-- FOOTER -->
+        <div class="footer" style="left:12px;top:600px;width:640px;height:22px">
+        HARKOR MINISTRY OF COMMUNICATIONS
+        </div>
+        
+        <div class="date" style="left:900px;top:600px;width:100px;height:22px">
+        </div>
     </div>
+
   </body>
 </html>
