@@ -56,7 +56,7 @@ function ProcessText(page)
     var lines;
 
     if (page=="info")
-        lines = historyTxt.split(/(?:\r\n|\r|\n)/g);
+        lines = infoTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="govern")
         lines = governTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="agencies")
