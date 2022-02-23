@@ -110,14 +110,14 @@
 
     function buttonclick(page)
     {
-        if (page=="info")
+        if (page!="home" && page!="programming")
             pageInfo = ProcessText(page);
         document.getElementById("infopage").style.display="none";
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
         view=page;
 
-        if (page=="info")
+        if (page!="home" && page!="programming")
             document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
     }
 
