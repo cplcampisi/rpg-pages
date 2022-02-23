@@ -137,7 +137,9 @@
         introFanfare = new Audio('../Sounds/FanfareHBS2.mp3');
         introFanfare.load();
         introFanfare.play();
- 
+        
+        loadTextFiles();
+        
         var dates = document.getElementsByClassName("date");
         for (var i=0; i<dates.length; i++)
             dates[i].innerHTML=date;
