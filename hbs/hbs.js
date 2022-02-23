@@ -95,17 +95,17 @@ function ProcessText(page)
     return sectionArray;
 }
 
-/*function CreateButtons(info)
+function CreateButtons(info)
 {
     var htmlStr = "";
-    var yPos = 155;
+    var yPos = 95;
     for (var i = 0; i < info.length; i++)
     {
-        htmlStr += "<div class=\"ipinbuttonl\" onclick=\"loadPage(" + i.toString() + ");\" style=\"left:100px;top:"+yPos.toString()+"px;\">"
+        htmlStr += "<div class=\"hbsbuttonl\" onclick=\"loadPage(" + i.toString() + ");\" style=\"left:352px;top:"+yPos.toString()+"px;\">"
         htmlStr += info[i].name;   
         htmlStr += "</div>";
         yPos += 55;
     }
 
     return htmlStr;
-}*/
+}
