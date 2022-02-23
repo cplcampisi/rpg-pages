@@ -1,6 +1,8 @@
 var view = "home";
 var date = "0000.00.0";
-var historyTxt = "";
+var infoTxt = "";
+var entTxt = "";
+var newsTxt = "";
 
 const urlparam = window.location.search;
 const urlParams = new URLSearchParams(urlparam);
@@ -11,40 +13,24 @@ async function loadTextFiles()
 {
     try 
     {
-      const response = await fetch("ipinhistory.txt");
-      historyTxt = await response.text();      
+      const response = await fetch("hbsinfo.txt");
+      infoTxt = await response.text();
     } catch (err) {
       console.error(err);
     }
 
     try 
     {
-      const response = await fetch("ipingovern.txt");
-      governTxt = await response.text();      
+      const response = await fetch("hbsent.txt");
+      entTxt = await response.text();
     } catch (err) {
       console.error(err);
     }
 
     try 
     {
-      const response = await fetch("ipinagencies.txt");
-      agenciesTxt = await response.text();      
-    } catch (err) {
-      console.error(err);
-    }
-
-    try 
-    {
-      const response = await fetch("ipinmilitary.txt");
-      militaryTxt = await response.text();      
-    } catch (err) {
-      console.error(err);
-    }
-
-    try 
-    {
-      const response = await fetch("ipintech.txt");
-      techTxt = await response.text();      
+      const response = await fetch("hbsnews.txt");
+      newsTxt = await response.text();
     } catch (err) {
       console.error(err);
     }
@@ -69,7 +55,7 @@ function ProcessText(page)
 {
     var lines;
 
-    if (page=="history")
+    if (page=="info")
         lines = historyTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="govern")
         lines = governTxt.split(/(?:\r\n|\r|\n)/g);

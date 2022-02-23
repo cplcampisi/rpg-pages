@@ -165,16 +165,16 @@
 
     function buttonclick(page)
     {
-        //if (page!="home" && page!="programming")
-        //    pageInfo = ProcessText(page);
+        if (page!="home" && page!="programming")
+            pageInfo = ProcessText(page);
         //document.getElementById("infopage").style.display="none";
         document.getElementById("intro").style.display="none";
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
         view=page;
 
-        //if (page!="home" && page!="programming")
-        //    document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
+        if (page!="home" && page!="programming")
+            document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
     }
 
     /*function loadPage(n)
@@ -238,7 +238,7 @@
         <div class="hbsbutton" style="left:387px;top:100px;" onclick='buttonclick("about");'>
         ABOUT HBS
         </div>
-        <div class="hbsbutton" style="left:387px;top:155px;" onclick='buttonclick("about");'>
+        <div class="hbsbutton" style="left:387px;top:155px;" onclick='buttonclick("info");'>
         INFORMATION
         </div>
         <div class="hbsbutton" style="left:387px;top:210px;" onclick='buttonclick("about");'>
@@ -292,9 +292,9 @@
         </div>
     </div>
     <!-- -------------------------------------------------------------------------------  
-      HISTORY / INFO
+      INFO
     ------------------------------------------------------------------------------- -->
-    <div id="history" style="
+    <div id="info" style="
    width: 1024px; height: 640px;
    margin: auto;
    border: 4px solid #969696;
@@ -304,24 +304,24 @@
    position: relative;
    display: none;
    ">
-        <!-- <p style="color:blue">Some paragraph for example.</p> -->
-        <div id="date2" class="date" style="left:890px;top:10px;
-                                  width:120px;height:24px;">
-        </div>
-        
-        <div class="title" style="left:27px;top:40px;">
-        <span style="text-decoration:underline;">IPIN</span>
-            - HISTORY / GENERAL INFORMATION
+        <div class="title" style="left:66px;top:22px;width:892px;height:30px">
+        HARKOR BROADCASTING SERVICE
         </div>
    
         <!-- BUTTONS -->
-        <div id="historybuttondiv">
+        <div class="box" style="left:300px;top:70px;width:424px;height:500px">
         </div>
         
-        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
-        RETURN
+        <!-- BUTTONS -->
+        <div id="infobuttondiv">
         </div>
         
+        <!-- FOOTER -->
+        <div class="footer" style="left:12px;top:600px;width:640px;height:22px">
+        HARKOR MINISTRY OF COMMUNICATIONS
+        </div>
+        <div class="date" style="left:900px;top:600px;width:100px;height:22px">
+        </div>
     </div>
 
     <!-- -------------------------------------------------------------------------------  
