@@ -79,6 +79,7 @@ function ProcessText(page)
             i++;           
         }
 
+        alert (name + "\n" + title + "\n" + text)
         var info = new information(name, title, text);
 
         sectionArray.push(info);
@@ -113,9 +114,9 @@ function ProcessIndText(page)
         i++;
     }
 
-    var info = new information("", title, text);
+    var info1 = new information("", title, text);
 
-    return info;
+    return info1;
 }
 
 function CreateButtons(info)
