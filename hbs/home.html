@@ -152,7 +152,7 @@
         if (page=="ent" || page=="news")
         {
             indPageInfo = ProcessIndText(page);
-            loadPage(indPageInfo);
+            loadIndPage(indPageInfo);
         }
         else
         {
@@ -160,7 +160,7 @@
                 pageInfo = ProcessText(page);
                 
             document.getElementById("infopage").style.display="none";
-            document.getElementById("intro").style.display="none";  
+            document.getElementById("intro").style.display="none";
             document.getElementById(view).style.display="none";
             document.getElementById(page).style.display="block";
             view=page;
@@ -179,7 +179,7 @@
         document.getElementById("infopage").style.display="block";
     }
     
-    function loadPage(info)
+    function loadIndPage(info)
     {
         document.getElementById("iptitle").innerHTML = info.title;
         document.getElementById("iptext").innerHTML = info.text;

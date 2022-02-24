@@ -78,8 +78,7 @@ function ProcessText(page)
             text = text + lines[i] + "<br>";
             i++;           
         }
-
-        alert (name + "\n" + title + "\n" + text);
+        
         var info = new information(name, title, text);
 
         sectionArray.push(info);
