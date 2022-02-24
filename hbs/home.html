@@ -149,27 +149,25 @@
 
     function buttonclick(page)
     {
-        /*if (page=="info")
-            pageInfo = ProcessText(page);
-        else if (page=="ent" || page=="news")
-            indPageInfo = ProcessIndText(page);*/
-        document.getElementById("infopage").style.display="none";
-        document.getElementById("intro").style.display="none";
-        
-        if (page=="info")
-            pageInfo = ProcessText(page);
-        else if (page=="ent" || page=="news")
+        if (page=="ent" || page=="news")
         {
             indPageInfo = ProcessIndText(page);
             loadPage(indPageInfo);
         }
-            
-        document.getElementById(view).style.display="none";
-        document.getElementById(page).style.display="block";
-        view=page;
+        else
+        {
+            if (page=="info")
+                pageInfo = ProcessText(page);
+                
+            document.getElementById("infopage").style.display="none";
+            document.getElementById("intro").style.display="none";  
+            document.getElementById(view).style.display="none";
+            document.getElementById(page).style.display="block";
+            view=page;
 
-        if (page=="info")
-            document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
+            if (page=="info")
+                document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
+        }
     }
 
     function loadPage(n)
