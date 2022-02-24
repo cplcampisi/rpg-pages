@@ -79,7 +79,7 @@ function ProcessText(page)
             i++;           
         }
 
-        alert (name + "\n" + title + "\n" + text)
+        alert (name + "\n" + title + "\n" + text);
         var info = new information(name, title, text);
 
         sectionArray.push(info);
