@@ -145,13 +145,25 @@
             dates[i].innerHTML=date;
     }
     var pageInfo;
+    var indPageInfo;
 
     function buttonclick(page)
     {
-        if (page=="info")
+        /*if (page=="info")
             pageInfo = ProcessText(page);
+        else if (page=="ent" || page=="news")
+            indPageInfo = ProcessIndText(page);*/
         document.getElementById("infopage").style.display="none";
         document.getElementById("intro").style.display="none";
+        
+        if (page=="info")
+            pageInfo = ProcessText(page);
+        else if (page=="ent" || page=="news")
+        {
+            indPageInfo = ProcessIndText(page);
+            loadPage(indPageInfo);
+        }
+            
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
         view=page;
@@ -164,6 +176,15 @@
     {
         document.getElementById("iptitle").innerHTML = pageInfo[n].title;
         document.getElementById("iptext").innerHTML = pageInfo[n].text;
+        document.getElementById("ipreturn").setAttribute('onclick','buttonclick("'+view+'");');
+        document.getElementById(view).style.display="none";
+        document.getElementById("infopage").style.display="block";
+    }
+    
+    function loadPage(info)
+    {
+        document.getElementById("iptitle").innerHTML = info.title;
+        document.getElementById("iptext").innerHTML = info.text;
         document.getElementById("ipreturn").setAttribute('onclick','buttonclick("'+view+'");');
         document.getElementById(view).style.display="none";
         document.getElementById("infopage").style.display="block";
@@ -224,10 +245,10 @@
         <div class="hbsbutton" style="left:387px;top:155px;" onclick='buttonclick("info");'>
         INFORMATION
         </div>
-        <div class="hbsbutton" style="left:387px;top:210px;" onclick='buttonclick("about");'>
+        <div class="hbsbutton" style="left:387px;top:210px;" onclick='buttonclick("news");'>
         NEWS
         </div>
-        <div class="hbsbutton" style="left:387px;top:265px;" onclick='buttonclick("about");'>
+        <div class="hbsbutton" style="left:387px;top:265px;" onclick='buttonclick("ent");'>
         ENTERTAINMENT
         </div>
         <div class="hbsbutton" style="left:387px;top:490px;" onclick='exitbutton();'>

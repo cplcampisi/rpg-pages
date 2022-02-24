@@ -57,14 +57,6 @@ function ProcessText(page)
 
     if (page=="info")
         lines = infoTxt.split(/(?:\r\n|\r|\n)/g);
-    else if (page=="govern")
-        lines = governTxt.split(/(?:\r\n|\r|\n)/g);
-    else if (page=="agencies")
-        lines = agenciesTxt.split(/(?:\r\n|\r|\n)/g);
-    else if (page=="military")
-        lines = militaryTxt.split(/(?:\r\n|\r|\n)/g);
-    else if (page=="tech")
-        lines = techTxt.split(/(?:\r\n|\r|\n)/g);
     
     var n = parseInt(lines[0]);
     var i = 1; //current line number
@@ -93,6 +85,37 @@ function ProcessText(page)
     }
 
     return sectionArray;
+}
+
+//Processes the text for an individual text page
+function ProcessIndText(page)
+{
+    var lines;
+
+    if (page=="ent")
+        lines = entTxt.split(/(?:\r\n|\r|\n)/g);
+    else if (page=="news")
+        lines = newsTxt.split(/(?:\r\n|\r|\n)/g);
+    
+    var n = parseInt(lines[0]);
+    var i = 1; //current line number
+
+    var sectionArray = [];
+
+    var title = lines[i];
+    i++;
+    var len = lines[i];  //Number of lines in text
+    i++;
+    var text = "";
+    for (var j = 0; j < len; j++)
+    {
+        text = text + lines[i] + "<br>";
+        i++;
+    }
+
+    var info = new information("", title, text);
+
+    return info;
 }
 
 function CreateButtons(info)
