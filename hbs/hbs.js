@@ -70,7 +70,7 @@ function ProcessText(page)
         i++;
         var title = lines[i];
         i++;
-        var len = lines[i];  //Number of lines in text
+        var len = parseInt(lines[i]);  //Number of lines in text
         i++;
         var text = "";
         for (var j = 0; j < len; j++)
