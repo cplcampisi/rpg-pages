@@ -97,14 +97,14 @@ function ProcessIndText(page)
     else if (page=="news")
         lines = newsTxt.split(/(?:\r\n|\r|\n)/g);
     
-    var n = parseInt(lines[0]);
-    var i = 1; //current line number
+    //var n = parseInt(lines[0]);
+    var i = 0; //current line number
 
     var sectionArray = [];
 
     var title = lines[i];
     i++;
-    var len = lines[i];  //Number of lines in text
+    var len = parseInt(lines[i]);  //Number of lines in text
     i++;
     var text = "";
     for (var j = 0; j < len; j++)
