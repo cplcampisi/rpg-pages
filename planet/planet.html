@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    @font-face { font-family: timesl; src: url('../Fonts/timr45w.ttf');}
+    p { position: absolute; font-family: armor; font-size: 22px; color:#3E7ED9}
+    
+    .title {
+    position: absolute;
+    padding: 0px;
+    font-family: verdana;
+    color:#55599C;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.date {
+    position: absolute;
+    padding: 0px;
+    font-family: timesl;
+    color:#7F7F7F;
+    text-align: right;
+    font-size: 12px;
+}
+
+.leftback {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    width: 365px;
+    height: 560px;
+    background-image: url(../Pictures/PlanetGuide2.jpg);
+    padding: 0px;
+    font-family: timesl;
+    color:#7F7F7F;
+    text-align: right;
+    font-size: 12px;
+}
+
+.titleback {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    width: 365px;
+    height: 560px;
+    background-image: url(../Pictures/PlanetTitle.jpg);
+    padding: 0px;
+    font-family: timesl;
+    color:#7F7F7F;
+    text-align: right;
+    font-size: 12px;
+}
+
+.rightback {
+    position: absolute;
+    top: 22px;
+    left: 413px;
+    width: 365px;
+    height: 560px;
+    background-image: url(../Pictures/PlanetGuide2.jpg);
+    padding: 0px;
+    font-family: timesl;
+    color:#7F7F7F;
+    text-align: right;
+    font-size: 12px;
+}
+
+.planetbutton {
+    position: absolute;
+    padding: 0px;
+    border: solid #D3B033;
+    border-width: 2px 2px;
+    width: 200px;
+    height: 40px;
+    font-family: timesl;
+    font-weight: bold;
+    color:#9C8225;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.planetbutton:hover {
+    border: solid #D3B033;
+    border-width: 2px 2px;
+    color:#FCEC8E;
+}
+.planetbutton:active {
+    border: solid #FCEC8E;
+    border-width: 2px 2px;
+    color:#564815;
+}
+
+.planetbuttons {
+    position: absolute;
+    padding: 0px;
+    border: solid #D3B033;
+    border-width: 2px 2px;
+    width: 150px;
+    height: 30px;
+    font-family: timesl;
+    color:#9C8225;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.planetbuttons:hover {
+    border: solid #D3B033;
+    border-width: 2px 2px;
+    color:#FCEC8E;
+}
+.planetbuttons:active {
+    border: solid #FCEC8E;
+    border-width: 2px 2px;
+    color:#564815;
+}
+
+.planetbuttont {
+    position: absolute;
+    padding: 0px;
+    border: solid #D3B033;
+    border-width: 2px 2px;
+    width: 80px;
+    height: 20px;
+    font-family: timesl;
+    color:#9C8225;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.planetbuttont:hover {
+    border: solid #D3B033;
+    border-width: 2px 2px;
+    color:#FCEC8E;
+}
+.planetbuttont:active {
+    border: solid #FCEC8E;
+    border-width: 2px 2px;
+    color:#564815;
+}
+
+</style>  
+<script type="text/javascript" src="ipin.js"></script> 
+<script>
+    var pageInfo;
+    var introFanfare;
+    window.onload=function()  //executes when the page finishes loading
+    {
+        //new Audio('../Sounds/FanfareHBS2.mp3').play()
+        introFanfare = new Audio('../Sounds/starhustler.mp3');
+        introFanfare.load();
+        introFanfare.play();
+        
+        //loadTextFiles();
+        
+        //var dates = document.getElementsByClassName("date");
+        //for (var i=0; i<dates.length; i++)
+        //    dates[i].innerHTML=date;
+    }
+
+    function buttonclick(page)
+    {
+        if (page!="home" && page!="programming")
+            pageInfo = ProcessText(page);
+        document.getElementById("infopage").style.display="none";
+        document.getElementById(view).style.display="none";
+        document.getElementById(page).style.display="block";
+        view=page;
+
+        if (page!="home" && page!="programming")
+            document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
+    }
+
+    function loadPage(n)
+    {
+        document.getElementById("iptitle").innerHTML = pageInfo[n].title;
+        document.getElementById("iptext").innerHTML = pageInfo[n].text;
+        document.getElementById("ipreturn").setAttribute('onclick','buttonclick("'+view+'");');
+        document.getElementById(view).style.display="none";
+        document.getElementById("infopage").style.display="block";
+    }
+
+</script>
+  <head>
+    <!-- <title>Title of the document</title> -->
+  </head>
+  <body style="background-color:#000000;">
+    <!-- -------------------------------------------------------------------------------  
+      HOME PAGE 
+    ------------------------------------------------------------------------------- -->
+    <div id="home" style="
+   width: 800px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-color: #28240E;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: block;
+   ">
+        <!-- <p style="color:blue">Some paragraph for example.</p>
+        <div id="date1" class="date" style="left:890px;top:10px;
+                                  width:120px;height:24px;">
+        </div> -->
+        
+        <div id="leftcol" class="titleback">
+        </div>
+        
+        <div id="rightcol" class="rightback">
+            <!-- BUTTONS -->
+            <div id="homebuttons" style="display:none;">
+                <div class="planetbutton" style="left:83px;top:33px;" onclick='buttonclick("history");'>
+                About This Guide
+                </div>
+                <div class="planetbutton" style="left:83px;top:91px;" onclick='buttonclick("history");'>
+                Imperial Statistics
+                </div>
+                <div class="planetbutton" style="left:83px;top:149px;" onclick='buttonclick("history");'>
+                Quadrants
+                </div>
+                <div class="planetbutton" style="left:83px;top:207px;" onclick='buttonclick("history");'>
+                Index
+                </div>
+                <div class="planetbutton" style="left:83px;top:265px;" onclick='buttonclick("history");'>
+                Definitions
+                </div>
+                <div class="planetbutton" style="left:83px;top:323px;" onclick='buttonclick("history");'>
+                Star Charts
+                </div>
+                <div class="planetbutton" style="left:83px;top:381px;" onclick='buttonclick("history");'>
+                Other Publications
+                </div>
+                
+                <div class="planetbutton" style="left:83px;top:470px;" onclick='buttonclick("history");'>
+                Return to Terminal
+                </div>
+            </div>
+        </div>
+        
+        <p id="loadtext" style="color:#9F9F70;left:466px;top:184px;
+                  width:268px;height:103px;text-align:center;font-family:verdana;font-size:16px;">
+                  Welcome<br>
+                  Loading Planetary Information
+        </p>
+                 
+   
+        
+        
+        <!-- TEXT -->
+        <!-- <p style="color:#1794B2;left:530px;top:160px;
+                  width:445px;height:80px;">
+            <span style="color:#3E7ED9;font-family: armori;">Welcome to the </span>IMPERIAL PUBLIC INFORMATION NETWORK
+        </p>
+        <p style="left:530px;top:265px;
+                  width:445px;height:221px;">
+            <span style="color:#1794B2; text-decoration: underline;">IPIN</span> provides information services and quality entertainment programming throughout the Empire. Please select an option.
+        </p> -->
+        
+    </div>
+    <!-- -------------------------------------------------------------------------------  
+      HISTORY / INFO
+    ------------------------------------------------------------------------------- -->
+    <div id="history" style="
+   width: 1024px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-image: url(../Pictures/back2.jpg);
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- <p style="color:blue">Some paragraph for example.</p> -->
+        <div id="date2" class="date" style="left:890px;top:10px;
+                                  width:120px;height:24px;">
+        </div>
+        
+        <div class="title" style="left:27px;top:40px;">
+        <span style="text-decoration:underline;">IPIN</span>
+            - HISTORY / GENERAL INFORMATION
+        </div>
+   
+        <!-- BUTTONS -->
+        <div id="historybuttondiv">
+        </div>
+        
+        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
+        RETURN
+        </div>
+        
+    </div>
+
+    <!-- -------------------------------------------------------------------------------  
+      GOVERNMENT / POLITICS
+    ------------------------------------------------------------------------------- -->
+    <div id="govern" style="
+   width: 1024px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-image: url(../Pictures/back2.jpg);
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- <p style="color:blue">Some paragraph for example.</p> -->
+        <div id="date2" class="date" style="left:890px;top:10px;
+                                  width:120px;height:24px;">
+        </div>
+        
+        <div class="title" style="left:27px;top:40px;">
+        <span style="text-decoration:underline;">IPIN</span>
+            - GOVERNMENT AND POLITICS
+        </div>
+   
+        <!-- BUTTONS -->
+        <div id="governbuttondiv">
+        </div>
+        
+        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
+        RETURN
+        </div>
+        
+    </div>
+
+    <!-- -------------------------------------------------------------------------------  
+      AGENCIES
+    ------------------------------------------------------------------------------- -->
+    <div id="agencies" style="
+   width: 1024px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-image: url(../Pictures/back2.jpg);
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- <p style="color:blue">Some paragraph for example.</p> -->
+        <div id="date2" class="date" style="left:890px;top:10px;
+                                  width:120px;height:24px;">
+        </div>
+        
+        <div class="title" style="left:27px;top:40px;">
+        <span style="text-decoration:underline;">IPIN</span>
+            - LIST OF IMPERIAL AGENCIES
+        </div>
+   
+        <!-- BUTTONS -->
+        <div id="agenciesbuttondiv">
+        </div>
+        
+        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
+        RETURN
+        </div>
+        
+    </div>
+
+    <!-- -------------------------------------------------------------------------------  
+      MILITARIES
+    ------------------------------------------------------------------------------- -->
+    <div id="military" style="
+   width: 1024px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-image: url(../Pictures/back2.jpg);
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- <p style="color:blue">Some paragraph for example.</p> -->
+        <div id="date2" class="date" style="left:890px;top:10px;
+                                  width:120px;height:24px;">
+        </div>
+        
+        <div class="title" style="left:27px;top:40px;">
+        <span style="text-decoration:underline;">IPIN</span>
+            - MILITARY
+        </div>
+   
+        <!-- BUTTONS -->
+        <div id="militarybuttondiv">
+        </div>
+        
+        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
+        RETURN
+        </div>
+        
+    </div>
+
+    <!-- -------------------------------------------------------------------------------  
+      TECH
+    ------------------------------------------------------------------------------- -->
+    <div id="tech" style="
+   width: 1024px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-image: url(../Pictures/back2.jpg);
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- <p style="color:blue">Some paragraph for example.</p> -->
+        <div id="date2" class="date" style="left:890px;top:10px;
+                                  width:120px;height:24px;">
+        </div>
+        
+        <div class="title" style="left:27px;top:40px;">
+        <span style="text-decoration:underline;">IPIN</span>
+            - SCIENCE AND TECHNOLOGY
+        </div>
+   
+        <!-- BUTTONS -->
+        <div id="techbuttondiv">
+        </div>
+        
+        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
+        RETURN
+        </div>
+        
+    </div>
+    
+    <!-- -------------------------------------------------------------------------------
+      PROGRAMMING
+    ------------------------------------------------------------------------------- -->
+    <div id="programming" style="
+   width: 1024px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-image: url(../Pictures/back2.jpg);
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- <p style="color:blue">Some paragraph for example.</p> -->
+        <div id="date2" class="date" style="left:890px;top:10px;
+                                  width:120px;height:24px;">
+        </div>
+        
+        <div class="title" style="left:27px;top:40px;">
+        <span style="text-decoration:underline;">IPIN</span>
+         
+        </div>
+   
+        <!-- BUTTONS -->
+        <div id="programming error" style="position:absolute;left:5px;top:111px;width:230px;height:120px;background-color:white;font-family:armorb;font-size:18px;">
+         &nbsp;*CONNECTION ERROR* - 87<br>
+         &nbsp;*CONNECTION ERROR* - 34<br>
+         &nbsp;*CONNECTION ERROR* - 34<br>
+         &nbsp;CANNOT DELIVER CONTENT<br>
+         &nbsp;723 EXPIRE
+        </div>
+        
+        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
+        RETURN
+        </div>
+        
+    </div>
+
+    <!-- -------------------------------------------------------------------------------  
+      GENERIC INFO PAGE
+    ------------------------------------------------------------------------------- -->
+    <div id="infopage" style="
+   width: 1024px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-image: url(../Pictures/back2.jpg);
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- <p style="color:blue">Some paragraph for example.</p> -->
+        <div id="date3" class="date" style="left:890px;top:10px;
+                                  width:120px;height:24px;">
+        </div>
+        
+        <div class="title" style="left:27px;top:40px;">
+        <span style="text-decoration:underline;">IPIN</span>
+            - <span id="iptitle"></span>
+        </div>
+   
+        <!-- Text -->
+        <p id="iptext" style="left:70px;top:115px;width:885px;height:430px;font-family: armori; font-size: 18px;">
+        </p>
+        
+        <div id="ipreturn" class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
+        RETURN
+        </div>
+
+        <div id="iphome" class="ipinbuttonb" style="left:650px;top:550px;" onclick='buttonclick("home");'>
+        IPIN HOME
+        </div>
+        
+    </div>
+  </body>
+</html>
