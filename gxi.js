@@ -194,9 +194,9 @@ function handleSelection()
         initConnection();
         break;
     case 4:  //Planet guide
-        connectErr = true;
+        //connectErr = true;
         network = "PLANETS";
-        page = "planet0.html";
+        page = "planet/planet.html";
         initConnection();
         break;
     case 9: //custom
