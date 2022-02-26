@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html>
   <style type="text/css">
-    @font-face { font-family: timesl; src: url('../Fonts/timr45w.ttf');}
-    p { position: absolute; font-family: armor; font-size: 22px; color:#3E7ED9}
+    @font-face { font-family: timesl; src: url('../Fonts/times.ttf');}
     
     .title {
     position: absolute;
     padding: 0px;
     font-family: verdana;
-    color:#55599C;
+    color:#9F9F70;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+    .subtitle {
+    position: absolute;
+    padding: 0px;
+    font-family: timesl;
+    color:#9F9F70;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.65px;
+    line-height: 0.95;
+}
+    .footer {
+    position: absolute;
+    padding: 0px;
+    font-family: timesl;
+    color:#9F9F70;
     text-align: left;
     font-size: 16px;
-    text-decoration: underline;
     font-weight: bold;
+    letter-spacing: -0.65px;
+    line-height: 0.95;
+}
+
+    .text14b {
+    position: absolute;
+    padding: 0px;
+    font-family: timesl;
+    color:#9F9F70;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.65px;
+    line-height: 0.95;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.backbutton {
+    position: absolute;
+    padding: 0px;
+    width: 45px;
+    height: 24px;
+    background-image: url(../Pictures/PlanetBack.jpg);
 }
 
 .date {
@@ -164,15 +205,9 @@
 
     function buttonclick(page)
     {
-        if (page!="home" && page!="programming")
-            pageInfo = ProcessText(page);
-        document.getElementById("infopage").style.display="none";
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
         view=page;
-
-        if (page!="home" && page!="programming")
-            document.getElementById(page+"buttondiv").innerHTML = CreateButtons(pageInfo);
     }
 
     function loadPage(n)
@@ -213,7 +248,7 @@
         <div id="rightcol" class="rightback">
             <!-- BUTTONS -->
             <div id="homebuttons" style="display:none;">
-                <div class="planetbutton" style="left:83px;top:33px;" onclick='buttonclick("history");'>
+                <div class="planetbutton" style="left:83px;top:33px;" onclick='buttonclick("about");'>
                 About This Guide
                 </div>
                 <div class="planetbutton" style="left:83px;top:91px;" onclick='buttonclick("history");'>
@@ -235,7 +270,7 @@
                 Other Publications
                 </div>
                 
-                <div class="planetbutton" style="left:83px;top:470px;" onclick='buttonclick("history");'>
+                <div class="planetbutton" style="left:83px;top:470px;" onclick='exitbutton();'>
                 Return to Terminal
                 </div>
             </div>
@@ -246,52 +281,57 @@
                   Welcome<br>
                   Loading Planetary Information
         </p>
-                 
-   
-        
-        
-        <!-- TEXT -->
-        <!-- <p style="color:#1794B2;left:530px;top:160px;
-                  width:445px;height:80px;">
-            <span style="color:#3E7ED9;font-family: armori;">Welcome to the </span>IMPERIAL PUBLIC INFORMATION NETWORK
-        </p>
-        <p style="left:530px;top:265px;
-                  width:445px;height:221px;">
-            <span style="color:#1794B2; text-decoration: underline;">IPIN</span> provides information services and quality entertainment programming throughout the Empire. Please select an option.
-        </p> -->
         
     </div>
     <!-- -------------------------------------------------------------------------------  
-      HISTORY / INFO
+      ABOUT
     ------------------------------------------------------------------------------- -->
-    <div id="history" style="
-   width: 1024px; height: 640px;
+    <div id="about" style="
+   width: 800px; height: 640px;
    margin: auto;
    border: 4px solid #969696;
-   background-image: url(../Pictures/back2.jpg);
+   background-color: #28240E;
    background-position:center center;
    background-repeat: no-repeat;
    position: relative;
    display: none;
    ">
-        <!-- <p style="color:blue">Some paragraph for example.</p> -->
-        <div id="date2" class="date" style="left:890px;top:10px;
-                                  width:120px;height:24px;">
+        <div id="leftcol" class="leftback">
         </div>
         
-        <div class="title" style="left:27px;top:40px;">
-        <span style="text-decoration:underline;">IPIN</span>
-            - HISTORY / GENERAL INFORMATION
-        </div>
-   
-        <!-- BUTTONS -->
-        <div id="historybuttondiv">
+        <div id="rightcol" class="rightback">
         </div>
         
-        <div class="ipinbuttonb" style="left:100px;top:550px;" onclick='buttonclick("home");'>
-        RETURN
+        <div class="title" style="left:46px;top:47px;
+                  width:313px;height:39px;">
+        ABOUT THIS GUIDE
         </div>
         
+        <div class="text14b" style="left:46px;top:111px;
+                  width:310px;height:333px;">
+        Biroc's Guide to the Planets, a recognized source for information about all the inhabited worlds, has been published for over two-hundred years. It began as <u>Biroc's Shipping and Transporation Time-table Guide to Quardrant I</u> in 2592, and within a few years had been expanded to cover the entire Empire.
+        </div>
+        
+        <div class="subtitle" style="left:436px;top:61px;
+                  width:313px;height:39px;">
+        Notes on using this guide.
+        </div>
+        
+        <div class="text14b" style="left:437px;top:111px;
+                  width:311px;height:333px;">
+        The information in this guide is organized hier-archically. Quadrants are the main spatial organ-ization of the Empire. Within each quadrant will be found a list of states, and within each state a list of inhabited worlds that fall under that state's juris-diction. Planets that are not assigned to any state are listed separately within each quadrant. Stat-istical information about quadrants and states are provided, as are statistics about individual planets. Notable structures and institutions are also listed, as are any navigational hazards present in the area. Please see DEFINITIONS for more information about the statistics reported.<br>
+        <br>
+        The editors of this giude strive to provide as ac-curate and up-to-date information as possible, with new editions being issued quarterly. If you find any mistake or omissions, please contact our offices.
+        </div>
+        
+        <div class="footer" style="left:78px;top:600px;
+                  width:569px;height:23px;">
+        Biroc's Guide to the Planets - ABOUT
+        </div>
+        
+        <button class="backbutton" style="left:705px;top:595px;" onclick='buttonclick("home");'>
+        </button>
+                
     </div>
 
     <!-- -------------------------------------------------------------------------------  
