@@ -37,12 +37,12 @@ if (urlParams.has('date'))
     }
   }*/
   
-async function loadPlanetFile()
+function loadPlanetFile()
 {
     try
     {
-      const response = await fetch("PLIST.txt");
-      plistTxt = await response.text();
+      const response = fetch("PLIST.txt");
+      plistTxt = response.text();
     } catch (err) {
       console.error(err);
     }
