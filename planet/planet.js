@@ -37,7 +37,7 @@ if (urlParams.has('date'))
     }
   }*/
   
-function loadPlanetFile()
+async function loadPlanetFile()
 {
     try
     {
