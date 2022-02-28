@@ -197,6 +197,32 @@
     color:#564815;
 }
 
+.planetbuttonq {
+    position: absolute;
+    padding: 0px;
+    border: solid #D3B033;
+    border-width: 2px 2px;
+    width: 80px;
+    height: 50px;
+    font-family: timesl;
+    font-weight: bold;
+    color:#9C8225;
+    line-height: 50px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.planetbuttonq:hover {
+    border: solid #D3B033;
+    border-width: 2px 2px;
+    color:#FCEC8E;
+}
+.planetbuttonq:active {
+    border: solid #FCEC8E;
+    border-width: 2px 2px;
+    color:#564815;
+}
+
 </style>  
 <script type="text/javascript" src="planet.js"></script>
 <script>
@@ -365,6 +391,34 @@
         </div>
         
         <div id="rightcol" class="rightback">
+        <!-- BUTTONS -->
+            <div id="quadbuttons" style="display:block;">
+                <div class="planetbuttonq" style="left:83px;top:50px;" onclick='buttonclick("quad1");'>
+                I
+                </div>
+                <div class="planetbuttonq" style="left:203px;top:50px;" onclick='buttonclick("quad2");'>
+                II
+                </div>
+                <div class="planetbuttonq" style="left:83px;top:160px;" onclick='buttonclick("quad3");'>
+                III
+                </div>
+                <div class="planetbuttonq" style="left:203px;top:160px;" onclick='buttonclick("quad4");'>
+                IV
+                </div>
+                <div class="planetbuttonq" style="left:83px;top:270px;" onclick='buttonclick("quad5");'>
+                V
+                </div>
+                <div class="planetbuttonq" style="left:203px;top:270px;" onclick='buttonclick("quad6");'>
+                VI
+                </div>
+                <div class="planetbuttonq" style="left:83px;top:380px;" onclick='buttonclick("quad7");'>
+                VII
+                </div>
+                <div class="planetbuttonq" style="left:203px;top:380px;" onclick='buttonclick("quad8");'>
+                VIII
+                </div>
+                
+            </div>
         </div>
         
         <div class="title" style="left:46px;top:47px;
@@ -376,7 +430,7 @@
                   width:310px;height:333px;">
         &nbsp;&nbsp;The Empire is divided into eight Quadrants*, numbered I - VIII, forming a sphere centered on the system of MARA, also known of as "The Center." Consider a sphere bisected by three orthogonal planes to imagine how the Empire is divided.  The Great Rift defines the edge of this sphere around Quadrants VII and VIII.<br>
         <br>
-        &nbsp;&nbsp;Political regions are assigned to specific quad-rants, based upon the location of their traditional capital, and while some border states may have planets that technically cross into a different quadrant, those planets are typically grouped within their political region's quadrant.<br>
+        &nbsp;&nbsp;Political regions are assigned to specific quad-rants, based upon the location of their traditional capital, and while some border states may have planets that technically cross into a different quad-rant, those planets are typically grouped within their political region's quadrant.<br>
         <br>
         &nbsp;&nbsp;Select a link to view the regions and unassigned planets located within that quadrant.
         </div>
