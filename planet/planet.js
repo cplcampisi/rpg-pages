@@ -124,11 +124,11 @@ function ProcessImperialStats()
         return;
     }
     
-    var nPlanets = parseInt(lines[0]);
-    var pSizes = parseInt(lines[1]);
-    var pType = parseInt(lines[2]);
-    var pPop = parseInt(lines[3]);
-    var pCiv = parseInt(lines[4]);
+    var nPlanets = lines[0];
+    var pSizes = lines[1];
+    var pType = lines[2];
+    var pPop = lines[3];
+    var pCiv = lines[4];
     
     
     var text = "Number of planets:&nbsp;&nbsp;&nbsp;&nbsp;" + nPlanets + "<br><br>";
