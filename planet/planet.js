@@ -116,11 +116,11 @@ function ProcessPList()
 function ProcessImperialStats()
 {
     var lines;
-    lines = plistTxt.split(/(?:\r\n|\r|\n)/g);
+    lines = imperialTxt.split(/(?:\r\n|\r|\n)/g);
     
     if (lines.length != 5)
     {
-        alert("IMPERIAL.TXT incorrect number of lines");
+        alert("IMPERIAL.TXT incorrect number of lines: " + parseInt(lines.length));
         return;
     }
     
