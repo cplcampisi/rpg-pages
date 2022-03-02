@@ -84,7 +84,7 @@ class planet
     }
 }
 
-function space(var n)
+function space(n)
 {
     var x = "";
     for (var i=0; i<n; i++)
