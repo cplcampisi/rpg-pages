@@ -147,34 +147,34 @@ function ProcessImperialStats()
     //Climate types
     text = text + "Climate types: <br><br>";
     
-    text = text + "temperate:" + space(3) + types[0]; + "<br>";
-    text = text + "ice:" + space(16) + types[1]; + "<br>";
-    text = text + "jungle:" + space(10) + types[2]; + "<br>";
-    text = text + "water:" + space(11) + types[3]; + "<br>";
-    text = text + "mountain:" + space(5) + types[4]; + "<br>";
-    text = text + "volcanic:" + space(7) + types[5]; + "<br>";
-    text = text + "desert:" + space(10) + types[6]; + "<br><br>";
+    text = text + "temperate:" + space(3) + types[0] + "<br>";
+    text = text + "ice:" + space(16) + types[1] + "<br>";
+    text = text + "jungle:" + space(10) + types[2] + "<br>";
+    text = text + "water:" + space(11) + types[3] + "<br>";
+    text = text + "mountain:" + space(5) + types[4] + "<br>";
+    text = text + "volcanic:" + space(7) + types[5] + "<br>";
+    text = text + "desert:" + space(10) + types[6] + "<br><br>";
     
     //Populations
     var pops = pPop.split(" ");
     text = text + "Pop. Density: <br><br>";
     
-    text = text + "minimal:" + space(9) + pops[0]; + "<br>";
-    text = text + "sparse:" + space(12) + pops[1]; + "<br>";
-    text = text + "moderate:" + space(7) + pops[2]; + "<br>";
-    text = text + "dense:" + space(14) + pops[3]; + "<br><br>";
+    text = text + "minimal:" + space(9) + pops[0] + "<br>";
+    text = text + "sparse:" + space(12) + pops[1] + "<br>";
+    text = text + "moderate:" + space(7) + pops[2] + "<br>";
+    text = text + "dense:" + space(14) + pops[3] + "<br><br>";
     
     //Civilization types
     var civs = pCiv.split(" ");
     text = text + "Civ. Types: <br><br>";
     
-    text = text + "outpost:" +              space(18) + civs[0]; + "<br>";
-    text = text + "industrial:" +           space(14) + civs[1]; + "<br>";
-    text = text + "ind./agricultural:" +    space(2) + civs[2]; + "<br>";
-    text = text + "agricultural:" +         space(10) + civs[3]; + "<br>";
-    text = text + "mercantile:" +           space(12) + civs[4]; + "<br>";
-    text = text + "mixed:" +                space(19) + civs[5]; + "<br>";
-    text = text + "primitive:" +            space(14) + civs[6]; + "<br>";
+    text = text + "outpost:" +              space(18) + civs[0] + "<br>";
+    text = text + "industrial:" +           space(14) + civs[1] + "<br>";
+    text = text + "ind./agricultural:" +    space(2) + civs[2] + "<br>";
+    text = text + "agricultural:" +         space(10) + civs[3] + "<br>";
+    text = text + "mercantile:" +           space(12) + civs[4] + "<br>";
+    text = text + "mixed:" +                space(19) + civs[5] + "<br>";
+    text = text + "primitive:" +            space(14) + civs[6] + "<br>";
 
     document.getElementById("impstats").innerHTML = text;
 }
