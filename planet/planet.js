@@ -142,7 +142,7 @@ function ProcessImperialStats()
     text = text + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2]; + "<br>";
     text = text + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3]; + "<br><br>";
     
-    var types = pTypes.split(" ");
+    var types = pType.split(" ");
     
     //Climate types
     text = text + "Climate types: <br><br>";
