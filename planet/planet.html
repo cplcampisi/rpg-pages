@@ -47,8 +47,19 @@
     text-align: justify;
     text-justify: inter-word;
 }
+    .text13b {
+    position: absolute;
+    padding: 0px;
+    font-family: timesl;
+    color:#9F9F70;
+    font-size: 13px;
+    font-weight: bold;
+    /*letter-spacing: -0.65px;*/
+    line-height: 1.0;
+    text-align: left;
+}
 
-.text10 {
+    .text10 {
     position: absolute;
     padding: 0px;
     font-family: timesl;
@@ -245,6 +256,8 @@
 
     function buttonclick(page)
     {
+        if (page=="imperial")
+            loadImperialStats();
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
         view=page;
@@ -291,7 +304,7 @@
                 <div class="planetbutton" style="left:83px;top:33px;" onclick='buttonclick("about");'>
                 About This Guide
                 </div>
-                <div class="planetbutton" style="left:83px;top:91px;" onclick='buttonclick("history");'>
+                <div class="planetbutton" style="left:83px;top:91px;" onclick='buttonclick("imperial");'>
                 Imperial Statistics
                 </div>
                 <div class="planetbutton" style="left:83px;top:149px;" onclick='buttonclick("quads");'>
@@ -453,6 +466,44 @@
                 
     </div>
 
-    
+    <!-- -------------------------------------------------------------------------------
+      IMPERIAL
+    ------------------------------------------------------------------------------- -->
+    <div id="imperial" style="
+   width: 800px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-color: #28240E;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <div id="leftcol" class="leftback">
+        </div>
+        
+        <div id="rightcol" class="rightback">
+        </div>
+        
+        <div class="title" style="left:46px;top:47px;
+                  width:313px;height:39px;">
+        IMPERIAL STATISTICS
+        </div>
+        
+        <div id="impstats" class="text13b" style="left:46px;top:101px;
+                  width:310px;height:464px;">
+
+        </div>
+        
+        
+        <div class="footer" style="left:78px;top:600px;
+                  width:569px;height:23px;">
+        Biroc's Guide to the Planets - IMPERIAL STATISTICS
+        </div>
+        
+        <button class="backbutton" style="left:705px;top:595px;" onclick='buttonclick("home");'>
+        </button>
+                
+    </div>
   </body>
 </html>
