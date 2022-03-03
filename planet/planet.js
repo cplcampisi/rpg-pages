@@ -288,6 +288,18 @@ function ProcessQuad(n)
     civText = civText + "mixed:" +                space(19) + civs[5] + "<br>";
     civText = civText + "primitive:" +            space(14) + civs[6] + "<br>";
 
+    //Draw stats
+    document.getElementById("qtitle").innerHTML = "QUADRANT " + romanNumeral(n);
+    document.getElementById("qmain").innerHTML = mainText;
+    document.getElementById("qsizes").innerHTML = sizeText;
+    document.getElementById("qtypes").innerHTML = climText;
+    document.getElementById("qpops").innerHTML = popText;
+    document.getElementById("qcivs").innerHTML = civText;
+    
+    document.getElementById("qfoot").innerHTML = "QUADRANT " + romanNumeral(n);
+    
+    // xPos = 20 190 , yPos = 30 +55
+    
     //------------------------------------------------
     // REGIONS
     //------------------------------------------------
@@ -295,6 +307,10 @@ function ProcessQuad(n)
     var rList = [];
     var nRegions = parseInt(lines[9]);
     var i = 10; //starting line
+    var xPos = 20;
+    var yPos = 30;
+    var column = 1;
+    var buttons = "";
     for (var x=0;x<nRegions;x++)
     {
         i++; //skip separator
@@ -309,16 +325,23 @@ function ProcessQuad(n)
         var lName = title.charAt(0) + ". of " + rName;
         var r = new region(name, rName, title, type, lName);
         rList.push(r);
+        
+        buttons += "<div class='planetbutton' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\""+name+"\");'>"+lName+"</div>";
+        
+        if (column==1)
+        {
+            xPos = 190;
+            column = 2;
+        }
+        else
+        {
+            xPos = 20;
+            yPos += 55;
+            column = 1;
+        }
     }
     
-    document.getElementById("qtitle").innerHTML = "QUADRANT " + romanNumeral(n);
-    document.getElementById("qmain").innerHTML = mainText;
-    document.getElementById("qsizes").innerHTML = sizeText;
-    document.getElementById("qtypes").innerHTML = climText;
-    document.getElementById("qpops").innerHTML = popText;
-    document.getElementById("qcivs").innerHTML = civText;
-    
-    document.getElementById("qfoot").innerHTML = "QUADRANT " + romanNumeral(n);
+    document.getElementById("qrightcol").innerHTML = buttons;
 }
 
 function romanNumeral(n)
