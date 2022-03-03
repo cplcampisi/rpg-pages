@@ -252,7 +252,7 @@ function ProcessQuad(n)
     //3, 11, 7, 10;
     sizeText = sizeText + "planetoids:&nbsp;&nbsp;&nbsp;" + sizes[0] + "<br>";
     sizeText = sizeText + "small:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[1] + "<br>";
-    sizeText = sizeText + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2] + "<br>";
+    sizeText = sizeText + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2] + "<br>";
     sizeText = sizeText + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3] + "<br><br>";
     
     //Climate types
@@ -321,12 +321,13 @@ function ProcessQuad(n)
         var title = lines[i];
         i++;
         var type = lines[i];
+        i++;
 
         var lName = title.charAt(0) + ". of " + rName;
         var r = new region(name, rName, title, type, lName);
         rList.push(r);
         
-        buttons += "<div class='planetbutton' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\""+name+"\");'>"+lName+"</div>";
+        buttons += "<div class='planetbuttons' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\""+name+"\");'>"+lName+"</div>";
         
         if (column==1)
         {
