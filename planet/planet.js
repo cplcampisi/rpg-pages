@@ -209,7 +209,7 @@ function ProcessImperialStats()
 function ProcessQuad(n)
 {
     var lines;
-    lines = imperialTxt.split(/(?:\r\n|\r|\n)/g);
+    lines = quadTxt.split(/(?:\r\n|\r|\n)/g);
 
     var quad = lines[0];
     var vectors = lines[1];
