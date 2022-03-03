@@ -263,14 +263,22 @@
         view=page;
     }
 
-    function loadPage(n)
+    function goToQuad(n)
+    {
+        loadQuad(n);
+        document.getElementById(view).style.display="none";
+        document.getElementById("quad").style.display="block";
+        view="quad";
+    }
+
+    /*function loadPage(n)
     {
         document.getElementById("iptitle").innerHTML = pageInfo[n].title;
         document.getElementById("iptext").innerHTML = pageInfo[n].text;
         document.getElementById("ipreturn").setAttribute('onclick','buttonclick("'+view+'");');
         document.getElementById(view).style.display="none";
         document.getElementById("infopage").style.display="block";
-    }
+    }*/
 
 </script>
   <head>
@@ -406,28 +414,28 @@
         <div id="rightcol" class="rightback">
         <!-- BUTTONS -->
             <div id="quadbuttons" style="display:block;">
-                <div class="planetbuttonq" style="left:83px;top:50px;" onclick='buttonclick("quad1");'>
+                <div class="planetbuttonq" style="left:83px;top:50px;" onclick='goToQuad(1);'>
                 I
                 </div>
-                <div class="planetbuttonq" style="left:203px;top:50px;" onclick='buttonclick("quad2");'>
+                <div class="planetbuttonq" style="left:203px;top:50px;" onclick='goToQuad(2);'>
                 II
                 </div>
-                <div class="planetbuttonq" style="left:83px;top:160px;" onclick='buttonclick("quad3");'>
+                <div class="planetbuttonq" style="left:83px;top:160px;" onclick='goToQuad(3);'>
                 III
                 </div>
-                <div class="planetbuttonq" style="left:203px;top:160px;" onclick='buttonclick("quad4");'>
+                <div class="planetbuttonq" style="left:203px;top:160px;" onclick='goToQuad(4);'>
                 IV
                 </div>
-                <div class="planetbuttonq" style="left:83px;top:270px;" onclick='buttonclick("quad5");'>
+                <div class="planetbuttonq" style="left:83px;top:270px;" onclick='goToQuad(5);'>
                 V
                 </div>
-                <div class="planetbuttonq" style="left:203px;top:270px;" onclick='buttonclick("quad6");'>
+                <div class="planetbuttonq" style="left:203px;top:270px;" onclick='goToQuad(6);'>
                 VI
                 </div>
-                <div class="planetbuttonq" style="left:83px;top:380px;" onclick='buttonclick("quad7");'>
+                <div class="planetbuttonq" style="left:83px;top:380px;" onclick='goToQuad(7);'>
                 VII
                 </div>
-                <div class="planetbuttonq" style="left:203px;top:380px;" onclick='buttonclick("quad8");'>
+                <div class="planetbuttonq" style="left:203px;top:380px;" onclick='goToQuad(8);'>
                 VIII
                 </div>
                 
@@ -563,7 +571,7 @@
         Biroc's Guide to the Planets - <span id="qfoot"></span>
         </div>
         
-        <button class="backbutton" style="left:705px;top:595px;" onclick='buttonclick("quads");'>
+        <button id="qback" class="backbutton" style="left:705px;top:595px;" onclick='buttonclick("quads");'>
         </button>
                 
     </div>

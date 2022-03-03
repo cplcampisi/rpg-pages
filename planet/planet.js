@@ -3,6 +3,7 @@ var date = "0000.00.0";
 var plistTxt = "";
 var planetList = [];
 var imperialTxt = "";
+var quadTxt = "";
 
 const urlparam = window.location.search;
 const urlParams = new URLSearchParams(urlparam);
@@ -62,6 +63,20 @@ async function loadImperialStats()
       const response = await fetch("IMPERIAL.TXT");
       imperialTxt = await response.text();
       ProcessImperialStats();
+    } catch (err) {
+      console.error(err);
+    }
+
+}
+
+async function loadQuad(n)
+{
+    quadTxt = "";
+    try
+    {
+      const response = await fetch("QUAD"+parseInt(n)+".TXT");
+      quadTxt = await response.text();
+      ProcessQuad(n);
     } catch (err) {
       console.error(err);
     }
@@ -177,5 +192,11 @@ function ProcessImperialStats()
     text = text + "primitive:" +            space(14) + civs[6] + "<br>";
 
     document.getElementById("impstats").innerHTML = text;
+}
+
+function ProcessQuad(n)
+{
+    var lines;
+    lines = imperialTxt.split(/(?:\r\n|\r|\n)/g);
 }
 
