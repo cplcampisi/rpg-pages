@@ -222,10 +222,24 @@ function ProcessQuad(n)
     
     var mainText = "QUADRANT STATISTICS:<br><br>";
     var vecs = vectors.split(" ");
-    mainText += "Vectors (x,y,z):";
-    mainText += vecs[0] +", ";
-    mainText += vecs[1] +", ";
-    mainText += vecs[2] +"<br>";
+    var vec0 = parseFloat(vecs[0]).toFixed(1);
+    var vec1 = parseFloat(vecs[1]).toFixed(1);
+    var vec2 = parseFloat(vecs[2]).toFixed(1);
+    var v0 = vec0.toString();
+    var v1 = vec1.toString();
+    var v2 = vec2.toString();
+    
+    if (vec0 > 0)
+        v0 = "+"+v0;
+    if (vec1 > 0)
+        v1 = "+"+v1;
+    if (vec2 > 0)
+        v2 = "+"+v2;
+    
+    mainText += "Vectors (x,y,z):" + space(12);
+    mainText += v0 +", ";
+    mainText += v1 +", ";
+    mainText += v2 +"<br>";
     
     mainText += "Number of planets in quadrant:" + space(4) + nPlanets + "<br>";
     
