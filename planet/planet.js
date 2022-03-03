@@ -342,7 +342,7 @@ function ProcessQuad(n)
         }
     }
     //Add Unassigned button
-    buttons += "<div class='planetbuttons' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\"UNASSIGNED\");'>"+UNASSIGNED+"</div>";
+    buttons += "<div class='planetbuttons' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\"UNASSIGNED\");'>UNASSIGNED</div>";
     
     document.getElementById("qrightcol").innerHTML = buttons;
 }
