@@ -1,0 +1,416 @@
+SOGEMA
+Duchy
+2
+27
+6
+PLANETARY STATISTICS:
+1 9 12 5 
+14 0 2 2 5 2 2 
+0 9 13 5 
+0 10 6 3 2 3 3 
+SOGEMA is a principal member of the Rearran Alliance.
+--------------------------
+core
+SOGEMA
+Sogema
+258.121704,151.736801,-559.515869
+Large
+Temperate
+Moderate
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Bulk food, Refined fuel
+none
+none
+
+--------------------------
+core
+ANLAQU
+Anlaqu
+230.727234,167.324463,-571.044128
+Medium
+Temperate
+Sparse
+Food
+Food*
+Primitive
+Bulk food*, Tourism
+none
+none
+
+--------------------------
+core
+QUINES
+Quines
+249.825256,82.401199,-537.229126
+Large
+Mountainous
+Moderate
+Food
+Food, Furs
+Industrial/Agricultural
+Processed food, Liquor
+none
+none
+
+--------------------------
+core
+RALAGE
+Ralage
+302.119507,198.808487,-571.875977
+Small
+Volcanic
+Moderate
+Minerals
+Minerals
+Mercantile
+Consumer electronics, Tourism
+none
+none
+
+--------------------------
+core
+RARILE
+Rarile
+275.432770,150.524246,-541.154846
+Small
+Volcanic
+Moderate
+Raw fuel
+Raw fuel
+Industrial
+High grade fuel, Consumer goods
+none
+none
+
+--------------------------
+core
+VEUSBI
+Veusbi
+206.180328,207.584625,-529.801697
+Medium
+Mountainous
+Moderate
+Minerals
+Minerals*
+Industrial
+Farm machinery, Refined ore, Entertainment
+none
+none
+
+--------------------------
+non
+ATCEAN
+Atcean
+232.042389,150.814941,-495.218323
+Medium
+Temperate
+Sparse
+Furs
+Food, Furs*, Minerals
+Industrial
+Enhanced rations, Chemicals, Consumer electronics, Religion
+none
+none
+
+--------------------------
+non
+ATSOOR
+Atsoor
+210.588120,140.240814,-567.302856
+Planetoid
+Water
+Moderate
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*, Consumer goods
+none
+none
+
+--------------------------
+non
+BEZAGE
+Bezage
+187.236053,155.526901,-596.591614
+Small
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial
+Refined ore, Rare materials
+none
+none
+
+--------------------------
+non
+ENUSAN
+Enusan
+268.882141,131.615646,-614.860168
+Medium
+Mountainous
+Moderate
+Food
+Food, Raw fuel
+Mixed
+Bulk food, Refined fuel
+none
+none
+
+--------------------------
+non
+ERDILA
+Erdila
+325.907623,141.339279,-598.841187
+Medium
+Jungle
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial
+Refined fuel
+none
+none
+
+--------------------------
+non
+ERISBI
+Erisbi
+314.092346,151.675110,-615.593872
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic, Furs, Minerals, Raw fuel
+Industrial
+Enhanced rations, Liquor, Consumer electronics, Refined fuel
+none
+none
+
+--------------------------
+non
+ORANGE
+Orange
+208.268250,124.620796,-529.542114
+Medium
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial
+Refined ore, Refined fuel
+none
+none
+
+--------------------------
+non
+ORDIXEOR
+Ordixeor
+213.055878,161.650070,-557.945679
+Medium
+Water
+Sparse
+Aquatic
+Aquatic*
+Industrial/Agricultural
+Enhanced rations, Processed food, Tourism
+none
+none
+
+--------------------------
+non
+ORERVE
+Orerve
+216.276672,145.346313,-586.885010
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs, Minerals
+Primitive
+
+none
+none
+
+--------------------------
+non
+ORISDI
+Orisdi
+214.545441,231.085556,-561.084839
+Medium
+Temperate
+Moderate
+Food
+Food*, Minerals
+Industrial/Agricultural
+Enhanced rations, Processed food*
+none
+none
+
+--------------------------
+non
+QUBEAR
+Qubear
+253.855179,148.848724,-571.191833
+Small
+Temperate
+Sparse
+Food
+Food*, Furs, Raw fuel
+Industrial
+Bulk food, Enhanced rations, Refined fuel
+none
+none
+
+--------------------------
+non
+RARALEED GAMMA
+Raraleed gamma
+240.655853,173.244843,-476.153229
+Large
+Mountainous
+Dense
+Minerals
+Minerals, Raw fuel
+Industrial
+Refined ore, Refined fuel
+none
+Garrison
+
+--------------------------
+non
+TEAERRA
+Teaerra
+236.304703,170.738846,-538.924011
+Large
+Temperate
+Dense
+Food
+Food*, Aquatic, Minerals
+Industrial
+Enhanced rations*, Processed food, Industrial machinery
+none
+none
+
+--------------------------
+non
+TEESLE
+Teesle
+265.957367,188.775772,-504.602905
+Medium
+Temperate
+Sparse
+Food
+Food, Aquatic, Minerals, Raw materials
+Agricultural
+Bulk food, Processed food, Refined ore, Medicine
+none
+none
+
+--------------------------
+non
+TITEBI
+Titebi
+272.765808,128.838531,-526.572266
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Minerals, Raw materials
+Primitive
+Bulk food
+none
+Research base
+
+--------------------------
+non
+USBIRI IV
+Usbiri iv
+245.547348,159.452484,-647.700684
+Large
+Temperate
+Sparse
+Raw fuel
+Food, Raw fuel*
+Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+USERESAT
+Useresat
+245.599503,177.124451,-580.586670
+Small
+Desert
+Moderate
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Enhanced rations
+none
+none
+
+--------------------------
+non
+USLEER PRIME
+Usleer prime
+330.403839,146.118103,-547.761353
+Small
+Temperate
+Moderate
+Furs
+Aquatic, Furs*, Raw materials
+Agricultural
+Bulk food, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+XEENRE
+Xeenre
+228.548050,179.566772,-598.022095
+Small
+Temperate
+Dense
+Food
+Food, Furs, Minerals, Raw materials
+Mixed
+Enhanced rations, Chemicals, Rare materials, Biochemicals, Entertainment
+none
+none
+
+--------------------------
+non
+XERIZABE
+Xerizabe
+308.120331,100.830650,-653.732361
+Small
+Jungle
+Dense
+Aquatic
+Aquatic, Raw materials
+Mercantile
+Bulk food, Biochemicals
+none
+none
+
+--------------------------
+non
+ZACEUS
+Zaceus
+230.770706,168.214737,-592.302368
+Small
+Temperate
+Dense
+Food
+Food, Aquatic, Minerals, Raw materials
+Industrial/Agricultural
+Enhanced rations, Processed food, Medicine, Consumer goods
+none
+none
+

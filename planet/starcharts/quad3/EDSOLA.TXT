@@ -1,0 +1,416 @@
+EDSOLA
+Duchy
+3
+27
+5
+PLANETARY STATISTICS:
+0 2 18 7 
+7 3 2 3 3 4 5 
+5 13 3 6 
+5 4 4 2 1 8 3 
+
+--------------------------
+core
+EDSOLA
+Edsola
+-424.698395,574.185120,549.218689
+Medium
+Desert
+Dense
+Raw fuel
+Raw fuel*
+Industrial
+Refined fuel*, Entertainment
+none
+none
+
+--------------------------
+core
+ARESZA
+Aresza
+-331.049622,500.918823,556.589233
+Large
+Temperate
+Dense
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Processed food*, Consumer goods
+none
+none
+
+--------------------------
+core
+ATBELA
+Atbela
+-407.905396,544.361450,599.305725
+Medium
+Temperate
+Moderate
+Minerals
+Food, Furs, Minerals*
+Mercantile
+Enhanced rations, Chemicals, Industrial machinery
+none
+none
+
+--------------------------
+core
+BEINED
+Beined
+-408.718781,596.299805,561.850037
+Large
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Primitive
+Religion
+none
+none
+
+--------------------------
+core
+EDINEDMA
+Edinedma
+-373.896606,542.142273,544.505249
+Medium
+Volcanic
+Minimal
+Raw fuel
+Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+ACETIAT
+Acetiat
+-460.631134,524.631409,497.624725
+Medium
+Water
+Moderate
+Food
+Food, Raw fuel
+Mixed
+Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+ALA
+Ala
+-492.280121,541.100464,475.987823
+Medium
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+ANSOGE
+Ansoge
+-401.191589,521.421509,596.867493
+Medium
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Minerals
+Mixed
+Processed food*, Chemicals, Farm machinery, Consumer goods
+none
+none
+
+--------------------------
+non
+ARANZARE
+Aranzare
+-448.982422,587.638000,543.868347
+Medium
+Mountainous
+Dense
+Furs
+Furs, Minerals
+Industrial/Agricultural
+Liquor, Entertainment
+none
+none
+
+--------------------------
+non
+ARVEAN
+Arvean
+-428.242126,486.440186,585.871826
+Large
+Temperate
+Sparse
+Food
+Food*, Aquatic, Raw fuel
+Mixed
+Enhanced rations*, Processed food, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+AVEZA
+Aveza
+-405.754852,576.237915,498.092590
+Medium
+Temperate
+Sparse
+Food
+Food*, Aquatic, Raw fuel
+Industrial
+Bulk food, Enhanced rations, Processed food, Refined fuel
+none
+none
+
+--------------------------
+non
+AZAIN
+Azain
+-380.684753,565.440002,528.737366
+Medium
+Ice
+Sparse
+Aquatic
+Aquatic, Raw fuel
+Primitive
+Bulk food
+none
+none
+
+--------------------------
+non
+BEERGEZA
+Beergeza
+-475.512665,558.450562,549.791565
+Large
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Mixed
+Refined fuel
+none
+none
+
+--------------------------
+non
+BIVEAT ALPHA
+Biveat alpha
+-401.187988,551.798523,544.057556
+Medium
+Mountainous
+Minimal
+Minerals
+Minerals, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+CEARESCE
+Cearesce
+-443.024872,490.880249,605.539124
+Medium
+Desert
+Minimal
+Furs
+Furs, Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+CEREA
+Cerea
+-502.117523,510.747467,501.418671
+Medium
+Jungle
+Sparse
+Food
+Food, Minerals
+Industrial/Agricultural
+Enhanced rations
+none
+none
+
+--------------------------
+non
+DITEUSMA
+Diteusma
+-412.481354,551.514526,554.216675
+Small
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial
+Farm machinery, High grade fuel, Tourism
+none
+none
+
+--------------------------
+non
+EDANTE
+Edante
+-379.488068,681.042175,581.818359
+Medium
+Desert
+Dense
+Furs
+Furs, Minerals
+Industrial
+Liquor, Rare materials
+none
+none
+
+--------------------------
+non
+GETIAR
+Getiar
+-456.316193,567.583130,514.618774
+Medium
+Temperate
+Sparse
+Food
+Food*, Furs*
+Mixed
+Enhanced rations*, Tourism
+none
+none
+
+--------------------------
+non
+INBIER
+Inbier
+-414.845886,522.239319,517.864990
+Large
+Mountainous
+Minimal
+Furs
+Furs, Raw fuel
+Outpost
+Liquor, Tourism
+none
+none
+
+--------------------------
+non
+ISBEXE
+Isbexe
+-432.971527,674.785339,637.059143
+Large
+Volcanic
+Sparse
+Minerals
+Minerals
+Mixed
+Farm machinery
+none
+none
+
+--------------------------
+non
+ISENMA
+Isenma
+-451.261230,536.714294,557.584290
+Large
+Water
+Moderate
+Aquatic
+Aquatic*
+Agricultural
+Bulk food, Enhanced rations, Religion
+none
+none
+
+--------------------------
+non
+ISRETE
+Isrete
+-418.060669,635.851135,580.515442
+Medium
+Water
+Minimal
+Aquatic
+Aquatic*
+Outpost
+
+none
+none
+
+--------------------------
+non
+LEBE
+Lebe
+-460.700134,517.479919,588.165710
+Medium
+Jungle
+Sparse
+Raw materials
+Raw materials*
+Mixed
+Medicine, Tourism
+none
+none
+
+--------------------------
+non
+RIGEAA
+Rigeaa
+-473.298615,549.436401,533.494629
+Medium
+Temperate
+Sparse
+Aquatic
+Aquatic*, Furs*
+Primitive
+Bulk food
+none
+none
+
+--------------------------
+non
+ZAASOZA
+Zaasoza
+-436.510376,531.803650,537.304565
+Medium
+Desert
+Dense
+Minerals
+Minerals, Raw fuel
+Mixed
+Industrial machinery, Refined fuel
+none
+none
+
+--------------------------
+non
+ZAMADI
+Zamadi
+-404.179443,715.796936,593.040222
+Small
+Ice
+Sparse
+Minerals
+Minerals*
+Agricultural
+
+none
+none
+

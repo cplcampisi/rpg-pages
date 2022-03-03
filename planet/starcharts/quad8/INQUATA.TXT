@@ -1,0 +1,461 @@
+INQUATA
+Archduchy
+8
+30
+5
+PLANETARY STATISTICS:
+0 5 14 11 
+17 1 2 2 5 0 3 
+3 6 15 6 
+4 2 8 6 1 7 2 
+
+--------------------------
+core
+INQUATA
+Inquata
+-586.723206,-76.843170,-123.242493
+Medium
+Temperate
+Sparse
+Minerals
+Aquatic, Minerals*, Raw materials
+Industrial/Agricultural
+Processed food, Refined ore, Rare materials, Biochemicals
+none
+none
+
+--------------------------
+core
+ATDIGE
+Atdige
+-581.102234,0.002663,-143.426529
+Large
+Water
+Dense
+Aquatic
+Aquatic*
+Agricultural
+Enhanced rations
+none
+none
+
+--------------------------
+core
+CERAMA
+Cerama
+-605.060242,-25.766441,-88.137878
+Large
+Mountainous
+Moderate
+Food
+Food*
+Industrial
+Enhanced rations*
+none
+none
+
+--------------------------
+core
+ZAANTERE
+Zaantere
+-538.708740,47.198906,-138.170883
+Small
+Mountainous
+Dense
+Food
+Food, Raw materials
+Mercantile
+Processed food, Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+core
+ZAIS
+Zais
+-545.907593,-6.344810,-138.259338
+Large
+Temperate
+Moderate
+Minerals
+Food, Furs, Minerals*
+Primitive
+Luxury goods, Refined ore
+none
+none
+
+--------------------------
+non
+AARUSLE
+Aarusle
+-559.863037,-174.582642,-145.946609
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic, Minerals
+Agricultural
+Bulk food*, Enhanced rations, Consumer goods
+Black hole
+none
+
+--------------------------
+non
+ANSOER
+Ansoer
+-630.582214,-57.244423,-135.531342
+Large
+Temperate
+Sparse
+Minerals
+Food, Furs, Minerals*
+Industrial/Agricultural
+Gems, Consumer goods
+none
+none
+
+--------------------------
+non
+AREDGEAN
+Aredgean
+-608.625244,-52.592941,-165.996979
+Medium
+Desert
+Moderate
+Minerals
+Minerals, Raw materials
+Industrial
+Gems, Medicine, Entertainment
+none
+none
+
+--------------------------
+non
+ATESAT
+Atesat
+-596.223938,-50.042534,-145.329941
+Medium
+Desert
+Minimal
+Food
+Food, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+BIESER
+Bieser
+-523.656860,-55.089848,-112.968140
+Small
+Temperate
+Sparse
+Raw materials
+Furs, Raw fuel, Raw materials*
+Primitive
+
+none
+none
+
+--------------------------
+non
+CEARMA
+Cearma
+-601.946716,-123.112953,-45.075226
+Medium
+Ice
+Moderate
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+Consumer goods
+none
+none
+
+--------------------------
+non
+CEREXE
+Cerexe
+-565.434875,-175.338593,-181.410034
+Small
+Mountainous
+Moderate
+Raw fuel
+Raw fuel, Raw materials
+Mixed
+Refined fuel, Medicine
+none
+none
+
+--------------------------
+non
+DICETE
+Dicete
+-590.488281,-143.914139,-133.446442
+Large
+Mountainous
+Moderate
+Food
+Food, Aquatic
+Mixed
+Bulk food, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+ENEROR
+Eneror
+-597.008728,-41.790493,-64.165787
+Large
+Jungle
+Moderate
+Food
+Food, Furs
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+ENSORA
+Ensora
+-633.097534,-146.061020,-208.267303
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic, Raw materials
+Industrial/Agricultural
+Bulk food, Processed food*, Biochemicals
+none
+Research institute
+
+--------------------------
+non
+ESUSUS
+Esusus
+-573.046021,-68.299667,-114.080101
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic*, Minerals*
+Industrial/Agricultural
+Enhanced rations, Processed food, Consumer electronics, Rare materials, Religion
+none
+none
+
+--------------------------
+non
+LAZA
+Laza
+-525.573792,-104.710556,-75.554245
+Medium
+Temperate
+Moderate
+Raw materials
+Food, Minerals, Raw materials*
+Mixed
+Enhanced rations, Medicine*
+none
+none
+
+--------------------------
+non
+MAERZA
+Maerza
+-639.980591,-54.136139,-94.446884
+Medium
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Mixed
+Chemicals, Consumer electronics
+none
+none
+
+--------------------------
+non
+ORSOAT
+Orsoat
+-707.047180,-2.747398,-158.346024
+Medium
+Temperate
+Minimal
+Food
+Food*, Minerals, Raw materials
+Outpost
+
+none
+none
+
+--------------------------
+non
+QUCEDI
+Qucedi
+-558.507202,-119.575256,-146.831482
+Large
+Jungle
+Dense
+Aquatic
+Aquatic, Minerals
+Mixed
+Bulk food, Consumer goods
+none
+none
+
+--------------------------
+non
+QUMABECE
+Qumabece
+-458.704834,-21.598194,-162.552567
+Medium
+Temperate
+Sparse
+Food
+Food*, Aquatic
+Mixed
+Bulk food, Enhanced rations*, Processed food, Entertainment
+none
+none
+
+--------------------------
+non
+QUTIZA
+Qutiza
+-591.641663,-110.815308,-116.829559
+Large
+Temperate
+Dense
+Food
+Food, Aquatic, Minerals, Raw materials
+Mixed
+Bulk food, Processed food, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+SOBEAN
+Sobean
+-660.657959,-126.809860,-110.683121
+Medium
+Temperate
+Sparse
+Food
+Food*, Aquatic, Minerals
+Agricultural
+Bulk food*, Processed food, Religion
+none
+none
+
+--------------------------
+non
+SOBIVE
+Sobive
+-422.345459,-226.266037,-155.462494
+Small
+Temperate
+Dense
+Food
+Food*, Furs, Raw materials
+Industrial/Agricultural
+Processed food*, Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+TETEAN
+Tetean
+-626.813599,-73.838913,-205.460983
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic, Furs, Raw fuel, Raw materials
+Industrial/Agricultural
+Enhanced rations, Chemicals, Medicine
+none
+none
+
+--------------------------
+non
+TIVEBE
+Tivebe
+-576.678772,-97.808304,-90.449768
+Large
+Water
+Sparse
+Aquatic
+Aquatic*
+Outpost
+Processed food
+none
+none
+
+--------------------------
+non
+USBEGE
+Usbege
+-548.561890,-11.734352,-149.740784
+Large
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Minerals
+Agricultural
+Bulk food*, Luxury goods
+none
+none
+
+--------------------------
+non
+VEREBI
+Verebi
+-567.642761,-10.646049,-83.719437
+Large
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw materials
+Industrial/Agricultural
+Processed food, Chemicals, Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+XECELAAR
+Xecelaar
+-614.826721,-68.882980,-169.143738
+Small
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw materials
+Agricultural
+Bulk food, Biochemicals
+none
+none
+
+--------------------------
+non
+ZAGETE
+Zagete
+-505.289581,-83.867592,-45.879517
+Medium
+Desert
+Minimal
+Food
+Food, Furs
+Outpost
+
+none
+none
+

@@ -1,0 +1,236 @@
+XEMARITE
+Constellation
+4
+15
+2
+PLANETARY STATISTICS:
+0 5 7 3 
+6 0 0 0 5 1 3 
+0 6 6 3 
+0 5 2 5 0 3 0 
+
+--------------------------
+core
+XEMARITE
+Xemarite
+-36.866730,460.831177,-650.135376
+Small
+Temperate
+Sparse
+Minerals
+Food, Aquatic, Minerals*
+Industrial
+Enhanced rations, Refined ore*
+none
+none
+
+--------------------------
+core
+TEENDI
+Teendi
+65.384026,408.268616,-698.121399
+Medium
+Temperate
+Moderate
+Raw fuel
+Food, Minerals, Raw fuel*
+Industrial
+Enhanced rations, Industrial machinery, Refined fuel*, Consumer goods
+none
+none
+
+--------------------------
+non
+ANINBE
+Aninbe
+-16.476974,534.087952,-694.542419
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic*, Minerals, Raw fuel
+Mixed
+Enhanced rations, Processed food, Refined ore, Consumer goods
+none
+none
+
+--------------------------
+non
+ARAXELA
+Araxela
+-41.433327,530.876831,-629.845886
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic, Furs
+Industrial/Agricultural
+Enhanced rations*, Processed food, Chemicals
+none
+none
+
+--------------------------
+non
+ARBEES
+Arbees
+-75.479156,453.140259,-659.862122
+Small
+Desert
+Dense
+Furs
+Furs, Raw fuel
+Industrial
+Refined fuel, Entertainment
+none
+Dry dock
+
+--------------------------
+non
+ATQUEN
+Atquen
+-7.217710,443.734924,-589.169556
+Small
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Mixed
+Liquor
+none
+none
+
+--------------------------
+non
+ERDIOR
+Erdior
+-60.446831,378.138611,-585.173889
+Medium
+Mountainous
+Sparse
+Furs
+Furs, Minerals
+Agricultural
+Liquor, Tourism
+none
+none
+
+--------------------------
+non
+INLE
+Inle
+-42.649376,485.134460,-613.410950
+Small
+Mountainous
+Moderate
+Food
+Food*
+Agricultural
+Bulk food, Processed food, Religion
+none
+none
+
+--------------------------
+non
+ISERAR
+Iserar
+46.650284,364.341827,-613.599182
+Small
+Desert
+Dense
+Food
+Food, Minerals
+Mixed
+Enhanced rations, Weaponry, Consumer goods
+none
+none
+
+--------------------------
+non
+TEBIAR
+Tebiar
+-47.383682,463.699432,-597.036255
+Large
+Temperate
+Moderate
+Aquatic
+Food, Aquatic*, Furs
+Agricultural
+Bulk food*, Consumer goods
+none
+none
+
+--------------------------
+non
+TIRABIQU
+Tirabiqu
+63.604324,568.295715,-716.242004
+Large
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+Farm machinery, Consumer goods
+none
+Dry dock
+
+--------------------------
+non
+TIZABE
+Tizabe
+-28.769104,439.880829,-763.980164
+Medium
+Mountainous
+Sparse
+Food
+Food, Minerals
+Agricultural
+Bulk food, Refined ore, Religion
+none
+none
+
+--------------------------
+non
+VESORI
+Vesori
+1.757366,457.546112,-626.905273
+Medium
+Desert
+Sparse
+Raw fuel
+Raw fuel*
+Industrial
+Refined fuel*
+none
+none
+
+--------------------------
+non
+XEERES
+Xeeres
+-44.626068,477.280792,-698.175171
+Medium
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw fuel
+Agricultural
+Bulk food*
+none
+none
+
+--------------------------
+non
+ZAVEUS
+Zaveus
+-25.404047,508.351746,-695.632874
+Large
+Volcanic
+Dense
+Minerals
+Minerals
+Industrial
+Refined ore
+none
+none
+

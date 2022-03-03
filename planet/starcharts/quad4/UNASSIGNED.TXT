@@ -1,0 +1,34 @@
+UNASSIGNED
+n/a
+4
+2
+--------------------------
+n/a
+BITEZA
+Biteza
+-488.461761,561.379089,-551.728638
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs*
+Industrial/Agricultural
+Enhanced rations, Processed food, Chemicals
+none
+none
+
+--------------------------
+n/a
+LALEVE PRIME
+Laleve prime
+-157.251923,266.774414,-522.518616
+Medium
+Desert
+Moderate
+Furs
+Furs, Minerals
+Primitive
+Liquor
+none
+none
+

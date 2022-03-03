@@ -1,0 +1,191 @@
+TEGERE
+Constellation
+6
+12
+3
+PLANETARY STATISTICS:
+2 2 5 3 
+6 2 0 0 2 1 1 
+1 4 2 5 
+1 1 4 2 0 4 0 
+
+--------------------------
+core
+TEGERE
+Tegere
+548.373657,-43.599335,-114.012680
+Small
+Temperate
+Dense
+Furs
+Aquatic, Furs*, Raw materials
+Industrial/Agricultural
+Enhanced rations, Chemicals, Medicine, Religion
+none
+none
+
+--------------------------
+core
+BEGEA
+Begea
+490.649658,-38.371956,-22.400108
+Planetoid
+Ice
+Minimal
+Aquatic
+Aquatic*
+Outpost
+Tourism
+none
+none
+
+--------------------------
+core
+TELEA
+Telea
+634.302307,-11.651520,-85.463364
+Planetoid
+Mountainous
+Dense
+Furs
+Furs, Raw fuel
+Industrial
+Refined fuel
+none
+none
+
+--------------------------
+non
+ATORBE
+Atorbe
+510.743622,-57.785618,-149.722549
+Small
+Temperate
+Sparse
+Food
+Food*, Furs, Raw materials
+Mixed
+Processed food, Biochemicals
+none
+none
+
+--------------------------
+non
+ESCEARES
+Esceares
+472.863098,-74.786896,-116.553848
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic, Furs
+Industrial/Agricultural
+Bulk food, Processed food*, Liquor
+none
+none
+
+--------------------------
+non
+ESTECE
+Estece
+489.410675,-100.779671,-113.271355
+Medium
+Temperate
+Sparse
+Aquatic
+Food, Aquatic*, Minerals
+Agricultural
+Bulk food, Processed food*, Refined ore
+none
+none
+
+--------------------------
+non
+LAEDGETI
+Laedgeti
+526.555176,-117.431366,-108.021912
+Large
+Temperate
+Dense
+Minerals
+Food, Aquatic, Minerals*
+Mixed
+Enhanced rations*, Weaponry, Rare materials, Consumer goods
+none
+none
+
+--------------------------
+non
+MAARTIXE GAMMA
+Maartixe gamma
+521.379639,-123.425171,-147.978088
+Large
+Mountainous
+Moderate
+Food
+Food, Minerals
+Mixed
+Bulk food, Farm machinery
+none
+none
+
+--------------------------
+non
+RARAA
+Raraa
+590.128906,59.147636,-60.619728
+Medium
+Desert
+Sparse
+Furs
+Furs*
+Agricultural
+Chemicals*
+none
+none
+
+--------------------------
+non
+TIZATI
+Tizati
+556.809387,-29.013809,-23.855240
+Medium
+Ice
+Dense
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Processed food, Refined fuel
+none
+none
+
+--------------------------
+non
+USRAIS
+Usrais
+553.657532,-78.324646,-106.926971
+Medium
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Raw fuel
+Mixed
+Processed food*, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+XEORQU
+Xeorqu
+643.372498,-59.177231,-28.681320
+Large
+Volcanic
+Sparse
+Minerals
+Minerals
+Industrial/Agricultural
+Consumer electronics, Consumer goods
+none
+none
+

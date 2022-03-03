@@ -1,0 +1,60 @@
+2
+1.000000 1.000000 -1.000000
+
+266
+10 69 129 58 
+102 12 30 25 44 21 32 
+10 105 110 41 
+11 42 68 62 12 53 18 
+--------------------------
+10
+--------------------------
+ARIEN
+Arien
+Duchy
+Imperial
+--------------------------
+BIZAAN
+Bizaan
+Duchy
+Harkor
+--------------------------
+ESUS
+Esus
+Margravate
+Imperial
+--------------------------
+INTEBE
+Intebe
+Margravate
+Imperial
+--------------------------
+RIISCEBI
+Riiscebi
+Constellation
+Imperial
+--------------------------
+SOATE
+Soate
+Kingdom
+Imperial
+--------------------------
+SOGEMA
+Sogema
+Duchy
+Harkor
+--------------------------
+ZAMAENAN
+Zamaenan
+Margravate
+Imperial
+--------------------------
+ZAQUOR
+Zaquor
+Kingdom
+Harkor
+--------------------------
+ZARATIAR
+Zaratiar
+Kingdom
+Imperial

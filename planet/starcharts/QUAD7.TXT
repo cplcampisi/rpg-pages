@@ -1,0 +1,45 @@
+7
+-1.000000 -1.000000 1.000000
+
+142
+11 36 68 27 
+67 10 11 12 21 5 16 
+4 52 53 33 
+3 17 36 41 4 27 14 
+--------------------------
+7
+--------------------------
+BRANT
+Brant
+Margravate
+Imperial
+--------------------------
+EDTIDIZA
+Edtidiza
+Archduchy
+Imperial
+--------------------------
+MONOK
+Monok
+Republic
+Free
+--------------------------
+RAREUSES
+Rareuses
+Republic
+Free
+--------------------------
+USBEER ALPHA
+Usbeer alpha
+Duchy
+Imperial
+--------------------------
+VEMACE
+Vemace
+Constellation
+Imperial
+--------------------------
+ZARABI
+Zarabi
+Margravate
+Imperial

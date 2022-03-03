@@ -1,0 +1,251 @@
+REREA
+Constellation
+1
+16
+2
+PLANETARY STATISTICS:
+1 4 9 2 
+6 1 1 0 4 3 1 
+2 6 6 2 
+2 2 7 1 0 3 1 
+
+--------------------------
+core
+REREA
+Rerea
+215.130447,477.551910,114.929535
+Planetoid
+Ice
+Minimal
+Food
+Food, Minerals
+Outpost
+Processed food
+none
+none
+
+--------------------------
+core
+QUESENXE
+Quesenxe
+109.320755,521.856995,231.079468
+Medium
+Volcanic
+Moderate
+Raw fuel
+Raw fuel
+Industrial
+Refined fuel
+none
+none
+
+--------------------------
+non
+BEER
+Beer
+99.002724,539.235474,187.591583
+Medium
+Mountainous
+Dense
+Minerals
+Minerals*
+Mixed
+Industrial machinery, Rare materials, Consumer goods
+none
+none
+
+--------------------------
+non
+EDRAED
+Edraed
+213.838638,496.983063,121.633888
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs
+Industrial/Agricultural
+Enhanced rations, Processed food*, Chemicals
+none
+none
+
+--------------------------
+non
+EDUSTI
+Edusti
+294.907135,442.080231,93.911263
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals, Raw materials
+Mixed
+Consumer electronics, Biochemicals
+none
+none
+
+--------------------------
+non
+ERARVEQU
+Erarvequ
+195.206451,475.629639,194.112274
+Small
+Volcanic
+Sparse
+Minerals
+Minerals
+Primitive
+
+none
+none
+
+--------------------------
+non
+GESOANIS
+Gesoanis
+213.396179,488.150452,101.898895
+Large
+Temperate
+Sparse
+Aquatic
+Aquatic*, Raw fuel
+Industrial/Agricultural
+Bulk food*, Enhanced rations
+none
+none
+
+--------------------------
+non
+ISASO
+Isaso
+227.923676,552.999084,67.234314
+Medium
+Desert
+Sparse
+Raw fuel
+Raw fuel*
+Industrial
+Refined fuel*, Tourism
+none
+none
+
+--------------------------
+non
+ISLEUS
+Isleus
+326.221832,461.495941,67.234261
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs*
+Industrial/Agricultural
+Bulk food, Enhanced rations, Liquor
+none
+none
+
+--------------------------
+non
+ISRADI
+Isradi
+345.386719,468.224731,60.983894
+Medium
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw materials
+Agricultural
+Bulk food, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+ORZAIS
+Orzais
+228.774200,485.199005,100.582718
+Medium
+Mountainous
+Moderate
+Food
+Food, Minerals
+Mixed
+Processed food, Consumer electronics, Entertainment
+none
+none
+
+--------------------------
+non
+RICETE
+Ricete
+247.907043,496.871124,178.208221
+Medium
+Temperate
+Sparse
+Furs
+Furs, Minerals, Raw fuel, Raw materials
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+RIMAA
+Rimaa
+218.325363,512.847961,176.914551
+Large
+Temperate
+Moderate
+Raw materials
+Aquatic, Minerals, Raw materials*
+Industrial/Agricultural
+Processed food, Biochemicals*
+none
+none
+
+--------------------------
+non
+TEDIANLA
+Tedianla
+127.995392,490.173645,83.325287
+Small
+Mountainous
+Dense
+Furs
+Furs, Raw fuel
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+TEUSAR
+Teusar
+226.650040,505.224640,82.321007
+Small
+Volcanic
+Minimal
+Raw fuel
+Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+ZARIOR
+Zarior
+193.859573,418.344116,112.958755
+Small
+Jungle
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+
+none
+none
+

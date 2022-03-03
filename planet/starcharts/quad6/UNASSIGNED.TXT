@@ -1,0 +1,64 @@
+UNASSIGNED
+n/a
+6
+4
+--------------------------
+n/a
+ENZAER
+Enzaer
+486.067139,-513.530762,-503.819855
+Medium
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw fuel
+Agricultural
+Bulk food*
+none
+none
+
+--------------------------
+n/a
+ORANRA
+Oranra
+436.731293,-56.912415,-326.957153
+Large
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Agricultural
+Consumer goods
+none
+none
+
+--------------------------
+n/a
+QUESOR
+Quesor
+479.319885,-478.383728,-592.354004
+Small
+Jungle
+Moderate
+Aquatic
+Aquatic*
+Industrial/Agricultural
+Enhanced rations*
+none
+none
+
+--------------------------
+n/a
+REBIVE
+Rebive
+567.202393,-329.463867,-299.119843
+Small
+Mountainous
+Sparse
+Furs
+Furs, Raw fuel
+Agricultural
+Consumer goods
+none
+none
+

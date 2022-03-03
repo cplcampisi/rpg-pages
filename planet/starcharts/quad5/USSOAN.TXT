@@ -1,0 +1,266 @@
+USSOAN
+Margravate
+5
+17
+4
+PLANETARY STATISTICS:
+2 4 6 5 
+9 2 2 0 2 2 0 
+2 5 6 4 
+2 2 2 4 0 6 1 
+
+--------------------------
+core
+USSOAN
+Ussoan
+98.465500,-50.287903,170.959488
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs
+Industrial/Agricultural
+Bulk food, Enhanced rations, Processed food
+none
+none
+
+--------------------------
+core
+ANISUSES
+Anisuses
+-3.341217,-16.858849,204.299454
+Medium
+Mountainous
+Dense
+Minerals
+Minerals, Raw materials
+Industrial
+Refined ore, Medicine
+none
+none
+
+--------------------------
+core
+CEMARI
+Cemari
+132.483444,26.971077,70.438774
+Large
+Temperate
+Sparse
+Food
+Food*, Minerals
+Mixed
+Bulk food*, Enhanced rations, Refined ore
+none
+none
+
+--------------------------
+core
+ERENLA
+Erenla
+131.768875,-96.592789,208.929138
+Large
+Volcanic
+Sparse
+Minerals
+Minerals
+Agricultural
+
+none
+none
+
+--------------------------
+non
+ANORRA GAMMA
+Anorra gamma
+28.570381,64.972580,122.932251
+Small
+Temperate
+Dense
+Furs
+Furs*, Minerals*
+Mixed
+Luxury goods, Rare materials*, Entertainment
+none
+none
+
+--------------------------
+non
+BIANGE
+Biange
+144.433075,59.368500,162.964188
+Small
+Jungle
+Sparse
+Food
+Food, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+DIEDIS
+Diedis
+47.282890,-20.094513,265.696838
+Medium
+Jungle
+Moderate
+Food
+Food, Raw materials
+Mixed
+Enhanced rations, Biochemicals, Tourism
+none
+none
+
+--------------------------
+non
+ESREIS
+Esreis
+130.557587,-92.266808,170.306549
+Planetoid
+Volcanic
+Minimal
+Minerals
+Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+GETETI
+Geteti
+178.039215,-51.182270,125.756378
+Large
+Temperate
+Sparse
+Raw fuel
+Raw fuel*, Raw materials
+Mixed
+Refined fuel*, Medicine
+none
+none
+
+--------------------------
+non
+INMADI
+Inmadi
+44.136967,-70.730782,229.483047
+Medium
+Temperate
+Sparse
+Furs
+Food, Furs*, Minerals
+Primitive
+Liquor
+none
+none
+
+--------------------------
+non
+LAORZA
+Laorza
+140.376984,-127.164787,123.553894
+Large
+Temperate
+Minimal
+Aquatic
+Food, Aquatic*, Furs
+Outpost
+
+none
+none
+
+--------------------------
+non
+MAAMA
+Maama
+106.501633,-157.396118,219.849976
+Planetoid
+Ice
+Moderate
+Aquatic
+Aquatic, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+QUARRA
+Quarra
+77.141121,-31.236549,81.362999
+Small
+Temperate
+Moderate
+Food
+Food*, Aquatic, Minerals
+Industrial
+Enhanced rations, Processed food, Industrial machinery, Consumer goods
+none
+none
+
+--------------------------
+non
+QURALE
+Qurale
+175.168732,-101.255424,222.726685
+Large
+Mountainous
+Moderate
+Aquatic
+Aquatic, Raw fuel
+Agricultural
+Bulk food, Consumer goods
+none
+none
+
+--------------------------
+non
+RAENLE
+Raenle
+91.925552,-33.173744,244.318375
+Medium
+Temperate
+Dense
+Furs
+Food, Furs*, Raw materials
+Mixed
+Enhanced rations, Biochemicals
+none
+none
+
+--------------------------
+non
+SOEDEN
+Soeden
+14.755341,16.031494,214.405853
+Medium
+Temperate
+Dense
+Food
+Food*
+Industrial/Agricultural
+Bulk food, Enhanced rations, Processed food*
+none
+none
+
+--------------------------
+non
+TEVELA
+Tevela
+40.282406,-44.477627,161.456848
+Small
+Ice
+Moderate
+Aquatic
+Aquatic, Raw fuel
+Mixed
+Bulk food, Consumer goods
+none
+none
+

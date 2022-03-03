@@ -1,0 +1,371 @@
+BIZAAN
+Duchy
+2
+24
+3
+PLANETARY STATISTICS:
+0 4 16 4 
+6 0 1 3 8 1 5 
+1 7 14 2 
+1 7 4 5 1 4 2 
+
+--------------------------
+core
+BIZAAN
+Bizaan
+95.222794,549.696533,-209.973694
+Large
+Water
+Sparse
+Aquatic
+Aquatic*
+Mixed
+Bulk food, Enhanced rations
+none
+none
+
+--------------------------
+core
+USATAR
+Usatar
+169.179077,601.224609,-221.847214
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals, Raw fuel
+Agricultural
+
+none
+none
+
+--------------------------
+core
+VEEDIS
+Veedis
+161.313568,537.312622,-216.347076
+Large
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+ACEAR
+Acear
+50.337635,694.317505,-186.518158
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial
+Weaponry, Refined fuel
+none
+none
+
+--------------------------
+non
+DIDIRA
+Didira
+76.015640,593.458740,-110.847969
+Medium
+Volcanic
+Moderate
+Raw fuel
+Raw fuel
+Industrial/Agricultural
+Entertainment
+none
+none
+
+--------------------------
+non
+DIUS III
+Dius iii
+172.953827,668.826538,-233.032608
+Medium
+Mountainous
+Moderate
+Food
+Food, Minerals
+Mixed
+Enhanced rations, Refined ore, Entertainment
+none
+none
+
+--------------------------
+non
+EDESRELE
+Edesrele
+136.676178,535.438416,-182.139755
+Medium
+Water
+Moderate
+Food
+Food, Aquatic
+Industrial
+Processed food
+none
+none
+
+--------------------------
+non
+ENMAANVE
+Enmaanve
+98.452652,557.246460,-217.861313
+Medium
+Desert
+Sparse
+Minerals
+Minerals*
+Industrial
+Consumer electronics, Rare materials, Entertainment
+none
+none
+
+--------------------------
+non
+ENREAQU
+Enreaqu
+124.803108,579.317322,-211.156555
+Medium
+Temperate
+Sparse
+Food
+Food*, Aquatic, Furs
+Primitive
+Chemicals
+none
+none
+
+--------------------------
+non
+ESARER
+Esarer
+107.017281,546.557617,-215.630112
+Small
+Desert
+Moderate
+Minerals
+Minerals*
+Industrial
+Refined ore, Entertainment
+none
+none
+
+--------------------------
+non
+INATER
+Inater
+109.207642,507.655243,-196.855774
+Medium
+Desert
+Dense
+Furs
+Furs, Minerals
+Mixed
+Refined ore, Consumer goods
+none
+none
+
+--------------------------
+non
+ISES
+Ises
+77.374466,489.756470,-164.286591
+Medium
+Jungle
+Moderate
+Food
+Food, Furs
+Industrial
+Enhanced rations
+none
+none
+
+--------------------------
+non
+LEUSOR
+Leusor
+36.817337,472.536011,-169.330872
+Medium
+Temperate
+Moderate
+Minerals
+Aquatic, Minerals*, Raw fuel
+Agricultural
+Rare materials*
+none
+none
+
+--------------------------
+non
+MAAAN
+Maaan
+128.780777,491.715607,-153.460785
+Small
+Desert
+Dense
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+RAORXE
+Raorxe
+11.334343,592.840820,-213.562347
+Small
+Mountainous
+Sparse
+Aquatic
+Aquatic, Minerals
+Agricultural
+Bulk food, Consumer goods
+none
+none
+
+--------------------------
+non
+RARA
+Rara
+192.065765,544.034485,-113.194534
+Medium
+Temperate
+Moderate
+Food
+Food*, Raw fuel, Raw materials
+Mercantile
+Enhanced rations, Processed food, Biochemicals
+none
+none
+
+--------------------------
+non
+SORAAT
+Soraat
+75.134552,521.090454,-280.159058
+Medium
+Temperate
+Moderate
+Furs
+Aquatic, Furs*, Raw materials
+Industrial
+Enhanced rations, Liquor, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+SORIEN
+Sorien
+26.987511,665.672913,-222.261169
+Small
+Temperate
+Moderate
+Furs
+Furs*, Minerals, Raw fuel
+Agricultural
+Luxury goods, Chemicals, Religion
+none
+none
+
+--------------------------
+non
+TEMALE
+Temale
+133.270477,536.039001,-129.697845
+Medium
+Mountainous
+Moderate
+Minerals
+Minerals*
+Mixed
+Consumer electronics*
+none
+none
+
+--------------------------
+non
+USAGE
+Usage
+49.597485,428.596985,-179.504211
+Medium
+Desert
+Moderate
+Minerals
+Minerals, Raw materials
+Industrial
+Medicine, Entertainment
+none
+none
+
+--------------------------
+non
+VEXEBI
+Vexebi
+74.208618,551.465820,-290.721954
+Medium
+Temperate
+Moderate
+Furs
+Aquatic, Furs*, Minerals
+Primitive
+Religion
+none
+none
+
+--------------------------
+non
+XEVEEN
+Xeveen
+174.753601,485.315674,-283.550415
+Medium
+Mountainous
+Sparse
+Furs
+Furs, Minerals
+Agricultural
+
+none
+none
+
+--------------------------
+non
+ZAEDAT MAJOR
+Zaedat major
+168.615784,561.231445,-276.317017
+Large
+Water
+Minimal
+Aquatic
+Aquatic*
+Outpost
+
+none
+none
+
+--------------------------
+non
+ZAMAIS
+Zamais
+49.886158,454.032562,-247.958115
+Large
+Mountainous
+Moderate
+Food
+Food, Minerals
+Industrial/Agricultural
+
+none
+none
+

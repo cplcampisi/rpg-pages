@@ -1,0 +1,386 @@
+EDVEUS
+Duchy
+6
+25
+6
+PLANETARY STATISTICS:
+0 5 16 4 
+13 2 2 1 2 2 3 
+3 11 8 3 
+3 6 8 5 1 1 1 
+
+--------------------------
+core
+EDVEUS
+Edveus
+653.728027,-232.558701,-274.069885
+Medium
+Desert
+Sparse
+Food
+Food, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+core
+ANREQUA
+Anrequa
+672.221130,-232.945114,-312.969543
+Medium
+Temperate
+Dense
+Food
+Food*, Furs
+Industrial/Agricultural
+Bulk food*, Processed food
+none
+none
+
+--------------------------
+core
+INIS
+Inis
+783.026062,-151.044632,-267.328064
+Medium
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Raw fuel
+Industrial
+Bulk food, Enhanced rations, Chemicals, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+core
+ISRAED
+Israed
+559.908936,-288.065063,-196.719055
+Small
+Temperate
+Dense
+Furs
+Food, Furs*, Raw materials
+Mixed
+Enhanced rations, Liquor, Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+core
+RECEBI
+Recebi
+780.160339,-239.277863,-158.665070
+Medium
+Temperate
+Minimal
+Furs
+Food, Aquatic, Furs*
+Outpost
+Bulk food, Luxury goods*
+none
+none
+
+--------------------------
+core
+RERIAR
+Reriar
+678.121643,-300.170258,-274.553345
+Medium
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw materials
+Industrial/Agricultural
+Enhanced rations, Processed food, Biochemicals
+none
+none
+
+--------------------------
+non
+ANBEGE
+Anbege
+665.556030,-322.803192,-247.367630
+Medium
+Water
+Sparse
+Aquatic
+Aquatic*
+Agricultural
+Bulk food*
+none
+none
+
+--------------------------
+non
+AREDA
+Areda
+558.367371,-278.859558,-279.645752
+Medium
+Ice
+Sparse
+Furs
+Furs, Raw fuel
+Agricultural
+Luxury goods, Refined fuel
+none
+none
+
+--------------------------
+non
+BEREOR
+Bereor
+706.840820,-219.933685,-312.283783
+Large
+Volcanic
+Moderate
+Minerals
+Minerals
+Industrial
+Refined ore
+none
+none
+
+--------------------------
+non
+CEATDI
+Ceatdi
+655.807495,-235.875595,-331.874603
+Small
+Temperate
+Minimal
+Furs
+Food, Furs*, Raw fuel
+Outpost
+Chemicals
+none
+none
+
+--------------------------
+non
+EDXEED
+Edxeed
+689.662354,-217.958206,-280.958344
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals, Raw materials
+Industrial
+Refined ore, Biochemicals
+none
+none
+
+--------------------------
+non
+ENQUQU
+Enququ
+756.446289,-204.854874,-255.228180
+Medium
+Mountainous
+Sparse
+Furs
+Furs, Raw fuel
+Agricultural
+Liquor
+none
+Military barracks
+
+--------------------------
+non
+ESENIN
+Esenin
+574.721069,-90.501862,-273.836884
+Large
+Temperate
+Moderate
+Food
+Food*, Minerals, Raw fuel
+Industrial/Agricultural
+Processed food*
+none
+none
+
+--------------------------
+non
+ISRA
+Isra
+640.093933,-102.820908,-300.956390
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs, Raw materials
+Agricultural
+Bulk food*, Medicine
+none
+none
+
+--------------------------
+non
+LEEN
+Leen
+673.096680,-216.305542,-234.449646
+Small
+Temperate
+Sparse
+Food
+Food*, Aquatic, Raw fuel
+Industrial
+Enhanced rations*, Processed food, Refined fuel
+none
+none
+
+--------------------------
+non
+LEENSO
+Leenso
+599.096985,-176.329102,-233.853210
+Medium
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial
+Refined fuel
+none
+none
+
+--------------------------
+non
+MAATED
+Maated
+685.438477,-189.369095,-287.322876
+Medium
+Desert
+Moderate
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+ORZAREAR
+Orzarear
+623.721069,-242.363739,-224.836731
+Medium
+Jungle
+Moderate
+Food
+Food, Raw materials
+Industrial/Agricultural
+Enhanced rations, Biochemicals
+none
+none
+
+--------------------------
+non
+QUVEBI
+Quvebi
+684.793823,-153.481598,-325.343781
+Large
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Industrial
+Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+RIISXE
+Riisxe
+681.326721,-366.806885,-224.879776
+Large
+Temperate
+Moderate
+Food
+Food*, Raw materials*
+Industrial/Agricultural
+Enhanced rations*, Medicine*
+none
+none
+
+--------------------------
+non
+RIZABI MAJOR
+Rizabi major
+674.717957,-217.668777,-313.187164
+Medium
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+SOBI
+Sobi
+689.835632,-252.251648,-228.296692
+Small
+Temperate
+Moderate
+Food
+Food*, Minerals*
+Industrial/Agricultural
+Enhanced rations*
+none
+none
+
+--------------------------
+non
+SOLESO
+Soleso
+579.269775,-295.530945,-266.654480
+Medium
+Temperate
+Sparse
+Raw fuel
+Aquatic, Raw fuel*, Raw materials
+Mercantile
+Enhanced rations, Industrial machinery, Refined fuel, High grade fuel, Entertainment
+none
+none
+
+--------------------------
+non
+TIRI
+Tiri
+601.165833,-184.775909,-344.216766
+Small
+Jungle
+Minimal
+Aquatic
+Aquatic, Furs
+Outpost
+
+none
+none
+
+--------------------------
+non
+XEAR
+Xear
+690.928711,-254.739258,-240.032013
+Medium
+Temperate
+Moderate
+Furs
+Food, Furs*, Minerals
+Primitive
+Luxury goods
+none
+Research base
+

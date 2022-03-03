@@ -1,0 +1,461 @@
+ANED
+Duchy
+3
+30
+3
+PLANETARY STATISTICS:
+1 6 10 13 
+16 0 3 0 6 1 4 
+1 9 12 8 
+1 1 11 7 5 4 1 
+
+--------------------------
+core
+ANED
+Aned
+-661.007690,123.521606,647.853638
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic*
+Industrial/Agricultural
+Bulk food, Enhanced rations*, Processed food
+none
+none
+
+--------------------------
+core
+LAOR
+Laor
+-680.177551,51.385582,743.453491
+Small
+Temperate
+Sparse
+Furs
+Furs*, Minerals, Raw materials
+Industrial/Agricultural
+Medicine
+none
+none
+
+--------------------------
+core
+VEQUBETI
+Vequbeti
+-674.995544,169.304352,668.767517
+Large
+Mountainous
+Moderate
+Minerals
+Minerals*
+Mercantile
+Consumer electronics, Gems
+none
+none
+
+--------------------------
+non
+AARGE
+Aarge
+-683.691589,184.436371,716.829895
+Large
+Temperate
+Moderate
+Furs
+Furs*, Minerals
+Agricultural
+Luxury goods*, Chemicals
+none
+none
+
+--------------------------
+non
+ABIUSTE
+Abiuste
+-729.817627,101.188965,743.837402
+Medium
+Volcanic
+Moderate
+Raw fuel
+Raw fuel
+Mixed
+Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+AGEGE
+Agege
+-660.108582,173.417297,643.064392
+Large
+Mountainous
+Moderate
+Furs
+Furs, Raw materials
+Agricultural
+Biochemicals
+none
+none
+
+--------------------------
+non
+ANBIUS
+Anbius
+-654.497437,28.286377,634.394714
+Large
+Temperate
+Dense
+Furs
+Food, Aquatic, Furs*
+Mixed
+Enhanced rations*
+none
+none
+
+--------------------------
+non
+BEARAN
+Bearan
+-739.796692,152.695480,668.572327
+Large
+Temperate
+Sparse
+Food
+Food*, Minerals
+Agricultural
+Bulk food*, Enhanced rations, Refined ore, Tourism
+none
+none
+
+--------------------------
+non
+BELADITE
+Beladite
+-673.148865,-18.708939,535.892029
+Medium
+Desert
+Sparse
+Raw fuel
+Raw fuel*
+Industrial/Agricultural
+Refined fuel
+none
+none
+
+--------------------------
+non
+BIEDIN
+Biedin
+-666.926880,52.086288,463.695618
+Large
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial
+Consumer electronics, Refined fuel
+none
+none
+
+--------------------------
+non
+CEANANRE
+Ceananre
+-694.077209,132.144012,611.993469
+Small
+Desert
+Moderate
+Minerals
+Minerals, Raw fuel
+Agricultural
+
+none
+none
+
+--------------------------
+non
+DICEXE
+Dicexe
+-575.607788,121.706192,725.399414
+Medium
+Mountainous
+Sparse
+Furs
+Furs, Minerals
+Agricultural
+Consumer goods
+none
+none
+
+--------------------------
+non
+EDXEQU
+Edxequ
+-731.550598,78.673004,608.980286
+Large
+Temperate
+Sparse
+Aquatic
+Food, Aquatic*, Raw materials
+Agricultural
+Bulk food, Processed food*, Biochemicals
+none
+none
+
+--------------------------
+non
+EDZA
+Edza
+-650.240723,204.218750,720.283142
+Medium
+Jungle
+Dense
+Furs
+Furs, Raw materials
+Mixed
+Luxury goods, Medicine
+none
+none
+
+--------------------------
+non
+ENMAED
+Enmaed
+-601.737915,127.899406,485.614685
+Large
+Temperate
+Minimal
+Food
+Food*, Aquatic, Furs
+Outpost
+Enhanced rations, Liquor
+none
+none
+
+--------------------------
+non
+ENXEES
+Enxees
+-652.412415,83.176926,667.237610
+Planetoid
+Jungle
+Moderate
+Aquatic
+Aquatic, Raw materials
+Industrial/Agricultural
+Processed food, Tourism
+none
+none
+
+--------------------------
+non
+ERDIED
+Erdied
+-611.110657,119.246704,700.444397
+Medium
+Desert
+Dense
+Minerals
+Minerals, Raw materials
+Mercantile
+Rare materials
+none
+none
+
+--------------------------
+non
+ERESRE
+Eresre
+-639.611633,87.740128,526.252014
+Small
+Temperate
+Sparse
+Minerals
+Furs, Minerals*, Raw fuel
+Mercantile
+Liquor, Refined fuel, Biochemicals
+none
+none
+
+--------------------------
+non
+GERIED
+Geried
+-647.747314,167.356079,636.877441
+Large
+Temperate
+Dense
+Food
+Food, Furs, Minerals, Raw fuel
+Industrial/Agricultural
+Bulk food, Advanced electronics, Refined fuel
+none
+none
+
+--------------------------
+non
+INA
+Ina
+-742.003418,191.825241,594.239136
+Small
+Temperate
+Moderate
+Aquatic
+Aquatic*, Minerals*
+Agricultural
+Processed food*, Consumer goods
+none
+none
+
+--------------------------
+non
+LEDIEN
+Ledien
+-616.241150,236.875580,606.016052
+Medium
+Temperate
+Sparse
+Food
+Food*, Furs, Minerals
+Primitive
+
+none
+none
+
+--------------------------
+non
+ORUSRE BETA
+Orusre beta
+-709.031982,90.020576,667.434204
+Large
+Temperate
+Dense
+Raw materials
+Food, Raw fuel, Raw materials*
+Industrial/Agricultural
+Processed food, Biochemicals*, Consumer goods
+none
+none
+
+--------------------------
+non
+ORZADIAT
+Orzadiat
+-630.591064,116.602196,731.691284
+Small
+Jungle
+Moderate
+Aquatic
+Aquatic, Furs
+Industrial/Agricultural
+Processed food, Entertainment
+none
+none
+
+--------------------------
+non
+REDIVE
+Redive
+-705.257874,85.964592,622.407532
+Medium
+Temperate
+Dense
+Food
+Food*, Furs
+Industrial/Agricultural
+Enhanced rations, Processed food*, Consumer goods
+none
+none
+
+--------------------------
+non
+RIERED
+Riered
+-789.345703,121.870560,639.895630
+Large
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Industrial/Agricultural
+Tourism
+none
+none
+
+--------------------------
+non
+SOXERA
+Soxera
+-569.704407,90.524673,555.776367
+Small
+Temperate
+Moderate
+Minerals
+Food, Aquatic, Minerals*
+Mercantile
+Bulk food, Enhanced rations, Farm machinery, Gems
+none
+none
+
+--------------------------
+non
+TEATOR
+Teator
+-698.801147,70.257599,514.925659
+Large
+Temperate
+Dense
+Raw fuel
+Food, Minerals, Raw fuel*
+Mercantile
+Bulk food, Rare materials, Refined fuel, Consumer goods
+none
+Trading post
+
+--------------------------
+non
+TEGEORBE
+Tegeorbe
+-667.088745,71.144852,732.751099
+Medium
+Temperate
+Moderate
+Food
+Food*, Minerals
+Industrial/Agricultural
+Processed food*, Industrial machinery
+none
+none
+
+--------------------------
+non
+XELA
+Xela
+-673.769897,121.522491,684.787781
+Large
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+Religion
+none
+none
+
+--------------------------
+non
+ZABEQU
+Zabequ
+-569.479492,98.930786,674.175903
+Medium
+Mountainous
+Dense
+Food
+Food, Minerals
+Mixed
+Processed food, Rare materials, Religion
+none
+none
+

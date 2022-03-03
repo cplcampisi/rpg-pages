@@ -1,0 +1,221 @@
+SOGEORRE
+Constellation
+5
+14
+3
+PLANETARY STATISTICS:
+1 2 7 4 
+4 0 2 0 5 1 2 
+2 2 7 3 
+1 3 2 5 0 1 2 
+
+--------------------------
+core
+SOGEORRE
+Sogeorre
+33.133301,-488.522583,520.939819
+Small
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Industrial
+Entertainment
+none
+none
+
+--------------------------
+core
+ORENLA
+Orenla
+47.358456,-581.018738,543.724792
+Planetoid
+Jungle
+Moderate
+Raw materials
+Raw materials*
+Agricultural
+Biochemicals*
+none
+none
+
+--------------------------
+core
+ZALAIS
+Zalais
+-2.476963,-450.579193,476.460724
+Medium
+Temperate
+Dense
+Aquatic
+Aquatic, Furs, Minerals, Raw fuel
+Mixed
+Bulk food, Industrial machinery, Refined fuel
+none
+none
+
+--------------------------
+non
+AGEXE
+Agexe
+55.233612,-505.609863,618.718262
+Medium
+Mountainous
+Sparse
+Raw materials
+Raw materials*
+Agricultural
+Biochemicals, Medicine, Tourism
+none
+none
+
+--------------------------
+non
+ATIZA
+Atiza
+-15.469280,-441.379028,482.316376
+Large
+Mountainous
+Minimal
+Food
+Food, Minerals
+Outpost
+Processed food, Weaponry
+none
+none
+
+--------------------------
+non
+BIEDGE
+Biedge
+120.870979,-426.942017,518.244629
+Medium
+Mountainous
+Dense
+Minerals
+Minerals*
+Agricultural
+
+none
+none
+
+--------------------------
+non
+DITIZA
+Ditiza
+21.085487,-518.988403,501.233459
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic, Minerals
+Primitive
+Bulk food
+none
+none
+
+--------------------------
+non
+ENZAEN
+Enzaen
+63.757294,-476.060333,551.691040
+Medium
+Desert
+Moderate
+Furs
+Furs, Raw fuel
+Agricultural
+Liquor, Refined fuel
+none
+none
+
+--------------------------
+non
+LECEMA
+Lecema
+70.667984,-498.754761,407.809692
+Small
+Desert
+Minimal
+Raw fuel
+Raw fuel*
+Industrial
+Refined fuel*, Entertainment
+none
+none
+
+--------------------------
+non
+ORERDI
+Orerdi
+93.605591,-509.128418,618.453613
+Large
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Primitive
+
+none
+none
+
+--------------------------
+non
+SOBE
+Sobe
+28.942760,-472.144653,546.616272
+Large
+Jungle
+Dense
+Minerals
+Minerals, Raw materials
+Industrial
+Rare materials, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+SOINDIAT II
+Soindiat ii
+90.479935,-480.734589,466.136871
+Medium
+Temperate
+Moderate
+Minerals
+Food, Minerals*, Raw materials
+Industrial/Agricultural
+Processed food, Refined ore, Medicine
+none
+none
+
+--------------------------
+non
+TERAXE
+Teraxe
+-10.115780,-497.969635,541.993225
+Large
+Mountainous
+Moderate
+Furs
+Furs*
+Agricultural
+Luxury goods*
+none
+none
+
+--------------------------
+non
+VEANAR
+Veanar
+29.539516,-443.627380,506.849213
+Medium
+Temperate
+Moderate
+Minerals
+Furs, Minerals*, Raw materials
+Industrial/Agricultural
+Chemicals, Medicine
+none
+none
+

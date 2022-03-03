@@ -1,0 +1,266 @@
+LESORE
+Constellation
+1
+17
+4
+PLANETARY STATISTICS:
+2 2 7 6 
+7 5 0 0 3 2 0 
+1 7 6 3 
+1 1 5 3 0 6 1 
+
+--------------------------
+core
+LESORE
+Lesore
+518.050354,452.626129,387.450104
+Medium
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw materials
+Agricultural
+Enhanced rations, Medicine, Consumer goods
+none
+none
+
+--------------------------
+core
+MAGEIN
+Magein
+558.860840,464.200043,390.815491
+Large
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+core
+TIINVE
+Tiinve
+617.937073,439.166626,307.868469
+Small
+Temperate
+Dense
+Food
+Food, Aquatic, Raw fuel, Raw materials
+Mixed
+Bulk food, Enhanced rations, Refined fuel, Biochemicals
+none
+none
+
+--------------------------
+core
+XEESQU
+Xeesqu
+437.624878,455.791931,375.730377
+Medium
+Mountainous
+Dense
+Aquatic
+Aquatic, Furs
+Industrial/Agricultural
+Processed food, Religion
+none
+none
+
+--------------------------
+non
+ANMAIS
+Anmais
+597.035583,456.830658,409.822662
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic, Raw materials
+Mixed
+Bulk food, Enhanced rations, Processed food, Biochemicals
+none
+none
+
+--------------------------
+non
+ERARLEZA
+Erarleza
+532.904236,557.753418,374.255219
+Large
+Ice
+Minimal
+Minerals
+Minerals*
+Outpost
+
+none
+none
+
+--------------------------
+non
+EREDMA
+Eredma
+529.872437,545.690918,364.699921
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs, Raw fuel
+Industrial/Agricultural
+Enhanced rations*, Chemicals
+none
+none
+
+--------------------------
+non
+ERSO
+Erso
+526.622498,450.722168,342.903809
+Large
+Ice
+Moderate
+Furs
+Furs, Minerals
+Industrial/Agricultural
+Chemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+GEZASO
+Gezaso
+535.283447,400.602173,327.561249
+Small
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw materials
+Mixed
+Enhanced rations, Processed food, Chemicals, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+LALACE
+Lalace
+476.325562,465.210724,435.254974
+Planetoid
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial
+Consumer electronics, Refined fuel
+none
+none
+
+--------------------------
+non
+LECEOR
+Leceor
+517.680969,440.332245,270.747986
+Large
+Temperate
+Dense
+Food
+Food*, Furs, Raw fuel
+Mixed
+Enhanced rations*, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+LEENRIBI
+Leenribi
+433.206696,598.995178,328.873474
+Large
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+TERARIXE
+Terarixe
+500.066132,463.028168,327.554260
+Medium
+Mountainous
+Moderate
+Furs
+Furs, Raw fuel
+Agricultural
+Liquor
+none
+none
+
+--------------------------
+non
+VEBIBESO
+Vebibeso
+442.739716,454.810425,317.842316
+Planetoid
+Ice
+Sparse
+Furs
+Furs, Raw fuel
+Agricultural
+Refined fuel
+none
+none
+
+--------------------------
+non
+XEREZA
+Xereza
+519.984680,447.343445,494.332977
+Medium
+Mountainous
+Sparse
+Furs
+Furs, Minerals
+Primitive
+Refined ore
+none
+none
+
+--------------------------
+non
+ZALAINED
+Zalained
+610.865112,494.318390,322.506775
+Large
+Temperate
+Moderate
+Food
+Food*, Aquatic, Furs
+Mixed
+Bulk food*, Enhanced rations, Entertainment
+none
+none
+
+--------------------------
+non
+ZAORLEAT
+Zaorleat
+571.244324,495.984558,373.381622
+Medium
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Mixed
+Farm machinery, Refined fuel, Consumer goods
+none
+none
+

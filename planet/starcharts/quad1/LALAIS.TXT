@@ -1,0 +1,266 @@
+LALAIS
+Constellation
+1
+17
+3
+PLANETARY STATISTICS:
+2 5 7 3 
+8 2 0 3 3 0 1 
+0 7 7 3 
+0 2 5 7 1 2 0 
+
+--------------------------
+core
+LALAIS
+Lalais
+655.088745,297.394592,50.772369
+Medium
+Temperate
+Moderate
+Minerals
+Food, Minerals*, Raw materials
+Industrial
+Bulk food, Advanced electronics, Rare materials, Medicine
+none
+none
+
+--------------------------
+core
+GEVESO
+Geveso
+679.115540,314.687561,125.408791
+Medium
+Mountainous
+Moderate
+Food
+Food, Minerals
+Agricultural
+Processed food
+none
+none
+
+--------------------------
+core
+SOGEBE
+Sogebe
+705.845764,297.927490,129.828537
+Planetoid
+Water
+Moderate
+Food
+Food, Aquatic
+Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+non
+ADIIN
+Adiin
+675.651184,370.073730,54.053932
+Medium
+Temperate
+Sparse
+Minerals
+Furs, Minerals*, Raw fuel
+Mixed
+Industrial machinery, Farm machinery, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+ARLAZA
+Arlaza
+624.078003,298.496918,28.154375
+Medium
+Temperate
+Sparse
+Furs
+Furs*, Raw fuel*
+Agricultural
+Liquor, Chemicals
+none
+none
+
+--------------------------
+non
+ARRAEN
+Arraen
+605.555664,365.770386,95.952911
+Small
+Temperate
+Moderate
+Food
+Food*, Minerals
+Industrial/Agricultural
+Enhanced rations, Processed food
+none
+none
+
+--------------------------
+non
+BESO
+Beso
+646.487915,408.167419,48.601078
+Small
+Water
+Dense
+Furs
+Furs, Raw fuel
+Mixed
+Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+BIOREN
+Bioren
+731.623413,311.445312,-27.761047
+Large
+Desert
+Moderate
+Furs
+Furs, Raw fuel
+Agricultural
+Liquor, Tourism
+none
+none
+
+--------------------------
+non
+ESXEVE
+Esxeve
+729.330933,286.401886,-7.655323
+Medium
+Temperate
+Dense
+Furs
+Food, Aquatic, Furs*
+Industrial/Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+non
+INLERA
+Inlera
+629.680359,339.216431,106.343521
+Medium
+Water
+Moderate
+Aquatic
+Aquatic*
+Agricultural
+Enhanced rations, Tourism
+none
+University
+
+--------------------------
+non
+MALAAN
+Malaan
+487.318939,282.171356,67.462822
+Large
+Temperate
+Sparse
+Aquatic
+Aquatic*, Minerals*
+Agricultural
+Bulk food, Enhanced rations, Tourism
+none
+none
+
+--------------------------
+non
+ORGEGERE
+Orgegere
+707.979675,356.862671,54.811111
+Large
+Ice
+Sparse
+Aquatic
+Aquatic, Raw fuel
+Industrial/Agricultural
+Processed food, Refined fuel, Religion
+none
+none
+
+--------------------------
+non
+ORINBI
+Orinbi
+678.953247,265.422546,78.672966
+Planetoid
+Ice
+Sparse
+Raw fuel
+Raw fuel*
+Agricultural
+
+none
+none
+
+--------------------------
+non
+TEMAER
+Temaer
+515.851440,276.855072,-7.493980
+Small
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial
+Consumer electronics*, Consumer goods
+none
+none
+
+--------------------------
+non
+TIERUS
+Tierus
+616.751770,207.746674,6.151825
+Small
+Mountainous
+Moderate
+Minerals
+Minerals, Raw materials
+Mercantile
+Chemicals, Rare materials
+none
+none
+
+--------------------------
+non
+XEARLARA
+Xearlara
+578.456177,285.361084,18.935886
+Small
+Temperate
+Sparse
+Aquatic
+Aquatic, Minerals, Raw fuel, Raw materials
+Industrial/Agricultural
+Processed food, Refined fuel, Medicine
+none
+none
+
+--------------------------
+non
+XEARVERA
+Xearvera
+693.274475,150.830307,-16.060493
+Medium
+Temperate
+Dense
+Aquatic
+Food, Aquatic*, Raw fuel
+Industrial/Agricultural
+Enhanced rations, Processed food*
+none
+none
+

@@ -1,0 +1,626 @@
+HARKOR
+Duchy
+4
+41
+6
+PLANETARY STATISTICS:
+1 7 27 7 
+18 5 4 3 6 2 4 
+3 14 18 7 
+4 8 15 10 0 4 1 
+The Duchy of Hakor is one of the most powerful regions in the Empire.  The Dukes of Harkor have always been militaristic, more recently they have embarked on an aggressive economic and technological development program.  Harkor planets are often the most modern and well developed, although not necessarily the most pleasant to visit.
+--------------------------
+core
+HARKOR
+Harkor
+-142.117996,80.329002,-67.991997
+Large
+Mountainous
+Dense
+Raw fuel
+Minerals, Raw fuel
+Industrial
+Consumer electronics, Weaponry
+none
+Garrison
+HARKOR is officially the capital of the duchy, although in practice the court has not resided there in centuries, instead opting for residence in VESOEN.  The planet is very industrialized, which may have .
+--------------------------
+core
+DIXEUS
+Dixeus
+-123.771004,61.810001,-69.977997
+Medium
+Temperate
+Moderate
+Food
+Food*
+Industrial/Agricultural
+Bulk food, Enhanced rations
+none
+none
+DIXEUS, known as the granary of Harkor, is a major food producing planet.
+--------------------------
+core
+ESATUS
+Esatus
+-210.328995,129.718994,-82.010002
+Medium
+Temperate
+Moderate
+Food
+Food, Raw materials
+Agricultural
+Bulk food, Processed food
+none
+none
+ESATUS was once the capital of its own principality, and played a major role in the early Intermediate Period.
+--------------------------
+core
+REARRA
+Rearra
+-181.914001,96.242996,-35.110001
+Large
+Temperate
+Dense
+Food
+Food, Minerals
+Mixed
+Enhanced rations, Entertainment
+none
+none
+REARRA is a large and populus planet.  It is known for its gambling houses and casinos, but also as a retreat for diplomats and politicians.
+--------------------------
+core
+SOVEUS
+Soveus
+-200.819000,109.232002,-45.001999
+Medium
+Volcanic
+Moderate
+Raw fuel
+Minerals, Raw fuel
+Industrial
+Consumer electronics, High grade fuel
+none
+none
+
+--------------------------
+core
+VESOEN
+Vesoen
+-133.511993,81.882004,-78.401001
+Medium
+Temperate
+Moderate
+Food
+Food, Minerals
+Industrial/Agricultural
+Enhanced rations, Advanced electronics
+none
+none
+VESOEN is the de facto capital of the Duchy of Harkor.  Considered a far more pleasant planet than HARKOR itself.
+--------------------------
+non
+ANCEDI
+Ancedi
+-108.071037,100.997353,-14.700058
+Medium
+Temperate
+Moderate
+Raw materials
+Food, Minerals, Raw materials*
+Mixed
+Processed food, Consumer electronics, Medicine*
+none
+none
+
+--------------------------
+non
+ANDIIN
+Andiin
+-157.586334,88.166870,-116.468002
+Medium
+Temperate
+Moderate
+Furs
+Aquatic, Furs*, Raw materials
+Agricultural
+Medicine
+none
+none
+
+--------------------------
+non
+ANISBI
+Anisbi
+-162.638062,74.460846,-50.636639
+Medium
+Temperate
+Moderate
+Minerals
+Aquatic, Furs, Minerals*
+Industrial/Agricultural
+Processed food, Tourism
+none
+none
+
+--------------------------
+non
+AREDGEAR
+Aredgear
+-120.372787,104.882072,-81.104736
+Small
+Jungle
+Sparse
+Minerals
+Minerals*
+Industrial
+Farm machinery, Refined ore
+none
+none
+
+--------------------------
+non
+ARZAIS
+Arzais
+-199.947433,64.575356,-122.611664
+Medium
+Jungle
+Dense
+Aquatic
+Aquatic, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+ATINZA
+Atinza
+-113.458290,78.350868,-84.023323
+Medium
+Mountainous
+Moderate
+Minerals
+Minerals*
+Industrial
+Farm machinery, Refined ore
+none
+none
+
+--------------------------
+non
+ATREQU
+Atrequ
+-191.334351,39.477448,-82.754326
+Medium
+Jungle
+Dense
+Aquatic
+Aquatic, Furs
+Industrial/Agricultural
+Processed food, Luxury goods, Consumer goods
+none
+none
+
+--------------------------
+non
+BERI
+Beri
+-198.361618,35.976379,-90.804108
+Large
+Temperate
+Sparse
+Food
+Food, Furs, Minerals, Raw fuel
+Industrial/Agricultural
+Processed food, Refined ore
+none
+none
+
+--------------------------
+non
+CECEAR
+Cecear
+-128.131500,131.658066,-40.084217
+Medium
+Ice
+Dense
+Aquatic
+Aquatic, Minerals
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+CECESO BETA
+Ceceso beta
+-151.510193,178.985168,-98.554024
+Small
+Temperate
+Moderate
+Furs
+Food, Furs*, Raw materials
+Agricultural
+Processed food, Luxury goods, Biochemicals
+none
+none
+
+--------------------------
+non
+EDTILA
+Edtila
+-159.694092,100.102821,-50.599640
+Medium
+Desert
+Moderate
+Raw fuel
+Raw fuel*
+Industrial
+Refined fuel*
+none
+none
+
+--------------------------
+non
+ERSOBI
+Ersobi
+-228.382904,58.424820,-62.023510
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs, Minerals
+Mixed
+Enhanced rations, Processed food, Consumer electronics, Religion
+none
+none
+
+--------------------------
+non
+ESRAXE
+Esraxe
+-176.449509,118.040009,-59.452644
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals, Raw fuel
+Primitive
+
+Asteroid field
+none
+
+--------------------------
+non
+GECEMA
+Gecema
+-135.704773,76.099373,-76.888680
+Small
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+GEDISO
+Gediso
+-155.838364,75.004669,-178.881958
+Small
+Ice
+Moderate
+Minerals
+Minerals, Raw fuel
+Industrial
+Consumer electronics, Refined fuel
+none
+none
+
+--------------------------
+non
+ISRAVE
+Israve
+-206.407486,116.219101,-78.435600
+Medium
+Temperate
+Sparse
+Food
+Food, Aquatic, Minerals, Raw fuel
+Industrial/Agricultural
+Bulk food, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+LEEDAR
+Leedar
+-85.367310,111.809845,-19.129448
+Medium
+Water
+Moderate
+Raw fuel
+Raw fuel*
+Industrial/Agricultural
+High grade fuel
+none
+none
+
+--------------------------
+non
+LETERALE I
+Leterale i
+-125.061081,148.768555,-13.725280
+Large
+Desert
+Sparse
+Furs
+Furs, Raw fuel
+Agricultural
+Chemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+QUANLE
+Quanle
+-185.830719,105.614395,-83.291351
+Medium
+Mountainous
+Moderate
+Minerals
+Minerals, Raw materials
+Industrial/Agricultural
+Biochemicals
+none
+none
+
+--------------------------
+non
+QUANUS
+Quanus
+-114.892136,82.518684,-34.695160
+Medium
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw materials
+Agricultural
+Bulk food, Biochemicals, Religion
+none
+none
+
+--------------------------
+non
+QUEDLA
+Quedla
+-141.284103,15.282533,-53.549770
+Medium
+Mountainous
+Dense
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+RAENXE
+Raenxe
+-135.972458,6.120384,-104.310974
+Large
+Ice
+Minimal
+Raw fuel
+Raw fuel*
+Outpost
+
+none
+none
+
+--------------------------
+non
+RAMAXE
+Ramaxe
+-71.300690,79.585938,-99.837494
+Medium
+Temperate
+Sparse
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Enhanced rations*, Chemicals
+none
+none
+
+--------------------------
+non
+RARABE
+Rarabe
+-192.927490,-33.614758,-54.184540
+Medium
+Jungle
+Sparse
+Food
+Food, Aquatic
+Industrial/Agricultural
+Enhanced rations, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+REBEBEAT
+Rebebeat
+-238.369965,42.696087,-90.043755
+Medium
+Volcanic
+Minimal
+Minerals
+Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+TIAR ALPHA
+Tiar alpha
+-164.026993,74.800873,-49.385628
+Large
+Temperate
+Moderate
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Bulk food, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+TIAR BETA
+Tiar beta
+-164.026993,74.800873,-49.385628
+Large
+Temperate
+Moderate
+Food
+Food, Aquatic, Minerals, Raw materials
+Industrial/Agricultural
+Processed food*, Farm machinery, Medicine
+none
+none
+
+--------------------------
+non
+USCE
+Usce
+-153.453949,72.028137,-61.956512
+Medium
+Temperate
+Moderate
+Minerals
+Aquatic, Furs, Minerals*
+Industrial
+Enhanced rations, Refined ore, Rare materials
+none
+none
+
+--------------------------
+non
+USENIS
+Usenis
+-62.754471,58.177917,-85.016548
+Small
+Desert
+Dense
+Minerals
+Minerals, Raw fuel
+Mixed
+Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+USGERE
+Usgere
+-121.346344,28.827911,-96.485336
+Medium
+Ice
+Sparse
+Aquatic
+Aquatic, Furs
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+USISBEUS
+Usisbeus
+-120.008949,97.874702,-65.746719
+Planetoid
+Ice
+Minimal
+Aquatic
+Aquatic, Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+USLALEA MAJOR
+Uslalea major
+-166.680771,130.835236,-67.426323
+Medium
+Temperate
+Sparse
+Furs
+Food, Furs*, Minerals
+Agricultural
+
+none
+none
+
+--------------------------
+non
+ZAARBEGE
+Zaarbege
+-141.793793,17.809755,-88.651070
+Medium
+Water
+Moderate
+Aquatic
+Aquatic, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+ZALAVEIN
+Zalavein
+-197.962234,113.289604,-105.049393
+Small
+Temperate
+Sparse
+Food
+Food*, Furs
+Industrial
+Bulk food, Processed food*, Chemicals
+none
+none
+
+--------------------------
+non
+ZAORES
+Zaores
+-196.538559,69.622673,3.227295
+Small
+Water
+Sparse
+Aquatic
+Aquatic, Furs
+Industrial/Agricultural
+Processed food, Liquor
+none
+University
+

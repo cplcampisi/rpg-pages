@@ -1,0 +1,236 @@
+REVEEN
+Constellation
+4
+15
+3
+PLANETARY STATISTICS:
+0 2 11 2 
+10 1 0 0 2 0 2 
+0 4 7 4 
+1 3 5 3 0 3 0 
+REVEEN is a principal member of the Rearran Alliance.
+--------------------------
+core
+REVEEN
+Reveen
+-152.765915,263.235931,-593.769714
+Medium
+Temperate
+Moderate
+Food
+Food, Furs
+Mixed
+Bulk food, Chemicals
+none
+none
+
+--------------------------
+core
+RASODI
+Rasodi
+-129.755859,236.754593,-568.830933
+Medium
+Temperate
+Sparse
+Furs
+Food, Aquatic, Furs*
+Agricultural
+Bulk food*
+none
+none
+
+--------------------------
+core
+TEZAIS
+Tezais
+-99.630539,274.053772,-566.356812
+Large
+Mountainous
+Sparse
+Furs
+Furs, Raw fuel
+Outpost
+Luxury goods
+none
+Military observation post
+
+--------------------------
+non
+ARGERI
+Argeri
+-153.958206,253.727371,-630.854675
+Medium
+Temperate
+Dense
+Food
+Food*, Raw fuel, Raw materials
+Industrial/Agricultural
+Processed food*, Medicine
+none
+University
+
+--------------------------
+non
+BIGEAN
+Bigean
+-115.425262,259.143005,-465.016357
+Large
+Mountainous
+Moderate
+Aquatic
+Aquatic, Furs
+Agricultural
+Chemicals, Religion
+Nebula
+none
+
+--------------------------
+non
+BIORREDI
+Biorredi
+-99.749672,254.081696,-588.617188
+Medium
+Temperate
+Moderate
+Aquatic
+Food, Aquatic*, Minerals
+Agricultural
+Bulk food*, Processed food
+none
+none
+
+--------------------------
+non
+BIRAA
+Biraa
+-166.278152,342.704346,-632.691711
+Medium
+Temperate
+Dense
+Aquatic
+Aquatic*, Furs*
+Industrial/Agricultural
+Bulk food, Processed food, Chemicals
+none
+none
+
+--------------------------
+non
+DIISLE
+Diisle
+-156.014069,241.724991,-559.390137
+Medium
+Temperate
+Sparse
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Processed food*, Liquor
+none
+none
+
+--------------------------
+non
+ENED
+Ened
+-115.293076,257.649384,-583.530090
+Medium
+Ice
+Moderate
+Food
+Food, Raw fuel
+Mixed
+Bulk food, Tourism
+none
+none
+
+--------------------------
+non
+LEISDI
+Leisdi
+-159.529160,223.356537,-574.322205
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic, Minerals
+Industrial/Agricultural
+Enhanced rations, Processed food
+none
+none
+
+--------------------------
+non
+MA
+Ma
+-159.574448,295.039429,-567.270264
+Medium
+Temperate
+Sparse
+Raw fuel
+Aquatic, Furs, Raw fuel*
+Industrial
+Processed food, Chemicals, Refined fuel*
+none
+none
+
+--------------------------
+non
+MADIRAOR
+Madiraor
+-185.607285,297.684235,-595.271423
+Medium
+Desert
+Moderate
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Enhanced rations
+none
+none
+
+--------------------------
+non
+MAREAT
+Mareat
+-231.909927,284.129303,-660.520264
+Small
+Temperate
+Dense
+Food
+Food*
+Industrial
+Enhanced rations*, Processed food*
+none
+none
+
+--------------------------
+non
+QUEDZARI
+Quedzari
+-140.539154,305.467560,-601.174072
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Minerals, Raw materials
+Industrial
+Enhanced rations, Processed food, Refined ore, Medicine
+none
+none
+
+--------------------------
+non
+SOBEMALA
+Sobemala
+-212.176025,276.790802,-593.302917
+Small
+Desert
+Dense
+Minerals
+Minerals, Raw fuel
+Mixed
+Refined ore, Religion
+none
+none
+

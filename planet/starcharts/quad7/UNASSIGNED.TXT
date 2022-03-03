@@ -1,0 +1,199 @@
+UNASSIGNED
+n/a
+7
+13
+--------------------------
+n/a
+ACATL
+Acatl
+-504.848999,-492.200989,381.722992
+Medium
+Jungle
+Sparse
+Raw materials
+Raw materials
+Primitive
+
+none
+Temple
+Eagle Worshippers.  Almost forgotten now, the Great Temple of ACATL was once a major archaeological site and used to draw many tourists and students.  ACATL's position within the Empire is uncertain:  Historically the Margrave of BRANT has claimed suzerainty over the planet.  However, recently the Duchy of HARKOR has laid a claim to the planet.  The Republic of MONOK maintains a trading city on the smaller northern continent.
+--------------------------
+n/a
+ATATLE
+Atatle
+-310.531342,-500.275757,165.508209
+Medium
+Jungle
+Moderate
+Minerals
+Minerals, Raw materials
+Primitive
+
+none
+none
+Eagle Worshippers
+--------------------------
+n/a
+EDAIS
+Edais
+-51.561909,-1.074332,143.729492
+Small
+Temperate
+Moderate
+Aquatic
+Food, Aquatic*, Furs
+Primitive
+Bulk food*
+none
+none
+
+--------------------------
+n/a
+GEED
+Geed
+-304.179352,-330.248352,310.249481
+Medium
+Ice
+Dense
+Furs
+Furs, Minerals
+Agricultural
+Refined ore, Tourism
+none
+none
+
+--------------------------
+n/a
+GEENEN
+Geenen
+-362.971954,-358.323425,345.751678
+Medium
+Jungle
+Dense
+Food
+Food, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+n/a
+LEQUXE
+Lequxe
+-397.808685,-338.680603,312.442657
+Small
+Temperate
+Dense
+Food
+Food*, Furs, Raw fuel
+Industrial/Agricultural
+Enhanced rations, Processed food, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+n/a
+MAZA
+Maza
+-342.540192,-473.076904,296.375977
+Small
+Desert
+Sparse
+Minerals
+Minerals*
+Primitive
+
+none
+none
+Eagle Worshippers
+--------------------------
+n/a
+ORARBE
+Orarbe
+-559.921875,-506.990997,102.195511
+Small
+Temperate
+Moderate
+Minerals
+Food, Furs, Minerals*
+Mixed
+Enhanced rations, Farm machinery, Rare materials
+none
+none
+
+--------------------------
+n/a
+RIDIVELE
+Ridivele
+-92.601959,-261.327362,371.055115
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Furs, Minerals
+Agricultural
+Bulk food, Rare materials
+none
+none
+
+--------------------------
+n/a
+VEEDBIOR
+Veedbior
+-246.047867,-426.444611,45.294365
+Large
+Ice
+Moderate
+Raw fuel
+Raw fuel*
+Industrial
+Refined fuel*, Consumer goods
+none
+none
+
+--------------------------
+n/a
+XEAN
+Xean
+-489.255829,-322.633667,296.096893
+Large
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw fuel
+Primitive
+
+none
+Temple
+Eagle Worshippers
+--------------------------
+n/a
+XEZAMAZA
+Xezamaza
+-387.378540,-571.406250,174.678604
+Small
+Jungle
+Sparse
+Aquatic
+Aquatic, Raw fuel
+Primitive
+
+none
+none
+Eagle Worshippers
+--------------------------
+n/a
+ZAATLE
+Zaatle
+-294.146332,-117.600754,284.150146
+Medium
+Water
+Sparse
+Minerals
+Minerals, Raw fuel
+Primitive
+
+none
+Temple
+Eagle Worshippers

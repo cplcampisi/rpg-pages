@@ -1,0 +1,266 @@
+ZARIEDIS
+Constellation
+6
+17
+3
+PLANETARY STATISTICS:
+1 3 11 2 
+9 1 2 1 2 0 2 
+0 3 10 4 
+0 1 4 6 1 4 1 
+
+--------------------------
+core
+ZARIEDIS
+Zariedis
+644.771790,-360.747589,-504.869019
+Small
+Temperate
+Dense
+Minerals
+Minerals*, Raw fuel
+Mercantile
+Processed food, Farm machinery, Consumer electronics
+none
+none
+
+--------------------------
+core
+QUESEN
+Quesen
+567.616516,-365.288513,-381.194336
+Small
+Temperate
+Moderate
+Aquatic
+Aquatic*, Minerals*
+Industrial/Agricultural
+Processed food*, Rare materials
+none
+none
+
+--------------------------
+core
+XEQUAT
+Xequat
+600.329224,-368.794678,-550.837646
+Medium
+Temperate
+Moderate
+Furs
+Food, Furs*, Raw materials
+Primitive
+Liquor, Chemicals, Biochemicals
+none
+none
+
+--------------------------
+non
+AQUMAOR
+Aqumaor
+700.519287,-375.324036,-536.213379
+Medium
+Temperate
+Dense
+Food
+Food*, Aquatic, Raw fuel
+Mixed
+Enhanced rations*
+none
+none
+
+--------------------------
+non
+ARDIBE
+Ardibe
+599.572205,-345.559174,-566.365540
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Furs, Minerals
+Mixed
+Enhanced rations, Processed food, Rare materials, Religion
+none
+none
+
+--------------------------
+non
+EDORA
+Edora
+660.286987,-393.970428,-517.384277
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic*, Furs, Raw materials
+Agricultural
+Bulk food, Processed food, Luxury goods, Medicine
+none
+none
+
+--------------------------
+non
+EDUSLE
+Edusle
+561.847900,-272.802673,-503.010834
+Small
+Jungle
+Dense
+Aquatic
+Aquatic, Raw materials
+Industrial/Agricultural
+Bulk food, Medicine
+none
+none
+
+--------------------------
+non
+ERVEXELE
+Ervexele
+630.455811,-315.958374,-466.956390
+Medium
+Mountainous
+Dense
+Food
+Food, Minerals
+Agricultural
+Processed food, Religion
+none
+none
+
+--------------------------
+non
+ESCE
+Esce
+576.089478,-339.725067,-450.520325
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Furs, Minerals
+Agricultural
+Bulk food*
+none
+none
+
+--------------------------
+non
+ESLALERI
+Eslaleri
+680.255493,-434.930359,-409.080170
+Medium
+Temperate
+Moderate
+Raw fuel
+Aquatic, Furs, Raw fuel*
+Industrial/Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+GETIGE
+Getige
+664.516479,-403.733948,-450.854889
+Medium
+Desert
+Moderate
+Minerals
+Minerals*
+Industrial
+Refined ore, Rare materials, Tourism
+none
+none
+
+--------------------------
+non
+LACEBI
+Lacebi
+656.710388,-439.494934,-491.457672
+Large
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Agricultural
+Tourism
+none
+none
+
+--------------------------
+non
+RAEDRA
+Raedra
+617.128113,-408.111420,-517.467407
+Medium
+Water
+Moderate
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*, Entertainment
+none
+none
+
+--------------------------
+non
+RIAREN
+Riaren
+538.876526,-414.093689,-452.592072
+Planetoid
+Ice
+Moderate
+Raw fuel
+Raw fuel*
+Agricultural
+Refined fuel
+none
+none
+
+--------------------------
+non
+TIENER
+Tiener
+594.140808,-328.424103,-506.066772
+Medium
+Desert
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+Industrial machinery, Tourism
+none
+none
+
+--------------------------
+non
+USREMA
+Usrema
+703.700073,-353.599548,-449.740082
+Large
+Temperate
+Sparse
+Food
+Food*, Aquatic*
+Mixed
+Bulk food*, Enhanced rations, Consumer goods
+none
+none
+
+--------------------------
+non
+VEBEDIRE
+Vebedire
+759.440613,-328.458252,-471.575836
+Medium
+Jungle
+Sparse
+Furs
+Furs*
+Agricultural
+Luxury goods
+none
+none
+

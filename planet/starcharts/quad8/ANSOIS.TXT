@@ -1,0 +1,341 @@
+ANSOIS
+Duchy
+8
+22
+4
+PLANETARY STATISTICS:
+2 5 15 0 
+10 3 1 0 5 1 2 
+0 9 9 4 
+0 1 4 5 0 8 4 
+
+--------------------------
+core
+ANSOIS
+Ansois
+-654.736572,-138.335297,-661.474609
+Medium
+Temperate
+Sparse
+Food
+Food*, Minerals, Raw materials
+Primitive
+Bulk food, Processed food, Refined ore
+none
+none
+
+--------------------------
+core
+TIXEQULE
+Tixequle
+-614.324768,-80.227821,-665.947998
+Small
+Temperate
+Moderate
+Furs
+Furs*, Raw materials
+Agricultural
+Liquor, Chemicals, Medicine
+none
+none
+
+--------------------------
+core
+USBI
+Usbi
+-721.279907,-184.268372,-603.411865
+Small
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Mixed
+Farm machinery, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+core
+XELEINMA
+Xeleinma
+-648.984619,-98.984665,-681.077393
+Planetoid
+Mountainous
+Moderate
+Furs
+Furs, Raw fuel
+Primitive
+
+none
+none
+
+--------------------------
+non
+ANATBIED
+Anatbied
+-625.514893,-100.652908,-644.661194
+Small
+Temperate
+Sparse
+Furs
+Food, Aquatic, Furs*
+Agricultural
+Bulk food, Enhanced rations, Luxury goods, Liquor, Consumer goods
+none
+none
+
+--------------------------
+non
+AT
+At
+-654.030640,-120.607132,-530.924011
+Small
+Mountainous
+Sparse
+Minerals
+Minerals*
+Mixed
+Industrial machinery, Rare materials, Consumer goods
+none
+none
+
+--------------------------
+non
+ATERBI
+Aterbi
+-694.273438,-99.147583,-652.653931
+Planetoid
+Ice
+Dense
+Minerals
+Minerals, Raw fuel
+Mixed
+Farm machinery, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+AVERARI
+Averari
+-597.740234,-57.371895,-593.690674
+Medium
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Agricultural
+
+none
+none
+
+--------------------------
+non
+BEESED
+Beesed
+-631.491577,-232.730988,-685.510498
+Medium
+Temperate
+Sparse
+Food
+Food*, Raw materials
+Mixed
+Bulk food*, Processed food, Biochemicals
+none
+none
+
+--------------------------
+non
+ENMACE
+Enmace
+-636.748779,-155.541595,-651.940796
+Small
+Temperate
+Moderate
+Minerals
+Food, Aquatic, Minerals*
+Primitive
+Bulk food*
+none
+none
+
+--------------------------
+non
+ENSOINEN
+Ensoinen
+-741.744324,-157.206268,-676.702698
+Medium
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Primitive
+
+none
+none
+
+--------------------------
+non
+INESIN BETA
+Inesin beta
+-750.653259,-240.384064,-614.817932
+Medium
+Temperate
+Sparse
+Food
+Food*, Aquatic
+Agricultural
+Bulk food*, Enhanced rations
+Asteroid field
+none
+
+--------------------------
+non
+ISAN
+Isan
+-667.165955,-137.306931,-717.247681
+Medium
+Temperate
+Moderate
+Food
+Food, Furs, Raw fuel, Raw materials
+Industrial/Agricultural
+Processed food, Luxury goods, Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+ISERSOAT
+Isersoat
+-591.711182,-209.656860,-667.526001
+Medium
+Mountainous
+Dense
+Furs
+Furs*
+Industrial/Agricultural
+Luxury goods, Chemicals
+none
+none
+
+--------------------------
+non
+ISRIDITE
+Isridite
+-661.572693,-149.765915,-737.852051
+Medium
+Temperate
+Moderate
+Aquatic
+Food, Aquatic*, Furs
+Industrial/Agricultural
+Enhanced rations, Processed food*
+none
+none
+
+--------------------------
+non
+LABISOZA
+Labisoza
+-555.038818,-210.992310,-681.402344
+Medium
+Jungle
+Dense
+Raw materials
+Raw materials*
+Mixed
+Biochemicals, Medicine, Entertainment
+none
+none
+
+--------------------------
+non
+REUS
+Reus
+-733.902710,-49.614601,-731.385437
+Medium
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Industrial
+
+none
+none
+
+--------------------------
+non
+RIVELA
+Rivela
+-701.565125,-222.370544,-646.608093
+Medium
+Ice
+Moderate
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*, Entertainment
+none
+none
+
+--------------------------
+non
+USEN
+Usen
+-753.969238,-197.917908,-682.390991
+Medium
+Temperate
+Moderate
+Raw fuel
+Food, Minerals, Raw fuel*
+Mixed
+Refined ore, Refined fuel*, Tourism
+none
+none
+
+--------------------------
+non
+USER PRIME
+User prime
+-689.686035,-146.916687,-642.093201
+Medium
+Mountainous
+Moderate
+Food
+Food, Minerals
+Industrial/Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+VEARI
+Veari
+-600.883728,-139.005188,-652.745544
+Medium
+Temperate
+Moderate
+Furs
+Furs*, Raw fuel, Raw materials
+Agricultural
+Liquor, Biochemicals
+none
+none
+
+--------------------------
+non
+ZABIER
+Zabier
+-562.300720,-41.451241,-643.848816
+Medium
+Mountainous
+Dense
+Minerals
+Minerals*
+Mixed
+Farm machinery, Rare materials
+none
+none
+

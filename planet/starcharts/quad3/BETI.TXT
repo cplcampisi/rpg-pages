@@ -1,0 +1,341 @@
+BETI
+Margravate
+3
+22
+3
+PLANETARY STATISTICS:
+1 5 12 4 
+11 0 3 2 3 2 1 
+1 12 7 2 
+1 4 4 5 0 4 4 
+
+--------------------------
+core
+BETI
+Beti
+-430.776276,183.016068,250.986633
+Small
+Temperate
+Minimal
+Food
+Food, Furs, Minerals, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+core
+BISO
+Biso
+-537.886169,149.121170,236.612991
+Medium
+Temperate
+Sparse
+Food
+Food, Furs, Minerals, Raw fuel
+Industrial/Agricultural
+Processed food
+none
+none
+
+--------------------------
+core
+ISXEVE
+Isxeve
+-452.135223,181.692673,228.646820
+Medium
+Temperate
+Sparse
+Food
+Food, Furs, Raw fuel, Raw materials
+Industrial
+Processed food, Luxury goods, Refined fuel, Medicine
+none
+none
+
+--------------------------
+non
+AEDSO
+Aedso
+-407.336792,189.797043,426.926514
+Medium
+Water
+Sparse
+Furs
+Furs, Raw fuel
+Agricultural
+Liquor
+none
+Dry dock
+
+--------------------------
+non
+ANEDUS
+Anedus
+-444.150452,129.828812,349.975464
+Large
+Water
+Sparse
+Aquatic
+Aquatic, Raw fuel
+Industrial/Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+ANRAIN
+Anrain
+-490.949951,96.620209,202.200455
+Medium
+Mountainous
+Moderate
+Food
+Food, Furs
+Mixed
+Processed food
+none
+none
+
+--------------------------
+non
+ARSOMA
+Arsoma
+-440.606934,174.504303,289.410583
+Small
+Temperate
+Sparse
+Food
+Food, Aquatic, Raw fuel, Raw materials
+Primitive
+
+none
+none
+
+--------------------------
+non
+DIQUAN
+Diquan
+-504.981262,62.167641,181.534912
+Medium
+Temperate
+Dense
+Food
+Food*, Furs*
+Industrial
+Enhanced rations, Processed food, Entertainment
+none
+none
+
+--------------------------
+non
+EDMAASO
+Edmaaso
+-531.733093,64.365425,209.158600
+Large
+Temperate
+Sparse
+Food
+Food*, Minerals
+Primitive
+
+none
+none
+
+--------------------------
+non
+ENSOER
+Ensoer
+-454.441040,194.463165,250.799316
+Small
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Mixed
+Consumer goods
+none
+none
+
+--------------------------
+non
+ENUSEN
+Enusen
+-486.819550,234.603729,193.865509
+Small
+Temperate
+Dense
+Food
+Food*, Furs, Raw fuel
+Mixed
+Enhanced rations*, Liquor, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+ERGETI
+Ergeti
+-492.469452,93.818588,204.360641
+Medium
+Jungle
+Sparse
+Furs
+Furs, Minerals
+Primitive
+Liquor
+none
+none
+
+--------------------------
+non
+ESARDIER
+Esardier
+-453.854309,221.043015,237.528122
+Medium
+Temperate
+Moderate
+Raw fuel
+Furs, Minerals, Raw fuel*
+Industrial/Agricultural
+Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+LAARAN
+Laaran
+-431.119690,150.681885,156.575287
+Large
+Jungle
+Moderate
+Furs
+Furs, Raw materials
+Primitive
+
+none
+none
+
+--------------------------
+non
+MAERRE
+Maerre
+-508.932373,219.215027,182.189056
+Medium
+Jungle
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial
+Refined ore, Refined fuel
+none
+none
+
+--------------------------
+non
+QUARLA
+Quarla
+-423.740021,169.103638,213.650055
+Medium
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Minerals
+Mixed
+Bulk food, Processed food, Liquor, Farm machinery, Entertainment
+none
+Trading post
+
+--------------------------
+non
+QULE
+Qule
+-454.477722,236.586121,311.675934
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic*, Raw fuel*
+Agricultural
+Bulk food*
+none
+University
+
+--------------------------
+non
+SOENES
+Soenes
+-410.793060,239.619156,271.671814
+Small
+Temperate
+Sparse
+Minerals
+Furs, Minerals*, Raw materials
+Industrial/Agricultural
+Rare materials, Medicine
+none
+none
+
+--------------------------
+non
+SOGERATI
+Sogerati
+-406.975067,201.567657,185.398438
+Medium
+Volcanic
+Moderate
+Raw fuel
+Raw fuel
+Industrial
+Refined fuel
+none
+none
+
+--------------------------
+non
+TEQUIS
+Tequis
+-352.778381,284.959656,330.958466
+Medium
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Agricultural
+
+none
+none
+
+--------------------------
+non
+XEERRAQU
+Xeerraqu
+-380.110870,109.583984,176.726227
+Large
+Desert
+Sparse
+Food
+Food, Minerals
+Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+ZAINES
+Zaines
+-383.753204,228.421066,226.154037
+Planetoid
+Mountainous
+Moderate
+Furs
+Furs, Raw fuel
+Agricultural
+
+none
+none
+

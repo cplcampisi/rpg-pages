@@ -1,0 +1,64 @@
+UNASSIGNED
+n/a
+5
+4
+--------------------------
+n/a
+BIVEED
+Biveed
+294.820526,-251.370880,409.676453
+Medium
+Volcanic
+Sparse
+Minerals
+Minerals
+Agricultural
+Consumer goods
+none
+none
+
+--------------------------
+n/a
+GEORESRE
+Georesre
+38.372101,-480.211975,77.523285
+Medium
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw materials
+Mixed
+Enhanced rations, Refined ore, Medicine
+none
+none
+
+--------------------------
+n/a
+QUORAN
+Quoran
+463.543213,-563.571045,501.044037
+Large
+Volcanic
+Sparse
+Minerals
+Minerals
+Primitive
+
+none
+none
+
+--------------------------
+n/a
+RAGERE
+Ragere
+191.513290,-536.078308,532.133667
+Small
+Temperate
+Sparse
+Minerals
+Food, Furs, Minerals*
+Mixed
+Enhanced rations, Consumer electronics, Rare materials, Entertainment
+none
+none
+

@@ -1,0 +1,116 @@
+XEXEER
+Republic
+4
+7
+1
+PLANETARY STATISTICS:
+0 2 3 2 
+0 1 2 0 3 1 0 
+0 2 2 3 
+0 1 2 3 0 1 0 
+
+--------------------------
+core
+XEXEER
+Xexeer
+-381.938812,514.441772,-97.147507
+Large
+Jungle
+Dense
+Raw materials
+Raw materials*
+Industrial/Agricultural
+Medicine*
+none
+none
+
+--------------------------
+non
+ARENCEVE
+Arenceve
+-412.569885,504.050507,-89.446663
+Small
+Mountainous
+Moderate
+Minerals
+Minerals, Raw fuel
+Industrial
+Farm machinery, Refined fuel
+none
+none
+
+--------------------------
+non
+ATQUQU
+Atququ
+-391.069275,536.961914,-131.632996
+Medium
+Mountainous
+Sparse
+Food
+Food, Furs
+Agricultural
+Enhanced rations, Consumer goods
+none
+none
+
+--------------------------
+non
+BICEMA
+Bicema
+-479.642365,462.926727,-105.743759
+Large
+Mountainous
+Moderate
+Food
+Food, Raw materials
+Agricultural
+Enhanced rations
+none
+none
+
+--------------------------
+non
+ESBIIN
+Esbiin
+-335.752838,528.581421,-56.754810
+Medium
+Ice
+Dense
+Furs
+Furs, Minerals
+Mixed
+Rare materials
+none
+none
+
+--------------------------
+non
+TIARBI
+Tiarbi
+-391.582001,522.608948,-174.494720
+Medium
+Jungle
+Dense
+Raw materials
+Raw materials*
+Industrial/Agricultural
+Biochemicals, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+USESIS
+Usesis
+-428.007080,535.503296,-147.673462
+Small
+Volcanic
+Sparse
+Minerals
+Minerals
+Agricultural
+Consumer goods
+none
+none
+

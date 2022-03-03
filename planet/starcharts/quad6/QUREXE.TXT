@@ -1,0 +1,221 @@
+QUREXE
+Constellation
+6
+14
+4
+PLANETARY STATISTICS:
+0 3 7 4 
+8 1 1 2 1 0 1 
+1 8 4 1 
+1 0 7 4 0 2 0 
+
+--------------------------
+core
+QUREXE
+Qurexe
+433.540039,-452.750671,-560.268799
+Large
+Water
+Sparse
+Aquatic
+Aquatic*
+Industrial/Agricultural
+Enhanced rations, Tourism
+none
+none
+
+--------------------------
+core
+ARRARE
+Arrare
+419.402466,-427.433350,-597.042236
+Medium
+Temperate
+Sparse
+Food
+Food*, Furs, Raw fuel
+Agricultural
+Enhanced rations, Processed food, Liquor
+none
+none
+
+--------------------------
+core
+ESABE
+Esabe
+491.436829,-427.294067,-500.805908
+Large
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw materials
+Mixed
+Bulk food, Enhanced rations, Biochemicals, Entertainment
+none
+none
+
+--------------------------
+core
+ESESMA
+Esesma
+522.013672,-399.267822,-532.959473
+Medium
+Jungle
+Moderate
+Furs
+Furs*
+Mixed
+Tourism
+none
+none
+
+--------------------------
+non
+BELECE
+Belece
+502.806274,-435.863647,-524.513062
+Large
+Desert
+Moderate
+Furs
+Furs, Raw fuel
+Agricultural
+
+none
+none
+
+--------------------------
+non
+EDLABE
+Edlabe
+452.026184,-437.242218,-471.688721
+Medium
+Ice
+Minimal
+Aquatic
+Aquatic, Furs
+Outpost
+Enhanced rations
+none
+none
+
+--------------------------
+non
+GELEMA
+Gelema
+468.345337,-478.362091,-587.932495
+Small
+Water
+Sparse
+Aquatic
+Aquatic*
+Industrial/Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+non
+INUSAR
+Inusar
+425.485870,-445.322754,-599.191223
+Medium
+Temperate
+Sparse
+Aquatic
+Aquatic*, Raw fuel, Raw materials
+Industrial/Agricultural
+Enhanced rations, Processed food, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+LAENES
+Laenes
+376.940155,-487.858673,-645.187317
+Medium
+Temperate
+Sparse
+Food
+Food*, Furs*
+Industrial/Agricultural
+Bulk food, Processed food, Entertainment
+none
+none
+
+--------------------------
+non
+MALAIN
+Malain
+374.136108,-490.523285,-511.764435
+Large
+Temperate
+Dense
+Furs
+Food, Furs*, Raw fuel
+Industrial/Agricultural
+Bulk food, Refined fuel
+none
+none
+
+--------------------------
+non
+RIBEDI
+Ribedi
+320.361389,-516.680542,-565.102966
+Small
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+TEANRIDI
+Teanridi
+385.016235,-486.137115,-588.046570
+Medium
+Temperate
+Sparse
+Furs
+Furs*, Minerals, Raw fuel
+Agricultural
+Chemicals, Religion
+none
+none
+
+--------------------------
+non
+XEANAR
+Xeanar
+361.055359,-516.793945,-495.316284
+Small
+Temperate
+Moderate
+Furs
+Furs*, Minerals*
+Agricultural
+Chemicals, Tourism
+none
+none
+
+--------------------------
+non
+XELADIRA
+Xeladira
+440.938232,-448.847809,-527.598328
+Medium
+Temperate
+Sparse
+Aquatic
+Food, Aquatic*, Raw materials
+Industrial/Agricultural
+Enhanced rations, Processed food*, Medicine, Consumer goods
+none
+none
+

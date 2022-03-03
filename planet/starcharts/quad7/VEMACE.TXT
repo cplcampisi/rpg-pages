@@ -1,0 +1,161 @@
+VEMACE
+Constellation
+7
+10
+2
+PLANETARY STATISTICS:
+2 4 4 0 
+6 2 0 0 0 1 1 
+0 3 3 4 
+0 2 3 2 0 3 0 
+
+--------------------------
+core
+VEMACE
+Vemace
+-72.760254,-621.616821,406.635956
+Small
+Temperate
+Dense
+Food
+Food, Furs, Minerals, Raw materials
+Agricultural
+Bulk food, Medicine, Consumer goods
+none
+none
+
+--------------------------
+core
+TIGEOR
+Tigeor
+-134.393402,-550.127808,384.679321
+Medium
+Temperate
+Dense
+Aquatic
+Aquatic, Furs, Minerals, Raw materials
+Industrial/Agricultural
+Processed food, Medicine
+none
+none
+
+--------------------------
+non
+ERANVE
+Eranve
+-29.679035,-584.983643,484.421478
+Planetoid
+Ice
+Sparse
+Food
+Food, Raw fuel
+Mixed
+Bulk food, Refined fuel
+none
+none
+
+--------------------------
+non
+INLEQU
+Inlequ
+-121.564621,-614.663330,359.809448
+Small
+Temperate
+Sparse
+Furs
+Furs*, Raw fuel*
+Agricultural
+Luxury goods, Liquor, Tourism
+none
+Military barracks
+
+--------------------------
+non
+INRAEN
+Inraen
+65.123291,-551.279053,403.169739
+Medium
+Desert
+Dense
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*
+none
+none
+
+--------------------------
+non
+LADIXEED
+Ladixeed
+-89.542358,-625.197876,431.614075
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Minerals, Raw fuel
+Industrial
+Enhanced rations, Processed food, Consumer electronics, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+QUINRE
+Quinre
+-104.799904,-629.016541,407.754913
+Medium
+Temperate
+Moderate
+Raw materials
+Food, Furs, Raw materials*
+Industrial/Agricultural
+Processed food, Biochemicals*, Entertainment
+none
+none
+
+--------------------------
+non
+TIESRI
+Tiesri
+-27.436737,-660.045471,389.802338
+Small
+Temperate
+Moderate
+Food
+Food*, Minerals*
+Industrial/Agricultural
+Enhanced rations, Processed food
+none
+none
+
+--------------------------
+non
+USBELA
+Usbela
+-45.548157,-610.687988,358.389099
+Small
+Ice
+Dense
+Aquatic
+Aquatic, Raw fuel
+Mixed
+Enhanced rations, Entertainment
+none
+none
+
+--------------------------
+non
+USORQU
+Usorqu
+-14.306274,-613.880676,272.297119
+Planetoid
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Industrial
+Refined fuel
+none
+none
+

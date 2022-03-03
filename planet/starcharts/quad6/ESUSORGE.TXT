@@ -1,0 +1,431 @@
+ESUSORGE
+Duchy
+6
+28
+6
+PLANETARY STATISTICS:
+2 3 19 4 
+15 3 4 0 2 1 3 
+1 10 11 6 
+1 5 6 6 3 5 2 
+
+--------------------------
+core
+ESUSORGE
+Esusorge
+544.640930,-60.080841,-639.003540
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic*, Raw fuel*
+Mixed
+Bulk food, Processed food, Refined fuel*
+none
+none
+
+--------------------------
+core
+ANESTE
+Aneste
+648.384705,-173.311432,-673.479126
+Planetoid
+Desert
+Sparse
+Minerals
+Minerals*
+Industrial
+Refined ore*, Consumer goods
+none
+none
+
+--------------------------
+core
+ORBERI
+Orberi
+573.964722,-86.693962,-614.635315
+Medium
+Temperate
+Moderate
+Raw materials
+Food, Aquatic, Raw materials*
+Industrial/Agricultural
+Enhanced rations, Processed food, Biochemicals*
+none
+none
+
+--------------------------
+core
+RAATTI
+Raatti
+574.536011,-73.547363,-634.096252
+Medium
+Temperate
+Moderate
+Minerals
+Minerals*, Raw materials
+Mixed
+Farm machinery*, Biochemicals, Religion
+none
+none
+
+--------------------------
+core
+TEGEDI
+Tegedi
+545.044678,-73.702950,-604.052185
+Large
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw fuel
+Industrial/Agricultural
+Enhanced rations*
+none
+none
+
+--------------------------
+core
+TIASO
+Tiaso
+413.568481,-119.586243,-658.289917
+Large
+Temperate
+Dense
+Furs
+Food, Aquatic, Furs*
+Agricultural
+Bulk food, Processed food, Liquor, Consumer goods
+none
+none
+
+--------------------------
+non
+ANBELA
+Anbela
+612.112183,-165.335297,-583.382507
+Medium
+Ice
+Dense
+Raw fuel
+Raw fuel*
+Industrial
+Refined fuel*, Consumer goods
+none
+none
+
+--------------------------
+non
+BIEDQU
+Biedqu
+596.294189,-61.391346,-584.792542
+Large
+Jungle
+Sparse
+Aquatic
+Aquatic*
+Agricultural
+Bulk food, Processed food, Tourism
+none
+none
+
+--------------------------
+non
+ERESED
+Eresed
+532.219910,-86.304123,-745.608765
+Small
+Temperate
+Moderate
+Food
+Food*, Raw materials
+Mercantile
+Bulk food, Enhanced rations*, Farm machinery
+none
+University
+
+--------------------------
+non
+ERTILAZA
+Ertilaza
+631.219849,-32.049850,-686.499146
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic*, Furs, Raw fuel
+Industrial/Agricultural
+Processed food*, Tourism
+none
+none
+
+--------------------------
+non
+ESMAESEN
+Esmaesen
+513.271240,-46.574131,-640.396545
+Medium
+Temperate
+Dense
+Food
+Food*, Minerals
+Mixed
+Bulk food, Enhanced rations, Processed food, Farm machinery, Consumer goods
+none
+none
+
+--------------------------
+non
+GELEQU
+Gelequ
+557.770020,-19.447788,-669.066956
+Planetoid
+Ice
+Minimal
+Food
+Food, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+INORMA
+Inorma
+571.457458,-74.373695,-657.141602
+Small
+Jungle
+Sparse
+Aquatic
+Aquatic*
+Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+non
+ISEDOR
+Isedor
+599.258179,-2.878071,-643.196167
+Medium
+Temperate
+Sparse
+Furs
+Aquatic, Furs*
+Primitive
+Liquor, Religion
+none
+none
+
+--------------------------
+non
+ISGETI
+Isgeti
+535.491028,1.976280,-652.413086
+Large
+Ice
+Dense
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+Gems
+none
+none
+
+--------------------------
+non
+ISSOZA
+Issoza
+591.644897,-110.005852,-614.964844
+Medium
+Desert
+Moderate
+Raw fuel
+Raw fuel*
+Mercantile
+Refined fuel, Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+LAATISO
+Laatiso
+616.583740,-61.805134,-651.414307
+Medium
+Mountainous
+Sparse
+Furs
+Furs, Raw materials
+Primitive
+Luxury goods
+none
+none
+
+--------------------------
+non
+LELEAGE
+Leleage
+517.257385,66.425690,-656.013672
+Small
+Temperate
+Dense
+Food
+Food*, Raw materials
+Industrial
+Enhanced rations*, Medicine
+none
+none
+
+--------------------------
+non
+ORANMA
+Oranma
+515.777344,-82.409119,-682.749512
+Medium
+Volcanic
+Sparse
+Minerals
+Minerals
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+ORAUS
+Oraus
+541.888245,-131.246628,-661.512207
+Medium
+Temperate
+Sparse
+Furs
+Food, Furs*, Minerals
+Mixed
+Bulk food, Liquor, Rare materials
+none
+none
+
+--------------------------
+non
+ORMAES
+Ormaes
+676.758484,-116.941467,-671.833008
+Medium
+Jungle
+Sparse
+Aquatic
+Aquatic, Furs
+Agricultural
+Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+QUBIGE
+Qubige
+601.762878,-21.428062,-597.518127
+Medium
+Temperate
+Sparse
+Food
+Food*, Raw fuel, Raw materials
+Industrial/Agricultural
+Bulk food, Medicine
+none
+none
+
+--------------------------
+non
+RAMABIGE
+Ramabige
+492.032043,-100.439804,-599.258911
+Medium
+Temperate
+Dense
+Food
+Food*, Furs, Minerals
+Agricultural
+Bulk food, Processed food, Tourism
+none
+none
+
+--------------------------
+non
+RIQUBE
+Riqube
+608.315735,-125.596275,-580.238037
+Medium
+Temperate
+Moderate
+Raw fuel
+Food, Raw fuel*, Raw materials
+Industrial
+Enhanced rations, Refined fuel*, Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+TIATTI
+Tiatti
+520.725098,-102.469688,-577.677307
+Medium
+Temperate
+Moderate
+Raw fuel
+Furs, Raw fuel*, Raw materials
+Mercantile
+Bulk food, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+TIRABEBE
+Tirabebe
+489.198303,84.212708,-627.014465
+Medium
+Desert
+Moderate
+Furs
+Furs, Raw fuel
+Industrial
+High grade fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+USLAOR
+Uslaor
+590.091248,90.714218,-642.383484
+Medium
+Jungle
+Moderate
+Food
+Food, Minerals
+Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+XERISOLA PRIME
+Xerisola prime
+482.043579,-125.615997,-593.399414
+Medium
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Mixed
+
+none
+none
+

@@ -1,0 +1,94 @@
+UNASSIGNED
+n/a
+3
+6
+--------------------------
+n/a
+ANTEZARE
+Antezare
+-203.549881,537.063110,620.047974
+Small
+Temperate
+Dense
+Furs
+Furs*, Raw materials*
+Industrial/Agricultural
+Biochemicals, Medicine, Consumer goods
+none
+none
+
+--------------------------
+n/a
+INATZARE
+Inatzare
+-376.927612,677.401855,292.914673
+Small
+Jungle
+Minimal
+Aquatic
+Aquatic, Raw materials
+Outpost
+Bulk food
+none
+none
+
+--------------------------
+n/a
+REQUZA
+Requza
+-563.646545,592.756714,61.821674
+Planetoid
+Ice
+Dense
+Minerals
+Minerals, Raw fuel
+Agricultural
+Entertainment
+none
+none
+
+--------------------------
+n/a
+SOSOGE PRIME
+Sosoge prime
+-463.622070,303.870392,649.756409
+Medium
+Temperate
+Dense
+Aquatic
+Aquatic*, Raw fuel
+Industrial/Agricultural
+Processed food*
+none
+none
+
+--------------------------
+n/a
+VEXEIS
+Vexeis
+-476.972137,556.589294,458.914917
+Medium
+Jungle
+Dense
+Aquatic
+Aquatic, Furs
+Industrial
+
+none
+none
+
+--------------------------
+n/a
+ZAUSLE
+Zausle
+-697.997009,64.179604,666.471680
+Small
+Desert
+Moderate
+Minerals
+Minerals, Raw materials
+Industrial
+Medicine
+none
+none
+

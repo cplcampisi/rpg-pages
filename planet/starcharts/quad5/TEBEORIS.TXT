@@ -1,0 +1,236 @@
+TEBEORIS
+Constellation
+5
+15
+2
+PLANETARY STATISTICS:
+1 0 8 6 
+9 0 1 0 2 2 1 
+0 7 6 2 
+0 3 3 2 3 3 1 
+
+--------------------------
+core
+TEBEORIS
+Tebeoris
+424.461304,-78.816345,53.503265
+Medium
+Volcanic
+Sparse
+Minerals
+Minerals
+Primitive
+
+none
+none
+
+--------------------------
+core
+TIEREN
+Tieren
+402.358521,-98.588943,79.136154
+Medium
+Temperate
+Moderate
+Furs
+Furs*, Minerals, Raw materials
+Mercantile
+Enhanced rations, Liquor, Industrial machinery, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+ATENLA
+Atenla
+298.111328,-66.387573,67.871712
+Large
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Raw materials
+Industrial
+Enhanced rations*, Medicine
+none
+none
+
+--------------------------
+non
+ATMARARE
+Atmarare
+457.843719,-10.242149,53.434471
+Medium
+Temperate
+Sparse
+Minerals
+Aquatic, Furs, Minerals*
+Mixed
+Industrial machinery, Farm machinery, Consumer goods
+none
+none
+
+--------------------------
+non
+DIRELA
+Direla
+393.600098,-5.961174,46.783356
+Large
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Minerals
+Agricultural
+Bulk food*, Refined ore
+none
+none
+
+--------------------------
+non
+DIVELARI
+Divelari
+495.437256,-80.707466,49.095249
+Planetoid
+Desert
+Moderate
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*
+none
+none
+
+--------------------------
+non
+EDMAIS
+Edmais
+480.163177,-122.965401,25.630173
+Medium
+Temperate
+Sparse
+Food
+Food*, Aquatic, Raw fuel
+Mixed
+Bulk food, Enhanced rations, Processed food, Religion
+none
+none
+
+--------------------------
+non
+ENMAANDI
+Enmaandi
+418.858002,2.835197,70.045799
+Medium
+Volcanic
+Moderate
+Raw fuel
+Raw fuel
+Mercantile
+
+none
+none
+
+--------------------------
+non
+INARI
+Inari
+439.228485,-84.666550,-25.058830
+Large
+Jungle
+Sparse
+Food
+Food, Aquatic
+Industrial/Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+ORGEQU
+Orgequ
+375.442749,-234.388138,141.721176
+Medium
+Temperate
+Moderate
+Minerals
+Food, Furs, Minerals*
+Mercantile
+Processed food, Liquor, Refined ore
+none
+none
+
+--------------------------
+non
+QUSOES
+Qusoes
+460.795471,-148.973450,76.183624
+Large
+Temperate
+Sparse
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+RERITE
+Rerite
+450.952087,-14.411621,-73.822655
+Large
+Temperate
+Sparse
+Food
+Food*, Minerals, Raw materials
+Agricultural
+Bulk food*, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+RILEAT
+Rileat
+476.345245,-89.465210,86.645859
+Large
+Temperate
+Dense
+Raw fuel
+Aquatic, Minerals, Raw fuel*
+Industrial
+Enhanced rations, Refined ore, Refined fuel
+none
+none
+
+--------------------------
+non
+ZARI
+Zari
+413.475433,-66.592354,-83.433792
+Medium
+Mountainous
+Moderate
+Raw materials
+Raw materials*
+Industrial
+Medicine*, Consumer goods
+none
+none
+
+--------------------------
+non
+ZATIAT
+Zatiat
+370.024689,-99.617935,-23.882660
+Medium
+Mountainous
+Moderate
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+Consumer goods
+none
+none
+

@@ -1,0 +1,221 @@
+ANTIIN
+Constellation
+6
+14
+4
+PLANETARY STATISTICS:
+0 2 9 3 
+3 4 2 0 1 1 3 
+0 7 3 4 
+0 2 3 4 0 4 1 
+
+--------------------------
+core
+ANTIIN
+Antiin
+501.190369,-93.267029,-318.670166
+Large
+Desert
+Sparse
+Food
+Food, Minerals
+Mixed
+Bulk food, Industrial machinery, Consumer goods
+none
+none
+
+--------------------------
+core
+CESOUSSO
+Cesousso
+518.244080,-32.004761,-280.630432
+Medium
+Mountainous
+Sparse
+Food
+Food, Furs
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+core
+GEXEQU
+Gexequ
+456.370270,-45.980015,-299.821747
+Medium
+Ice
+Sparse
+Food
+Food, Minerals
+Agricultural
+Bulk food, Tourism
+none
+none
+
+--------------------------
+core
+TERI
+Teri
+432.857819,-142.615387,-322.393402
+Medium
+Temperate
+Moderate
+Aquatic
+Food, Aquatic*, Furs
+Industrial
+Enhanced rations, Processed food*, Chemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+ARUSEN
+Arusen
+481.207367,-90.084686,-260.139038
+Large
+Ice
+Dense
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+ATQUIS
+Atquis
+487.154297,-187.892822,-394.895599
+Medium
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Agricultural
+
+none
+none
+
+--------------------------
+non
+CERASO
+Ceraso
+564.888794,-85.229897,-374.044098
+Small
+Ice
+Moderate
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+Industrial machinery
+Asteroid field
+none
+
+--------------------------
+non
+ENSOEN
+Ensoen
+535.142700,-118.561279,-407.997467
+Medium
+Desert
+Dense
+Furs
+Furs, Raw fuel
+Industrial/Agricultural
+Refined fuel, Religion
+none
+none
+
+--------------------------
+non
+ENSOLE
+Ensole
+459.862244,-83.761208,-313.439514
+Small
+Desert
+Dense
+Food
+Food, Minerals
+Mixed
+Enhanced rations, Refined ore, Religion
+none
+none
+
+--------------------------
+non
+INISRE
+Inisre
+597.250183,-37.391811,-286.720642
+Medium
+Temperate
+Moderate
+Aquatic
+Food, Aquatic*, Minerals
+Agricultural
+Bulk food*, Processed food, Refined ore, Consumer goods
+none
+none
+
+--------------------------
+non
+ISARA
+Isara
+459.167877,20.092247,-338.790497
+Medium
+Temperate
+Dense
+Aquatic
+Aquatic, Furs, Minerals, Raw materials
+Mixed
+Processed food, Liquor, Industrial machinery, Biochemicals
+none
+none
+
+--------------------------
+non
+ORZAED
+Orzaed
+515.974365,-71.082108,-398.507080
+Large
+Ice
+Sparse
+Raw fuel
+Raw fuel*
+Industrial
+Refined fuel, High grade fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+QUANDI
+Quandi
+477.211090,-58.822712,-349.994812
+Medium
+Jungle
+Sparse
+Raw materials
+Raw materials*
+Primitive
+
+none
+none
+
+--------------------------
+non
+XEANED
+Xeaned
+539.107849,-70.619713,-255.557053
+Medium
+Jungle
+Sparse
+Raw fuel
+Raw fuel*
+Industrial/Agricultural
+
+none
+none
+

@@ -1,0 +1,506 @@
+ZAQUOR
+Kingdom
+2
+33
+4
+PLANETARY STATISTICS:
+1 8 17 7 
+12 1 6 4 3 3 4 
+1 14 15 3 
+3 6 11 8 1 4 0 
+
+--------------------------
+core
+ZAQUOR
+Zaquor
+510.072083,121.560791,-367.968018
+Large
+Volcanic
+Sparse
+Minerals
+Minerals
+Industrial
+Consumer electronics
+none
+none
+
+--------------------------
+core
+AQUXE
+Aquxe
+613.993103,96.216064,-397.571960
+Small
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw materials
+Industrial/Agricultural
+Processed food, Medicine, Entertainment
+none
+none
+
+--------------------------
+core
+TEREVEUS
+Tereveus
+464.703064,94.484589,-313.250214
+Small
+Desert
+Sparse
+Raw fuel
+Raw fuel, Raw materials
+Industrial
+Refined fuel, Medicine, Entertainment
+none
+none
+
+--------------------------
+core
+VELEUSZA
+Veleusza
+469.706696,130.728943,-396.436401
+Large
+Jungle
+Moderate
+Food
+Food, Aquatic
+Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+non
+AESGEIS
+Aesgeis
+548.378601,176.806793,-386.920837
+Medium
+Jungle
+Sparse
+Furs
+Furs*
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+ANDIA
+Andia
+485.528046,212.994751,-485.184906
+Planetoid
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Industrial/Agricultural
+Liquor
+none
+Dry dock
+
+--------------------------
+non
+ARLAMASO
+Arlamaso
+510.713287,165.031311,-411.048370
+Large
+Desert
+Moderate
+Furs
+Furs, Raw fuel
+Agricultural
+Luxury goods
+none
+none
+
+--------------------------
+non
+BIMAAR
+Bimaar
+581.427734,162.449677,-345.739044
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs*
+Industrial/Agricultural
+Enhanced rations, Processed food, Liquor
+none
+none
+
+--------------------------
+non
+CEGEVEQU
+Cegevequ
+537.115540,148.221069,-389.680969
+Medium
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Industrial
+Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+DIBI
+Dibi
+559.932495,182.717072,-382.574463
+Medium
+Jungle
+Dense
+Food
+Food, Raw materials
+Industrial/Agricultural
+Enhanced rations, Medicine
+none
+none
+
+--------------------------
+non
+DIDIGE
+Didige
+505.246246,143.513779,-384.937469
+Large
+Mountainous
+Sparse
+Furs
+Furs, Minerals
+Agricultural
+
+none
+none
+
+--------------------------
+non
+EDA
+Eda
+557.213074,140.085175,-434.550171
+Medium
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Mixed
+Consumer electronics
+none
+none
+
+--------------------------
+non
+EDATUSAN
+Edatusan
+486.046631,145.023987,-360.579498
+Large
+Water
+Moderate
+Aquatic
+Aquatic, Minerals
+Mixed
+Processed food, Refined ore
+none
+none
+
+--------------------------
+non
+ENES
+Enes
+541.641174,131.268555,-395.505096
+Small
+Volcanic
+Dense
+Minerals
+Minerals
+Industrial
+Industrial machinery
+none
+none
+
+--------------------------
+non
+ENLERA ALPHA
+Enlera alpha
+546.117432,242.703140,-391.148621
+Medium
+Temperate
+Sparse
+Food
+Food*, Minerals
+Agricultural
+Bulk food*, Processed food, Entertainment
+none
+none
+
+--------------------------
+non
+ENLERA BETA
+Enlera beta
+546.117432,242.703140,-391.148621
+Medium
+Water
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial
+Refined ore, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+EREN
+Eren
+519.674805,94.551987,-361.954956
+Large
+Temperate
+Moderate
+Food
+Food*, Minerals, Raw materials
+Industrial/Agricultural
+Processed food*, Medicine
+none
+none
+
+--------------------------
+non
+ESESXE
+Esesxe
+553.495239,156.537872,-316.268616
+Medium
+Desert
+Moderate
+Furs
+Furs, Minerals
+Agricultural
+Luxury goods
+Asteroid field
+none
+
+--------------------------
+non
+GEEDAN
+Geedan
+530.242920,53.506645,-328.237854
+Medium
+Jungle
+Moderate
+Aquatic
+Aquatic, Minerals
+Industrial/Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+GERITI
+Geriti
+554.290710,253.108063,-272.176147
+Medium
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+INESDIUS
+Inesdius
+511.821320,47.077187,-399.997131
+Medium
+Water
+Dense
+Aquatic
+Aquatic*
+Industrial/Agricultural
+Enhanced rations
+none
+none
+
+--------------------------
+non
+ISBIES
+Isbies
+520.736328,110.893463,-445.699890
+Medium
+Jungle
+Sparse
+Raw fuel
+Raw fuel, Raw materials
+Mercantile
+Enhanced rations, Entertainment
+none
+none
+
+--------------------------
+non
+LATILEAT
+Latileat
+520.706116,34.515251,-436.542419
+Small
+Temperate
+Moderate
+Food
+Food*, Aquatic*
+Industrial/Agricultural
+Enhanced rations*, Processed food*
+none
+none
+
+--------------------------
+non
+RAATTE
+Raatte
+549.627258,144.361008,-373.059845
+Small
+Temperate
+Minimal
+Furs
+Food, Aquatic, Furs*
+Outpost
+Bulk food, Chemicals
+none
+none
+
+--------------------------
+non
+RILAAT
+Rilaat
+524.528931,65.247925,-318.105042
+Medium
+Temperate
+Sparse
+Minerals
+Aquatic, Furs, Minerals*
+Mixed
+Processed food, Consumer electronics, Refined ore
+none
+none
+
+--------------------------
+non
+TEARBE
+Tearbe
+522.458008,113.080070,-412.311493
+Medium
+Jungle
+Sparse
+Aquatic
+Aquatic, Raw fuel
+Industrial/Agricultural
+Processed food, Refined fuel
+none
+none
+
+--------------------------
+non
+TELAIS
+Telais
+527.518372,155.927826,-398.518066
+Medium
+Ice
+Moderate
+Minerals
+Minerals, Raw fuel
+Mixed
+Rare materials, Refined fuel
+none
+none
+
+--------------------------
+non
+TERASOES
+Terasoes
+504.832001,134.899612,-495.689087
+Small
+Temperate
+Moderate
+Furs
+Food, Furs*, Raw materials
+Agricultural
+Bulk food, Luxury goods, Biochemicals
+none
+none
+
+--------------------------
+non
+TIINRI
+Tiinri
+506.699493,180.004623,-307.407532
+Small
+Temperate
+Sparse
+Food
+Food*, Furs*
+Agricultural
+Bulk food, Processed food, Tourism
+none
+none
+
+--------------------------
+non
+TIRE
+Tire
+602.143860,33.833069,-335.733093
+Medium
+Desert
+Sparse
+Food
+Food, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+TIRIIS
+Tiriis
+502.486481,28.409706,-368.641907
+Small
+Temperate
+Moderate
+Raw fuel
+Furs, Minerals, Raw fuel*
+Industrial
+Chemicals, Rare materials, Refined fuel*
+none
+none
+
+--------------------------
+non
+USESUS
+Usesus
+409.954346,146.808746,-386.675690
+Large
+Water
+Sparse
+Raw fuel
+Raw fuel*
+Outpost
+
+none
+none
+
+--------------------------
+non
+ZATEES
+Zatees
+517.181763,224.751068,-302.356506
+Medium
+Temperate
+Sparse
+Furs
+Food, Furs*
+Industrial/Agricultural
+Processed food, Liquor
+none
+none
+

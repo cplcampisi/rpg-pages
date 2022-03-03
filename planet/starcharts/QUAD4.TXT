@@ -1,0 +1,65 @@
+4
+-1.000000 1.000000 -1.000000
+
+342
+14 73 189 66 
+152 21 31 28 59 18 33 
+14 131 129 68 
+16 57 89 78 13 60 29 
+--------------------------
+11
+--------------------------
+AEDAT
+Aedat
+Kingdom
+Imperial
+--------------------------
+HARKOR
+Harkor
+Duchy
+Harkor
+--------------------------
+LAENINE
+Laenine
+Archduchy
+Harkor
+--------------------------
+LEISBE
+Leisbe
+Archduchy
+Imperial
+--------------------------
+ORRAES
+Orraes
+Kingdom
+Harkor
+--------------------------
+REVEEN
+Reveen
+Constellation
+Harkor
+--------------------------
+SOORDI
+Soordi
+Kingdom
+Imperial
+--------------------------
+USESAT
+Usesat
+Duchy
+Imperial
+--------------------------
+XEMARITE
+Xemarite
+Constellation
+Imperial
+--------------------------
+XEXEER
+Xexeer
+Republic
+Free
+--------------------------
+ZAAR
+Zaar
+Archduchy
+Imperial

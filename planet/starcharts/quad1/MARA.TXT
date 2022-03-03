@@ -1,0 +1,446 @@
+MARA
+Kingdom
+1
+29
+7
+PLANETARY STATISTICS:
+1 4 16 9 
+13 2 1 4 4 1 5 
+1 6 13 10 
+1 4 7 6 1 10 1 
+The Kingdom of Mara is the core region in the Empire, and contains the Imperial capital.  An old Kingdom, it is where the First Maran Empire began, and is near the center of the inhabited worlds.
+--------------------------
+core
+MARA
+Mara
+0.000000,0.000000,0.000000
+Medium
+Temperate
+Moderate
+Food
+Food, Minerals
+Mixed
+Bulk food, Rare materials
+none
+Garrison
+MARA, also called 'the center', is the old capital of the Maran Empire.  It was the capital of the Second Maran Empire until 2673 when Emperor Ulen II moved the capital to Solonia.
+--------------------------
+core
+BELA PRIME
+Bela prime
+16.201000,8.951000,28.284000
+Medium
+Water
+Moderate
+Aquatic
+Aquatic
+Mixed
+Tourism, Religion
+none
+Temple
+BELA and XEBELA are sometimes known as the 'Sister Planets.' Both planets are very old and have religious significance dating back to before the First Empire.  BELA PRIME was occasionally used as a capital of both the First and Second Empires, although it never lasted more than a few decades at a time in this role.  BELA has many temples and attracts many tourists and religious pilgrims.  It is considered to be a culturally important planet in the Empire.
+--------------------------
+core
+BELERI
+Beleri
+45.583000,90.276001,32.050999
+Large
+Mountainous
+Dense
+Minerals
+Minerals, Raw fuel
+Industrial
+Industrial machinery, Refined ore
+none
+none
+BELERI is described as the 'factory of the empire.'  While certainly true in the past, the large industrial planet's resources are much depleted compared to its heyday in the First Empire.  Nevertheless the planet maintains many factories and production centers, and is the main industrial planet in the Imperial core.
+--------------------------
+core
+CEISTE
+Ceiste
+23.552999,78.412003,102.003998
+Medium
+Jungle
+Sparse
+Raw materials
+Raw fuel, Raw materials
+Agricultural
+Biochemicals
+none
+University
+CEISTE was overlooked during the First Maran Empire, and is one of the few 'new' planets in the Imperial core.
+--------------------------
+core
+SOLONIA
+Solonia
+52.022999,27.871000,12.960000
+Medium
+Temperate
+Sparse
+Food
+Food, Furs
+Agricultural
+Bulk food, Chemicals
+none
+none
+SOLONIA is the capital of Empire and the primary residence of the Emperor.  Emperor Ulen II moved the capital to SOLONIA in 2673 from the old capital of MARA to insulate the Imperial Court from the local politics on MARA.  SOLONIA had been popular among Second Empire emperors as a hunting reserve, and the Imperial family continues to enjoy this sport on the planet.
+--------------------------
+core
+XEARES
+Xeares
+112.023003,87.332001,20.110001
+Large
+Temperate
+Dense
+Food
+Food, Minerals
+Industrial/Agricultural
+Bulk food, Farm machinery
+none
+Garrison
+
+--------------------------
+core
+XEBELA
+Xebela
+15.119000,7.027000,22.993000
+Small
+Mountainous
+Moderate
+Minerals
+Minerals
+Mixed
+Gems, Religion
+none
+Temple
+BELA and XEBELA are sometimes known as the 'Sister Planets.' Both planets are very old and have religious significance dating back to before the First Empire.  XEBELA's population consists mostly of religious ascetics, and the planet has many monasteries and ancient temples.  Tourism is not as popular as on its sister planet, but XEBELA is renown for very beautiful landscapes.  Small amounts of gems are mined on the planet.
+--------------------------
+non
+AATXE
+Aatxe
+-45.472061,70.588036,-16.343142
+Large
+Temperate
+Moderate
+Food
+Food*, Raw materials
+Agricultural
+Bulk food, Processed food*, Medicine
+none
+none
+
+--------------------------
+non
+ATATDIRI PRIME
+Atatdiri prime
+59.533447,-13.593126,12.051859
+Medium
+Temperate
+Moderate
+Minerals
+Food, Minerals*, Raw fuel
+Primitive
+Bulk food
+none
+none
+
+--------------------------
+non
+BIXE
+Bixe
+10.576835,48.368988,30.632420
+Medium
+Temperate
+Dense
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Processed food*, Chemicals, Weaponry
+none
+none
+
+--------------------------
+non
+CEGEBI
+Cegebi
+52.676975,36.607185,13.672871
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs
+Mixed
+Bulk food*, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+CERARA
+Cerara
+71.824272,18.469597,21.802706
+Large
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw materials
+Agricultural
+Bulk food, Biochemicals
+none
+none
+
+--------------------------
+non
+DIMASO
+Dimaso
+4.754581,12.042696,26.569317
+Large
+Mountainous
+Sparse
+Food
+Food, Raw materials
+Industrial/Agricultural
+Bulk food, Medicine
+none
+none
+
+--------------------------
+non
+ESMA
+Esma
+60.103298,-18.510643,31.369127
+Medium
+Desert
+Moderate
+Furs
+Furs, Raw fuel
+Mixed
+Chemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+INLAGE
+Inlage
+39.732780,-26.605495,-24.312504
+Medium
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+Rare materials
+none
+none
+
+--------------------------
+non
+ISERESGE
+Iseresge
+111.999512,10.617641,69.562172
+Medium
+Ice
+Minimal
+Minerals
+Minerals, Raw fuel
+Outpost
+
+none
+Ship facilities
+
+--------------------------
+non
+LAERVELE
+Laervele
+16.079905,10.291850,34.279037
+Medium
+Water
+Dense
+Aquatic
+Aquatic, Minerals
+Mercantile
+Enhanced rations, Processed food
+none
+none
+
+--------------------------
+non
+OREDIS
+Oredis
+74.955376,53.863907,-7.665076
+Large
+Temperate
+Dense
+Food
+Food, Furs, Minerals, Raw fuel
+Industrial
+Processed food, Chemicals, Rare materials
+none
+none
+
+--------------------------
+non
+ORUSEN
+Orusen
+30.147461,46.042030,1.609440
+Medium
+Temperate
+Dense
+Aquatic
+Aquatic*, Furs, Minerals
+Industrial
+Enhanced rations*, Rare materials
+none
+none
+
+--------------------------
+non
+QUZAMA
+Quzama
+26.758244,75.602432,77.411514
+Small
+Desert
+Moderate
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*
+none
+none
+
+--------------------------
+non
+RISOATIN
+Risoatin
+54.131660,79.576187,14.507438
+Medium
+Desert
+Dense
+Food
+Food*
+Industrial/Agricultural
+Processed food*
+none
+none
+
+--------------------------
+non
+SOUSED
+Soused
+41.139858,130.312698,6.328831
+Medium
+Water
+Sparse
+Aquatic
+Aquatic, Raw fuel
+Agricultural
+Bulk food, Tourism
+none
+none
+
+--------------------------
+non
+TEESBE
+Teesbe
+59.164825,49.544701,-26.758532
+Large
+Temperate
+Moderate
+Food
+Food*, Furs, Raw fuel
+Industrial/Agricultural
+Enhanced rations, Processed food, Chemicals
+none
+none
+
+--------------------------
+non
+TIARQU
+Tiarqu
+138.688339,46.202126,-19.235544
+Medium
+Temperate
+Moderate
+Food
+Food*, Minerals
+Mixed
+Bulk food, Processed food*, Rare materials, Consumer goods
+none
+Garrison
+
+--------------------------
+non
+TIQUUS MAJOR
+Tiquus major
+26.171394,84.084435,4.373331
+Large
+Temperate
+Moderate
+Food
+Food*, Aquatic, Raw fuel
+Agricultural
+Bulk food, Processed food*
+none
+none
+
+--------------------------
+non
+TIQUUS MINOR
+Tiquus minor
+26.171394,84.084435,4.373331
+Small
+Mountainous
+Dense
+Food
+Food*
+Mixed
+Bulk food, Enhanced rations, Consumer goods
+none
+none
+
+--------------------------
+non
+VEANRI
+Veanri
+61.141048,-32.215080,16.124800
+Large
+Desert
+Dense
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*, Consumer goods
+none
+none
+
+--------------------------
+non
+XEGEBI
+Xegebi
+46.582401,48.536484,81.181931
+Medium
+Water
+Moderate
+Raw fuel
+Raw fuel*
+Industrial/Agricultural
+High grade fuel
+none
+none
+
+--------------------------
+non
+ZAAROR
+Zaaror
+86.937378,55.942135,14.751502
+Planetoid
+Ice
+Dense
+Minerals
+Minerals, Raw fuel
+Industrial
+Industrial machinery, Refined fuel, Consumer goods
+none
+none
+

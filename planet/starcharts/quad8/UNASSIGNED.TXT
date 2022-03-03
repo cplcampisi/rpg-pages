@@ -1,0 +1,169 @@
+UNASSIGNED
+n/a
+8
+11
+--------------------------
+n/a
+CELEMA
+Celema
+-634.475586,-530.811096,-542.239136
+Small
+Temperate
+Dense
+Raw materials
+Food, Aquatic, Raw materials*
+Mixed
+Bulk food, Enhanced rations, Medicine, Consumer goods
+none
+none
+
+--------------------------
+n/a
+DIBIER
+Dibier
+-594.874573,-462.986359,-496.326263
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Minerals, Raw fuel
+Primitive
+Bulk food
+none
+none
+
+--------------------------
+n/a
+EDDI
+Eddi
+-629.010986,-387.834869,-640.655701
+Large
+Temperate
+Sparse
+Food
+Food*, Aquatic, Furs
+Primitive
+Bulk food*
+none
+none
+
+--------------------------
+n/a
+ESBILE ALPHA
+Esbile alpha
+-278.350098,-130.191818,-633.877869
+Small
+Temperate
+Sparse
+Food
+Food*, Furs*
+Mixed
+Processed food*, Chemicals*, Entertainment
+none
+none
+
+--------------------------
+n/a
+ISZATE
+Iszate
+-138.525223,-693.424622,-87.390518
+Small
+Temperate
+Minimal
+Food
+Food*, Furs, Raw fuel
+Outpost
+Processed food
+none
+none
+
+--------------------------
+n/a
+ORAN
+Oran
+-405.142242,-325.457001,-155.716812
+Planetoid
+Jungle
+Sparse
+Raw fuel
+Raw fuel, Raw materials
+Mixed
+High grade fuel, Consumer goods
+none
+University
+
+--------------------------
+n/a
+REZAIS
+Rezais
+-590.852112,-251.391479,-636.584045
+Medium
+Mountainous
+Minimal
+Food
+Food, Minerals
+Outpost
+
+none
+none
+
+--------------------------
+n/a
+RIRIBE
+Riribe
+-100.207481,-687.339355,-12.558261
+Medium
+Jungle
+Sparse
+Aquatic
+Aquatic, Minerals
+Mixed
+Processed food, Refined ore
+none
+none
+
+--------------------------
+n/a
+SOANSOMA
+Soansoma
+-135.483200,-666.149109,-168.014374
+Medium
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Mixed
+Industrial machinery, Refined fuel
+none
+none
+
+--------------------------
+n/a
+VEESRA
+Veesra
+-547.476257,-468.839264,-483.295380
+Small
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Mixed
+Rare materials, Entertainment
+none
+none
+
+--------------------------
+n/a
+ZAESAR
+Zaesar
+-453.073547,-479.229767,-450.415039
+Medium
+Temperate
+Moderate
+Furs
+Food, Furs*, Raw materials
+Agricultural
+Processed food, Luxury goods, Biochemicals, Religion
+none
+none
+

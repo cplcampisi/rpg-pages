@@ -1,0 +1,206 @@
+EDVECE
+Constellation
+3
+13
+2
+PLANETARY STATISTICS:
+1 2 9 1 
+9 1 1 1 1 0 0 
+1 2 7 3 
+1 1 2 3 0 4 2 
+
+--------------------------
+core
+EDVECE
+Edvece
+-465.287109,639.795776,547.411804
+Medium
+Temperate
+Moderate
+Minerals
+Food, Minerals*, Raw materials
+Industrial
+Enhanced rations, Weaponry, Refined ore, Medicine, Entertainment
+none
+none
+
+--------------------------
+core
+ATDI
+Atdi
+-406.571777,695.991577,553.753357
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs
+Primitive
+Processed food, Chemicals
+none
+none
+
+--------------------------
+non
+ANLATE
+Anlate
+-385.490875,685.094604,628.118286
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+Tourism
+none
+none
+
+--------------------------
+non
+BIREES
+Birees
+-442.057037,704.093994,536.412659
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic*, Furs*
+Agricultural
+Bulk food, Processed food, Luxury goods*, Consumer goods
+none
+none
+
+--------------------------
+non
+CELALE
+Celale
+-405.937012,716.020447,480.534332
+Medium
+Temperate
+Minimal
+Food
+Food, Aquatic, Furs, Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+EDXETIUS
+Edxetius
+-520.699890,547.610046,413.736664
+Medium
+Water
+Moderate
+Aquatic
+Aquatic, Raw fuel
+Mixed
+Bulk food, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+LEXEVERI
+Lexeveri
+-469.758881,601.934326,569.845703
+Medium
+Temperate
+Dense
+Food
+Food*, Raw materials
+Mixed
+Enhanced rations*, Processed food, Medicine, Entertainment
+none
+none
+
+--------------------------
+non
+MATIUS
+Matius
+-499.458954,622.155518,676.257568
+Large
+Jungle
+Sparse
+Aquatic
+Aquatic, Raw materials
+Primitive
+Bulk food
+none
+none
+
+--------------------------
+non
+TEAESIN
+Teaesin
+-440.034027,664.694519,494.758545
+Small
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Minerals
+Mixed
+Bulk food, Enhanced rations, Chemicals, Refined ore
+none
+none
+
+--------------------------
+non
+VERE
+Vere
+-414.146057,702.034180,536.628662
+Small
+Temperate
+Moderate
+Aquatic
+Aquatic, Minerals, Raw fuel, Raw materials
+Mixed
+Processed food, Weaponry, Refined fuel
+none
+none
+
+--------------------------
+non
+XEARE
+Xeare
+-611.378662,535.097717,567.533875
+Planetoid
+Ice
+Moderate
+Minerals
+Minerals*
+Agricultural
+Refined ore*
+none
+none
+
+--------------------------
+non
+XEORER
+Xeorer
+-528.294861,654.092224,577.493347
+Medium
+Temperate
+Dense
+Food
+Food*, Furs, Raw materials
+Industrial/Agricultural
+Bulk food, Enhanced rations, Liquor, Entertainment
+none
+none
+
+--------------------------
+non
+ZAEDTE
+Zaedte
+-465.475586,637.396240,530.308105
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic, Furs, Minerals, Raw fuel
+Agricultural
+Bulk food, Refined ore, Tourism
+none
+none
+

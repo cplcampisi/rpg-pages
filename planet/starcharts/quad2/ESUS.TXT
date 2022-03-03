@@ -1,0 +1,311 @@
+ESUS
+Margravate
+2
+20
+5
+PLANETARY STATISTICS:
+0 4 12 4 
+7 0 2 3 3 2 3 
+1 5 8 6 
+1 1 6 5 1 5 1 
+
+--------------------------
+core
+ESUS
+Esus
+282.621552,80.377197,-60.490234
+Medium
+Jungle
+Moderate
+Food
+Food*
+Agricultural
+Bulk food*
+none
+none
+
+--------------------------
+core
+AGEDIZA
+Agediza
+239.358124,107.029579,-71.910080
+Medium
+Desert
+Dense
+Minerals
+Minerals, Raw fuel
+Mixed
+Rare materials, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+core
+LEARCE
+Learce
+318.098480,50.638512,62.892357
+Medium
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Minerals
+Industrial/Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+core
+RIINLA
+Riinla
+218.432617,8.911835,-1.784275
+Large
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Raw materials
+Mixed
+Enhanced rations*, Biochemicals, Entertainment
+none
+none
+
+--------------------------
+core
+USENERRE
+Usenerre
+221.714523,62.394005,-132.441650
+Large
+Water
+Sparse
+Aquatic
+Aquatic, Raw fuel
+Industrial/Agricultural
+Processed food, High grade fuel
+none
+none
+
+--------------------------
+non
+ANATZA
+Anatza
+217.562622,59.883205,-21.332047
+Medium
+Jungle
+Moderate
+Food
+Food, Minerals
+Mixed
+Enhanced rations, Refined ore, Entertainment
+none
+none
+
+--------------------------
+non
+ANCEANBI
+Anceanbi
+218.406586,17.479740,-111.416779
+Medium
+Volcanic
+Moderate
+Minerals
+Minerals
+Agricultural
+Tourism
+none
+none
+
+--------------------------
+non
+ANGEIN GAMMA
+Angein gamma
+249.560181,43.316135,-16.887642
+Large
+Mountainous
+Sparse
+Minerals
+Minerals, Raw materials
+Industrial/Agricultural
+Medicine
+none
+none
+
+--------------------------
+non
+ANLEOR III
+Anleor iii
+258.717651,44.040844,-8.869869
+Medium
+Mountainous
+Sparse
+Food
+Food, Minerals
+Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+ARRALE
+Arrale
+177.366791,133.262863,-2.763844
+Small
+Water
+Moderate
+Aquatic
+Aquatic, Minerals
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+BILEQU
+Bilequ
+297.763458,147.671814,-22.886120
+Medium
+Mountainous
+Dense
+Minerals
+Minerals*
+Mercantile
+Consumer electronics, Rare materials
+none
+none
+
+--------------------------
+non
+DIINBILA
+Diinbila
+399.605621,29.855827,-58.864986
+Medium
+Desert
+Moderate
+Minerals
+Minerals*
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+EDBE
+Edbe
+290.673004,43.442909,31.314934
+Medium
+Desert
+Sparse
+Raw fuel
+Raw fuel*
+Primitive
+
+none
+none
+
+--------------------------
+non
+ENINLA
+Eninla
+386.160065,42.426292,-86.459946
+Large
+Temperate
+Moderate
+Food
+Food, Aquatic, Minerals, Raw fuel
+Industrial
+Bulk food, Processed food, Industrial machinery, Refined fuel
+none
+none
+
+--------------------------
+non
+INDIIS
+Indiis
+297.024078,30.602684,-150.153534
+Small
+Temperate
+Moderate
+Aquatic
+Aquatic, Furs, Minerals, Raw materials
+Mixed
+Chemicals, Refined ore, Medicine
+none
+none
+
+--------------------------
+non
+LAARER
+Laarer
+338.270355,59.338280,-70.313713
+Medium
+Temperate
+Moderate
+Food
+Food*, Minerals*
+Industrial/Agricultural
+Enhanced rations, Processed food, Refined ore, Consumer goods
+none
+none
+
+--------------------------
+non
+ORESOR
+Oresor
+344.863647,103.785774,-189.451340
+Small
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Raw materials
+Mixed
+Bulk food, Processed food, Medicine, Tourism
+none
+none
+
+--------------------------
+non
+QUANQU
+Quanqu
+209.751892,122.008774,-98.901169
+Medium
+Temperate
+Minimal
+Food
+Food*, Furs, Raw materials
+Outpost
+
+none
+none
+
+--------------------------
+non
+RETEEN
+Reteen
+178.712997,-0.740700,-34.109917
+Small
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Agricultural
+
+none
+none
+
+--------------------------
+non
+ZAGEMA
+Zagema
+223.575974,-15.758133,-95.148659
+Medium
+Water
+Dense
+Aquatic
+Aquatic*
+Agricultural
+Processed food
+none
+none
+

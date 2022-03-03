@@ -1,0 +1,206 @@
+XECETI
+Constellation
+5
+13
+2
+PLANETARY STATISTICS:
+0 2 5 6 
+8 1 0 0 2 0 2 
+0 4 3 6 
+0 1 4 3 0 4 1 
+
+--------------------------
+core
+XECETI
+Xeceti
+189.381134,-350.995544,257.720917
+Large
+Temperate
+Dense
+Food
+Food*, Aquatic, Raw materials
+Mixed
+Bulk food, Enhanced rations*, Medicine, Tourism
+none
+none
+
+--------------------------
+core
+USSOES
+Ussoes
+182.400803,-408.687469,284.076782
+Medium
+Desert
+Sparse
+Minerals
+Minerals*
+Mixed
+Industrial machinery, Farm machinery
+none
+none
+
+--------------------------
+non
+ARAMA
+Arama
+191.219421,-351.546875,321.333038
+Large
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+Refined ore, Religion
+none
+none
+
+--------------------------
+non
+BIERA
+Biera
+232.824661,-409.973602,226.356262
+Medium
+Temperate
+Dense
+Raw fuel
+Food, Aquatic, Raw fuel*
+Industrial
+Processed food*, Refined fuel
+none
+none
+
+--------------------------
+non
+EDLEZA
+Edleza
+290.703766,-380.568726,271.465759
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Furs, Minerals
+Industrial/Agricultural
+Bulk food, Enhanced rations, Consumer goods
+none
+none
+
+--------------------------
+non
+ERRIVEBI
+Errivebi
+303.950623,-475.647736,207.320679
+Large
+Mountainous
+Sparse
+Aquatic
+Aquatic, Raw materials
+Agricultural
+Bulk food, Biochemicals
+none
+none
+
+--------------------------
+non
+INUSXE
+Inusxe
+193.946991,-444.219879,270.343506
+Small
+Mountainous
+Dense
+Food
+Food, Minerals
+Mixed
+Processed food, Industrial machinery, Entertainment
+none
+none
+
+--------------------------
+non
+ISMAZA
+Ismaza
+182.446335,-409.319550,336.762970
+Small
+Temperate
+Moderate
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Enhanced rations, Processed food
+none
+none
+
+--------------------------
+non
+ORLAA
+Orlaa
+140.066589,-405.355225,262.401062
+Medium
+Temperate
+Moderate
+Furs
+Food, Furs*
+Mixed
+Bulk food
+none
+none
+
+--------------------------
+non
+RAESQUBI
+Raesqubi
+254.644287,-338.323334,215.086288
+Large
+Temperate
+Sparse
+Furs
+Furs, Minerals, Raw fuel, Raw materials
+Primitive
+Luxury goods
+none
+none
+
+--------------------------
+non
+RIATVE
+Riatve
+153.984741,-348.588593,277.520416
+Large
+Ice
+Dense
+Minerals
+Minerals, Raw fuel
+Agricultural
+
+none
+none
+
+--------------------------
+non
+SOLEGE
+Solege
+160.997238,-348.544525,139.948929
+Medium
+Temperate
+Dense
+Raw materials
+Food, Furs, Raw materials*
+Agricultural
+Processed food, Biochemicals*
+none
+none
+
+--------------------------
+non
+USTIBITI
+Ustibiti
+222.246262,-396.776428,100.143036
+Large
+Temperate
+Dense
+Aquatic
+Food, Aquatic*, Raw fuel
+Industrial/Agricultural
+Enhanced rations*, Processed food
+none
+none
+

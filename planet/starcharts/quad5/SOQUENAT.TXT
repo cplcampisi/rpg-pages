@@ -1,0 +1,101 @@
+SOQUENAT
+Republic
+5
+6
+2
+PLANETARY STATISTICS:
+1 0 3 2 
+1 1 0 1 2 0 1 
+0 2 1 3 
+0 2 1 0 0 3 0 
+
+--------------------------
+core
+SOQUENAT
+Soquenat
+595.790833,-543.446350,296.889343
+Large
+Ice
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+core
+ATENOR
+Atenor
+581.308838,-484.466766,319.783417
+Medium
+Desert
+Sparse
+Food
+Food*
+Mixed
+Processed food*
+none
+none
+
+--------------------------
+non
+ARER
+Arer
+604.697754,-577.881287,291.660492
+Large
+Temperate
+Dense
+Minerals
+Food, Minerals*
+Industrial
+Enhanced rations, Refined ore, Rare materials
+none
+none
+
+--------------------------
+non
+ATLEAN
+Atlean
+499.926544,-514.612549,245.687210
+Medium
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Mixed
+Rare materials, Entertainment
+none
+none
+
+--------------------------
+non
+EDLEBE
+Edlebe
+623.964600,-529.142029,253.802277
+Medium
+Water
+Dense
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel, Religion
+none
+none
+
+--------------------------
+non
+ISSORAAT
+Issoraat
+546.206177,-550.744812,308.143707
+Planetoid
+Mountainous
+Dense
+Minerals
+Minerals*
+Industrial
+Industrial machinery, Consumer electronics, Consumer goods
+Asteroid field
+none
+

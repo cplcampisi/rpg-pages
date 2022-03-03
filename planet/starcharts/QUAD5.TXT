@@ -1,0 +1,65 @@
+5
+1.000000 -1.000000 1.000000
+
+247
+10 42 133 62 
+97 16 19 24 35 28 28 
+12 94 85 56 
+11 46 59 51 12 48 20 
+--------------------------
+11
+--------------------------
+ANGECE II
+Angece ii
+Margravate
+Imperial
+--------------------------
+AXEVE
+Axeve
+Archduchy
+Harkor
+--------------------------
+ERQUGECE
+Erqugece
+Archduchy
+Imperial
+--------------------------
+GEUSLA
+Geusla
+Kingdom
+Imperial
+--------------------------
+LABECEER
+Labeceer
+Constellation
+Imperial
+--------------------------
+RA
+Ra
+Kingdom
+Imperial
+--------------------------
+SOGEORRE
+Sogeorre
+Constellation
+Imperial
+--------------------------
+SOQUENAT
+Soquenat
+Republic
+Free
+--------------------------
+TEBEORIS
+Tebeoris
+Constellation
+Imperial
+--------------------------
+USSOAN
+Ussoan
+Margravate
+Imperial
+--------------------------
+XECETI
+Xeceti
+Constellation
+Imperial

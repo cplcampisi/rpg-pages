@@ -1,0 +1,311 @@
+INTEBE
+Margravate
+2
+20
+3
+PLANETARY STATISTICS:
+0 5 9 6 
+13 1 0 1 3 1 1 
+1 11 4 4 
+1 0 5 5 2 6 1 
+
+--------------------------
+core
+INTEBE
+Intebe
+663.033325,60.518463,-385.927399
+Small
+Temperate
+Sparse
+Furs
+Furs*, Minerals
+Agricultural
+Entertainment
+none
+none
+
+--------------------------
+core
+GEBIAN
+Gebian
+648.262878,58.457489,-377.442749
+Medium
+Temperate
+Sparse
+Aquatic
+Food, Aquatic*, Furs
+Agricultural
+Bulk food, Tourism
+none
+none
+
+--------------------------
+core
+XETEBELA
+Xetebela
+600.431580,42.079861,-331.616882
+Medium
+Temperate
+Moderate
+Raw fuel
+Furs, Minerals, Raw fuel*
+Mixed
+Refined ore, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+ARDIED
+Ardied
+671.178833,105.864838,-363.725861
+Large
+Water
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+Rare materials
+none
+none
+
+--------------------------
+non
+ATINGEES
+Atingees
+606.087585,49.617615,-338.375732
+Medium
+Ice
+Sparse
+Minerals
+Minerals*
+Mixed
+Industrial machinery, Consumer electronics, Tourism
+none
+University
+
+--------------------------
+non
+ATTELEAT
+Atteleat
+559.533142,172.788513,-466.252747
+Small
+Temperate
+Dense
+Food
+Food, Furs, Raw fuel, Raw materials
+Mixed
+Processed food, Biochemicals, Entertainment
+none
+none
+
+--------------------------
+non
+BILARAUS
+Bilaraus
+695.479126,-5.176590,-361.759125
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals*
+Mercantile
+Industrial machinery, Consumer goods
+none
+none
+
+--------------------------
+non
+CEORED
+Ceored
+691.689270,12.148861,-348.154419
+Small
+Mountainous
+Sparse
+Food
+Food, Minerals
+Industrial/Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+ERISAR
+Erisar
+695.403259,3.807617,-356.703888
+Large
+Temperate
+Sparse
+Food
+Food*, Aquatic, Minerals
+Industrial/Agricultural
+Enhanced rations*, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+GEGEAT
+Gegeat
+598.002258,80.575027,-499.334839
+Small
+Temperate
+Dense
+Food
+Food*, Furs, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+GEISATI
+Geisati
+748.191895,167.101807,-445.468109
+Large
+Temperate
+Moderate
+Furs
+Food, Furs*, Raw materials
+Agricultural
+Processed food, Luxury goods, Biochemicals
+none
+none
+
+--------------------------
+non
+GERECEOR
+Gereceor
+761.368896,139.525192,-356.584656
+Medium
+Temperate
+Sparse
+Aquatic
+Aquatic*, Minerals, Raw fuel
+Mixed
+Bulk food, Processed food, Refined ore, Refined fuel
+none
+none
+
+--------------------------
+non
+ORERUSZA
+Orerusza
+596.183167,101.104187,-391.795441
+Small
+Temperate
+Dense
+Food
+Food*, Furs*
+Industrial/Agricultural
+Enhanced rations, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+RISOVEED
+Risoveed
+700.532959,40.087345,-327.538422
+Large
+Temperate
+Moderate
+Aquatic
+Food, Aquatic*, Furs
+Industrial/Agricultural
+Bulk food, Processed food*
+none
+none
+
+--------------------------
+non
+TEATAN
+Teatan
+664.133545,66.193176,-376.546631
+Medium
+Temperate
+Sparse
+Food
+Food*, Aquatic
+Agricultural
+Bulk food*, Enhanced rations
+none
+none
+
+--------------------------
+non
+TIINAR
+Tiinar
+673.456360,143.755859,-443.036713
+Large
+Temperate
+Dense
+Food
+Food*, Furs*
+Mixed
+Bulk food, Enhanced rations, Liquor, Chemicals, Tourism
+Asteroid field
+none
+
+--------------------------
+non
+TIZAZA
+Tizaza
+646.563354,92.521408,-414.179199
+Large
+Mountainous
+Sparse
+Food
+Food, Raw materials
+Primitive
+
+none
+none
+
+--------------------------
+non
+XEENLA ALPHA
+Xeenla alpha
+685.547119,63.875801,-488.883301
+Medium
+Volcanic
+Moderate
+Minerals
+Minerals
+Mercantile
+
+none
+none
+
+--------------------------
+non
+XEENLA BETA
+Xeenla beta
+685.547119,63.875801,-488.883301
+Medium
+Desert
+Minimal
+Raw fuel
+Raw fuel*
+Outpost
+
+none
+none
+
+--------------------------
+non
+XELATIER
+Xelatier
+666.719727,27.094162,-401.308685
+Medium
+Temperate
+Sparse
+Food
+Food*, Furs, Minerals
+Mixed
+Enhanced rations, Chemicals, Rare materials, Tourism
+none
+none
+

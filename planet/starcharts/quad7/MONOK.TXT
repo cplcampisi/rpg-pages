@@ -1,0 +1,131 @@
+MONOK
+Republic
+7
+8
+2
+PLANETARY STATISTICS:
+0 4 4 0 
+5 0 0 1 1 0 1 
+0 3 4 1 
+0 0 1 3 1 3 0 
+The MONOK REPUBLIC is a partial signatory to the Treaty of Orreas.  The planet's status in the Rearran Alliance is uncertain, as is its commitment to the alliance.
+--------------------------
+core
+MONOK
+Monok
+-230.889008,-392.001007,188.923004
+Small
+Water
+Dense
+Raw fuel
+Aquatic, Raw fuel
+Mercantile
+Consumer electronics, Entertainment
+none
+none
+
+--------------------------
+core
+ESMAEN
+Esmaen
+-183.465683,-403.485107,178.102066
+Medium
+Temperate
+Sparse
+Aquatic
+Food, Aquatic*, Raw fuel
+Industrial/Agricultural
+Bulk food*, Enhanced rations, Consumer goods
+none
+none
+
+--------------------------
+non
+ATUSTI
+Atusti
+-176.685028,-342.609070,140.848145
+Small
+Temperate
+Moderate
+Food
+Food*, Minerals*
+Mixed
+Bulk food*, Rare materials
+none
+none
+
+--------------------------
+non
+ERMAMAMA
+Ermamama
+-165.209579,-390.127380,172.757996
+Medium
+Temperate
+Sparse
+Food
+Food*, Furs, Raw fuel
+Agricultural
+Processed food*, Tourism
+none
+none
+
+--------------------------
+non
+MAQUTI
+Maquti
+-263.936676,-348.145721,214.418610
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs, Raw fuel
+Agricultural
+Enhanced rations, Processed food
+none
+none
+
+--------------------------
+non
+QUINLA
+Quinla
+-216.828705,-429.711639,197.465958
+Small
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Minerals
+Agricultural
+Bulk food, Processed food, Chemicals
+none
+none
+
+--------------------------
+non
+RIANENIS PRIME
+Rianenis prime
+-189.583847,-391.210663,265.013641
+Medium
+Mountainous
+Moderate
+Food
+Food, Furs
+Mixed
+Enhanced rations, Liquor, Consumer goods
+none
+none
+
+--------------------------
+non
+RILEAR
+Rilear
+-200.927032,-349.296661,157.021423
+Small
+Desert
+Moderate
+Minerals
+Minerals*
+Mixed
+Farm machinery, Rare materials, Tourism
+none
+none
+

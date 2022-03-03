@@ -1,0 +1,131 @@
+RAESRE
+Republic
+3
+8
+2
+PLANETARY STATISTICS:
+0 1 5 2 
+6 0 0 2 0 0 0 
+1 2 2 3 
+1 1 1 3 1 1 0 
+
+--------------------------
+core
+RAESRE
+Raesre
+-36.557220,542.939941,211.742493
+Large
+Temperate
+Sparse
+Furs
+Aquatic, Furs*, Minerals
+Agricultural
+Bulk food
+none
+University
+
+--------------------------
+core
+REAR
+Rear
+-79.429970,618.402039,162.946426
+Medium
+Temperate
+Moderate
+Aquatic
+Food, Aquatic*, Furs
+Agricultural
+Bulk food*, Enhanced rations, Luxury goods
+none
+none
+
+--------------------------
+non
+ATTE
+Atte
+-62.543556,497.477814,193.154861
+Medium
+Water
+Sparse
+Aquatic
+Aquatic*
+Agricultural
+Bulk food*, Tourism
+none
+none
+
+--------------------------
+non
+AVEXE
+Avexe
+54.824074,457.550049,229.277710
+Medium
+Temperate
+Dense
+Minerals
+Food, Furs, Minerals*
+Industrial/Agricultural
+Processed food, Refined ore, Consumer goods
+none
+none
+
+--------------------------
+non
+BEOREN
+Beoren
+-30.148445,521.024963,245.244949
+Medium
+Temperate
+Moderate
+Minerals
+Furs, Minerals*
+Mercantile
+Farm machinery, Consumer electronics, Refined ore, Tourism
+none
+none
+
+--------------------------
+non
+DITIA
+Ditia
+-2.327969,598.198792,220.482391
+Large
+Temperate
+Dense
+Minerals
+Aquatic, Minerals*, Raw fuel
+Industrial
+Processed food, Refined ore*, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+MAAN
+Maan
+-21.246422,572.973450,294.037201
+Small
+Water
+Minimal
+Aquatic
+Aquatic, Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+TICEREZA
+Ticereza
+-25.630154,526.788513,259.102875
+Medium
+Temperate
+Dense
+Furs
+Food, Furs*, Minerals
+Mixed
+Enhanced rations, Farm machinery
+none
+none
+

@@ -1,0 +1,206 @@
+LABECEER
+Constellation
+5
+13
+2
+PLANETARY STATISTICS:
+0 2 9 2 
+3 1 1 2 0 1 5 
+1 5 5 2 
+0 1 2 5 1 2 2 
+
+--------------------------
+core
+LABECEER
+Labeceer
+404.042786,-212.641281,457.860413
+Medium
+Desert
+Moderate
+Minerals
+Minerals, Raw fuel
+Industrial
+Gems, Refined fuel
+none
+none
+
+--------------------------
+core
+XEERXE
+Xeerxe
+408.119476,-271.136292,400.197784
+Medium
+Jungle
+Sparse
+Furs
+Furs*
+Primitive
+
+none
+none
+
+--------------------------
+non
+CEINSOIN
+Ceinsoin
+509.166809,-92.415977,564.215271
+Large
+Temperate
+Moderate
+Food
+Food*, Furs*
+Agricultural
+Bulk food, Enhanced rations
+none
+none
+
+--------------------------
+non
+DIINZAER
+Diinzaer
+337.205933,-240.531006,532.961487
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic
+Industrial/Agricultural
+Processed food*, Entertainment
+none
+none
+
+--------------------------
+non
+ISGEDI MAJOR
+Isgedi major
+419.266937,-183.158722,463.048920
+Medium
+Temperate
+Moderate
+Raw materials
+Food, Furs, Raw materials*
+Mercantile
+Enhanced rations, Luxury goods, Liquor, Biochemicals
+none
+none
+
+--------------------------
+non
+ISGEDI MINOR
+Isgedi minor
+419.266937,-183.158722,463.048920
+Small
+Volcanic
+Sparse
+Minerals
+Minerals
+Agricultural
+
+none
+none
+
+--------------------------
+non
+MATEMA
+Matema
+421.152618,-242.103302,411.672668
+Large
+Desert
+Dense
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*
+none
+none
+
+--------------------------
+non
+OREDUS
+Oredus
+437.229736,-270.673584,448.475739
+Medium
+Desert
+Sparse
+Food
+Food, Minerals
+Agricultural
+Bulk food, Refined ore
+none
+none
+
+--------------------------
+non
+TEBITI
+Tebiti
+384.061768,-289.281494,437.482819
+Medium
+Water
+Sparse
+Aquatic
+Aquatic*
+Agricultural
+Bulk food*, Religion
+none
+none
+
+--------------------------
+non
+TIXEMA
+Tixema
+386.451263,-289.338013,478.772491
+Medium
+Ice
+Dense
+Raw fuel
+Raw fuel*
+Agricultural
+
+none
+none
+
+--------------------------
+non
+USARLA
+Usarla
+391.089691,-128.862900,483.184570
+Small
+Desert
+Minimal
+Raw fuel
+Raw fuel, Raw materials
+Primitive
+
+none
+none
+
+--------------------------
+non
+USQUTI
+Usquti
+440.306580,-255.799469,485.935272
+Medium
+Water
+Sparse
+Aquatic
+Aquatic*
+Mixed
+Bulk food, Enhanced rations
+none
+none
+
+--------------------------
+non
+ZARAIN
+Zarain
+409.846527,-250.700500,485.858459
+Medium
+Desert
+Moderate
+Food
+Food, Furs
+Industrial/Agricultural
+Enhanced rations, Chemicals, Entertainment
+none
+none
+

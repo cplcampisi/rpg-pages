@@ -1,0 +1,296 @@
+RIISCEBI
+Constellation
+2
+19
+2
+PLANETARY STATISTICS:
+0 4 10 5 
+9 0 2 1 5 1 1 
+1 4 10 4 
+1 1 4 6 0 5 2 
+
+--------------------------
+core
+RIISCEBI
+Riiscebi
+665.256104,299.893738,-245.812561
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals, Raw materials
+Agricultural
+Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+core
+RIINZA
+Riinza
+673.074097,352.238495,-360.884521
+Large
+Temperate
+Moderate
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Processed food*, Refined ore
+none
+none
+
+--------------------------
+non
+BIRIXE
+Birixe
+728.300842,321.267639,-254.014511
+Medium
+Water
+Moderate
+Food
+Food, Aquatic
+Agricultural
+Bulk food*
+none
+none
+
+--------------------------
+non
+CEREBE
+Cerebe
+715.102051,267.405701,-204.924042
+Small
+Temperate
+Sparse
+Food
+Food*, Aquatic, Furs
+Mixed
+Bulk food, Enhanced rations, Processed food, Liquor
+none
+none
+
+--------------------------
+non
+DIANZARA
+Dianzara
+702.857544,211.058075,-331.594635
+Medium
+Desert
+Moderate
+Furs
+Furs, Raw fuel
+Agricultural
+Consumer goods
+none
+Military barracks
+
+--------------------------
+non
+DIARESXE
+Diaresxe
+552.413940,371.613464,-293.698059
+Large
+Temperate
+Moderate
+Food
+Food, Aquatic, Raw fuel, Raw materials
+Mixed
+Enhanced rations, Processed food, Biochemicals
+none
+none
+
+--------------------------
+non
+INSORE
+Insore
+682.134399,303.439301,-235.201752
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic*, Furs, Raw fuel
+Industrial
+Enhanced rations*, Refined fuel
+none
+none
+
+--------------------------
+non
+LARECEBI
+Larecebi
+711.149536,255.986404,-253.803558
+Large
+Jungle
+Minimal
+Minerals
+Minerals, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+MAUS
+Maus
+740.008301,334.035126,-162.938171
+Medium
+Mountainous
+Dense
+Food
+Food, Minerals
+Industrial/Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+MAZARA
+Mazara
+581.018738,335.237976,-305.936920
+Large
+Temperate
+Moderate
+Furs
+Aquatic, Furs*, Minerals
+Mixed
+Refined ore
+none
+none
+
+--------------------------
+non
+QUQUTE
+Ququte
+654.198059,296.235596,-309.599274
+Small
+Jungle
+Sparse
+Food
+Food, Furs
+Primitive
+
+none
+none
+
+--------------------------
+non
+RAAATTE
+Raaatte
+606.603088,276.112030,-274.361938
+Medium
+Temperate
+Dense
+Food
+Food, Furs, Raw fuel, Raw materials
+Industrial/Agricultural
+Enhanced rations, Biochemicals
+none
+none
+
+--------------------------
+non
+RACEAN
+Racean
+753.575317,276.869690,-218.790039
+Medium
+Mountainous
+Moderate
+Aquatic
+Aquatic, Minerals
+Agricultural
+Bulk food, Tourism
+none
+University
+
+--------------------------
+non
+RAISORIN
+Raisorin
+669.320984,318.862122,-204.367920
+Large
+Temperate
+Moderate
+Raw fuel
+Furs, Raw fuel*, Raw materials
+Mixed
+Refined fuel, Medicine, Entertainment
+none
+none
+
+--------------------------
+non
+RIESDIES
+Riesdies
+609.369202,349.585602,-280.566956
+Medium
+Mountainous
+Dense
+Minerals
+Minerals*
+Agricultural
+Religion
+none
+none
+
+--------------------------
+non
+RIQUAN
+Riquan
+670.917358,245.046082,-294.454132
+Small
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Primitive
+Religion
+none
+none
+
+--------------------------
+non
+SOLECE
+Solece
+693.421814,350.002380,-276.258270
+Medium
+Temperate
+Dense
+Food
+Food*, Minerals*
+Mixed
+Bulk food, Enhanced rations, Farm machinery, Rare materials
+none
+none
+
+--------------------------
+non
+TITEED
+Titeed
+553.833801,279.287811,-191.142700
+Small
+Temperate
+Moderate
+Food
+Food*, Furs, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+VELERERA
+Velerera
+694.513245,281.100952,-209.359863
+Medium
+Mountainous
+Moderate
+Raw fuel
+Raw fuel, Raw materials
+Industrial/Agricultural
+Medicine, Religion
+none
+none
+

@@ -1,0 +1,326 @@
+ANGECE II
+Margravate
+5
+21
+3
+PLANETARY STATISTICS:
+0 4 14 3 
+10 0 2 4 3 1 1 
+0 10 6 5 
+1 6 7 4 0 1 2 
+
+--------------------------
+core
+ANGECE II
+Angece ii
+247.535400,-232.584045,640.060425
+Medium
+Mountainous
+Dense
+Minerals
+Minerals, Raw materials
+Industrial
+Consumer electronics, Medicine, Tourism
+none
+none
+
+--------------------------
+core
+ATLEER
+Atleer
+212.520721,-253.977936,706.154297
+Medium
+Jungle
+Sparse
+Food
+Food, Aquatic
+Outpost
+
+none
+none
+
+--------------------------
+core
+USVEOR
+Usveor
+288.822754,-276.911896,594.294617
+Small
+Temperate
+Sparse
+Aquatic
+Aquatic*, Furs, Raw fuel
+Agricultural
+Bulk food*, Liquor
+none
+none
+
+--------------------------
+non
+ANINLA
+Aninla
+275.953461,-163.559753,630.500000
+Large
+Water
+Sparse
+Aquatic
+Aquatic*
+Primitive
+Bulk food*
+Asteroid field
+none
+
+--------------------------
+non
+ATCEES
+Atcees
+149.238251,-310.911377,645.370056
+Medium
+Water
+Dense
+Aquatic
+Aquatic, Raw fuel
+Industrial
+Enhanced rations, Refined fuel
+none
+none
+
+--------------------------
+non
+CESOMA
+Cesoma
+274.023132,-341.223450,598.403259
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs, Raw fuel
+Industrial/Agricultural
+Enhanced rations, Processed food, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+non
+EDTEA
+Edtea
+150.567505,-287.337463,653.247864
+Small
+Water
+Sparse
+Aquatic
+Aquatic*
+Industrial/Agricultural
+Processed food*, Entertainment
+none
+none
+
+--------------------------
+non
+ESXETI
+Esxeti
+265.898132,-274.416046,676.931580
+Medium
+Temperate
+Sparse
+Furs
+Food, Aquatic, Furs*
+Primitive
+Processed food, Luxury goods, Liquor
+none
+none
+
+--------------------------
+non
+GEISQULA
+Geisqula
+320.572571,-241.651657,647.990479
+Medium
+Temperate
+Dense
+Minerals
+Food, Furs, Minerals*
+Industrial
+Enhanced rations, Industrial machinery, Farm machinery
+none
+none
+
+--------------------------
+non
+ISXE
+Isxe
+275.487091,-270.767212,822.225769
+Large
+Mountainous
+Dense
+Food
+Food*
+Agricultural
+Processed food*
+none
+none
+
+--------------------------
+non
+LEDIDICE
+Ledidice
+272.503113,-125.569427,641.998474
+Medium
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Agricultural
+Luxury goods, Consumer goods
+none
+none
+
+--------------------------
+non
+LEERQU
+Leerqu
+214.870605,-273.934662,651.446716
+Medium
+Volcanic
+Moderate
+Minerals
+Minerals
+Industrial
+Rare materials
+none
+none
+
+--------------------------
+non
+MAQUCE
+Maquce
+156.278915,-228.426193,599.536194
+Medium
+Jungle
+Sparse
+Aquatic
+Aquatic, Furs
+Industrial/Agricultural
+Processed food, Liquor
+none
+none
+
+--------------------------
+non
+ORQUIS
+Orquis
+325.563080,-268.980133,623.324219
+Small
+Desert
+Dense
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+QUINRI
+Quinri
+255.999252,-365.966492,725.584839
+Small
+Temperate
+Moderate
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Processed food*
+none
+none
+
+--------------------------
+non
+QUREANGE
+Qureange
+208.403900,-277.435577,543.333191
+Medium
+Temperate
+Moderate
+Furs
+Food, Furs*, Raw materials
+Industrial/Agricultural
+Processed food, Liquor, Medicine
+none
+none
+
+--------------------------
+non
+RERIISER
+Reriiser
+236.200043,-160.801910,652.195496
+Medium
+Water
+Moderate
+Aquatic
+Aquatic, Furs
+Agricultural
+Bulk food, Liquor
+none
+none
+
+--------------------------
+non
+SOESZATE
+Soeszate
+268.420105,-315.645325,563.638977
+Large
+Temperate
+Sparse
+Food
+Food*, Aquatic, Minerals
+Industrial
+Enhanced rations*, Refined ore
+none
+none
+
+--------------------------
+non
+VEDIIN
+Vediin
+263.507965,-172.336746,648.731140
+Medium
+Temperate
+Sparse
+Food
+Food*, Raw fuel*
+Industrial/Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+non
+XEAANOR
+Xeaanor
+243.643997,-240.893799,636.093506
+Medium
+Temperate
+Sparse
+Furs
+Food, Furs*, Raw fuel
+Mixed
+Bulk food, Refined fuel, Tourism
+none
+none
+
+--------------------------
+non
+ZAMARI
+Zamari
+136.882599,-201.694885,651.651611
+Medium
+Temperate
+Sparse
+Food
+Food*
+Industrial
+Enhanced rations*, Processed food*, Consumer goods
+Black hole
+none
+

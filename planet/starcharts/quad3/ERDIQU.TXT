@@ -1,0 +1,236 @@
+ERDIQU
+Constellation
+3
+15
+2
+PLANETARY STATISTICS:
+2 3 7 3 
+6 1 0 3 3 1 1 
+0 4 7 4 
+0 3 4 2 1 5 0 
+
+--------------------------
+core
+ERDIQU
+Erdiqu
+-33.838348,158.893616,585.208862
+Medium
+Volcanic
+Moderate
+Minerals
+Minerals
+Industrial
+Industrial machinery, Entertainment
+none
+none
+
+--------------------------
+core
+DILEIS
+Dileis
+-72.904572,101.559341,731.405640
+Small
+Temperate
+Moderate
+Furs
+Food, Furs*, Minerals
+Mixed
+Processed food, Liquor*, Farm machinery
+none
+none
+
+--------------------------
+non
+ARANA
+Arana
+13.308189,207.943054,527.192810
+Planetoid
+Ice
+Dense
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Enhanced rations, Tourism
+none
+none
+
+--------------------------
+non
+ATISLEES
+Atislees
+-75.054398,90.554443,567.351257
+Large
+Temperate
+Moderate
+Food
+Food*, Furs*
+Mixed
+Bulk food, Processed food, Luxury goods, Tourism
+none
+none
+
+--------------------------
+non
+BETIAN
+Betian
+71.517128,195.984787,525.491699
+Large
+Desert
+Moderate
+Minerals
+Minerals, Raw fuel
+Mixed
+Farm machinery, Refined fuel, Religion
+Asteroid field
+none
+
+--------------------------
+non
+CEGEDITI
+Cegediti
+-118.310089,166.264679,514.710327
+Small
+Temperate
+Dense
+Aquatic
+Aquatic*, Furs, Minerals
+Industrial/Agricultural
+Bulk food, Enhanced rations, Luxury goods, Entertainment
+none
+none
+
+--------------------------
+non
+DISOAT
+Disoat
+-81.960594,159.789825,700.393066
+Small
+Temperate
+Moderate
+Raw fuel
+Food, Minerals, Raw fuel*
+Industrial
+Enhanced rations, Refined fuel*
+none
+none
+
+--------------------------
+non
+ERANBE
+Eranbe
+-122.693298,121.559784,650.020691
+Medium
+Water
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+Religion
+none
+none
+
+--------------------------
+non
+ESBIRI
+Esbiri
+-0.269249,85.536568,615.060059
+Medium
+Mountainous
+Moderate
+Minerals
+Minerals*
+Industrial
+Industrial machinery, Consumer electronics
+none
+none
+
+--------------------------
+non
+INARA
+Inara
+-39.959148,82.865784,606.197266
+Planetoid
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+Refined ore
+none
+none
+
+--------------------------
+non
+TEGE
+Tege
+-29.563824,155.892059,652.062683
+Medium
+Temperate
+Sparse
+Minerals
+Furs, Minerals*, Raw materials
+Agricultural
+Biochemicals
+none
+none
+
+--------------------------
+non
+TIBECEDI
+Tibecedi
+-3.305132,128.824951,572.702332
+Medium
+Water
+Moderate
+Aquatic
+Aquatic*
+Agricultural
+Bulk food*, Tourism
+none
+none
+
+--------------------------
+non
+XECEVE
+Xeceve
+-116.642136,164.964447,615.073975
+Large
+Water
+Sparse
+Minerals
+Minerals, Raw fuel
+Mercantile
+Consumer electronics, Refined fuel
+none
+Trading post
+
+--------------------------
+non
+XEQULA
+Xequla
+-74.341324,161.251724,528.908936
+Medium
+Temperate
+Dense
+Food
+Food*, Aquatic, Raw fuel
+Mixed
+Enhanced rations*, Refined fuel
+none
+none
+
+--------------------------
+non
+XERAEN
+Xeraen
+-44.531021,46.066048,600.812500
+Medium
+Mountainous
+Dense
+Food
+Food, Minerals
+Mixed
+Processed food, Refined ore
+none
+none
+

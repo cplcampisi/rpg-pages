@@ -1,0 +1,176 @@
+PONTO
+Republic
+8
+11
+1
+PLANETARY STATISTICS:
+2 3 5 1 
+5 1 1 1 1 2 0 
+0 4 6 1 
+0 0 5 0 2 3 1 
+
+--------------------------
+core
+PONTO
+Ponto
+-579.755432,-349.273438,-138.494522
+Medium
+Temperate
+Moderate
+Raw materials
+Raw materials
+Mercantile
+Consumer electronics, Consumer goods
+none
+none
+
+--------------------------
+non
+AINA
+Aina
+-579.703308,-337.851593,-200.970352
+Small
+Volcanic
+Sparse
+Minerals
+Minerals
+Industrial/Agricultural
+Consumer goods
+none
+none
+
+--------------------------
+non
+ANSOLE
+Ansole
+-595.549683,-302.937317,-165.388474
+Medium
+Temperate
+Moderate
+Minerals
+Food, Minerals*, Raw fuel
+Industrial/Agricultural
+Processed food, Tourism
+none
+none
+
+--------------------------
+non
+ATAUS
+Ataus
+-588.263306,-342.640564,-118.803070
+Medium
+Temperate
+Moderate
+Furs
+Food, Aquatic, Furs*
+Mixed
+Bulk food, Enhanced rations, Liquor, Chemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+ATBIQU
+Atbiqu
+-595.778076,-320.242432,-119.587769
+Small
+Volcanic
+Moderate
+Raw fuel
+Raw fuel
+Industrial/Agricultural
+Tourism
+none
+none
+
+--------------------------
+non
+INVEZASO
+Invezaso
+-477.067902,-366.964844,-165.794235
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic*
+Industrial/Agricultural
+Bulk food*, Enhanced rations, Consumer goods
+none
+none
+
+--------------------------
+non
+JAFFA
+Jaffa
+-689.531982,-420.781006,-205.889008
+Small
+Water
+Sparse
+Raw fuel
+Raw fuel
+Mercantile
+High grade fuel
+Nebula
+Trading post
+JAFFA is located near the Great Rift.  In addition to the trading post maintained there, the University of ZAAR maintains a small research outpost, although it is not manned year round.
+--------------------------
+non
+LEBEGE
+Lebege
+-616.227112,-320.340820,-108.907387
+Planetoid
+Ice
+Dense
+Aquatic
+Aquatic, Raw fuel
+Industrial/Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+RAVETE
+Ravete
+-550.694092,-332.445984,-144.211700
+Planetoid
+Mountainous
+Moderate
+Food
+Food, Minerals
+Mixed
+Enhanced rations, Rare materials
+none
+none
+
+--------------------------
+non
+SOMAATRA
+Somaatra
+-503.812775,-341.438751,-186.145538
+Medium
+Jungle
+Sparse
+Minerals
+Minerals, Raw materials
+Mixed
+Consumer electronics, Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+TIDIAN
+Tidian
+-572.626709,-395.432922,-160.399536
+Large
+Temperate
+Sparse
+Raw materials
+Food, Raw fuel, Raw materials*
+Primitive
+Bulk food
+none
+none
+

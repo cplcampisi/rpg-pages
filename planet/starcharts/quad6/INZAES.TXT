@@ -1,0 +1,86 @@
+INZAES
+Republic
+6
+5
+1
+PLANETARY STATISTICS:
+0 1 3 1 
+4 0 0 0 0 1 0 
+0 1 4 0 
+0 0 1 2 1 1 0 
+INZAES is a member of the Rearran Alliance.
+--------------------------
+core
+INZAES
+Inzaes
+563.606323,-268.402466,-440.149414
+Medium
+Temperate
+Moderate
+Raw materials
+Food, Raw materials
+Mercantile
+Biochemicals, Medicine
+none
+none
+
+--------------------------
+non
+ATEREN
+Ateren
+546.922546,-265.733032,-435.001587
+Medium
+Temperate
+Moderate
+Furs
+Aquatic, Furs*, Raw fuel
+Agricultural
+Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+DITIERDI
+Ditierdi
+549.701965,-272.828522,-487.668640
+Small
+Temperate
+Moderate
+Aquatic
+Aquatic*, Minerals, Raw materials
+Agricultural
+Bulk food, Processed food, Refined ore, Biochemicals
+none
+none
+
+--------------------------
+non
+INZATI I
+Inzati i
+521.024658,-276.061523,-443.697174
+Large
+Temperate
+Moderate
+Raw fuel
+Furs, Minerals, Raw fuel*
+Industrial/Agricultural
+Consumer goods
+none
+none
+
+--------------------------
+non
+SOGERE
+Sogere
+499.541412,-264.124451,-435.295319
+Medium
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Mixed
+High grade fuel
+none
+none
+

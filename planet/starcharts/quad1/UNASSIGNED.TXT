@@ -1,0 +1,34 @@
+UNASSIGNED
+n/a
+1
+2
+--------------------------
+n/a
+ANRATISO
+Anratiso
+500.102325,544.965881,513.310059
+Large
+Water
+Moderate
+Aquatic
+Aquatic, Raw fuel
+Mixed
+Bulk food, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+n/a
+EDARAN
+Edaran
+667.719360,659.573242,246.951630
+Medium
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw materials
+Industrial/Agricultural
+Processed food, Medicine
+none
+none
+

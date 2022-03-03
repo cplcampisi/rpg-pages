@@ -1,0 +1,326 @@
+ZARABI
+Margravate
+7
+21
+3
+PLANETARY STATISTICS:
+2 4 14 1 
+9 1 1 1 5 0 4 
+0 6 6 9 
+0 4 4 5 1 5 2 
+
+--------------------------
+core
+ZARABI
+Zarabi
+-422.512817,-512.934814,464.099884
+Small
+Desert
+Dense
+Raw fuel
+Raw fuel*
+Industrial
+Refined fuel*, Entertainment
+none
+none
+
+--------------------------
+core
+DIATQU
+Diatqu
+-485.185638,-453.669983,451.070862
+Medium
+Desert
+Dense
+Furs
+Furs, Minerals
+Mixed
+Refined ore
+none
+Trading post
+
+--------------------------
+core
+USCEAAT
+Usceaat
+-388.208466,-439.167328,404.586426
+Medium
+Temperate
+Dense
+Minerals
+Food, Minerals*, Raw materials
+Industrial
+Processed food, Consumer electronics*, Medicine
+none
+none
+
+--------------------------
+non
+ATERCE
+Aterce
+-357.799683,-545.640198,451.020874
+Small
+Mountainous
+Dense
+Minerals
+Minerals, Raw materials
+Mixed
+Farm machinery, Medicine
+none
+none
+
+--------------------------
+non
+ATESTI
+Atesti
+-396.976471,-469.825256,491.179474
+Medium
+Mountainous
+Dense
+Minerals
+Minerals*
+Industrial
+Farm machinery, Entertainment
+none
+none
+
+--------------------------
+non
+ATLEENXE
+Atleenxe
+-391.136383,-571.828674,467.309570
+Medium
+Water
+Dense
+Aquatic
+Aquatic, Raw fuel
+Industrial
+Enhanced rations, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+BEGEED
+Begeed
+-429.689270,-437.697449,447.375061
+Medium
+Jungle
+Dense
+Aquatic
+Aquatic, Furs
+Mixed
+Enhanced rations, Chemicals, Entertainment
+none
+none
+
+--------------------------
+non
+BIESAIN
+Biesain
+-396.892670,-611.171509,465.893250
+Medium
+Temperate
+Sparse
+Food
+Food*, Furs, Minerals
+Agricultural
+Bulk food*
+none
+none
+
+--------------------------
+non
+BIGERIED
+Bigeried
+-490.016571,-540.546875,403.861664
+Planetoid
+Ice
+Moderate
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*, Consumer goods
+none
+none
+
+--------------------------
+non
+CEINES
+Ceines
+-377.564392,-621.282837,542.141113
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic
+Industrial/Agricultural
+Processed food*, Consumer goods
+none
+none
+
+--------------------------
+non
+DIZAED
+Dizaed
+-439.865631,-482.034973,449.285492
+Small
+Temperate
+Sparse
+Food
+Food, Furs, Minerals, Raw materials
+Primitive
+Liquor, Refined ore
+none
+none
+
+--------------------------
+non
+EDISIN
+Edisin
+-455.945618,-579.619202,480.816559
+Medium
+Mountainous
+Sparse
+Furs
+Furs, Raw materials
+Primitive
+
+Asteroid field
+none
+
+--------------------------
+non
+LAISVE
+Laisve
+-463.897369,-510.079224,419.266968
+Medium
+Temperate
+Moderate
+Food
+Food*, Minerals
+Mercantile
+Bulk food, Farm machinery
+none
+none
+
+--------------------------
+non
+LELESO
+Leleso
+-349.443329,-595.369995,419.185974
+Medium
+Temperate
+Moderate
+Furs
+Furs*, Raw materials
+Agricultural
+Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+RAUSTI
+Rausti
+-444.378448,-603.331482,497.365723
+Small
+Temperate
+Moderate
+Food
+Food*, Furs, Raw materials
+Agricultural
+Processed food*, Liquor, Biochemicals, Religion
+none
+none
+
+--------------------------
+non
+RITIXE
+Ritixe
+-477.625488,-661.336609,389.783447
+Large
+Temperate
+Dense
+Furs
+Food, Furs*
+Industrial/Agricultural
+Processed food, Liquor, Chemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+SODITI
+Soditi
+-467.906586,-540.711609,486.990540
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+Rare materials
+none
+none
+
+--------------------------
+non
+TIARAN BETA
+Tiaran beta
+-374.194366,-476.988922,341.892670
+Planetoid
+Desert
+Dense
+Minerals
+Minerals, Raw fuel
+Mixed
+Rare materials, Tourism
+none
+none
+
+--------------------------
+non
+USINAR
+Usinar
+-339.461456,-586.339661,462.343506
+Medium
+Mountainous
+Sparse
+Furs
+Furs, Minerals
+Agricultural
+Liquor, Refined ore
+none
+none
+
+--------------------------
+non
+XEBEGE
+Xebege
+-509.397461,-422.914215,576.498047
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic*
+Agricultural
+Bulk food*, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+ZARAEN
+Zaraen
+-446.211029,-443.648071,476.107849
+Medium
+Desert
+Sparse
+Raw fuel
+Raw fuel*
+Industrial/Agricultural
+Entertainment
+none
+none
+

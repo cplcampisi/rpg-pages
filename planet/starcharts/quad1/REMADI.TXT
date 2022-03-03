@@ -1,0 +1,266 @@
+REMADI
+Constellation
+1
+17
+2
+PLANETARY STATISTICS:
+2 2 10 3 
+7 1 3 0 5 1 0 
+1 5 7 4 
+1 2 5 2 3 2 2 
+
+--------------------------
+core
+REMADI
+Remadi
+315.562439,117.818756,159.704285
+Small
+Mountainous
+Moderate
+Minerals
+Minerals*
+Industrial
+Advanced electronics
+none
+none
+
+--------------------------
+core
+RIORTEIN
+Riortein
+251.900848,99.076309,129.164490
+Medium
+Jungle
+Moderate
+Aquatic
+Aquatic, Furs
+Primitive
+Processed food, Chemicals
+none
+none
+
+--------------------------
+non
+ABEDI
+Abedi
+166.851257,94.128220,156.418930
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+Consumer goods
+none
+none
+
+--------------------------
+non
+ANBEDIED
+Anbedied
+349.652710,118.424118,157.969879
+Medium
+Temperate
+Moderate
+Food
+Food*, Raw fuel
+Primitive
+Bulk food
+none
+none
+
+--------------------------
+non
+ATTITE
+Attite
+310.514832,20.835114,208.837219
+Medium
+Jungle
+Moderate
+Raw fuel
+Raw fuel, Raw materials
+Mercantile
+Refined fuel, Medicine
+none
+none
+
+--------------------------
+non
+BEQUEDA
+Bequeda
+198.316879,174.791077,172.823837
+Planetoid
+Ice
+Minimal
+Aquatic
+Aquatic, Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+CEQUXE II
+Cequxe ii
+271.951874,91.860741,186.540909
+Medium
+Temperate
+Moderate
+Food
+Food*, Minerals, Raw fuel
+Industrial/Agricultural
+Enhanced rations*, Refined ore, Refined fuel, Tourism
+none
+none
+
+--------------------------
+non
+ERENOR
+Erenor
+347.358551,70.949532,95.934189
+Large
+Temperate
+Dense
+Food
+Food*, Minerals*
+Mixed
+Bulk food, Processed food, Consumer electronics*
+none
+none
+
+--------------------------
+non
+INERRI
+Inerri
+395.012909,140.446213,94.872200
+Medium
+Mountainous
+Dense
+Furs
+Furs, Minerals
+Mercantile
+Farm machinery, Medicine, Tourism
+none
+none
+
+--------------------------
+non
+ISCE
+Isce
+285.719604,76.828720,140.533279
+Medium
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw materials
+Agricultural
+Bulk food, Processed food, Medicine
+none
+none
+
+--------------------------
+non
+ISESBIED
+Isesbied
+367.483002,101.377502,130.868195
+Medium
+Jungle
+Sparse
+Minerals
+Minerals, Raw materials
+Industrial/Agricultural
+Biochemicals
+none
+none
+
+--------------------------
+non
+MATIAN
+Matian
+357.686310,40.596832,191.019165
+Small
+Temperate
+Dense
+Raw fuel
+Furs, Raw fuel*
+Industrial
+Refined fuel*
+none
+none
+
+--------------------------
+non
+RATIAT
+Ratiat
+306.147095,234.248337,152.802353
+Planetoid
+Mountainous
+Moderate
+Aquatic
+Aquatic, Raw materials
+Industrial/Agricultural
+Enhanced rations, Medicine
+none
+none
+
+--------------------------
+non
+REBEVE
+Rebeve
+390.233612,85.818130,251.657074
+Medium
+Temperate
+Sparse
+Minerals
+Furs, Minerals*
+Mercantile
+Liquor, Advanced electronics*, Rare materials
+none
+none
+
+--------------------------
+non
+SOISES
+Soises
+369.009766,146.855591,99.106339
+Medium
+Mountainous
+Dense
+Furs
+Furs, Minerals
+Industrial/Agricultural
+Liquor
+none
+none
+
+--------------------------
+non
+SOXEIS
+Soxeis
+303.939850,182.166534,141.749680
+Large
+Temperate
+Moderate
+Aquatic
+Food, Aquatic*, Raw fuel
+Mixed
+Bulk food, Enhanced rations, Processed food, Refined fuel
+none
+none
+
+--------------------------
+non
+USAIN
+Usain
+261.839966,205.919006,142.489929
+Large
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Agricultural
+Consumer goods
+none
+none
+

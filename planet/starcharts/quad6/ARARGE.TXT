@@ -1,0 +1,221 @@
+ARARGE
+Constellation
+6
+14
+2
+PLANETARY STATISTICS:
+0 5 6 3 
+7 1 3 1 1 0 1 
+1 1 6 6 
+1 2 2 3 2 4 0 
+
+--------------------------
+core
+ARARGE
+Ararge
+301.404907,-448.034668,-658.747925
+Medium
+Jungle
+Dense
+Furs
+Furs, Minerals
+Mixed
+Industrial machinery, Consumer goods
+none
+none
+
+--------------------------
+core
+ENZAES
+Enzaes
+325.597504,-458.012878,-530.167358
+Small
+Temperate
+Moderate
+Raw fuel
+Furs, Minerals, Raw fuel*
+Industrial/Agricultural
+Refined fuel
+none
+none
+
+--------------------------
+non
+AREDBI
+Aredbi
+433.262695,-609.468445,-632.072754
+Large
+Temperate
+Moderate
+Furs
+Food, Furs*, Minerals
+Mercantile
+Processed food, Luxury goods, Chemicals, Farm machinery, Entertainment
+none
+none
+
+--------------------------
+non
+BIESAR
+Biesar
+356.806000,-466.546387,-606.793701
+Small
+Temperate
+Dense
+Minerals
+Aquatic, Minerals*, Raw fuel
+Industrial
+Enhanced rations, Refined ore, Rare materials, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+CESO
+Ceso
+306.341339,-536.181213,-612.624878
+Small
+Ice
+Dense
+Food
+Food, Minerals
+Industrial/Agricultural
+Enhanced rations, Consumer goods
+none
+none
+
+--------------------------
+non
+EDINERMA
+Edinerma
+264.706024,-418.004608,-730.698486
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial
+Consumer electronics, Rare materials
+none
+none
+
+--------------------------
+non
+ISXEDI
+Isxedi
+283.192383,-435.722565,-476.231934
+Large
+Temperate
+Dense
+Food
+Food*, Minerals
+Agricultural
+Bulk food, Processed food*, Tourism
+none
+none
+
+--------------------------
+non
+REESBI
+Reesbi
+302.707825,-545.878906,-671.726379
+Large
+Jungle
+Moderate
+Raw materials
+Raw materials*
+Mixed
+Biochemicals, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+REGE
+Rege
+338.064484,-409.770874,-541.679810
+Medium
+Desert
+Minimal
+Minerals
+Minerals, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+SOCELE
+Socele
+360.170227,-538.870544,-657.500000
+Medium
+Water
+Moderate
+Aquatic
+Aquatic*
+Mixed
+Processed food*
+none
+none
+
+--------------------------
+non
+TEQU
+Tequ
+233.678574,-503.745667,-635.781860
+Medium
+Temperate
+Dense
+Food
+Food, Furs, Minerals, Raw fuel
+Mixed
+Enhanced rations, Industrial machinery, Entertainment
+none
+none
+
+--------------------------
+non
+TIERLE
+Tierle
+262.807739,-544.556641,-662.251465
+Medium
+Temperate
+Moderate
+Furs
+Food, Furs*, Raw fuel
+Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+XEORLE
+Xeorle
+275.880768,-550.133545,-612.321045
+Small
+Jungle
+Moderate
+Furs
+Furs, Raw materials
+Agricultural
+Biochemicals
+none
+none
+
+--------------------------
+non
+ZASOAT
+Zasoat
+294.960815,-497.899139,-642.949402
+Small
+Temperate
+Dense
+Raw fuel
+Food, Minerals, Raw fuel*
+Mercantile
+Enhanced rations, Processed food, Rare materials, Refined fuel
+none
+none
+

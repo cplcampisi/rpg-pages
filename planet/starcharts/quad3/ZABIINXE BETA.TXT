@@ -1,0 +1,236 @@
+ZABIINXE BETA
+Constellation
+3
+15
+2
+PLANETARY STATISTICS:
+1 5 7 2 
+7 1 0 1 1 4 1 
+5 2 7 1 
+5 1 4 4 0 1 0 
+
+--------------------------
+core
+ZABIINXE BETA
+Zabiinxe beta
+-506.544250,350.622040,564.574280
+Small
+Desert
+Moderate
+Food
+Food, Raw fuel
+Industrial/Agricultural
+Enhanced rations
+none
+none
+
+--------------------------
+core
+RAANESTI
+Raanesti
+-517.173462,297.695282,618.633301
+Medium
+Volcanic
+Sparse
+Minerals
+Minerals
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+ATLERA
+Atlera
+-518.919250,327.672729,496.456421
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic, Furs, Minerals, Raw fuel
+Industrial/Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+BIQUTI
+Biquti
+-486.817749,463.633240,519.179626
+Small
+Volcanic
+Minimal
+Raw fuel
+Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+BIVEQU PRIME
+Bivequ prime
+-548.821045,239.743530,638.239136
+Medium
+Temperate
+Moderate
+Furs
+Aquatic, Furs*
+Mixed
+Enhanced rations, Chemicals*, Consumer goods
+none
+none
+
+--------------------------
+non
+CELELE
+Celele
+-533.417969,365.814850,587.746765
+Small
+Temperate
+Sparse
+Food
+Food*, Aquatic, Furs
+Agricultural
+Enhanced rations, Processed food*, Liquor, Religion
+none
+none
+
+--------------------------
+non
+EDATTEZA
+Edatteza
+-602.345703,348.186951,581.123840
+Small
+Volcanic
+Minimal
+Minerals
+Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+ISLATI
+Islati
+-492.708405,318.514893,592.349548
+Planetoid
+Ice
+Minimal
+Minerals
+Minerals, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+ISZAQULA
+Iszaqula
+-601.968567,373.949127,627.553284
+Small
+Water
+Moderate
+Aquatic
+Aquatic, Furs
+Agricultural
+Enhanced rations, Tourism
+none
+none
+
+--------------------------
+non
+LAIN
+Lain
+-544.449402,390.765411,599.322815
+Medium
+Temperate
+Dense
+Food
+Food*, Raw materials
+Industrial
+Enhanced rations, Processed food*, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+LEXEES
+Lexees
+-560.457642,415.386871,547.434631
+Large
+Mountainous
+Minimal
+Food
+Food, Aquatic
+Outpost
+
+none
+none
+
+--------------------------
+non
+ORBI
+Orbi
+-533.909912,305.154785,547.042664
+Medium
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw fuel
+Agricultural
+Processed food, Tourism
+none
+none
+
+--------------------------
+non
+RIEDAR
+Riedar
+-536.986206,309.015472,659.314819
+Large
+Volcanic
+Minimal
+Raw fuel
+Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+RIOREDAT
+Rioredat
+-536.414551,370.005371,590.614929
+Medium
+Temperate
+Moderate
+Food
+Food, Furs, Minerals, Raw materials
+Industrial/Agricultural
+Processed food, Biochemicals
+none
+none
+
+--------------------------
+non
+VEGESO
+Vegeso
+-551.402710,406.143433,543.237671
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic, Furs
+Agricultural
+Bulk food*, Processed food, Tourism
+none
+none
+

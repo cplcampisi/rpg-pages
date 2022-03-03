@@ -1,0 +1,116 @@
+RAREUSES
+Republic
+7
+7
+1
+PLANETARY STATISTICS:
+0 1 5 1 
+5 1 1 0 0 0 0 
+1 0 3 3 
+1 2 1 1 0 2 0 
+
+--------------------------
+core
+RAREUSES
+Rareuses
+-40.355530,-635.359131,479.154053
+Medium
+Temperate
+Moderate
+Food
+Food, Minerals, Raw fuel, Raw materials
+Industrial
+Enhanced rations, Industrial machinery, Refined fuel, Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+ANESRI
+Anesri
+74.195320,-620.613586,413.594727
+Medium
+Ice
+Dense
+Raw fuel
+Raw fuel*
+Mixed
+Refined fuel*, Tourism
+none
+none
+
+--------------------------
+non
+ENXELA
+Enxela
+-98.746780,-612.709351,528.783447
+Small
+Temperate
+Minimal
+Minerals
+Furs, Minerals*, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+non
+GEMAESAT
+Gemaesat
+27.852280,-662.894531,509.793610
+Medium
+Temperate
+Moderate
+Minerals
+Food, Furs, Minerals*
+Industrial
+Bulk food, Luxury goods, Industrial machinery, Rare materials
+none
+none
+
+--------------------------
+non
+ORAT
+Orat
+-11.199118,-662.466125,434.726654
+Medium
+Temperate
+Dense
+Food
+Food*, Furs, Minerals
+Mixed
+Bulk food, Enhanced rations
+none
+none
+
+--------------------------
+non
+RERETEIN
+Reretein
+-72.061493,-588.160034,351.766785
+Medium
+Jungle
+Moderate
+Food
+Food, Furs
+Agricultural
+Bulk food, Luxury goods
+none
+none
+
+--------------------------
+non
+VEBE
+Vebe
+-45.002090,-616.331177,588.414001
+Large
+Temperate
+Dense
+Food
+Food, Aquatic, Furs, Raw materials
+Industrial/Agricultural
+Enhanced rations, Processed food, Medicine
+none
+none
+

@@ -1,0 +1,326 @@
+LAESCE
+Margravate
+6
+21
+5
+PLANETARY STATISTICS:
+2 5 8 6 
+11 2 1 1 6 0 0 
+1 8 7 5 
+2 1 5 7 0 4 2 
+
+--------------------------
+core
+LAESCE
+Laesce
+287.878723,-582.227966,-45.447113
+Small
+Temperate
+Moderate
+Food
+Food*, Furs, Raw materials
+Agricultural
+Bulk food, Processed food, Chemicals, Biochemicals, Religion
+none
+none
+
+--------------------------
+core
+BIZAVE MAJOR
+Bizave major
+283.660400,-638.489502,-61.702568
+Medium
+Temperate
+Moderate
+Food
+Food*, Minerals, Raw fuel
+Agricultural
+Bulk food, Enhanced rations, Refined ore, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+core
+CEDIREXE
+Cedirexe
+244.536819,-511.465454,-84.972420
+Small
+Jungle
+Moderate
+Aquatic
+Aquatic, Raw fuel
+Agricultural
+Bulk food, Consumer goods
+none
+none
+
+--------------------------
+core
+DICEUS
+Diceus
+263.372284,-526.848145,-13.742682
+Small
+Mountainous
+Sparse
+Furs
+Furs, Minerals
+Agricultural
+
+none
+none
+
+--------------------------
+core
+USMAOR
+Usmaor
+328.914612,-629.378662,-28.853851
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Minerals, Raw materials
+Agricultural
+Bulk food, Enhanced rations, Biochemicals
+none
+none
+
+--------------------------
+non
+AISBE BETA
+Aisbe beta
+309.983490,-553.014832,-126.270142
+Medium
+Mountainous
+Sparse
+Food
+Food*
+Industrial/Agricultural
+Bulk food, Processed food, Entertainment
+none
+none
+
+--------------------------
+non
+AREDXE
+Aredxe
+222.445419,-578.478027,-100.464088
+Small
+Temperate
+Sparse
+Minerals
+Aquatic, Minerals*
+Outpost
+Advanced electronics
+none
+none
+
+--------------------------
+non
+ATMALA
+Atmala
+273.945526,-562.495483,-110.287727
+Small
+Temperate
+Dense
+Food
+Food*, Aquatic, Furs
+Mixed
+Processed food*
+none
+none
+
+--------------------------
+non
+BEEDBI
+Beedbi
+246.926300,-562.934631,22.293198
+Medium
+Ice
+Minimal
+Minerals
+Minerals*
+Outpost
+
+none
+none
+
+--------------------------
+non
+DILE
+Dile
+311.247101,-623.637695,-80.544571
+Planetoid
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Agricultural
+Chemicals, Farm machinery
+none
+none
+
+--------------------------
+non
+DITEIN
+Ditein
+320.750732,-601.413452,-12.943657
+Large
+Temperate
+Sparse
+Furs
+Aquatic, Furs*, Minerals
+Primitive
+Luxury goods, Liquor
+none
+none
+
+--------------------------
+non
+EDLEIN
+Edlein
+197.984131,-542.960571,-197.154343
+Large
+Temperate
+Sparse
+Food
+Food*, Raw materials
+Industrial/Agricultural
+Processed food*, Medicine, Religion
+none
+none
+
+--------------------------
+non
+ESSOBE
+Essobe
+312.713196,-663.461914,-100.276672
+Medium
+Water
+Dense
+Aquatic
+Aquatic*
+Industrial/Agricultural
+Processed food*
+none
+none
+
+--------------------------
+non
+LEABE
+Leabe
+204.803726,-616.490173,-133.926880
+Medium
+Mountainous
+Dense
+Aquatic
+Aquatic, Minerals
+Industrial/Agricultural
+Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+MAACERE
+Maacere
+275.496704,-480.918945,-10.713348
+Large
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Industrial
+Industrial machinery
+none
+none
+
+--------------------------
+non
+QUISATIN
+Quisatin
+318.084381,-520.139282,-75.578613
+Large
+Temperate
+Dense
+Food
+Food*, Aquatic, Raw materials
+Mixed
+Bulk food, Processed food*
+none
+none
+
+--------------------------
+non
+QUSOED
+Qusoed
+263.798096,-561.046265,-200.402283
+Planetoid
+Ice
+Dense
+Minerals
+Minerals*
+Mixed
+Industrial machinery, Refined ore
+none
+none
+
+--------------------------
+non
+RARAEN
+Raraen
+298.436127,-541.786804,-106.986649
+Medium
+Temperate
+Moderate
+Furs
+Food, Furs*
+Primitive
+Bulk food, Luxury goods
+none
+none
+
+--------------------------
+non
+RIEDEN I
+Rieden i
+307.650848,-524.069031,-81.789001
+Medium
+Mountainous
+Sparse
+Food
+Food, Raw fuel
+Mixed
+Processed food
+none
+none
+
+--------------------------
+non
+TIRAGE
+Tirage
+281.610199,-525.134766,-21.127556
+Large
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Minerals
+Agricultural
+Enhanced rations, Processed food, Refined ore
+none
+none
+
+--------------------------
+non
+VEARVE
+Vearve
+217.495529,-530.802124,-51.126427
+Large
+Temperate
+Sparse
+Minerals
+Food, Minerals*, Raw materials
+Industrial/Agricultural
+Bulk food, Rare materials, Biochemicals
+none
+none
+

@@ -1,0 +1,281 @@
+ARUSIN
+Archduchy
+1
+18
+5
+PLANETARY STATISTICS:
+0 4 11 3 
+9 2 0 1 5 0 1 
+1 3 9 5 
+1 3 7 2 2 3 0 
+ARUSIN is an Imperial possession.  Technically ranked as an Archduchy, it's commonly referred to as the Principality of ARUSIN.
+--------------------------
+core
+ARUSIN
+Arusin
+153.102341,591.081055,199.569504
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic
+Industrial/Agricultural
+Bulk food, Processed food
+none
+Garrison
+
+--------------------------
+core
+EDZAOR
+Edzaor
+191.639999,651.507141,200.691864
+Medium
+Temperate
+Sparse
+Furs
+Food, Furs*, Raw materials
+Agricultural
+Bulk food, Biochemicals
+none
+none
+
+--------------------------
+core
+TEQUEN
+Tequen
+105.596718,539.076111,172.225281
+Medium
+Desert
+Minimal
+Minerals
+Minerals, Raw fuel
+Outpost
+
+none
+none
+
+--------------------------
+core
+TEVERA
+Tevera
+159.783173,558.641541,212.613113
+Medium
+Mountainous
+Moderate
+Food
+Food, Raw fuel
+Mixed
+Processed food, Refined fuel, Consumer goods
+none
+none
+
+--------------------------
+core
+TICESO
+Ticeso
+136.870056,602.149353,190.389160
+Small
+Mountainous
+Dense
+Food
+Food, Furs
+Mercantile
+Processed food, Chemicals
+none
+none
+
+--------------------------
+non
+ARISCEEN
+Arisceen
+148.792313,595.424500,186.658554
+Small
+Ice
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+ARTERI
+Arteri
+106.446571,568.672424,204.861771
+Large
+Temperate
+Moderate
+Food
+Food, Aquatic, Furs, Raw materials
+Industrial/Agricultural
+Enhanced rations, Processed food, Luxury goods, Biochemicals
+none
+none
+
+--------------------------
+non
+ATSOVE
+Atsove
+171.613876,628.515808,225.777466
+Small
+Ice
+Moderate
+Minerals
+Minerals*
+Industrial/Agricultural
+Refined ore
+none
+none
+
+--------------------------
+non
+ATUSMA
+Atusma
+175.980759,627.510925,234.507370
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs, Minerals
+Industrial/Agricultural
+Bulk food, Processed food, Liquor, Consumer electronics
+none
+none
+
+--------------------------
+non
+ERORANIN MINOR
+Eroranin minor
+69.720757,521.005859,196.348877
+Large
+Mountainous
+Moderate
+Aquatic
+Aquatic, Raw materials
+Industrial
+Enhanced rations
+none
+none
+
+--------------------------
+non
+ERTICE
+Ertice
+149.932068,568.516174,101.765587
+Medium
+Temperate
+Dense
+Food
+Food*, Minerals, Raw fuel
+Industrial/Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+non
+GEZABIDI
+Gezabidi
+143.890503,639.266479,158.656250
+Medium
+Water
+Moderate
+Aquatic
+Aquatic, Minerals
+Industrial/Agricultural
+Processed food
+none
+none
+
+--------------------------
+non
+INTIOR
+Intior
+178.316818,597.324036,240.117126
+Medium
+Temperate
+Moderate
+Food
+Food*, Aquatic, Minerals
+Industrial
+Bulk food, Enhanced rations*, Religion
+none
+Garrison
+
+--------------------------
+non
+LELETE
+Lelete
+202.877975,560.495178,176.368256
+Medium
+Temperate
+Dense
+Minerals
+Food, Minerals*, Raw materials
+Mixed
+Processed food, Industrial machinery, Farm machinery, Biochemicals
+none
+none
+
+--------------------------
+non
+RAAQU
+Raaqu
+119.124557,545.549500,277.212433
+Small
+Mountainous
+Dense
+Raw fuel
+Raw fuel, Raw materials
+Mercantile
+Biochemicals, Consumer goods
+none
+none
+
+--------------------------
+non
+RILA
+Rila
+154.447174,571.238037,190.579102
+Medium
+Temperate
+Moderate
+Minerals
+Food, Furs, Minerals*
+Industrial
+Enhanced rations, Refined ore, Rare materials
+none
+none
+
+--------------------------
+non
+SOATI
+Soati
+127.659195,608.702087,231.560791
+Medium
+Temperate
+Sparse
+Aquatic
+Aquatic*, Minerals*
+Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+non
+TIANMA
+Tianma
+173.261536,589.546509,193.507797
+Large
+Mountainous
+Dense
+Food
+Food, Aquatic
+Mixed
+Bulk food
+none
+none
+

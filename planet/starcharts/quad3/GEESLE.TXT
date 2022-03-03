@@ -1,0 +1,131 @@
+GEESLE
+Republic
+3
+8
+2
+PLANETARY STATISTICS:
+0 2 5 1 
+3 1 0 1 3 0 0 
+1 2 5 0 
+1 0 4 2 0 1 0 
+
+--------------------------
+core
+GEESLE
+Geesle
+-664.824097,621.634521,591.848022
+Small
+Temperate
+Moderate
+Food
+Food*, Minerals
+Industrial/Agricultural
+Enhanced rations
+none
+none
+
+--------------------------
+core
+RAAUS
+Raaus
+-644.415100,670.676636,486.429871
+Medium
+Mountainous
+Moderate
+Food
+Food, Raw fuel
+Agricultural
+Enhanced rations
+Asteroid field
+none
+
+--------------------------
+non
+ANBEMAIS
+Anbemais
+-644.821228,541.454041,562.348267
+Medium
+Mountainous
+Sparse
+Minerals
+Minerals*
+Industrial/Agricultural
+Refined ore, Rare materials
+none
+none
+
+--------------------------
+non
+BEBILE
+Bebile
+-743.641785,675.674988,700.020386
+Medium
+Mountainous
+Minimal
+Furs
+Furs, Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+CEZAXE
+Cezaxe
+-618.564392,560.132202,604.701233
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Furs, Minerals
+Industrial/Agricultural
+Processed food*
+none
+none
+
+--------------------------
+non
+INATVE
+Inatve
+-630.244263,733.787476,566.361084
+Large
+Water
+Sparse
+Aquatic
+Aquatic, Raw fuel
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+INTERE
+Intere
+-675.377808,638.285034,650.839966
+Medium
+Temperate
+Moderate
+Food
+Food*, Furs
+Industrial/Agricultural
+Bulk food, Processed food*, Entertainment
+none
+none
+
+--------------------------
+non
+MARERIQU
+Mareriqu
+-693.906921,536.037659,591.377075
+Small
+Ice
+Moderate
+Minerals
+Minerals, Raw fuel
+Mixed
+Rare materials, Refined fuel, Entertainment
+none
+none
+

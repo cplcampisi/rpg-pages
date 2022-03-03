@@ -1,0 +1,326 @@
+BRANT
+Margravate
+7
+21
+4
+PLANETARY STATISTICS:
+2 5 9 6 
+11 3 0 0 6 0 2 
+1 10 10 1 
+1 1 4 11 1 2 2 
+BRANT is a member of the Rearran Alliance.
+--------------------------
+core
+BRANT
+Brant
+-398.213745,-178.387192,146.577179
+Small
+Mountainous
+Moderate
+Minerals
+Minerals*
+Industrial
+Advanced electronics, Refined ore
+none
+none
+
+--------------------------
+core
+EDRAES
+Edraes
+-382.385071,-112.998390,150.474030
+Small
+Temperate
+Sparse
+Food
+Food*, Aquatic, Raw fuel
+Agricultural
+Bulk food*, Processed food
+none
+none
+
+--------------------------
+core
+ORDIUSAR
+Ordiusar
+-454.422913,-226.647995,99.200050
+Medium
+Temperate
+Sparse
+Aquatic
+Food, Aquatic*, Furs
+Agricultural
+Bulk food*, Processed food, Luxury goods
+none
+none
+
+--------------------------
+core
+QUARA
+Quara
+-423.628937,-204.933640,93.018929
+Large
+Desert
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+High grade fuel
+none
+none
+
+--------------------------
+non
+AENAT
+Aenat
+-381.400513,-274.685547,141.110519
+Medium
+Temperate
+Sparse
+Food
+Food*, Aquatic
+Industrial/Agricultural
+Bulk food, Processed food*
+none
+none
+
+--------------------------
+non
+BEDIRE
+Bedire
+-370.273682,-203.143768,132.790924
+Medium
+Temperate
+Dense
+Food
+Food*, Aquatic, Raw materials
+Mixed
+Bulk food, Enhanced rations*
+none
+none
+
+--------------------------
+non
+BEZADI
+Bezadi
+-427.658813,-183.007874,114.804008
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Furs, Minerals
+Primitive
+Bulk food*
+none
+none
+
+--------------------------
+non
+BIRATI
+Birati
+-384.469421,-192.762024,107.066757
+Large
+Temperate
+Sparse
+Food
+Food*, Furs*
+Agricultural
+Bulk food, Enhanced rations
+none
+none
+
+--------------------------
+non
+DIANSO
+Dianso
+-434.331055,-172.642654,106.863457
+Planetoid
+Ice
+Minimal
+Minerals
+Minerals*
+Outpost
+
+none
+none
+
+--------------------------
+non
+EDRI
+Edri
+-420.574341,-152.630051,182.454407
+Large
+Temperate
+Moderate
+Food
+Food*, Furs, Minerals
+Agricultural
+Bulk food, Processed food, Liquor, Religion
+none
+none
+
+--------------------------
+non
+GESOTE
+Gesote
+-459.713715,-222.158875,122.263222
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Minerals, Raw fuel
+Primitive
+
+Asteroid field
+none
+
+--------------------------
+non
+LEORRI ALPHA
+Leorri alpha
+-349.631317,-202.801498,97.260406
+Large
+Temperate
+Moderate
+Furs
+Food, Furs*
+Agricultural
+Bulk food, Liquor, Chemicals, Tourism
+none
+none
+
+--------------------------
+non
+LEORRI BETA
+Leorri beta
+-349.631317,-202.801498,97.260406
+Medium
+Desert
+Moderate
+Furs
+Furs, Raw fuel
+Agricultural
+Chemicals
+none
+none
+
+--------------------------
+non
+LEXEGE
+Lexege
+-399.865601,-209.972549,163.841080
+Medium
+Ice
+Sparse
+Food
+Food, Aquatic
+Mercantile
+Enhanced rations*, Consumer goods
+none
+none
+
+--------------------------
+non
+OREDXE
+Oredxe
+-400.255188,-151.277374,162.129456
+Medium
+Mountainous
+Moderate
+Food
+Food, Minerals
+Agricultural
+Tourism
+none
+none
+
+--------------------------
+non
+QUTITI
+Qutiti
+-368.190582,-118.978729,139.206146
+Large
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Agricultural
+
+none
+none
+
+--------------------------
+non
+QUZA BETA
+Quza beta
+-400.986938,-139.354401,110.717682
+Small
+Mountainous
+Moderate
+Food
+Food, Minerals
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+RAREXE
+Rarexe
+-413.250854,-215.810593,168.732254
+Small
+Temperate
+Sparse
+Furs
+Food, Furs*, Minerals
+Agricultural
+Bulk food
+none
+none
+
+--------------------------
+non
+USATRE
+Usatre
+-425.855072,-134.844360,180.770706
+Large
+Mountainous
+Moderate
+Furs
+Furs*
+Industrial/Agricultural
+Luxury goods, Consumer goods
+none
+none
+
+--------------------------
+non
+USDIORQU
+Usdiorqu
+-405.168335,-154.258240,162.889709
+Small
+Mountainous
+Moderate
+Furs
+Furs, Minerals
+Agricultural
+Luxury goods
+none
+none
+
+--------------------------
+non
+USRASO
+Usraso
+-403.448700,-258.279205,122.090141
+Planetoid
+Mountainous
+Sparse
+Minerals
+Minerals, Raw materials
+Mixed
+Consumer electronics, Biochemicals
+none
+none
+

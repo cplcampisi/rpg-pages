@@ -1,0 +1,64 @@
+UNASSIGNED
+n/a
+2
+4
+--------------------------
+n/a
+BEARLE
+Bearle
+34.937798,599.417847,-684.263123
+Medium
+Mountainous
+Moderate
+Food
+Food, Minerals
+Industrial
+Enhanced rations, Rare materials
+none
+none
+
+--------------------------
+n/a
+BEZARA
+Bezara
+471.805084,463.194458,-550.195801
+Planetoid
+Ice
+Dense
+Aquatic
+Aquatic, Raw fuel
+Mixed
+Bulk food
+none
+none
+
+--------------------------
+n/a
+USLERI
+Usleri
+62.915222,416.183167,-309.429962
+Small
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Minerals
+Agricultural
+Bulk food*, Luxury goods
+none
+none
+
+--------------------------
+n/a
+ZAVEAN
+Zavean
+543.981079,462.481873,-524.030701
+Large
+Temperate
+Sparse
+Furs
+Food, Furs*, Minerals
+Agricultural
+Processed food, Luxury goods
+none
+none
+

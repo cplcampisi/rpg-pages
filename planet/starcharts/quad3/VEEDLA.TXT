@@ -1,0 +1,326 @@
+VEEDLA
+Margravate
+3
+21
+4
+PLANETARY STATISTICS:
+3 3 9 6 
+12 3 0 3 1 0 2 
+1 10 7 3 
+1 2 5 3 1 8 1 
+
+--------------------------
+core
+VEEDLA
+Veedla
+-650.894531,495.597412,45.541656
+Medium
+Temperate
+Moderate
+Food
+Food*, Raw fuel
+Agricultural
+Bulk food*, Consumer goods
+none
+none
+
+--------------------------
+core
+ENANLE
+Enanle
+-697.655945,391.299194,-3.508808
+Planetoid
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Mixed
+Rare materials, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+core
+ERRERIAR
+Erreriar
+-635.139160,483.872101,60.837379
+Medium
+Temperate
+Moderate
+Minerals
+Food, Furs, Minerals*
+Industrial/Agricultural
+Enhanced rations, Refined ore
+none
+none
+
+--------------------------
+core
+RIARIN
+Riarin
+-628.551758,497.621002,107.647049
+Medium
+Temperate
+Moderate
+Food
+Food, Aquatic, Minerals, Raw fuel
+Mixed
+Enhanced rations, Processed food, Weaponry
+none
+none
+
+--------------------------
+non
+ALEED
+Aleed
+-633.712402,414.371033,47.099064
+Medium
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Minerals
+Mixed
+Enhanced rations, Processed food, Luxury goods, Farm machinery, Consumer goods
+none
+none
+
+--------------------------
+non
+ANEDAR
+Anedar
+-607.129761,473.397736,120.670006
+Small
+Water
+Sparse
+Aquatic
+Aquatic, Furs
+Primitive
+Luxury goods
+none
+Temple
+
+--------------------------
+non
+AREZA
+Areza
+-720.149658,370.210541,13.660261
+Medium
+Ice
+Sparse
+Minerals
+Minerals, Raw fuel
+Industrial/Agricultural
+
+none
+none
+
+--------------------------
+non
+ARZACE MAJOR
+Arzace major
+-652.285095,521.588867,83.615433
+Small
+Water
+Dense
+Aquatic
+Aquatic, Raw fuel
+Mixed
+Processed food, Refined fuel
+none
+none
+
+--------------------------
+non
+DIRILE
+Dirile
+-525.010620,542.080261,-11.594078
+Small
+Temperate
+Moderate
+Food
+Food*, Aquatic, Raw fuel
+Mixed
+Bulk food*, Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+EDTICE
+Edtice
+-638.604614,470.110260,144.242157
+Large
+Mountainous
+Sparse
+Minerals
+Minerals, Raw materials
+Industrial/Agricultural
+Medicine, Consumer goods
+none
+none
+
+--------------------------
+non
+ENBEBI
+Enbebi
+-614.046021,556.552795,105.899681
+Planetoid
+Ice
+Sparse
+Minerals
+Minerals*
+Mixed
+Farm machinery*, Tourism
+none
+none
+
+--------------------------
+non
+ERARAUS
+Eraraus
+-493.722748,473.259949,-24.211411
+Large
+Temperate
+Dense
+Aquatic
+Food, Aquatic*, Raw materials
+Industrial
+Enhanced rations, Processed food*, Consumer goods
+none
+none
+
+--------------------------
+non
+ERCEVEMA
+Ercevema
+-553.122986,561.790894,54.238052
+Large
+Water
+Minimal
+Food
+Food, Minerals
+Outpost
+
+none
+none
+
+--------------------------
+non
+ESCEAN
+Escean
+-643.985291,601.088928,27.706285
+Large
+Temperate
+Sparse
+Food
+Food*, Raw materials
+Mixed
+Bulk food*
+none
+none
+
+--------------------------
+non
+INCECE
+Incece
+-647.859985,482.320007,106.434937
+Large
+Temperate
+Sparse
+Furs
+Food, Furs*, Minerals
+Industrial/Agricultural
+Enhanced rations, Entertainment
+none
+none
+
+--------------------------
+non
+ISRAAT
+Israat
+-634.873047,505.396484,128.827057
+Medium
+Desert
+Moderate
+Minerals
+Minerals*
+Mercantile
+Refined ore
+none
+none
+
+--------------------------
+non
+RIZAIS
+Rizais
+-670.085632,405.618378,20.133869
+Medium
+Temperate
+Moderate
+Aquatic
+Aquatic, Minerals, Raw fuel, Raw materials
+Mixed
+Bulk food, Industrial machinery, Medicine
+none
+none
+
+--------------------------
+non
+TIEDOR
+Tiedor
+-633.110962,573.154541,175.342438
+Large
+Temperate
+Moderate
+Food
+Food, Aquatic, Furs, Raw fuel
+Industrial/Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+non
+USDIRE
+Usdire
+-464.271057,526.296936,37.984467
+Medium
+Desert
+Dense
+Minerals
+Minerals*
+Industrial
+Rare materials, Entertainment
+none
+none
+
+--------------------------
+non
+XELAED
+Xelaed
+-623.437195,526.959351,4.594021
+Medium
+Temperate
+Sparse
+Food
+Food*, Aquatic, Minerals
+Agricultural
+Bulk food, Enhanced rations
+none
+none
+
+--------------------------
+non
+ZAARTIVE
+Zaartive
+-630.662292,579.408630,111.523643
+Planetoid
+Temperate
+Sparse
+Furs
+Furs*, Minerals, Raw fuel
+Agricultural
+Refined fuel, Tourism
+none
+none
+

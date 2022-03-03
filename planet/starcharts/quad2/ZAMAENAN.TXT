@@ -1,0 +1,341 @@
+ZAMAENAN
+Margravate
+2
+22
+4
+PLANETARY STATISTICS:
+0 6 10 6 
+10 0 3 3 1 5 0 
+1 9 8 4 
+1 4 5 5 2 4 1 
+
+--------------------------
+core
+ZAMAENAN
+Zamaenan
+187.228546,650.291504,-391.549500
+Small
+Temperate
+Moderate
+Food
+Food, Aquatic, Furs, Raw fuel
+Industrial/Agricultural
+Bulk food, Processed food
+none
+none
+
+--------------------------
+core
+BIORMA
+Biorma
+158.861954,730.825623,-336.622955
+Small
+Volcanic
+Minimal
+Minerals
+Minerals
+Outpost
+
+none
+none
+
+--------------------------
+core
+DIANMA
+Dianma
+170.132523,532.283264,-444.122101
+Medium
+Temperate
+Sparse
+Food
+Food*, Minerals, Raw materials
+Agricultural
+Processed food*, Biochemicals
+none
+none
+
+--------------------------
+core
+DILEZA
+Dileza
+234.381104,707.514099,-198.412552
+Large
+Temperate
+Dense
+Food
+Food*, Minerals*
+Industrial/Agricultural
+Enhanced rations, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+ALELE
+Alele
+245.983170,669.939514,-449.661438
+Medium
+Mountainous
+Moderate
+Furs
+Furs, Raw materials
+Mercantile
+Chemicals, Medicine
+none
+none
+
+--------------------------
+non
+ANBEBE
+Anbebe
+141.823502,608.537659,-489.318298
+Large
+Temperate
+Sparse
+Aquatic
+Aquatic*, Furs, Raw fuel
+Agricultural
+Bulk food, Enhanced rations, Liquor, Refined fuel
+none
+none
+
+--------------------------
+non
+ANRETERA
+Anretera
+151.658356,666.497925,-381.206482
+Small
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Industrial
+Refined fuel
+none
+none
+
+--------------------------
+non
+ARAAT
+Araat
+172.651917,709.929749,-403.725677
+Medium
+Temperate
+Sparse
+Minerals
+Food, Aquatic, Minerals*
+Industrial
+Enhanced rations, Processed food, Rare materials, Tourism
+none
+none
+
+--------------------------
+non
+BETIBE
+Betibe
+253.229187,715.734924,-470.405975
+Medium
+Temperate
+Sparse
+Food
+Food*
+Primitive
+Bulk food*
+none
+none
+
+--------------------------
+non
+BIRIES
+Biries
+214.066498,642.043091,-378.046265
+Large
+Volcanic
+Moderate
+Minerals
+Minerals
+Industrial
+Rare materials, Consumer goods
+none
+none
+
+--------------------------
+non
+BIZATE
+Bizate
+122.073036,625.733154,-359.600861
+Large
+Temperate
+Sparse
+Food
+Food, Aquatic, Furs, Raw materials
+Agricultural
+Bulk food, Processed food, Biochemicals
+none
+none
+
+--------------------------
+non
+ENENRE
+Enenre
+252.245941,665.788818,-381.256226
+Medium
+Temperate
+Sparse
+Minerals
+Food, Furs, Minerals*
+Industrial
+Enhanced rations, Chemicals, Refined ore, Rare materials
+none
+none
+
+--------------------------
+non
+ERINZATI
+Erinzati
+130.963806,543.659973,-366.694427
+Medium
+Jungle
+Dense
+Food
+Food, Raw materials
+Mixed
+Bulk food, Medicine
+none
+none
+
+--------------------------
+non
+GETILA
+Getila
+114.378830,683.885376,-265.225922
+Medium
+Volcanic
+Sparse
+Raw fuel
+Raw fuel
+Agricultural
+
+none
+none
+
+--------------------------
+non
+LEMAGE
+Lemage
+108.555893,646.522522,-336.629120
+Medium
+Water
+Moderate
+Aquatic
+Aquatic, Raw fuel
+Agricultural
+Bulk food, Religion
+none
+none
+
+--------------------------
+non
+MAAQUGE II
+Maaquge ii
+112.470932,580.098816,-413.066711
+Small
+Water
+Sparse
+Aquatic
+Aquatic*
+Industrial/Agricultural
+Enhanced rations*
+none
+none
+
+--------------------------
+non
+MAENBI
+Maenbi
+186.686111,668.536621,-443.721893
+Small
+Jungle
+Dense
+Minerals
+Minerals, Raw materials
+Mixed
+Consumer electronics, Biochemicals
+none
+none
+
+--------------------------
+non
+MAINED
+Mained
+298.889954,702.444519,-389.137421
+Medium
+Jungle
+Dense
+Aquatic
+Aquatic, Raw fuel
+Mixed
+Enhanced rations, Refined fuel
+none
+none
+
+--------------------------
+non
+REBIARGE
+Rebiarge
+248.130646,589.453125,-275.252258
+Large
+Water
+Moderate
+Aquatic
+Aquatic*
+Industrial/Agricultural
+Enhanced rations, Processed food, Consumer goods
+none
+none
+
+--------------------------
+non
+RECE
+Rece
+188.890381,751.093750,-369.486206
+Small
+Temperate
+Moderate
+Raw materials
+Food, Furs, Raw materials*
+Mercantile
+Processed food, Luxury goods, Liquor
+none
+none
+
+--------------------------
+non
+TETETI
+Teteti
+125.011642,696.929993,-396.697388
+Medium
+Volcanic
+Moderate
+Raw fuel
+Raw fuel
+Mixed
+Refined fuel, Entertainment
+none
+none
+
+--------------------------
+non
+TIATED
+Tiated
+179.518524,602.640259,-388.705902
+Large
+Temperate
+Moderate
+Aquatic
+Aquatic*, Minerals
+Industrial/Agricultural
+Bulk food, Enhanced rations, Processed food
+none
+none
+
