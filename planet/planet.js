@@ -99,6 +99,18 @@ class planet
     }
 }
 
+class region
+{
+    constructor(name, rName, rTitle, type, lName)
+    {
+        this.name = name;
+        this.rName = rName;
+        this.rTitle = rTitle;
+        this.type = type;
+        this.lName = lName;
+    }
+}
+
 function space(n)
 {
     var x = "";
@@ -198,5 +210,86 @@ function ProcessQuad(n)
 {
     var lines;
     lines = imperialTxt.split(/(?:\r\n|\r|\n)/g);
+
+    var quad = lines[0];
+    var vectors = lines[1];
+    //blank line
+    var nPlanets = lines[3];
+    var pSizes = lines[4];
+    var pType = lines[5];
+    var pPop = lines[6];
+    var pCiv = lines[7];
+    
+    //------------------------------------------------
+    // STATS
+    //------------------------------------------------
+    var text = "Number of planets:&nbsp;&nbsp;&nbsp;&nbsp;" + nPlanets + "<br><br>";
+    
+    text = text + "Sizes: <br><br>";
+    
+    var sizes = pSizes.split(" ");
+    //3, 11, 7, 10;
+    text = text + "planetoids:&nbsp;&nbsp;&nbsp;" + sizes[0] + "<br>";
+    text = text + "small:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[1] + "<br>";
+    text = text + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2] + "<br>";
+    text = text + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3] + "<br><br>";
+    
+    var types = pType.split(" ");
+    
+    //Climate types
+    text = text + "Climate types: <br><br>";
+    
+    text = text + "temperate:" + space(3) + types[0] + "<br>";
+    text = text + "ice:" + space(16) + types[1] + "<br>";
+    text = text + "jungle:" + space(10) + types[2] + "<br>";
+    text = text + "water:" + space(11) + types[3] + "<br>";
+    text = text + "mountain:" + space(5) + types[4] + "<br>";
+    text = text + "volcanic:" + space(7) + types[5] + "<br>";
+    text = text + "desert:" + space(10) + types[6] + "<br><br>";
+    
+    //Populations
+    var pops = pPop.split(" ");
+    text = text + "Pop. Density: <br><br>";
+    
+    text = text + "minimal:" + space(9) + pops[0] + "<br>";
+    text = text + "sparse:" + space(12) + pops[1] + "<br>";
+    text = text + "moderate:" + space(7) + pops[2] + "<br>";
+    text = text + "dense:" + space(14) + pops[3] + "<br><br>";
+    
+    //Civilization types
+    var civs = pCiv.split(" ");
+    text = text + "Civ. Types: <br><br>";
+    
+    text = text + "outpost:" +              space(18) + civs[0] + "<br>";
+    text = text + "industrial:" +           space(14) + civs[1] + "<br>";
+    text = text + "ind./agricultural:" +    space(2) + civs[2] + "<br>";
+    text = text + "agricultural:" +         space(10) + civs[3] + "<br>";
+    text = text + "mercantile:" +           space(12) + civs[4] + "<br>";
+    text = text + "mixed:" +                space(19) + civs[5] + "<br>";
+    text = text + "primitive:" +            space(14) + civs[6] + "<br>";
+
+    //------------------------------------------------
+    // REGIONS
+    //------------------------------------------------
+    //line 8 is seperator
+    var rList = [];
+    var nRegions = parseInt(lines[9]);
+    var i = 10; //starting line
+    for (var x=0;x<nRegions;x++)
+    {
+        i++; //skip separator
+        var name = lines[i];
+        i++;
+        var rName = lines[i];
+        i++;
+        var title = lines[i];
+        i++;
+        var type = lines[i];
+
+        var lName = title.charAt(0) + ". of " + rName;
+        var r = new region(name, rName, title, type, lName);
+        rList.push(r);
+    }
+
 }
 
