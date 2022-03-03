@@ -239,7 +239,7 @@ function ProcessQuad(n)
     mainText += "Vectors (x,y,z):" + space(12);
     mainText += v0 +", ";
     mainText += v1 +", ";
-    mainText += v2 +"<br>";
+    mainText += v2 +"<br><br>";
     
     mainText += "Number of planets in quadrant:" + space(4) + nPlanets + "<br>";
     
@@ -253,7 +253,7 @@ function ProcessQuad(n)
     sizeText = sizeText + "planetoids:&nbsp;&nbsp;&nbsp;" + sizes[0] + "<br>";
     sizeText = sizeText + "small:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[1] + "<br>";
     sizeText = sizeText + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2] + "<br>";
-    sizeText = sizeText + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3] + "<br><br>";
+    sizeText = sizeText + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3] + "<br><br>";
     
     //Climate types
     var types = pType.split(" ");
@@ -323,7 +323,7 @@ function ProcessQuad(n)
         var type = lines[i];
         i++;
 
-        var lName = title.charAt(0) + ". of " + rName;
+        var lName = title.charAt(0) + ". of " + name;
         var r = new region(name, rName, title, type, lName);
         rList.push(r);
         
@@ -341,6 +341,8 @@ function ProcessQuad(n)
             column = 1;
         }
     }
+    //Add Unassigned button
+    buttons += "<div class='planetbuttons' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\"UNASSIGNED\");'>"+UNASSIGNED+"</div>";
     
     document.getElementById("qrightcol").innerHTML = buttons;
 }
