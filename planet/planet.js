@@ -195,6 +195,18 @@ function ProcessImperialStats()
 
 function ProcessQuad(n)
 {
+    //------------------------------------------------
+    //Clear all information
+    document.getElementById("qtitle").innerHTML = "";
+    document.getElementById("qmain").innerHTML = "";
+    document.getElementById("qsizes").innerHTML = "";
+    document.getElementById("qtypes").innerHTML = "";
+    document.getElementById("qpops").innerHTML = "";
+    document.getElementById("qcivs").innerHTML = "";
+    document.getElementById("qfoot").innerHTML = "QUADRANT ";
+    document.getElementById("qrightcol").innerHTML = "";
+    //------------------------------------------------
+
     var lines;
     lines = quadTxt.split(/(?:\r\n|\r|\n)/g);
 
