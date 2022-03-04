@@ -393,10 +393,10 @@ function shortName(name)
             newName += " G";
         break;
         case "PRIME":
-            newName += " I";
+            newName += " 1";
         break;
         default:
-            newName += " ?";
+            newName = name;
         break;
     }
     return newName;
