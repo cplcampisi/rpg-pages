@@ -310,7 +310,7 @@ function ProcessQuad(n)
         var type = lines[i];
         i++;
 
-        var lName = title.charAt(0) + ". of " + name;
+        var lName = title.charAt(0) + ". of " + shortName(name);
         var r = new region(name, rName, title, type, lName);
         rList.push(r);
         
@@ -370,12 +370,36 @@ function romanNumeral(n)
 
 function shortName(name)
 {
-    //MAJOR --> +
-    //MINOR --> -
-    //ALPHA --> A
-    //BETA --> B
-    //GAMMA --> G
-    //PRIME --> 1
+    var n = name.split(" ");
+    if (n.length<2)
+        return name;
+    
+    var newName = n[0];
+    switch(n[1].toUpperCase())
+    {
+        case "MAJOR":
+            newName += " +";
+        break;
+        case "MINOR":
+            newName += " -";
+        break;
+        case "ALPHA":
+            newName += " A";
+        break;
+        case "BETA":
+            newName += " B";
+        break;
+        case "GAMMA":
+            newName += " G";
+        break;
+        case "PRIME":
+            newName += " I";
+        break;
+        default:
+            newName += " ?";
+        break;
+    }
+    return newName;
 }
 
 function goRegion(name, quad)
