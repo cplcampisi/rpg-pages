@@ -64,7 +64,7 @@ async function loadRegion(name, n)
     {
       const response = await fetch("./quad"+parseInt(n)+"/"+name+".TXT");
       quadTxt = await response.text();
-      ProcessQuad(n);
+      ProcessRegion(name);
     } catch (err) {
       console.error(err);
     }
@@ -416,6 +416,20 @@ function shortName(name)
 
 function goRegion(name, quad)
 {
-
+    
 }
 
+function ProcessRegion()
+{
+    var lines;
+    lines = regionTxt.split(/(?:\r\n|\r|\n)/g);
+
+    var quad = lines[0];
+    var vectors = lines[1];
+    //blank line
+    var nPlanets = lines[3];
+    var pSizes = lines[4];
+    var pType = lines[5];
+    var pPop = lines[6];
+    var pCiv = lines[7];
+}
