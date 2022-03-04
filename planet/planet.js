@@ -46,6 +46,17 @@ async function loadImperialStats()
 async function loadQuad(n)
 {
     quadTxt = "";
+    //------------------------------------------------
+    //Clear all information
+    document.getElementById("qtitle").innerHTML = "";
+    document.getElementById("qmain").innerHTML = "";
+    document.getElementById("qsizes").innerHTML = "";
+    document.getElementById("qtypes").innerHTML = "";
+    document.getElementById("qpops").innerHTML = "";
+    document.getElementById("qcivs").innerHTML = "";
+    document.getElementById("qfoot").innerHTML = "QUADRANT ";
+    document.getElementById("qrightcol").innerHTML = "";
+    //------------------------------------------------
     try
     {
       const response = await fetch("QUAD"+parseInt(n)+".TXT");
@@ -477,6 +488,7 @@ function ProcessRegion()
     document.getElementById("rnotes").innerHTML = notes;
     
     document.getElementById("rfoot").innerHTML = gov + " of " + name;
-
+    //goToQuad(n)
+    document.getElementById("rback").onclick = function() {goToQuad(parseInt(quad));}; 
     //Read planet information
 }

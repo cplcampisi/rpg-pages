@@ -275,20 +275,6 @@
         if (page=="imperial")
             loadImperialStats();
 
-        if (page=="quads")
-        {
-            //------------------------------------------------
-            //Clear all information
-            document.getElementById("qtitle").innerHTML = "";
-            document.getElementById("qmain").innerHTML = "";
-            document.getElementById("qsizes").innerHTML = "";
-            document.getElementById("qtypes").innerHTML = "";
-            document.getElementById("qpops").innerHTML = "";
-            document.getElementById("qcivs").innerHTML = "";
-            document.getElementById("qfoot").innerHTML = "QUADRANT ";
-            document.getElementById("qrightcol").innerHTML = "";
-            //------------------------------------------------
-        }
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
         view=page;
