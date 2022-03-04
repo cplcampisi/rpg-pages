@@ -63,7 +63,7 @@ async function loadRegion(name, n)
     try
     {
       const response = await fetch("./quad"+parseInt(n)+"/"+name+".TXT");
-      quadTxt = await response.text();
+      regionTxt = await response.text();
       ProcessRegion();
     } catch (err) {
       console.error(err);
