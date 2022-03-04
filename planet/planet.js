@@ -419,7 +419,7 @@ function ProcessRegion()
     var pCiv = lines[9];
     var notes = lines[10];
 
-    mainText += "Number of planets in region:" + space(4) + nPlanets + "<br>";
+    var mainText = "STATISTICS:<br>Number of planets in region:" + space(4) + nPlanets + "<br>";
     
     //------------------------------------------------
     // STATS
