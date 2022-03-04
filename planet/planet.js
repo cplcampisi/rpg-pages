@@ -406,7 +406,7 @@ function ProcessRegion()
 {
     var lines;
     lines = regionTxt.split(/(?:\r\n|\r|\n)/g);
-    alert(regionTxt);
+    //alert(regionTxt);
 
     var name = lines[0];
     var gov = lines[1];
