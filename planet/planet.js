@@ -64,7 +64,7 @@ async function loadRegion(name, n)
     {
       const response = await fetch("./quad"+parseInt(n)+"/"+name+".TXT");
       quadTxt = await response.text();
-      ProcessRegion(name);
+      ProcessRegion();
     } catch (err) {
       console.error(err);
     }
@@ -406,6 +406,7 @@ function ProcessRegion()
 {
     var lines;
     lines = regionTxt.split(/(?:\r\n|\r|\n)/g);
+    alert(regionTxt);
 
     var name = lines[0];
     var gov = lines[1];
