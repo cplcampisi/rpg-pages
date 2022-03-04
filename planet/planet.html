@@ -274,6 +274,21 @@
     {
         if (page=="imperial")
             loadImperialStats();
+
+        if (page=="quads")
+        {
+            //------------------------------------------------
+            //Clear all information
+            document.getElementById("qtitle").innerHTML = "";
+            document.getElementById("qmain").innerHTML = "";
+            document.getElementById("qsizes").innerHTML = "";
+            document.getElementById("qtypes").innerHTML = "";
+            document.getElementById("qpops").innerHTML = "";
+            document.getElementById("qcivs").innerHTML = "";
+            document.getElementById("qfoot").innerHTML = "QUADRANT ";
+            document.getElementById("qrightcol").innerHTML = "";
+            //------------------------------------------------
+        }
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
         view=page;
@@ -595,6 +610,64 @@
         </div>
         
         <button id="qback" class="backbutton" style="left:705px;top:595px;" onclick='buttonclick("quads");'>
+        </button>
+                
+    </div>
+
+    <!-- -------------------------------------------------------------------------------
+      REGION
+    ------------------------------------------------------------------------------- -->
+    <div id="region" style="
+   width: 800px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-color: #28240E;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <div id="rleftcol" class="leftback">
+        </div>
+        
+        <div id="rrightcol" class="rightback">
+        </div>
+        
+        <div id="rtitle" class="title" style="left:46px;top:47px;
+                  width:313px;height:39px;">
+        </div>
+        
+        <div id="rmain" class="text14b" style="left:46px;top:111px;
+                  width:310px;height:90px;">
+        </div>
+        
+        <div id="rsizes" class="text14b" style="left:46px;top:202px;
+                  width:150px;height:104px;">
+        </div>
+        
+        <div id="rtypes" class="text14b" style="left:46px;top:306px;
+                  width:150px;height:158px;">
+        </div>
+        
+        <div id="rpops" class="text14b" style="left:206px;top:202px;
+                  width:150px;height:104px;">
+        </div>
+        
+        <div id="rcivs" class="text14b" style="left:206px;top:306px;
+                  width:105px;height:158px;">
+        </div>
+        
+        <div id="rnotes" class="text14b" style="left:46px;top:469px;
+                  width:310px;height:90px;">
+        </div>
+        
+        
+        <div class="footer" style="left:78px;top:600px;
+                  width:569px;height:23px;">
+        Biroc's Guide to the Planets - <span id="rfoot"></span>
+        </div>
+        
+        <button id="rback" class="backbutton" style="left:705px;top:595px;" onclick='buttonclick("quads");'>
         </button>
                 
     </div>

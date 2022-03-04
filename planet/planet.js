@@ -195,18 +195,6 @@ function ProcessImperialStats()
 
 function ProcessQuad(n)
 {
-    //------------------------------------------------
-    //Clear all information
-    document.getElementById("qtitle").innerHTML = "";
-    document.getElementById("qmain").innerHTML = "";
-    document.getElementById("qsizes").innerHTML = "";
-    document.getElementById("qtypes").innerHTML = "";
-    document.getElementById("qpops").innerHTML = "";
-    document.getElementById("qcivs").innerHTML = "";
-    document.getElementById("qfoot").innerHTML = "QUADRANT ";
-    document.getElementById("qrightcol").innerHTML = "";
-    //------------------------------------------------
-
     var lines;
     lines = quadTxt.split(/(?:\r\n|\r|\n)/g);
 
@@ -414,22 +402,80 @@ function shortName(name)
     return newName;
 }
 
-function goRegion(name, quad)
-{
-    
-}
-
 function ProcessRegion()
 {
     var lines;
     lines = regionTxt.split(/(?:\r\n|\r|\n)/g);
 
-    var quad = lines[0];
-    var vectors = lines[1];
-    //blank line
+    var name = lines[0];
+    var gov = lines[1];
+    var quad = lines[2];
     var nPlanets = lines[3];
-    var pSizes = lines[4];
-    var pType = lines[5];
-    var pPop = lines[6];
-    var pCiv = lines[7];
+    var something = lines[4];
+    //place holder line
+    var pSizes = lines[6];
+    var pType = lines[7];
+    var pPop = lines[8];
+    var pCiv = lines[9];
+    var notes = lines[10];
+
+    mainText += "Number of planets in region:" + space(4) + nPlanets + "<br>";
+    
+    //------------------------------------------------
+    // STATS
+    //------------------------------------------------
+    var sizeText =  "Sizes: <br><br>";
+    
+    var sizes = pSizes.split(" ");
+    //3, 11, 7, 10;
+    sizeText = sizeText + "planetoids:&nbsp;&nbsp;&nbsp;" + sizes[0] + "<br>";
+    sizeText = sizeText + "small:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[1] + "<br>";
+    sizeText = sizeText + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2] + "<br>";
+    sizeText = sizeText + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3] + "<br><br>";
+    
+    //Climate types
+    var types = pType.split(" ");
+    var climText = "Climate types: <br><br>";
+    
+    climText = climText + "temperate:" + space(3) + types[0] + "<br>";
+    climText = climText + "ice:" + space(16) + types[1] + "<br>";
+    climText = climText + "jungle:" + space(10) + types[2] + "<br>";
+    climText = climText + "water:" + space(11) + types[3] + "<br>";
+    climText = climText + "mountain:" + space(5) + types[4] + "<br>";
+    climText = climText + "volcanic:" + space(7) + types[5] + "<br>";
+    climText = climText + "desert:" + space(10) + types[6] + "<br><br>";
+    
+    //Populations
+    var pops = pPop.split(" ");
+    var popText = "Pop. Density: <br><br>";
+    
+    popText = popText + "minimal:" + space(9) + pops[0] + "<br>";
+    popText = popText + "sparse:" + space(12) + pops[1] + "<br>";
+    popText = popText + "moderate:" + space(7) + pops[2] + "<br>";
+    popText = popText + "dense:" + space(14) + pops[3] + "<br><br>";
+    
+    //Civilization types
+    var civs = pCiv.split(" ");
+    var civText = "Civ. Types: <br><br>";
+    
+    civText = civText + "outpost:" +              space(18) + civs[0] + "<br>";
+    civText = civText + "industrial:" +           space(14) + civs[1] + "<br>";
+    civText = civText + "ind./agricultural:" +    space(2) + civs[2] + "<br>";
+    civText = civText + "agricultural:" +         space(10) + civs[3] + "<br>";
+    civText = civText + "mercantile:" +           space(12) + civs[4] + "<br>";
+    civText = civText + "mixed:" +                space(19) + civs[5] + "<br>";
+    civText = civText + "primitive:" +            space(14) + civs[6] + "<br>";
+
+    //Draw stats
+    document.getElementById("rtitle").innerHTML = gov + " of " + name;
+    document.getElementById("rmain").innerHTML = mainText;
+    document.getElementById("rsizes").innerHTML = sizeText;
+    document.getElementById("rtypes").innerHTML = climText;
+    document.getElementById("rpops").innerHTML = popText;
+    document.getElementById("rcivs").innerHTML = civText;
+    document.getElementById("rnotes").innerHTML = notes;
+    
+    document.getElementById("rfoot").innerHTML = gov + " of " + name;
+
+    //Read planet information
 }
