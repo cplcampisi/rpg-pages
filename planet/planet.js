@@ -4,6 +4,7 @@ var plistTxt = "";
 var planetList = [];
 var imperialTxt = "";
 var quadTxt = "";
+var regionTxt = "";
 
 const urlparam = window.location.search;
 const urlParams = new URLSearchParams(urlparam);
@@ -14,33 +15,6 @@ function exitbutton()
 {
     window.location.href = "../gxi50.html"+urlparam+"&skip=1";
 }
-
-/*async function loadTextFiles()
-{
-    try 
-    {
-      const response = await fetch("hbsinfo.txt");
-      infoTxt = await response.text();
-    } catch (err) {
-      console.error(err);
-    }
-
-    try 
-    {
-      const response = await fetch("hbsent.txt");
-      entTxt = await response.text();
-    } catch (err) {
-      console.error(err);
-    }
-
-    try 
-    {
-      const response = await fetch("hbsnews.txt");
-      newsTxt = await response.text();
-    } catch (err) {
-      console.error(err);
-    }
-  }*/
   
 async function loadPlanetFile()
 {
@@ -81,6 +55,19 @@ async function loadQuad(n)
       console.error(err);
     }
 
+}
+
+async function loadRegion(name, n)
+{
+    regionTxt = "";
+    try
+    {
+      const response = await fetch("./quad"+parseInt(n)+"/"+name+".TXT");
+      quadTxt = await response.text();
+      ProcessQuad(n);
+    } catch (err) {
+      console.error(err);
+    }
 }
 
 function exitbutton()
@@ -327,7 +314,7 @@ function ProcessQuad(n)
         var r = new region(name, rName, title, type, lName);
         rList.push(r);
         
-        buttons += "<div class='planetbuttons' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\""+name+"\");'>"+lName+"</div>";
+        buttons += "<div class='planetbuttons' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\""+name+"\", "+parseInt(n)+");'>"+lName+"</div>";
         
         if (column==1)
         {
@@ -342,7 +329,7 @@ function ProcessQuad(n)
         }
     }
     //Add Unassigned button
-    buttons += "<div class='planetbuttons' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\"UNASSIGNED\");'>UNASSIGNED</div>";
+    buttons += "<div class='planetbuttons' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goRegion(\"UNASSIGNED\", "+parseInt(n)+");'>UNASSIGNED</div>";
     
     document.getElementById("qrightcol").innerHTML = buttons;
 }
@@ -379,5 +366,20 @@ function romanNumeral(n)
     }
     
     return numeral;
+}
+
+function shortName(name)
+{
+    //MAJOR --> +
+    //MINOR --> -
+    //ALPHA --> A
+    //BETA --> B
+    //GAMMA --> G
+    //PRIME --> 1
+}
+
+function goRegion(name, quad)
+{
+
 }
 
