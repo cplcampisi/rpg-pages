@@ -519,7 +519,7 @@ function ProcessRegion()
     document.getElementById("rtypes").innerHTML = climText;
     document.getElementById("rpops").innerHTML = popText;
     document.getElementById("rcivs").innerHTML = civText;
-    document.getElementById("rnotes").innerHTML = "&nbsp;&nbsp;" + notes;
+    document.getElementById("rnotes").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;" + notes;
     
     document.getElementById("rfoot").innerHTML = gov + " of " + name;
     //goToQuad(n)
