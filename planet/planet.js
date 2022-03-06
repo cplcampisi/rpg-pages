@@ -71,6 +71,18 @@ async function loadQuad(n)
 async function loadRegion(name, n)
 {
     regionTxt = "";
+    //------------------------------------------------
+    //Clear all information
+    document.getElementById("rtitle").innerHTML = "";
+    document.getElementById("rmain").innerHTML = "";
+    document.getElementById("rsizes").innerHTML = "";
+    document.getElementById("rtypes").innerHTML = "";
+    document.getElementById("rpops").innerHTML = "";
+    document.getElementById("rcivs").innerHTML = "";
+    document.getElementById("rfoot").innerHTML = "";
+    document.getElementById("rnotes").innerHTML = "";
+    document.getElementById("rquad").innerHTML = "";
+    //------------------------------------------------
     try
     {
       const response = await fetch("./quad"+parseInt(n)+"/"+name+".TXT");
@@ -106,6 +118,27 @@ class region
         this.rTitle = rTitle;
         this.type = type;
         this.lName = lName;
+    }
+}
+
+class planetDetail
+{
+    constructor(core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, govName)
+    {
+        this.core = core;
+        this.name = name;
+        this.dName = dName;
+        this.vectors=vectors;
+        this.pSize = pSize;
+        this.pType = pType;
+        this.pPop = pPop;
+        this.resources = resources;
+        this.pCiv = pCiv;
+        this.products = products;
+        this.hazard = hazard;
+        this.special = special;
+        this.pNotes = pNotes;
+        this.govName = govName;
     }
 }
 
@@ -389,10 +422,10 @@ function shortName(name)
     switch(n[1].toUpperCase())
     {
         case "MAJOR":
-            newName += " +";
+            newName += "+";
         break;
         case "MINOR":
-            newName += " -";
+            newName += "-";
         break;
         case "ALPHA":
             newName += " A";
@@ -423,7 +456,7 @@ function ProcessRegion()
     var gov = lines[1];
     var quad = lines[2];
     var nPlanets = lines[3];
-    var something = lines[4];
+    var nCore = lines[4];
     //place holder line
     var pSizes = lines[6];
     var pType = lines[7];
@@ -431,7 +464,7 @@ function ProcessRegion()
     var pCiv = lines[9];
     var notes = lines[10];
 
-    var mainText = "STATISTICS:<br>Number of planets in region:" + space(4) + nPlanets + "<br>";
+    var mainText = "STATISTICS:<br><br>Number of planets:" + space(6) + nPlanets + "<br>";
     
     //------------------------------------------------
     // STATS
@@ -479,17 +512,106 @@ function ProcessRegion()
     civText = civText + "primitive:" +            space(14) + civs[6] + "<br>";
 
     //Draw stats
-    document.getElementById("rquad").innerHTML = "Q. " + romanNumeral(parseInt(quad));
+    document.getElementById("rquad").innerHTML = "Q." + romanNumeral(parseInt(quad));
     document.getElementById("rtitle").innerHTML = gov + " of " + name;
     document.getElementById("rmain").innerHTML = mainText;
     document.getElementById("rsizes").innerHTML = sizeText;
     document.getElementById("rtypes").innerHTML = climText;
     document.getElementById("rpops").innerHTML = popText;
     document.getElementById("rcivs").innerHTML = civText;
-    document.getElementById("rnotes").innerHTML = notes;
+    document.getElementById("rnotes").innerHTML = "&nbsp;&nbsp;" + notes;
     
     document.getElementById("rfoot").innerHTML = gov + " of " + name;
     //goToQuad(n)
     document.getElementById("rback").onclick = function() {goToQuad(parseInt(quad));}; 
     //Read planet information
+    var i = 11;
+    var pList = [];
+    var unassigned = false;
+    var dMode = 1;  //display mode for buttons (core/non-core)
+    var count = 0;
+    var xPos = 10; //96, 182, 268
+    var yPos = 44;
+    var buttons = "";
+    //core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes
+    for (var x=0;x<nRegions;x++)
+    {
+        i++; //skip separator
+        var core = lines[i];
+        i++;
+        var pName = lines[i];
+        i++;
+        var dName = lines[i];
+        i++;
+        var vectors = lines[i];
+        i++;
+        var pSize = lines[i];
+        i++;
+        var pType = lines[i];
+        i++;
+        var pPop = lines[i];
+        i++;
+        var resources = lines[i];
+        i++;
+        var pCiv = lines[i];
+        i++;
+        var products = lines[i];
+        i++;
+        var hazard = lines[i];
+        i++;
+        var special = lines[i];
+        i++;
+        var pNotes = lines[i];
+        i++;
+        var govName = name;
+        
+        if (unassigned == 0)
+            govName = gov + " of " + name;
+            
+        var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, notes, govName);
+        
+        var linkName = shortName(pName);
+        
+        buttons += "<div class='planetbuttont' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goPlanet(\""+name+"\", "+parseInt(n)+");'>"+linkName+"</div>";
+        
+        if (dMode==1 && count>=nCore)
+        {
+            yPos = 275;
+            dMode = 2;
+        }
+        else
+        {
+            count++;
+            if (dMode==2)
+            {
+                if (column==1)
+                {
+                    xPos=96;
+                    column=2;
+                }
+                else if (column==2)
+                {
+                    xPos=182;
+                    column=3;
+                }
+                else if (column==3)
+                {
+                    xPos=268;
+                    column=4;
+                }
+                else if (column==4)
+                {
+                    xPos=10;
+                    yPos+=24;
+                    column=1;
+                }
+            }
+            else
+            {
+                yPos+=24;
+            }
+        }
+    }
+    
+    document.getElementById("rrightcol").innerHTML = buttons;
 }
