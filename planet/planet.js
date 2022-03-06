@@ -554,6 +554,8 @@ function ProcessRegion()
         i++;
         var resources = lines[i];
         i++;
+        var mainResource = lines[i]; //not used
+        i++;
         var pCiv = lines[i];
         i++;
         var products = lines[i];
