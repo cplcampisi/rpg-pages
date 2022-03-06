@@ -529,7 +529,7 @@ function ProcessRegion()
     var pList = [];
     var unassigned = false;
     var dMode = 1;  //display mode for buttons (core/non-core)
-    var count = 0;
+    var count = 1;
     var xPos = 10; //96, 182, 268
     var yPos = 44;
     var buttons = "";
