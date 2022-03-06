@@ -533,6 +533,7 @@ function ProcessRegion()
     var xPos = 10; //96, 182, 268
     var yPos = 44;
     var buttons = "";
+    var column = 1;
     //core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes
     for (var x=0;x<nPlanets;x++)
     {
@@ -572,7 +573,7 @@ function ProcessRegion()
         
         var linkName = shortName(pName);
         
-        buttons += "<div class='planetbuttont' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goPlanet(\""+name+"\", "+parseInt(n)+");'>"+linkName+"</div>";
+        buttons += "<div class='planetbuttont' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goPlanet(\""+name+"\", "+parseInt(quad)+");'>"+linkName+"</div>";
         
         if (dMode==1 && count>=nCore)
         {
