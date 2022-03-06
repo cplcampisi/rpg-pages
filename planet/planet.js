@@ -534,7 +534,7 @@ function ProcessRegion()
     var yPos = 44;
     var buttons = "";
     //core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes
-    for (var x=0;x<nRegions;x++)
+    for (var x=0;x<nPlanets;x++)
     {
         i++; //skip separator
         var core = lines[i];
