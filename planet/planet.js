@@ -479,6 +479,7 @@ function ProcessRegion()
     civText = civText + "primitive:" +            space(14) + civs[6] + "<br>";
 
     //Draw stats
+    document.getElementById("rquad").innerHTML = "Q. " + romanNumeral(parseInt(quad));
     document.getElementById("rtitle").innerHTML = gov + " of " + name;
     document.getElementById("rmain").innerHTML = mainText;
     document.getElementById("rsizes").innerHTML = sizeText;
