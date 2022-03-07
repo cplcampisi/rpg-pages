@@ -82,6 +82,8 @@ async function loadRegion(name, n)
     document.getElementById("rfoot").innerHTML = "";
     document.getElementById("rnotes").innerHTML = "";
     document.getElementById("rquad").innerHTML = "";
+    document.getElementById("rrightcol").innerHTML = "";
+    document.getElementById("rimage").style.backgroundImage="";
     //------------------------------------------------
     try
     {
