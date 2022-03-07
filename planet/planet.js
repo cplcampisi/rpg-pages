@@ -524,6 +524,11 @@ function ProcessRegion()
     document.getElementById("rfoot").innerHTML = gov + " of " + name;
     //goToQuad(n)
     document.getElementById("rback").onclick = function() {goToQuad(parseInt(quad));}; 
+    //--------------------------------------------------------------
+    // Display constellation image
+    var picName = name.replace(/ /g, '_') + ".jpg"
+    document.getElementById('a').style.backgroundImage="url(constellations/"+picName+")";
+    //--------------------------------------------------------------
     //Read planet information
     var i = 11;
     var pList = [];
