@@ -527,7 +527,7 @@ function ProcessRegion()
     //--------------------------------------------------------------
     // Display constellation image
     var picName = name.replace(/ /g, '_') + ".jpg"
-    document.getElementById('a').style.backgroundImage="url(constellations/"+picName+")";
+    document.getElementById("rimage").style.backgroundImage="url(constellations/"+picName+")";
     //--------------------------------------------------------------
     //Read planet information
     var i = 11;
