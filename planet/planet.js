@@ -5,6 +5,7 @@ var planetList = [];
 var imperialTxt = "";
 var quadTxt = "";
 var regionTxt = "";
+var pList = [];
 
 const urlparam = window.location.search;
 const urlParams = new URLSearchParams(urlparam);
@@ -95,6 +96,11 @@ async function loadRegion(name, n)
     }
 }
 
+function loadPlanet(name)
+{
+    ProcessPlanet(name);
+}
+
 function exitbutton()
 {
     window.location.href = "../gxi50.html"+urlparam+"&skip=1";
@@ -125,7 +131,7 @@ class region
 
 class planetDetail
 {
-    constructor(core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, govName)
+    constructor(core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, govName, quad)
     {
         this.core = core;
         this.name = name;
@@ -141,6 +147,7 @@ class planetDetail
         this.special = special;
         this.pNotes = pNotes;
         this.govName = govName;
+        this.quad = quad;
     }
 }
 
@@ -533,7 +540,7 @@ function ProcessRegion()
     //--------------------------------------------------------------
     //Read planet information
     var i = 11;
-    var pList = [];
+    pList = [];
     var unassigned = false;
     var dMode = 1;  //display mode for buttons (core/non-core)
     var count = 1;
@@ -579,9 +586,8 @@ function ProcessRegion()
             govName = gov + " of " + name;
             
         var fName = pName.replace(/ /g, '_');
-        //ADD QUAD here to planet
             
-        var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, notes, govName);
+        var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, notes, govName, quad);
         
         pList[fName] = p;
         
@@ -629,4 +635,13 @@ function ProcessRegion()
     }
     
     document.getElementById("rrightcol").innerHTML = buttons;
+}
+
+function ProcessPlanet(name)
+{
+    var pDetail = pList[name];
+
+    document.getElementById("pquad").innerHTML = "Q." + romanNumeral(parseInt(pDetail.quad));
+
+    document.getElementById("ptitle").innerHTML = pDetail.name;
 }
