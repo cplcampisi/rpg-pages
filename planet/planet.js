@@ -578,11 +578,16 @@ function ProcessRegion()
         if (unassigned == 0)
             govName = gov + " of " + name;
             
+        var fName = pName.replace(/ /g, '_');
+        //ADD QUAD here to planet
+            
         var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, notes, govName);
+        
+        pList[fName] = p;
         
         var linkName = shortName(pName);
         
-        buttons += "<div class='planetbuttont' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goPlanet(\""+name+"\", "+parseInt(quad)+");'>"+linkName+"</div>";
+        buttons += "<div class='planetbuttont' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goPlanet(\""+fName+"\");'>"+linkName+"</div>";
         
         if (dMode==1 && count>=nCore)
         {

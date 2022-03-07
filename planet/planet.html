@@ -47,6 +47,28 @@
     text-align: justify;
     text-justify: inter-word;
 }
+    .text18b {
+    position: absolute;
+    padding: 0px;
+    font-family: timesl;
+    color:#9F9F70;
+    font-size: 14px;
+    font-weight: bold;
+    /*letter-spacing: -0.65px;*/
+    line-height: 1.0;
+    text-align: left;
+}
+    .text16b {
+    position: absolute;
+    padding: 0px;
+    font-family: timesl;
+    color:#9F9F70;
+    font-size: 14px;
+    font-weight: bold;
+    /*letter-spacing: -0.65px;*/
+    line-height: 1.0;
+    text-align: left;
+}
     .text13b {
     position: absolute;
     padding: 0px;
@@ -136,6 +158,20 @@
     width: 365px;
     height: 560px;
     background-image: url(../Pictures/PlanetGuide2.jpg);
+    padding: 0px;
+    font-family: timesl;
+    color:#7F7F7F;
+    text-align: right;
+    font-size: 12px;
+}
+
+.singleback {
+    position: absolute;
+    top: 22px;
+    left: 50px;
+    width: 699px;
+    height: 560px;
+    background-image: url(../Pictures/PlanetGuide3.jpg);
     padding: 0px;
     font-family: timesl;
     color:#7F7F7F;
@@ -307,6 +343,13 @@
         document.getElementById(view).style.display="none";
         document.getElementById("region").style.display="block";
         view="region";
+    }
+    function goPlanet(name)
+    {
+        loadPlanet(name);
+        document.getElementById(view).style.display="none";
+        document.getElementById("planet").style.display="block";
+        view="planet";
     }
 
     /*function loadPage(n)
@@ -685,6 +728,100 @@
         </div>
         
         <button id="rback" class="backbutton" style="left:705px;top:595px;" onclick='buttonclick("quads");'>
+        </button>
+                
+    </div>
+    <!-- -------------------------------------------------------------------------------
+      PLANET
+    ------------------------------------------------------------------------------- -->
+    <div id="planet" style="
+   width: 800px; height: 640px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-color: #28240E;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <div id="pquad" class="text14b" style="left:22px;top:4px;
+                  width:60px;height:22px;color:#919191">
+        </div>
+        
+        <div id="pbackground" class="singleback">
+        </div>
+    
+        
+        <div id="ptitle" class="title" style="font-size:32px;left:100px;top:50px;
+                  width:423px;height:78px;">
+        </div>
+        
+        <div id="pintro" class="text18" style="left:100px;top:142px;
+                  width:425px;height:92px;">
+        </div>
+        
+        <div class="text16b" style="left:83px;top:243px;
+                  width:152px;height:27px;">
+                  Size: . . . . . . . . . . . . . . . . . . . . . . .
+        </div>
+        <div id="pSize" class="text16b" style="left:236px;top:243px;
+                  width:387px;height:27px;">
+        </div>
+        
+        <div class="text16b" style="left:83px;top:270px;
+                  width:152px;height:27px;">
+                  Climate: . . . . . . . . . . . . . . . . . . . . . . .
+        </div>
+        <div id="pClimate" class="text16b" style="left:236px;top:270px;
+                  width:387px;height:27px;">
+        </div>
+        
+        <div class="text16b" style="left:83px;top:297px;
+                  width:152px;height:27px;">
+                  Population: . . . . . . . . . . . . . . . . . . . . . . .
+        </div>
+        <div id="pPop" class="text16b" style="left:236px;top:297px;
+                  width:387px;height:27px;">
+        </div>
+        
+        <div class="text16b" style="left:83px;top:325px;
+                  width:152px;height:27px;">
+                  Civilization Type: . . .
+        </div>
+        <div id="pCiv" class="text16b" style="left:236px;top:325px;
+                  width:387px;height:27px;">
+        </div>
+        
+        <div class="text16b" style="left:83px;top:352px;
+                  width:152px;height:27px;">
+                  Resources: . . . . . . . . . . . . . . . . . . . . . . .
+        </div>
+        <div id="pRes" class="text16b" style="left:236px;top:352px;
+                  width:387px;height:27px;">
+        </div>
+        
+        <div class="text16b" style="left:83px;top:379px;
+                  width:152px;height:27px;">
+                  Products: . . . . . . . . . . . . . . . . . . . . . . .
+        </div>
+        <div id="pProd" class="text16b" style="left:236px;top:379px;
+                  width:387px;height:27px;">
+        </div>
+        
+        
+        <div id="pmain" class="text16b" style="left:83px;top:418px;
+                  width:653px;height:157px;">
+        </div>
+        
+        <div id="pimage" style="position:absolute;left:538px;top:34px;width:200px;height:200px;background-image: url(../Pictures/Planet.jpg);">
+        </div>
+        
+        <div class="footer" style="left:78px;top:600px;
+                  width:569px;height:23px;">
+        Biroc's Guide to the Planets - <span id="pfoot"></span>
+        </div>
+        
+        <button id="pback" class="backbutton" style="left:705px;top:595px;" onclick='buttonclick("quads");'>
         </button>
                 
     </div>
