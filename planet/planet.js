@@ -131,7 +131,7 @@ class region
 
 class planetDetail
 {
-    constructor(core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, govName, quad)
+    constructor(core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, region, quad)
     {
         this.core = core;
         this.name = name;
@@ -146,7 +146,7 @@ class planetDetail
         this.hazard = hazard;
         this.special = special;
         this.pNotes = pNotes;
-        this.govName = govName;
+        this.region = govName;
         this.quad = quad;
     }
 }
@@ -636,7 +636,8 @@ function ProcessRegion()
     
     document.getElementById("rrightcol").innerHTML = buttons;
 }
-
+//(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, notes, region, quad);
+//core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, region, quad
 function ProcessPlanet(name)
 {
     var pDetail = pList[name];
@@ -644,4 +645,39 @@ function ProcessPlanet(name)
     document.getElementById("pquad").innerHTML = "Q." + romanNumeral(parseInt(pDetail.quad));
 
     document.getElementById("ptitle").innerHTML = pDetail.name;
+    
+    document.getElementById("pfoot").innerHTML = pDetail.name;
+    
+    var intro = "Affiliation:" + space(5) + pDetail.region +"<br><br><br>";
+    
+    var vectors = pDetail.vectors.split",";
+    var vec0 = parseFloat(vectors[0]).toFixed(1);
+    var vec1 = parseFloat(vectors[1]).toFixed(1);
+    var vec2 = parseFloat(vectors[2]).toFixed(1);
+    var v0 = vec0.toString();
+    var v1 = vec1.toString();
+    var v2 = vec2.toString();
+    
+    if (vec0 > 0)
+        v0 = "+"+v0;
+    if (vec1 > 0)
+        v1 = "+"+v1;
+    if (vec2 > 0)
+        v2 = "+"+v2;
+        
+    intro += "Coordinates (x,y,z):" + space(7) + v0 + ", " + v1 + ", " + v2;
+    
+    document.getElementById("pintro").innerHTML = intro;
+    
+    var main = "";
+    
+    if (pDetail.special!="")
+        main += "Notable:" + space(3) + pDetail.special + "<br>";
+        
+    if (pDetail.hazard!="")
+        main += "<br>Navigational hazards:" + space(3) + pDetail.hazard + "<br>";
+        
+    main += "<br>" + pDetail.notes;
+        
+    document.getElementById("pmain").innerHTML = main;
 }
