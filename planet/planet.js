@@ -131,21 +131,21 @@ class region
 
 class planetDetail
 {
-    constructor(core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, region, quad)
+    constructor(core, name, dName, vectors, size, yype, pop, resources, civ, products, hazard, special, notes, region, quad)
     {
         this.core = core;
         this.name = name;
         this.dName = dName;
         this.vectors=vectors;
-        this.pSize = pSize;
-        this.pType = pType;
-        this.pPop = pPop;
+        this.size = size;
+        this.type = type;
+        this.pop = pop;
         this.resources = resources;
-        this.pCiv = pCiv;
+        this.civ = civ;
         this.products = products;
         this.hazard = hazard;
         this.special = special;
-        this.pNotes = pNotes;
+        this.notes = notes;
         this.region = region;
         this.quad = quad;
     }
@@ -637,7 +637,7 @@ function ProcessRegion()
     document.getElementById("rrightcol").innerHTML = buttons;
 }
 //(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, notes, region, quad);
-//core, name, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, region, quad
+//core, name, dName, vectors, size, type, pop, resources, civ, products, hazard, special, potes, region, quad
 function ProcessPlanet(name)
 {
     var pDetail = pList[name];
@@ -671,10 +671,10 @@ function ProcessPlanet(name)
     
     var main = "";
     
-    if (pDetail.special!="")
+    if (pDetail.special!="none")
         main += "Notable:" + space(3) + pDetail.special + "<br>";
         
-    if (pDetail.hazard!="")
+    if (pDetail.hazard!="none")
         main += "<br>Navigational hazards:" + space(3) + pDetail.hazard + "<br>";
         
     main += "<br>" + pDetail.notes;
