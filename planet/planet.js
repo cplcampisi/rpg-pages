@@ -90,7 +90,7 @@ async function loadRegion(name, n)
     {
       const response = await fetch("./quad"+parseInt(n)+"/"+name+".TXT");
       regionTxt = await response.text();
-      ProcessRegion();
+      ProcessRegion(name);
     } catch (err) {
       console.error(err);
     }
@@ -131,7 +131,7 @@ class region
 
 class planetDetail
 {
-    constructor(core, name, dName, vectors, size, type, pop, resources, civ, products, hazard, special, notes, region, quad)
+    constructor(core, name, dName, vectors, size, type, pop, resources, civ, products, hazard, special, notes, region, quad, rName)
     {
         this.core = core;
         this.name = name;
@@ -148,6 +148,7 @@ class planetDetail
         this.notes = notes;
         this.region = region;
         this.quad = quad;
+        this.rName = rName;
     }
 }
 
@@ -455,7 +456,7 @@ function shortName(name)
     return newName;
 }
 
-function ProcessRegion()
+function ProcessRegion(linkName)
 {
     var lines;
     lines = regionTxt.split(/(?:\r\n|\r|\n)/g);
@@ -587,7 +588,7 @@ function ProcessRegion()
             
         var fName = pName.replace(/ /g, '_');
             
-        var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, govName, quad);
+        var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, govName, quad, linkName);
         
         pList[fName] = p;
         
@@ -668,6 +669,15 @@ function ProcessPlanet(name)
     intro += "Coordinates (x,y,z):" + space(7) + v0 + "," + space(3) + v1 + "," + space(3) + v2;
     
     document.getElementById("pintro").innerHTML = intro;
+    document.getElementById("pSize").innerHTML = pDetail.size;
+    document.getElementById("pClimate").innerHTML = pDetail.type;
+    document.getElementById("pPop").innerHTML = pDetail.pop;
+    document.getElementById("pCiv").innerHTML = pDetail.civ;
+    document.getElementById("pRes").innerHTML = pDetail.resources;
+    if (pDetail.products.length > 0)
+        document.getElementById("pProd").innerHTML = pDetail.products;
+    else
+        document.getElementById("pProd").style.visibility = "hidden";
     
     var main = "";
     
@@ -680,4 +690,6 @@ function ProcessPlanet(name)
     main += "<br>" + pDetail.notes;
         
     document.getElementById("pmain").innerHTML = main;
+
+    document.getElementById("rback").onclick = function() {goRegion(pDetail.rName, parseInt(pDetail.quad));}; 
 }
