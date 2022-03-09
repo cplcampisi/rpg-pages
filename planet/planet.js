@@ -651,9 +651,9 @@ function ProcessPlanet(name)
     var intro = "Affiliation:" + space(5) + pDetail.region +"<br><br><br>";
     
     var vectors = pDetail.vectors.split(",");
-    var vec0 = parseFloat(vectors[0]).toFixed(1);
-    var vec1 = parseFloat(vectors[1]).toFixed(1);
-    var vec2 = parseFloat(vectors[2]).toFixed(1);
+    var vec0 = parseFloat(vectors[0]).toFixed(3);
+    var vec1 = parseFloat(vectors[1]).toFixed(3);
+    var vec2 = parseFloat(vectors[2]).toFixed(3);
     var v0 = vec0.toString();
     var v1 = vec1.toString();
     var v2 = vec2.toString();
