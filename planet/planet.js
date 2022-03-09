@@ -677,7 +677,7 @@ function ProcessPlanet(name)
     if (pDetail.products.length > 0)
         document.getElementById("pProd").innerHTML = pDetail.products;
     else
-        document.getElementById("pProd").style.visibility = "hidden";
+        document.getElementById("pProdTitle").style.visibility = "hidden";
     
     var main = "";
     
@@ -691,5 +691,5 @@ function ProcessPlanet(name)
         
     document.getElementById("pmain").innerHTML = main;
 
-    document.getElementById("rback").onclick = function() {goRegion(pDetail.rName, parseInt(pDetail.quad));}; 
+    document.getElementById("pback").onclick = function() {goRegion(pDetail.rName, parseInt(pDetail.quad));}; 
 }
