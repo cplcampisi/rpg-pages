@@ -674,13 +674,15 @@ function ProcessPlanet(name)
     document.getElementById("pPop").innerHTML = pDetail.pop;
     document.getElementById("pCiv").innerHTML = pDetail.civ;
     document.getElementById("pRes").innerHTML = pDetail.resources;
-    if (pDetail.products.length > 0)
+    if (pDetail.products.length == 0)
+    {
+        document.getElementById("pProdTitle").style.visibility = "hidden";
+    }
+    else
     {
         document.getElementById("pProd").innerHTML = pDetail.products;
         document.getElementById("pProdTitle").style.visibility = "visible";
     }
-    else
-        document.getElementById("pProdTitle").style.visibility = "hidden";
     
     var main = "";  
     if (pDetail.special!="none")
