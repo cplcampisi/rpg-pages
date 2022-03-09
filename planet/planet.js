@@ -146,7 +146,7 @@ class planetDetail
         this.hazard = hazard;
         this.special = special;
         this.pNotes = pNotes;
-        this.region = govName;
+        this.region = region;
         this.quad = quad;
     }
 }
