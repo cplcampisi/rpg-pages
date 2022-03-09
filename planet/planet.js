@@ -456,7 +456,7 @@ function shortName(name)
     return newName;
 }
 
-function ProcessRegion(linkName)
+function ProcessRegion(returnName)
 {
     var lines;
     lines = regionTxt.split(/(?:\r\n|\r|\n)/g);
@@ -588,7 +588,7 @@ function ProcessRegion(linkName)
             
         var fName = pName.replace(/ /g, '_');
             
-        var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, govName, quad, linkName);
+        var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, govName, quad, returnName);
         
         pList[fName] = p;
         
