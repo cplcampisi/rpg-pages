@@ -587,7 +587,7 @@ function ProcessRegion()
             
         var fName = pName.replace(/ /g, '_');
             
-        var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, notes, govName, quad);
+        var p = new planetDetail(core, pName, dName, vectors, pSize, pType, pPop, resources, pCiv, products, hazard, special, pNotes, govName, quad);
         
         pList[fName] = p;
         
