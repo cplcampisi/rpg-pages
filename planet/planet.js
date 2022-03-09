@@ -674,7 +674,6 @@ function ProcessPlanet(name)
     document.getElementById("pPop").innerHTML = pDetail.pop;
     document.getElementById("pCiv").innerHTML = pDetail.civ;
     document.getElementById("pRes").innerHTML = pDetail.resources;
-    alert(pDetail.products.length);
     if (pDetail.products.length > 0)
     {
         document.getElementById("pProd").innerHTML = pDetail.products;
@@ -683,8 +682,7 @@ function ProcessPlanet(name)
     else
         document.getElementById("pProdTitle").style.visibility = "hidden";
     
-    var main = "";
-    
+    var main = "";  
     if (pDetail.special!="none")
         main += "Notable:" + space(3) + pDetail.special + "<br>";
         
