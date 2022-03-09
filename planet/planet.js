@@ -680,9 +680,10 @@ function ProcessPlanet(name)
     }
     else
     {
-        document.getElementById("pProd").innerHTML = pDetail.products;
         document.getElementById("pProdTitle").style.visibility = "visible";
     }
+    //Need to do this each time, as the innerHTML is not "blanked" between different pages
+    document.getElementById("pProd").innerHTML = pDetail.products;
     
     var main = "";  
     if (pDetail.special!="none")
