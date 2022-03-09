@@ -131,7 +131,7 @@ class region
 
 class planetDetail
 {
-    constructor(core, name, dName, vectors, size, yype, pop, resources, civ, products, hazard, special, notes, region, quad)
+    constructor(core, name, dName, vectors, size, type, pop, resources, civ, products, hazard, special, notes, region, quad)
     {
         this.core = core;
         this.name = name;
