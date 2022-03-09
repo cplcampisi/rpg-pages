@@ -674,7 +674,7 @@ function ProcessPlanet(name)
     document.getElementById("pPop").innerHTML = pDetail.pop;
     document.getElementById("pCiv").innerHTML = pDetail.civ;
     document.getElementById("pRes").innerHTML = pDetail.resources;
-    if (pDetail.products.length > 0)
+    if (pDetail.products!="")
         document.getElementById("pProd").innerHTML = pDetail.products;
     else
         document.getElementById("pProdTitle").style.visibility = "hidden";
