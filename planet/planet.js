@@ -665,7 +665,7 @@ function ProcessPlanet(name)
     if (vec2 > 0)
         v2 = "+"+v2;
         
-    intro += "Coordinates (x,y,z):" + space(7) + v0 + ", " + v1 + ", " + v2;
+    intro += "Coordinates (x,y,z):" + space(7) + v0 + "," + space(3) + v1 + "," + space(3) + v2;
     
     document.getElementById("pintro").innerHTML = intro;
     
