@@ -530,6 +530,8 @@ function ProcessRegion(returnName)
         civText = civText + "primitive:" +            space(14) + civs[6] + "<br>";
         
         //Draw stats
+        document.getElementById("rcore").style.visibility = "visible";
+        document.getElementById("rnonecore").style.visibility = "visible";
         document.getElementById("rquad").innerHTML = "Q." + romanNumeral(parseInt(quad));
         document.getElementById("rtitle").innerHTML = gov + " of " + name;
         document.getElementById("rmain").innerHTML = mainText;
@@ -543,16 +545,21 @@ function ProcessRegion(returnName)
     else
     {
         //Draw stats
+        document.getElementById("rcore").style.visibility = "hidden";
+        document.getElementById("rnonecore").style.visibility = "hidden";
         document.getElementById("rquad").innerHTML = "Q." + romanNumeral(parseInt(quad));
-        //ocument.getElementById("rtitle").innerHTML = gov + " of " + name;
+        document.getElementById("rtitle").innerHTML = name;
         document.getElementById("rmain").innerHTML = mainText;
         document.getElementById("rfoot").innerHTML = "UNASSIGNED";
     }
     document.getElementById("rback").onclick = function() {goToQuad(parseInt(quad));}; 
     //--------------------------------------------------------------
     // Display constellation image
-    var picName = name.replace(/ /g, '_') + ".jpg"
-    document.getElementById("rimage").style.backgroundImage="url(constellations/"+picName+")";
+    if (!unassigned)
+    {
+        var picName = name.replace(/ /g, '_') + ".jpg"
+        document.getElementById("rimage").style.backgroundImage="url(constellations/"+picName+")";
+    }
     //--------------------------------------------------------------
     //Read planet information
     var i = 11;
