@@ -458,81 +458,96 @@ function shortName(name)
 
 function ProcessRegion(returnName)
 {
+    var unassigned = false;
     var lines;
     lines = regionTxt.split(/(?:\r\n|\r|\n)/g);
     //alert(regionTxt);
 
     var name = lines[0];
+    if (name == "UNASSIGNED")
+        unassigned = true;
     var gov = lines[1];
     var quad = lines[2];
     var nPlanets = lines[3];
-    var nCore = lines[4];
-    //place holder line
-    var pSizes = lines[6];
-    var pType = lines[7];
-    var pPop = lines[8];
-    var pCiv = lines[9];
-    var notes = lines[10];
-
+    
+    if (!unassigned)
+    {
+        var nCore = lines[4];
+        //place holder line
+        var pSizes = lines[6];
+        var pType = lines[7];
+        var pPop = lines[8];
+        var pCiv = lines[9];
+        var notes = lines[10];
+    }
     var mainText = "STATISTICS:<br><br>Number of planets:" + space(6) + nPlanets + "<br>";
     
-    //------------------------------------------------
-    // STATS
-    //------------------------------------------------
-    var sizeText =  "Sizes: <br><br>";
-    
-    var sizes = pSizes.split(" ");
-    //3, 11, 7, 10;
-    sizeText = sizeText + "planetoids:&nbsp;&nbsp;&nbsp;" + sizes[0] + "<br>";
-    sizeText = sizeText + "small:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[1] + "<br>";
-    sizeText = sizeText + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2] + "<br>";
-    sizeText = sizeText + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3] + "<br><br>";
-    
-    //Climate types
-    var types = pType.split(" ");
-    var climText = "Climate types: <br><br>";
-    
-    climText = climText + "temperate:" + space(3) + types[0] + "<br>";
-    climText = climText + "ice:" + space(16) + types[1] + "<br>";
-    climText = climText + "jungle:" + space(10) + types[2] + "<br>";
-    climText = climText + "water:" + space(11) + types[3] + "<br>";
-    climText = climText + "mountain:" + space(5) + types[4] + "<br>";
-    climText = climText + "volcanic:" + space(7) + types[5] + "<br>";
-    climText = climText + "desert:" + space(10) + types[6] + "<br><br>";
-    
-    //Populations
-    var pops = pPop.split(" ");
-    var popText = "Pop. Density: <br><br>";
-    
-    popText = popText + "minimal:" + space(9) + pops[0] + "<br>";
-    popText = popText + "sparse:" + space(12) + pops[1] + "<br>";
-    popText = popText + "moderate:" + space(7) + pops[2] + "<br>";
-    popText = popText + "dense:" + space(14) + pops[3] + "<br><br>";
-    
-    //Civilization types
-    var civs = pCiv.split(" ");
-    var civText = "Civ. Types: <br><br>";
-    
-    civText = civText + "outpost:" +              space(18) + civs[0] + "<br>";
-    civText = civText + "industrial:" +           space(14) + civs[1] + "<br>";
-    civText = civText + "ind./agricultural:" +    space(2) + civs[2] + "<br>";
-    civText = civText + "agricultural:" +         space(10) + civs[3] + "<br>";
-    civText = civText + "mercantile:" +           space(12) + civs[4] + "<br>";
-    civText = civText + "mixed:" +                space(19) + civs[5] + "<br>";
-    civText = civText + "primitive:" +            space(14) + civs[6] + "<br>";
-
-    //Draw stats
-    document.getElementById("rquad").innerHTML = "Q." + romanNumeral(parseInt(quad));
-    document.getElementById("rtitle").innerHTML = gov + " of " + name;
-    document.getElementById("rmain").innerHTML = mainText;
-    document.getElementById("rsizes").innerHTML = sizeText;
-    document.getElementById("rtypes").innerHTML = climText;
-    document.getElementById("rpops").innerHTML = popText;
-    document.getElementById("rcivs").innerHTML = civText;
-    document.getElementById("rnotes").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;" + notes;
-    
-    document.getElementById("rfoot").innerHTML = gov + " of " + name;
-    //goToQuad(n)
+    if (!unassigned)
+    {
+        //------------------------------------------------
+        // STATS
+        //------------------------------------------------
+        var sizeText =  "Sizes: <br><br>";
+        
+        var sizes = pSizes.split(" ");
+        //3, 11, 7, 10;
+        sizeText = sizeText + "planetoids:&nbsp;&nbsp;&nbsp;" + sizes[0] + "<br>";
+        sizeText = sizeText + "small:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[1] + "<br>";
+        sizeText = sizeText + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2] + "<br>";
+        sizeText = sizeText + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3] + "<br><br>";
+        
+        //Climate types
+        var types = pType.split(" ");
+        var climText = "Climate types: <br><br>";
+        
+        climText = climText + "temperate:" + space(3) + types[0] + "<br>";
+        climText = climText + "ice:" + space(16) + types[1] + "<br>";
+        climText = climText + "jungle:" + space(10) + types[2] + "<br>";
+        climText = climText + "water:" + space(11) + types[3] + "<br>";
+        climText = climText + "mountain:" + space(5) + types[4] + "<br>";
+        climText = climText + "volcanic:" + space(7) + types[5] + "<br>";
+        climText = climText + "desert:" + space(10) + types[6] + "<br><br>";
+        
+        //Populations
+        var pops = pPop.split(" ");
+        var popText = "Pop. Density: <br><br>";
+        
+        popText = popText + "minimal:" + space(9) + pops[0] + "<br>";
+        popText = popText + "sparse:" + space(12) + pops[1] + "<br>";
+        popText = popText + "moderate:" + space(7) + pops[2] + "<br>";
+        popText = popText + "dense:" + space(14) + pops[3] + "<br><br>";
+        
+        //Civilization types
+        var civs = pCiv.split(" ");
+        var civText = "Civ. Types: <br><br>";
+        
+        civText = civText + "outpost:" +              space(18) + civs[0] + "<br>";
+        civText = civText + "industrial:" +           space(14) + civs[1] + "<br>";
+        civText = civText + "ind./agricultural:" +    space(2) + civs[2] + "<br>";
+        civText = civText + "agricultural:" +         space(10) + civs[3] + "<br>";
+        civText = civText + "mercantile:" +           space(12) + civs[4] + "<br>";
+        civText = civText + "mixed:" +                space(19) + civs[5] + "<br>";
+        civText = civText + "primitive:" +            space(14) + civs[6] + "<br>";
+        
+        //Draw stats
+        document.getElementById("rquad").innerHTML = "Q." + romanNumeral(parseInt(quad));
+        document.getElementById("rtitle").innerHTML = gov + " of " + name;
+        document.getElementById("rmain").innerHTML = mainText;
+        document.getElementById("rsizes").innerHTML = sizeText;
+        document.getElementById("rtypes").innerHTML = climText;
+        document.getElementById("rpops").innerHTML = popText;
+        document.getElementById("rcivs").innerHTML = civText;
+        document.getElementById("rnotes").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;" + notes;
+        document.getElementById("rfoot").innerHTML = gov + " of " + name;
+    }
+    else
+    {
+        //Draw stats
+        document.getElementById("rquad").innerHTML = "Q." + romanNumeral(parseInt(quad));
+        //ocument.getElementById("rtitle").innerHTML = gov + " of " + name;
+        document.getElementById("rmain").innerHTML = mainText;
+        document.getElementById("rfoot").innerHTML = "UNASSIGNED";
+    }
     document.getElementById("rback").onclick = function() {goToQuad(parseInt(quad));}; 
     //--------------------------------------------------------------
     // Display constellation image
@@ -541,9 +556,12 @@ function ProcessRegion(returnName)
     //--------------------------------------------------------------
     //Read planet information
     var i = 11;
+    if (unassigned)
+        i = 4;
     pList = [];
-    var unassigned = false;
     var dMode = 1;  //display mode for buttons (core/non-core)
+    if (unassigned)
+        dMode = 2;
     var count = 1;
     var xPos = 10; //96, 182, 268
     var yPos = 44;
@@ -581,10 +599,11 @@ function ProcessRegion(returnName)
         i++;
         var pNotes = lines[i];
         i++;
-        var govName = name;
+        var govName = gov + " of " + name;
         
-        if (unassigned == 0)
-            govName = gov + " of " + name;
+        if (unassigned)
+            govName = "N/A";
+
             
         var fName = pName.replace(/ /g, '_');
             
