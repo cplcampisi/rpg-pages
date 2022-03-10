@@ -546,7 +546,7 @@ function ProcessRegion(returnName)
     {
         //Draw stats
         document.getElementById("rcore").style.visibility = "hidden";
-        document.getElementById("rnonecore").style.visibility = "hidden";
+        document.getElementById("rnoncore").style.visibility = "hidden";
         document.getElementById("rquad").innerHTML = "Q." + romanNumeral(parseInt(quad));
         document.getElementById("rtitle").innerHTML = name;
         document.getElementById("rmain").innerHTML = mainText;
