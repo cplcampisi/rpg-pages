@@ -609,7 +609,7 @@ function ProcessRegion(returnName)
         var govName = gov + " of " + name;
         
         if (unassigned)
-            govName = "N/A";
+            govName = "Unassigned";
 
             
         var fName = pName.replace(/ /g, '_');
