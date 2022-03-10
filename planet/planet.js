@@ -558,7 +558,12 @@ function ProcessRegion(returnName)
     if (!unassigned)
     {
         var picName = name.replace(/ /g, '_') + ".jpg"
+        document.getElementById("rimage").style.display="block";
         document.getElementById("rimage").style.backgroundImage="url(constellations/"+picName+")";
+    }
+    else
+    {
+        document.getElementById("rimage").style.display="none";
     }
     //--------------------------------------------------------------
     //Read planet information
