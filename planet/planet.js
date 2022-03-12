@@ -625,7 +625,7 @@ function ProcessRegion(returnName)
         
         var linkName = shortName(pName);
         
-        buttons += "<div class='planetbuttont' style='left:"+xPos+"px;top:"+yPos+"px;' onclick='goPlanet(\""+fName+"\");'>"+linkName+"</div>";
+        buttons += "<div class='planetbuttont' style='white-space:nowrap;left:"+xPos+"px;top:"+yPos+"px;' onclick='goPlanet(\""+fName+"\");'>"+linkName+"</div>";
         
         if (dMode==1 && count>=nCore)
         {
