@@ -207,8 +207,8 @@ function ProcessImperialStats()
     //3, 11, 7, 10;
     text = text + "planetoids:&nbsp;&nbsp;&nbsp;" + sizes[0] + "<br>";
     text = text + "small:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[1] + "<br>";
-    text = text + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2] + "<br>";
-    text = text + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3] + "<br><br>";
+    text = text + "medium:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[2] + "<br>";
+    text = text + "large:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sizes[3] + "<br><br>";
     
     var types = pType.split(" ");
     
