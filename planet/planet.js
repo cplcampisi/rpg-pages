@@ -729,3 +729,31 @@ function ProcessPlanet(name)
 
     document.getElementById("pback").onclick = function() {goRegion(pDetail.rName, parseInt(pDetail.quad));}; 
 }
+
+function FillIndex(page)
+{
+    //41
+    //page = 0;
+    var start = 1;
+    var end = 41;
+    this.name = name;
+        this.rName = rName;
+        this.rTitle = rTitle;
+        this.quad = quad;
+    var col1 = "";
+    var col2 = "";
+    var col3 = "";
+    for (var i = 1; i < end; i++)
+    {
+        if (i>=pList.length)
+            break;
+
+        col1 += pList[i].name + "<br>";
+        col2 += "Q." + romanNumeral(parseInt(pList[i].quad)) + "<br>";
+        col3 += pList[i].rTitle.charAt(0) + ". of " + shortName(pList[i].rName);
+    }
+
+    document.getElementById("itext1").innerHTML = col1;
+    document.getElementById("itext2").innerHTML = col2;
+    document.getElementById("itext3").innerHTML = col3;
+}
