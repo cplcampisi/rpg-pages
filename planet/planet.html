@@ -338,7 +338,7 @@
         if (page=="imperial")
             loadImperialStats();
         else if (page=="index")
-            FillIndex();
+            PrepareIndex();
 
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
@@ -366,6 +366,17 @@
         document.getElementById("planet").style.display="block";
         view="planet";
     }
+    function indexnext()
+    {
+        currentPage++;
+        FillIndex();
+    }
+    function indexprev()
+    {
+        currentPage--;
+        FillIndex();
+    }
+
 
     /*function loadPage(n)
     {
