@@ -745,12 +745,12 @@ function FillIndex(page)
     var col3 = "";
     for (var i = 1; i < end; i++)
     {
-        if (i>=pList.length)
+        if (i>=planetList.length)
             break;
 
-        col1 += pList[i].name + "<br>";
-        col2 += "Q." + romanNumeral(parseInt(pList[i].quad)) + "<br>";
-        col3 += pList[i].rTitle.charAt(0) + ". of " + shortName(pList[i].rName);
+        col1 += planetList[i].name + "<br>";
+        col2 += "Q." + romanNumeral(parseInt(planetList[i].quad)) + "<br>";
+        col3 += planetList[i].rTitle.charAt(0) + ". of " + shortName(planetList[i].rName);
     }
 
     document.getElementById("itext1").innerHTML = col1;
