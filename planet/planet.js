@@ -743,14 +743,14 @@ function FillIndex(page)
     var col1 = "";
     var col2 = "";
     var col3 = "";
-    for (var i = 1; i < end; i++)
+    for (var i = start; i <= end; i++)
     {
         if (i>=planetList.length)
             break;
 
         col1 += planetList[i].name + "<br>";
         col2 += "Q." + romanNumeral(parseInt(planetList[i].quad)) + "<br>";
-        col3 += planetList[i].rTitle.charAt(0) + ". of " + shortName(planetList[i].rName);
+        col3 += planetList[i].rTitle.charAt(0) + ". of " + shortName(planetList[i].rName) + "<br>";
     }
 
     document.getElementById("itext1").innerHTML = col1;
