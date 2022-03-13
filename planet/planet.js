@@ -766,4 +766,14 @@ function FillIndex(page)
     document.getElementById("itext3").innerHTML = col3;
 
     document.getElementById("ipnum").innerHTML = "Page " + page.toString() + " of " + nPages.toString() + ".";
+
+    if (page < nPages)
+        document.getElementById("inext").style.visibility="visible";
+    else
+        document.getElementById("inext").style.visibility="hidden";
+
+    if (page > 1)
+        document.getElementById("iprev").style.visibility="visible";
+    else
+        document.getElementById("iprev").style.visibility="hidden";
 }
