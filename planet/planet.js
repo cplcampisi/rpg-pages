@@ -746,7 +746,7 @@ function FillIndex()
 {
     //41
     //page = 0;
-    var start = 42 * currentPage;
+    var start = (42 * (currentPage-1))+1;
     var end = 41 + start;
 
     var col1 = "";
