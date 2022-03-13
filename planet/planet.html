@@ -337,6 +337,8 @@
     {
         if (page=="imperial")
             loadImperialStats();
+        else if (page=="index")
+            FillIndex();
 
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
