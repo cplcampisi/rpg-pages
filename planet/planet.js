@@ -2,6 +2,8 @@ var view = "home";
 var date = "0000.00.0";
 var plistTxt = "";
 var planetList = [];
+var currentList = [];
+var nPages;
 var imperialTxt = "";
 var quadTxt = "";
 var regionTxt = "";
@@ -730,30 +732,38 @@ function ProcessPlanet(name)
     document.getElementById("pback").onclick = function() {goRegion(pDetail.rName, parseInt(pDetail.quad));}; 
 }
 
+function PrepareIndex()
+{
+    currentList = planetList;
+
+    nPages = Math.round((currentList.length/42)+0.5);
+
+    FillIndex(1);
+}
+
 function FillIndex(page)
 {
     //41
     //page = 0;
-    var start = 1;
-    var end = 41;
-    //this.name = name;
-    //    this.rName = rName;
-    //   this.rTitle = rTitle;
-    //    this.quad = quad;
+    var start = 1 * page;
+    var end = 41 + start;
+
     var col1 = "";
     var col2 = "";
     var col3 = "";
-    for (var i = start; i <= end; i++)
+    for (var i = start; i < end; i++)
     {
-        if (i>=planetList.length)
+        if (i>=currentList.length)
             break;
 
-        col1 += planetList[i].name + "<br>";
-        col2 += "Q." + romanNumeral(parseInt(planetList[i].quad)) + "<br>";
-        col3 += planetList[i].rTitle.charAt(0) + ". of " + shortName(planetList[i].rName) + "<br>";
+        col1 += currentList[i].name + "<br>";
+        col2 += "Q." + romanNumeral(parseInt(currentList[i].quad)) + "<br>";
+        col3 += currentList[i].rTitle.charAt(0) + ". of " + shortName(currentList[i].rName) + "<br>";
     }
 
     document.getElementById("itext1").innerHTML = col1;
     document.getElementById("itext2").innerHTML = col2;
     document.getElementById("itext3").innerHTML = col3;
+
+    document.getElementById("ipnum").innerHTML = "Page " + page.toString() + " of " + nPages.toString() + ".";
 }
