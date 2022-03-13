@@ -736,10 +736,10 @@ function FillIndex(page)
     //page = 0;
     var start = 1;
     var end = 41;
-    this.name = name;
-        this.rName = rName;
-        this.rTitle = rTitle;
-        this.quad = quad;
+    //this.name = name;
+    //    this.rName = rName;
+    //   this.rTitle = rTitle;
+    //    this.quad = quad;
     var col1 = "";
     var col2 = "";
     var col3 = "";
