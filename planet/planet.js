@@ -806,7 +806,7 @@ function SearchIndex()
 
     for (var i=0; i<planetList.length; i++)
     {
-        if (planetList[i].search(theStr) >=0)
+        if (planetList[i].name.search(theStr) >=0)
             currentList.push(planetList[i]);
     }
 
