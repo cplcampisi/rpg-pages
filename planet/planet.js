@@ -759,7 +759,10 @@ function FillIndex()
 
         col1 += currentList[i].name.replace('_', ' ') + "<br>";
         col2 += "Q." + romanNumeral(parseInt(currentList[i].quad)) + "<br>";
-        col3 += currentList[i].rTitle.charAt(0) + ". of " + shortName(currentList[i].rName) + "<br>";
+        if (currentList[i].rName == "UNASSIGNED")
+            col3 += currentList[i].rName + "<br>";
+        else
+            col3 += currentList[i].rTitle.charAt(0) + ". of " + shortName(currentList[i].rName) + "<br>";
     }
 
     document.getElementById("itext1").innerHTML = col1;
