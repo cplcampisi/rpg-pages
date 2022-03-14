@@ -781,3 +781,45 @@ function FillIndex()
     else
         document.getElementById("iprev").style.visibility="hidden";
 }
+
+function ClearIndex()
+{
+    document.getElementById("itext1").innerHTML = "";
+    document.getElementById("itext2").innerHTML = "";
+    document.getElementById("itext3").innerHTML = "";
+    document.getElementById("ipnum").innerHTML = "";
+
+    document.getElementById("inext").style.visibility="hidden";
+    document.getElementById("iprev").style.visibility="hidden";
+}
+
+function SearchIndex()
+{
+    var theStr = document.getElementById('isearch').value.toUpperCase();
+    if (theStr.length < 1)
+        return;
+
+    ClearIndex();
+    currentList = [];
+
+    document.getElementById("itext1").innerHTML = "SEARCHING . . .";
+
+    for (var i=0; i<planetList.length; i++)
+    {
+        if (planetList[i].search(theStr) >=0)
+            currentList.push(planetList[i]);
+    }
+
+    if (currentList.length < 1)
+    {
+        nPages = 0;
+        document.getElementById("itext1").innerHTML = "NO RESULTS";
+    }
+    else
+    {
+        nPages = Math.round((currentList.length/42)+0.5);
+        currentPage = 1;
+        FillIndex();
+    }
+
+}
