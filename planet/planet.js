@@ -762,7 +762,7 @@ function FillIndex()
         if (currentList[i].rName == "UNASSIGNED")
             col3 += currentList[i].rName + "<br>";
         else
-            col3 += currentList[i].rTitle.charAt(0) + ". of " + shortName(currentList[i].rName) + "<br>";
+            col3 += currentList[i].rTitle.charAt(0) + ". of " + shortName(currentList[i].rName.replace('_', ' ')) + "<br>";
     }
 
     document.getElementById("itext1").innerHTML = col1;
