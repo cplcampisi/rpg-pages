@@ -355,12 +355,40 @@
     
     function chartdown(page)
     {
-        document.getElementById(page).style.borderStyle = "inset";
+        if (page=="c1" || page=="c2")
+        {
+            document.getElementById("c1").style.borderStyle = "inset";
+            document.getElementById("c2").style.borderStyle = "inset";
+        }
+        else if (page=="c3" || page=="c4")
+        {
+            document.getElementById("c3").style.borderStyle = "inset";
+            document.getElementById("c4").style.borderStyle = "inset";
+        }
+        else if (page=="c5" || page=="c6")
+        {
+            document.getElementById("c5").style.borderStyle = "inset";
+            document.getElementById("c6").style.borderStyle = "inset";
+        }
     }
     
     function chartup(page)
     {
-        document.getElementById(page).style.borderStyle = "outset";
+        if (page=="c1" || page=="c2")
+        {
+            document.getElementById("c1").style.borderStyle = "outset";
+            document.getElementById("c2").style.borderStyle = "outset";
+        }
+        else if (page=="c3" || page=="c4")
+        {
+            document.getElementById("c3").style.borderStyle = "outset";
+            document.getElementById("c4").style.borderStyle = "outset";
+        }
+        else if (page=="c5" || page=="c6")
+        {
+            document.getElementById("c5").style.borderStyle = "outset";
+            document.getElementById("c6").style.borderStyle = "outset";
+        }
     }
 
     function goToQuad(n)
