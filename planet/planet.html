@@ -353,9 +353,14 @@
         view=page;
     }
     
-    function chartclick(page)
+    function chartdown(page)
     {
         document.getElementById(page).style.borderStyle = "inset";
+    }
+    
+    function chartup(page)
+    {
+        document.getElementById(page).style.borderStyle = "outset";
     }
 
     function goToQuad(n)
@@ -1050,17 +1055,17 @@
         <div style="position:absolute;left:441px;top:493px;width:75px;height:68px;background-size:contain;background-image:url(./starcharts/box/bottom.jpg);">
         </div>
 
-        <button id="c1" class="chartbutton" style="left:549px;top:42px;background-image:url(./starcharts/Planet1234.jpg);" onclick='chartclick("c2");'>
+        <button id="c1" class="chartbutton" style="left:549px;top:42px;background-image:url(./starcharts/Planet1234.jpg);" onmousedown='chartdown("c2");' onmouseup='chartup("c2");' onclick='chartclick("c2");'>
         </button>
-        <button id="c2" class="chartbutton" style="left:549px;top:132px;background-image:url(./starcharts/Planet1256.jpg);" onclick='chartclick("c1");'>
+        <button id="c2" class="chartbutton" style="left:549px;top:132px;background-image:url(./starcharts/Planet1256.jpg);" onmousedown='chartdown("c1");' onmouseup='chartup("c1");' onclick='chartclick("c1");'>
         </button>
-        <button id="c3" class="chartbutton" style="left:549px;top:222px;background-image:url(./starcharts/Planet1357.jpg);" onclick='chartclick("c4");'>
+        <button id="c3" class="chartbutton" style="left:549px;top:222px;background-image:url(./starcharts/Planet1357.jpg);" onmousedown='chartdown("c4");' onmouseup='chartup("c4");' onclick='chartclick("c4");'>
         </button>
-        <button id="c4" class="chartbutton" style="left:549px;top:313px;background-image:url(./starcharts/Planet2468.jpg);" onclick='chartclick("c3");'>
+        <button id="c4" class="chartbutton" style="left:549px;top:313px;background-image:url(./starcharts/Planet2468.jpg);" onmousedown='chartdown("c3");' onmouseup='chartup("c3");' onclick='chartclick("c3");'>
         </button>
-        <button id="c5" class="chartbutton" style="left:549px;top:403px;background-image:url(./starcharts/Planet3478.jpg);" onclick='chartclick("c6");'>
+        <button id="c5" class="chartbutton" style="left:549px;top:403px;background-image:url(./starcharts/Planet3478.jpg);" onmousedown='chartdown("c6");' onmouseup='chartup("c6");' onclick='chartclick("c6");'>
         </button>
-        <button id="c6" class="chartbutton" style="left:549px;top:492px;background-image:url(./starcharts/Planet5678.jpg);" onclick='chartclick("c5");'>
+        <button id="c6" class="chartbutton" style="left:549px;top:492px;background-image:url(./starcharts/Planet5678.jpg);" onmousedown='chartdown("c5");' onmouseup='chartup("c5");' onclick='chartclick("c5");'>
         </button>
         
         <div class="footer" style="left:78px;top:600px;
