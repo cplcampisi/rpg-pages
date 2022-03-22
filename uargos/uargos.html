@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    @font-face { font-family: mon1; src: url('../Fonts/Monaco.ttf');}
+    /* orange: #CF7C40*/
+    .title {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#CF7C40;
+    text-align: center;
+    font-size: 12px;
+}
+    .titleu {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#CF7C40;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+    .texto {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#CF7C40;
+    text-align: left;
+    font-size: 12px;
+}
+
+    .textob {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#CF7C40;
+    text-align: left;
+    font-size: 12px;
+    border: solid #CF7C40;
+    border-width: 1px 2px;
+}
+    .divider {
+    position: absolute;
+    padding: 0px;
+    border-top: 1px solid #CF7C40;
+}
+
+    .user {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#CF7C40;
+    text-align: left;
+    font-size: 12px;
+}
+
+    .inputo {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#CF7C40;
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+    .textbcenter {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#8CD5D2;
+    text-align: center;
+    font-size: 12px;
+}
+    /* blue text #8CD5D2 */
+
+    .footer {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#8CD5D2;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+.date {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#61908E;
+    text-align: left;
+    font-size: 12px;
+}
+
+.com {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#61908E;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+</style>  
+<script type="text/javascript" src="uargos.js"></script>
+<script>
+    var pageInfo;
+    var introFanfare;
+    window.onload=function()  //executes when the page finishes loading
+    {
+        page = "login";
+        view = "login";
+        ActivateTextField(0);
+        //loadTextFiles();
+        
+        //var dates = document.getElementsByClassName("date");
+        //for (var i=0; i<dates.length; i++)
+        //    dates[i].innerHTML=date;
+    }
+
+    function gotoPage(page)
+    {
+        if (page=="login")
+            ResetLogin();
+        else if (page == "home")
+        {
+            SetUser();
+            option = "";
+            OptionInput("homeinput");
+        }
+        else if (page == "select")
+        {
+            SetUser();
+            option = "";
+            OptionInput("selectinput");
+        }
+
+        document.getElementById(view).style.display="none";
+        document.getElementById(page).style.display="block";
+        view=page;
+    }
+
+    function indexnext()
+    {
+        currentPage++;
+        FillIndex();
+    }
+    function indexprev()
+    {
+        currentPage--;
+        FillIndex();
+    }
+
+</script>
+  <head>
+    <!-- <title>Title of the document</title> -->
+  </head>
+  <body style="background-color:#000000;">
+    <!-- -------------------------------------------------------------------------------  
+      LOGIN PAGE
+    ------------------------------------------------------------------------------- -->
+    <div id="login" style="
+   width: 640px; height: 480px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-color: #000000;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: block;
+   ">
+        <!-- header -->
+        <div class="texto" style="left:34px;top:5px;width:373px;height:22px;">
+        UNIVERSITY OF ARGOS SCIENCE DEPARMENT PORTAL
+        </div>
+        
+        <!-- title -->
+        <div class="titleu" style="left:268px;top:54px;width:85px;height:22px;">
+        LOGIN
+        </div>
+        
+        <!-- user -->
+        <div class="texto" style="left:216px;top:102px;width:65px;height:22px;">
+        USERNAME:
+        </div>
+        <div class="inputo" style="left:296px;top:102px;width:100px;height:22px;"  id="username">
+        </div>
+        <!-- password -->
+        <div class="texto" style="left:216px;top:138px;width:65px;height:22px;">
+        PASSWORD:
+        </div>
+        <div class="inputo" style="left:296px;top:138px;width:100px;height:22px;"  id="password">
+        </div>
+        <!-- text -->
+        <div id="logintext" class="textbcenter" style="left:172px;top:193px;width:287px;height:94px;">
+        </div>
+        
+        <div class="footer" style="left:34px;top:446px;width:552px;height:22px;">
+        U ARGOS | SCI PORTAL - COMMAND LINE REMOTE LINK
+        </div>
+        
+    </div>
+    <!-- -------------------------------------------------------------------------------
+      HOME PAGE
+    ------------------------------------------------------------------------------- -->
+    <div id="home" style="
+   width: 640px; height: 480px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-color: #000000;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- header -->
+        <div class="texto" style="left:34px;top:5px;width:373px;height:22px;">
+        UNIVERSITY OF ARGOS SCIENCE DEPARMENT PORTAL
+        </div>
+        
+        <!-- user -->
+        <div class="user" style="left:428px;top:5px;width:80px;height:22px;">
+        
+        </div>
+        
+        <!-- date -->
+        <div class="date" style="left:565px;top:5px;width:70px;height:22px;">
+        
+        </div>
+        
+        <!-- title -->
+        <div class="title" style="left:215px;top:45px;width:85px;height:22px;">
+        OPTIONS
+        </div>
+        
+        <!-- options -->
+        <div class="texto" style="left:157px;top:80px;width:354px;height:190px;">
+        A - PROGRAMS<br>
+        B - BULLETIN BOARD<br>
+        C - FACULTY AND STAFF<br>
+        D - RECENT PAPERS<br>
+        E - MESSAGES<br>
+        F - DEPARTMENTAL LISTINGS<br>
+        G - RESTRICTED<br>
+        X - EXIT<br>
+        Z - LOGOFF
+        </div>
+        
+        <!-- input -->
+        <div class="inputo" style="left:187px;top:340px;width:300px;height:25px;"  id="homeinput">
+        </div>
+        
+        <div class="footer" style="left:34px;top:446px;width:552px;height:22px;">
+        U ARGOS | SCI PORTAL - COMMAND LINE REMOTE LINK
+        </div>
+        
+    </div>
+    <!-- -------------------------------------------------------------------------------
+      SELECT PAGE
+    ------------------------------------------------------------------------------- -->
+    <div id="select" style="
+   width: 640px; height: 480px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-color: #000000;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- header -->
+        <div class="texto" style="left:34px;top:5px;width:373px;height:22px;">
+        UNIVERSITY OF ARGOS SCIENCE DEPARMENT PORTAL
+        </div>
+        
+        <!-- user -->
+        <div class="user" style="left:428px;top:5px;width:80px;height:22px;">
+        
+        </div>
+        
+        <!-- date -->
+        <div class="date" style="left:565px;top:5px;width:70px;height:22px;">
+        
+        </div>
+        
+        <!-- divider -->
+        <div class="divider" style="left:34px;top:26px;width:600px;height:1px;">
+        
+        </div>
+        
+        <!-- main text -->
+        <div id="mtext" class="textob" style="left:230px;top:48px;width:351px;height:215px;">
+        
+        </div>
+        
+        <!-- list -->
+        <div id="list" class="textob" style="left:34px;top:48px;width:173px;height:369px;">
+        
+        </div>
+        
+        <!-- commands -->
+        <div id="commands" class="com" style="left:232px;top:359px;width:361px;height:20px;">
+        H - HOME SCREEN; M - MORE LISTINGS
+        </div>
+        
+        <!-- input -->
+        <div class="inputo" style="left:230px;top:380px;width:180px;height:25px;"  id="selectinput">
+        </div>
+        
+        <div class="footer" style="left:34px;top:446px;width:552px;height:22px;">
+        U ARGOS | SCI PORTAL - COMMAND LINE REMOTE LINK
+        </div>
+        
+    </div>
+    
+  </body>
+</html>
