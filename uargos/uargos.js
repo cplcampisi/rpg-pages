@@ -314,12 +314,13 @@ function ProcessPapers(paperTxt)
         var refNum = lines[i];
         i++;
         var nPara = parseInt(lines[i]);
+        i++;
         var text = "";
         
         for (var y=0; y<nPara; y++)
         {
-            i++;
             text = text + lines[i] + "<br>";
+            i++;
         }
         
         var p = new paper(name, title, author, department, refNum, text);
@@ -330,14 +331,7 @@ function ProcessPapers(paperTxt)
     mainText += "RECENTLY PUBLISHED PAPERS AND PAPERS OF NOTE ARE LISTED ON THIS SCREEN.  PLEASE CHOOSE A PAPER FROM THE LIST.  THIS SCREEN IS PERIODICALLY UPDATED AS NEW PAPERS BECOME AVAILABLE.";
     document.getElementById("mtext").innerHTML=mainText;
     
-    var n = 0;
-    /*var list = "";
-    list += pad((n+1).toString(), 3);
-    list += " - ";
-    list += papers[n].name.toUpperCase();
-    list += "<br>";
-    document.getElementById("mtext").innerHTML=list;*/
-    setTimeout(function(){AddPaper(n+1);}, 200);
+    setTimeout(function(){AddPaper(0);}, 200);
 }
 
 function AddPaper(n)
@@ -351,11 +345,11 @@ function AddPaper(n)
         return;
     }
 
-    var list =  document.getElementById("mtext").innerHTML;
+    var list =  document.getElementById("list").innerHTML;
     list += pad((n+1).toString(), 3);
     list += " - ";
     list += papers[n].name.toUpperCase();
     list += "<br>";
-    document.getElementById("mtext").innerHTML=list;
+    document.getElementById("list").innerHTML=list;
     setTimeout(function(){AddPaper(n+1);}, 150);
 }
