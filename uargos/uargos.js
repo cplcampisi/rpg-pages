@@ -3,6 +3,7 @@ var textfield = 0;
 var user = "";
 var pass = "";
 var option = "";
+var selectPage = "";
 var caret = "&#x203A ";
 var cursor = "&#x2588" ;
 var date = "0000.00.0";
@@ -44,6 +45,13 @@ function pad(num, size)
     var s = "00" + num;
     return s.substr(s.length-size);
 }
+
+//Function for checking if a value is numeric
+function isNumeric(n)
+{
+      return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
 
 //*********************************************
 // Functions for LOGIN
@@ -134,6 +142,7 @@ function CheckOption()
         {
             case "A":
             case "D":
+                selectPage = option;
                 gotoPage("select");
             break;
             case "Z":
@@ -157,7 +166,8 @@ function CheckOption()
                 
             break;
             default:
-                //RetrieveListing(option);
+                if (isNumeric(option))
+                    RetrieveListing(option);
                 SetUser();
                 option = "";
                 OptionInput("selectinput");
@@ -263,13 +273,21 @@ document.onkeydown = function(event)
             
         OptionInput("selectinput");
     }
+    else if(view=="article")
+    {
+        var char = String.fromCharCode(newChar)
+        if (char == "R")
+        {
+            gotoPage("select");
+        }
+    }
 }
 //*********************************************
 // Load select page
 //*********************************************
 function LoadSelect()
 {
-    switch(option)
+    switch(selectPage)
     {
         case "D":
             LoadPapers();
@@ -352,4 +370,29 @@ function AddPaper(n)
     list += "<br>";
     document.getElementById("list").innerHTML=list;
     setTimeout(function(){AddPaper(n+1);}, 150);
+}
+
+function RetrieveListing(option)
+{
+    var o = parseInt(option);
+    if (selectPage == "D")
+    {
+        if (o-1 < papers.length)
+        {
+            gotoPage("article");
+            ShowPaper(o-1);
+        }
+    }
+}
+
+//name, title, author, department, refNum, abstract
+function ShowPaper(n)
+{
+    document.getElementById("arttitle").innerHTML="TITLE:&nbsp;&nbsp;" + papers[n].title;
+    document.getElementById("artlisting").innerHTML="LISTING:&nbsp;&nbsp;" + papers[n].refNum;
+    document.getElementById("artauthor").innerHTML="AUTHOR(S):&nbsp;&nbsp;" + papers[n].author;
+    document.getElementById("artdept").innerHTML="DEPT:&nbsp;&nbsp;" + papers[n].department;
+    document.getElementById("arttext").innerHTML=papers[n].abstract;
+    
+    document.getElementById("artcommands").innerHTML="R - RETURN TO LISTINGS; N - NEXT PAGE; P - PREVIOUS PAGE";
 }
