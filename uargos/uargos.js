@@ -394,10 +394,10 @@ function RetrieveListing(option)
 //name, title, author, department, refNum, abstract
 function ShowPaper(n)
 {
-    document.getElementById("arttitle").innerHTML="TITLE:&nbsp;&nbsp;" + papers[n].title;
-    document.getElementById("artlisting").innerHTML="LISTING:&nbsp;&nbsp;" + papers[n].refNum;
-    document.getElementById("artauthor").innerHTML="AUTHOR(S):&nbsp;&nbsp;" + papers[n].author;
-    document.getElementById("artdept").innerHTML="DEPT:&nbsp;&nbsp;" + papers[n].department;
+    document.getElementById("arttitle").innerHTML=("TITLE:&nbsp;&nbsp;" + papers[n].title.toUpperCase()).slice(0,54);
+    document.getElementById("artlisting").innerHTML="LISTING:&nbsp;&nbsp;" + papers[n].refNum.toUpperCase();
+    document.getElementById("artauthor").innerHTML="AUTHOR(S):&nbsp;&nbsp;" + papers[n].author.toUpperCase();
+    document.getElementById("artdept").innerHTML="DEPT:&nbsp;&nbsp;" + papers[n].department.toUpperCase();
     document.getElementById("arttext").innerHTML=papers[n].abstract;
     
     document.getElementById("artcommands").innerHTML="R - RETURN TO LISTINGS; N - NEXT PAGE; P - PREVIOUS PAGE";
