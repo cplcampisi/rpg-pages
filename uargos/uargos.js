@@ -133,6 +133,7 @@ function CheckOption()
         switch (option)
         {
             case "A":
+            case "D":
                 gotoPage("select");
             break;
             case "Z":
@@ -263,11 +264,24 @@ document.onkeydown = function(event)
         OptionInput("selectinput");
     }
 }
-
+//*********************************************
+// Load select page
+//*********************************************
+function LoadSelect()
+{
+    switch(option)
+    {
+        case "D":
+            LoadPapers();
+        break;
+        default:
+        break;
+    }
+}
 //*********************************************
 // Load papers
 //*********************************************
-async function loadImperialStats()
+async function LoadPapers()
 {
     try
     {
