@@ -1,0 +1,55 @@
+7-------------------
+Great RiftAnalysis of the Great Rift
+G. Nardin and K. L. Limkin
+Astrophys
+AP 102-0082
+1The Great Rift is a large nebula of interstellar gasses bordering quadrants VII and VIII of the Empire.  The nature of the gasses interfere with navigation, and have been demonstrated to have a destructive impact on the hulls of the ships themselves.  The inability to penetrate the rift has been a source of frustration for explorers for millennia.  While conventional wisdom holds that the nebula formed over a long period millions of years ago, this paper explores theories that the Great Rift was formed between 5,000 to 10,000 years ago.  However, these claims still need experimental validation.-------------------
+Exotic material
+Proposed new uses for exotic materials
+A.M. Gruber, J. Heardin, and K. Itti 
+Mat Sci
+MTS B88-1294
+1
+The properties of exotic materials, colloquially known as "star material," have been studied for many years, but few practical uses have been developed for them.  These rare materials resemble red gemstones and are believed to be created in collapsed stars.  They are known to react in the presence of an electro-magnetic field, with effects varying from luminescence to exploding with unpredictable force.  They are also known to have an effect on spatial substrates and the relative spatial configuration of separate stones can also change the result.  Despite this knowledge, the materials have found no uses outside of research settings.  This paper describes preliminary results of using star material to detect changes in quantum space, and potential applications for them.
+-------------------
+Rift traders
+Cultural significance of rift trader myths
+N/A
+Anthro
+AN 274-1102
+1
+Traders operating near the Great Rift spread tales about traders beyond the rift, with whom they trade for Jethric.  The stories range from human like beings, to monstrous beings with claws and talons, to artificial constructs.  To date, no description of these beings has been confirmed, but the myths themselves reveal information about the cultures that originated them.  Links between Pontonese descriptions of the mythical "Drakon" and the stories of their traders is inescapable.  Likewise the Eagle Worshippers of Quad VII give bird like attributes to the rift traders.  This paper describes the various rift trader myths and the significance of cultural motifs that form them.
+-------------------
+Lost Warrior Civ
+Reappraisal of the origins of the Lost Warrior Civilization
+H. Gionz
+Archae
+AR 321-F28A
+1
+The Lost Warrior Civilization flourished in Quad VII over 5,000 years ago, before disappearing suddenly, leaving almost no subsequent trace in the archaeological record.  There are several theories about the fate of the civilization, but little study into the origins.  The traditional interpretation holds that the Warrior Civilization was a separate society that influenced the Eagle Worshipper cultures that are still present on many of the worlds previously inhabited by the Lost Warriors.  A new evaluation of the archaeological evidence refutes the traditional interpretation, and suggests that the Eagle Worshippers and the Lost Civilization share common origins.
+-------------------
+Q-Routes
+Evidence for the Collapse of Q-Routes
+J. Targa, Q. Yuroka.
+Astrophys
+AP 101-2672
+1
+Quantum Corridors, also known as Q-Routes, form the basis of faster than light travel and are an important phenomena facilitating both travel and communications through deep space.  This paper reports on recently discovered evidence that Quantum Corridors are non-stable and can degrade and collapse over time, and proposes a physical model to describe this phenomenon.  This research has an important impact on fuel usage and may explain why consumption along some routes varies.  The paper will explore the natural creation of Quantum Corridors and what conditions may be necessary for their formation.  Evidence that major sections of Quantum Corridors collapsed thousands of years ago in Quadrant VII, before eventually recovering, can be detected in variations in local background radiation.
+-------------------
+Cascabel Theory
+Cascabel Theory of Superdimensional Matter Transmission
+G. Brink, K. Kaled, Z. Rezma
+Astrophys
+AP 77X-0027/AR 402-7B82
+3
+The Cascabel theory of superdimensional matter transmission postulates that matter can be transmitted, instantaneously, between two distant physical locations, if those locations share the same space in higher dimensions.  First proposed by Dr. Yarbol in the last century, the mathematics of the theory were further developed by A. Iakobs and H. Eolus.  The theory implies that the two physical spaces in the lower dimensions would be cosmically linked and would have to remain identical.  Only certain exotic materials can occupy different relative positions, and these positions will affect the stability of the link.  If the materials occupy the correct position the two locations will be "in phase" and matter transmission will take place.  If they are out of position the locations will be "out of phase"; matter transmission can not take place, but the system may become unstable.  However, the mathematics imply that certain configurations can be out of phase, but also stable, disabling the matter transmission conduit.
+
+Recent research by Heddin, et al., at the University of Zaores, has shown that if one point of a link can be accurately surveyed, ->*-*-*<- then the theory can predict the location of the second point.  To date, no two connected spatial points have been found.  Current research is focused on ancient temples in Quadrant VII.
+------------------- 
+FTL Travel 
+Survey of FTL Travel Systems
+J. Q. Hue
+Astrophys
+:18729-1114
+1
+Faster than light (FTL) travel through deep space is currently accomplished with quantum drives.  This introductory work surveys various proposals and theories for alternative forms of faster than light propulsion.  Included is a rejection of hyperspace travel and an overview of the exotic Cascabel theory.

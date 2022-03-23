@@ -1,0 +1,34 @@
+5-------------------
+1
+Need a ride tomorrow
+jtp2
+38.04.9 01:07
+1Can you give me a ride to the planetarium tomorrow, at 14:00?  My car is in the shop again, and I have a show to do.  Should be able to get a ride back with Kat. Thanks. -Jask-------------------
+1
+Payment Overdue
+bursar
+38.04.8 10:89
+1
+Your account has an outstanding balance of 3 ducats 20.  Please pay the amount in full by end of day 4.11 or you will incur late penalties.
+-------------------
+1
+Study notes for MATH 201
+kcg2
+38.04.8 09:21
+1
+Missed class yesterday. Could you send me your notes for MATH 201?  Thanks. -Kat
+-------------------
+1
+Financial Assistance
+uafa
+38.04.7 12:76
+1
+Your request for financial assistance (4 ducats) is declined.  No new financial assistance requests can be processed until the beginning of the next fiscal year, 12.1 
+-------------------
+1
+Payment Due
+bursar
+38.04.7 02:05
+1
+Your account has an outstanding balance of 3 ducats 20, the amount due in full by the end of business today.  Please pay it immediately to prevent late fees.
+-------------------
