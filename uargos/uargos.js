@@ -7,6 +7,21 @@ var caret = "&#x203A ";
 var cursor = "&#x2588" ;
 var date = "0000.00.0";
 
+var papers = [];
+
+class paper
+{
+    constructor(name, title, author, department, refNum, abstract)
+    {
+        this.name = name;
+        this.title = title;
+        this.author = author;
+        this.department = department;
+        this.refNum = refNum;
+        this.abstract = abstract;
+    }
+}
+
 const urlparam = window.location.search;
 const urlParams = new URLSearchParams(urlparam);
 if (urlParams.has('date'))
@@ -21,6 +36,13 @@ function SetUser()
     var users = document.getElementsByClassName("user");
     for (var i=0; i<users.length; i++)
         users[i].innerHTML="USER: "+user;
+}
+
+//Function for padding the front of number (string)
+function pad(num, size)
+{
+    var s = "00" + num;
+    return s.substr(s.length-size);
 }
 
 //*********************************************
@@ -240,4 +262,86 @@ document.onkeydown = function(event)
             
         OptionInput("selectinput");
     }
+}
+
+//*********************************************
+// Load papers
+//*********************************************
+async function loadImperialStats()
+{
+    try
+    {
+      const response = await fetch("uapaper.txt");
+      var paperTxt = await response.text();
+      ProcessPapers(paperTxt);
+    } catch (err) {
+      console.error(err);
+    }
+
+}
+function ProcessPapers(paperTxt)
+{
+    var lines;
+    lines = paperTxt.split(/(?:\r\n|\r|\n)/g);
+    
+    var nPapers = parseInt(lines[0]);
+    var i = 1; //starting line
+    for (var x=0;x<nPapers;x++)
+    {
+        i++; //skip separator
+        var name = lines[i];
+        i++;
+        var title = lines[i];
+        i++;
+        var author = lines[i];
+        i++;
+        var department = lines[i];
+        i++;
+        var refNum = lines[i];
+        i++;
+        var nPara = parseInt(lines[i]);
+        var text = "";
+        
+        for (var y=0; y<nPara; y++)
+        {
+            i++;
+            text = text + lines[i] + "<br>";
+        }
+        
+        var p = new paper(name, title, author, department, refNum, text);
+        papers.push(p);
+    }
+    
+    var mainText = "RECENT PAPERS - <br><br>";
+    var mainText += "RECENTLY PUBLISHED PAPERS AND PAPERS OF NOTE ARE LISTED ON THIS SCREEN.  PLEASE CHOOSE A PAPER FROM THE LIST.  THIS SCREEN IS PERIODICALLY UPDATED AS NEW PAPERS BECOME AVAILABLE.";
+    document.getElementById("mtext").innerHTML=mainText;
+    
+    var n = 0;
+    /*var list = "";
+    list += pad((n+1).toString(), 3);
+    list += " - ";
+    list += papers[n].name.toUpperCase();
+    list += "<br>";
+    document.getElementById("mtext").innerHTML=list;*/
+    setTimeout(function(){AddPaper(n+1);}, 200);
+}
+
+function AddPaper(n)
+{
+    if (n >= papers.length)
+    {
+        //Finished loading, set commands and option input.
+        document.getElementById("commands").innerHTML="H - HOME SCREEN; M - MORE LISTINGS";
+        option = "";
+        OptionInput("selectinput");
+        return;
+    }
+
+    var list =  document.getElementById("mtext").innerHTML;
+    list += pad((n+1).toString(), 3);
+    list += " - ";
+    list += papers[n].name.toUpperCase();
+    list += "<br>";
+    document.getElementById("mtext").innerHTML=list;
+    setTimeout(function(){AddPaper(n+1);}, 150);
 }

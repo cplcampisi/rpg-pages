@@ -221,8 +221,8 @@ function handleCustom()
     
     if (customNetwork == "UARGOS")
     {
-        connectErr = true;
-        customHtml = "uargos0.html";
+        //connectErr = true;
+        customHtml = "uargos/uargos.html";
     }
     else
     {
@@ -287,6 +287,12 @@ document.onkeydown = function(event)
                 document.getElementById("selection").style.color='#870000';
                 document.getElementById("selection").style.textDecoration='underline';
                 handleSelection();
+            }
+            else if (key_code==8)
+            {
+                //handle "delete"
+                sel = parseInt("0");
+                document.getElementById("selection").innerHTML="0";
             }
             else
             {
