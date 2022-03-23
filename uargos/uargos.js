@@ -313,6 +313,7 @@ async function LoadPapers()
 }
 function ProcessPapers(paperTxt)
 {
+    papers = [];
     var lines;
     lines = paperTxt.split(/(?:\r\n|\r|\n)/g);
     
@@ -371,7 +372,12 @@ function AddPaper(n)
     document.getElementById("list").innerHTML=list;
     setTimeout(function(){AddPaper(n+1);}, 150);
 }
-
+function ClearSelect()
+{
+    document.getElementById("commands").innerHTML="";
+    document.getElementById("list").innerHTML="";
+    document.getElementById("mtext").innerHTML="";
+}
 function RetrieveListing(option)
 {
     var o = parseInt(option);
