@@ -7,12 +7,46 @@ var selectPage = "";
 var caret = "&#x203A ";
 var cursor = "&#x2588" ;
 var date = "0000.00.0";
+var MAXCHARS = 14;
 
 var papers = []; //consider renaming (used for other list items).
 var pages = []; // array to hold pages of individual article
 var currentPage;  //int to mark current page
 var listStart;
 
+//***************************************************************************
+// AUDIO BEEPS
+//***************************************************************************
+audioCtx = new(window.AudioContext || window.webkitAudioContext)();
+function beep(volume, frequency, type, duration)
+{
+    var oscillator = audioCtx.createOscillator();
+    var gainNode = audioCtx.createGain();
+
+    oscillator.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+
+    gainNode.gain.value = volume;
+    oscillator.frequency.value = frequency;
+    oscillator.type = type;
+
+    oscillator.start();
+
+    setTimeout(
+        function()
+        {
+            oscillator.stop();
+        },
+        duration
+    );
+};
+function ErrorBeep()
+{
+    beep(0.5, 170, "square", 150);
+}
+//***************************************************************************
+// GENERAL
+//***************************************************************************
 class paper
 {
     constructor(name, title, author, department, refNum, abstract)
@@ -240,6 +274,8 @@ document.onkeydown = function(event)
                 }
                 else if (newChar == 8)
                     user = user.slice(0, -1);
+                else if (user.length < MAXCHARS)
+                    ErrorBeep();
                 else if (isAlphaNumeric(newChar))
                     user += String.fromCharCode(newChar);
                     
@@ -257,6 +293,8 @@ document.onkeydown = function(event)
                 }
                 else if (newChar == 8)
                     pass = pass.slice(0, -1);
+                else if (pass.length < MAXCHARS)
+                    ErrorBeep();
                 else if (isAlphaNumeric(newChar))
                     pass += String.fromCharCode(newChar);
 
@@ -290,6 +328,8 @@ document.onkeydown = function(event)
         }
         else if (newChar == 8)
             option = option.slice(0, -1);
+        else if (option.length < MAXCHARS)
+             ErrorBeep();
         else if (isAlphaNumeric(newChar))
             option += String.fromCharCode(newChar);
             
@@ -304,6 +344,8 @@ document.onkeydown = function(event)
         }
         else if (newChar == 8)
             option = option.slice(0, -1);
+        else if (option.length < MAXCHARS)
+             ErrorBeep();
         else if (isAlphaNumeric(newChar))
             option += String.fromCharCode(newChar);
             
