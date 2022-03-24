@@ -51,7 +51,7 @@ function pad(num, size)
 //Function for checking if a value is numeric
 function isNumeric(n)
 {
-      return !isNaN(parseFloat(n)) && isFinite(n);
+    return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
 
@@ -287,6 +287,7 @@ document.onkeydown = function(event)
             if (currentPage < pages.length-1)
             {
                 currentPage++;
+                document.getElementById("arttext").innerHTML=""; //clear before to prevent odd behavior
                 document.getElementById("arttext").innerHTML=pages[currentPage];
             }
         }
@@ -295,6 +296,7 @@ document.onkeydown = function(event)
             if (currentPage > 0)
             {
                 currentPage--;
+                document.getElementById("arttext").innerHTML="";
                 document.getElementById("arttext").innerHTML=pages[currentPage];
             }
         }
