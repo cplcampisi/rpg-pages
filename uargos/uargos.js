@@ -181,7 +181,7 @@ function CheckOption()
                 gotoPage("home");
             break;
             case "M":
-                if (pages.length > 23)
+                if (papers.length > 23)
                 {
                     listStart += 23;
                     if (listStart > pages.length)
@@ -600,7 +600,7 @@ function RetrieveListing(option)
 function AddPaper(n)
 {
     var listEnd = listStart + 22;
-    if (n >= papers.length || n >= listEnd)
+    if (n >= papers.length || n > listEnd)
     {
         //Finished loading, set commands and option input.
         document.getElementById("commands").innerHTML="H - HOME SCREEN; M - MORE LISTINGS";
