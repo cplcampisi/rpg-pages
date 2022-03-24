@@ -54,6 +54,18 @@ function isNumeric(n)
     return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
+//Function for checking if a key code is alpha numeric
+function isAlphaNumeric(code)
+{
+    if (!(code > 47 && code < 58) && // numeric (0-9)
+        !(code > 64 && code < 91) && // upper alpha (A-Z)
+        !(code > 96 && code < 123))  // lower alpha (a-z)
+    {
+        return false;
+    }
+    return true;
+};
+
 
 //*********************************************
 // Functions for LOGIN
@@ -194,6 +206,8 @@ document.onkeydown = function(event)
         if(!e.ctrlKey && !e.metaKey && !e.altKey)
             newChar = charInput - 32;
     }
+    if (!isAlphaNumeric(newChar))
+        return;
     if (view=="login")
     {
         switch (textfield)
@@ -412,7 +426,7 @@ function LoadPrograms()
     document.getElementById("mtext").innerHTML=mainText;
     
     //In this case the list is empty, do the following:
-    document.getElementById("list").innerHTML=" XX";
+    document.getElementById("list").innerHTML="&nbsp;XX";
     
     setTimeout(function(){AddPaper(1);}, 200);  //Should cause the return options to load.
 }
@@ -439,9 +453,9 @@ function LoadBulletins()
     papers.push(p);
 
     var mainText = "BULLETINS - <br><br>";
-    mainText += " * TUITION DUE - 05.9<br>";
-    mainText += " * LAST DAY TO SIGN UP FOR OFF-WORLD SUMMER ARCHAELOGY FIELD TRIP - 06.1<br>";
-    mainText += " * STUDENT UNION ORIENTATION MEETING - 06.2<br>";
+    mainText += "&nbsp;* TUITION DUE - 05.9<br>";
+    mainText += "&nbsp;* LAST DAY TO SIGN UP FOR OFF-WORLD SUMMER ARCHAELOGY FIELD TRIP - 06.1<br>";
+    mainText += "&nbsp;* STUDENT UNION ORIENTATION MEETING - 06.2<br>";
     
     document.getElementById("mtext").innerHTML=mainText;
     setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
@@ -475,12 +489,12 @@ function LoadFaculty()
     papers.push(p);
 
     var mainText = "FACULTY/STAFF LISTINGS - <br><br>";
-    mainText += " PLEASE MAKE A SELECTION FROM THE LIST AT LEFT TO SEE LISTINGS FOR THOSE SCHOOLS OR ADMINISTRATIVE BRANCHES<br><br>";
-    mainText += " * GENERAL ASSISTANCE: #000<br>";
-    mainText += " * BURSARS'S MAIN OFFICE: #005<br>";
-    mainText += " * PRESIDENT'S OFFICE: #010<br>";
-    mainText += " * SPORTS AND SPECIAL EVENTS: #112<br>";
-    mainText += " * CAMPUS POLICE: #555 / (NON-EMERGENCY): #211/4<br>";
+    mainText += "&nbsp;PLEASE MAKE A SELECTION FROM THE LIST AT LEFT TO SEE LISTINGS FOR THOSE SCHOOLS OR ADMINISTRATIVE BRANCHES<br><br>";
+    mainText += "&nbsp;* GENERAL ASSISTANCE: #000<br>";
+    mainText += "&nbsp;* BURSARS'S MAIN OFFICE: #005<br>";
+    mainText += "&nbsp;* PRESIDENT'S OFFICE: #010<br>";
+    mainText += "&nbsp;* SPORTS AND SPECIAL EVENTS: #112<br>";
+    mainText += "&nbsp;* CAMPUS POLICE: #555 / (NON-EMERGENCY): #211/4<br>";
     
     document.getElementById("mtext").innerHTML=mainText;
     setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
