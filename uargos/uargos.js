@@ -309,11 +309,14 @@ function LoadSelect()
 {
     switch(selectPage)
     {
-        case "D":
-            LoadPapers();
-        break;
         case "A":
             LoadPrograms();
+        break;
+        case "B":
+            LoadBulletins();
+        break;
+        case "D":
+            LoadPapers();
         break;
         default:
         break;
@@ -404,9 +407,36 @@ function LoadPrograms()
     document.getElementById("mtext").innerHTML=mainText;
     
     //In this case the list is empty, do the following:
-    document.getElementById("list").innerHTML=" -XX- ";
+    document.getElementById("list").innerHTML=" XX";
     
     setTimeout(function(){AddPaper(1);}, 200);  //Should cause the return options to load.
+}
+
+//*********************************************
+// Load bulletins
+//*********************************************
+function LoadBulletins()
+{
+    papers = [];
+    var p = new paper("EVENTS", "", "", "", "", "");
+    var p = new paper("RENTALS", "", "", "", "", "");
+    var p = new paper("WANTED", "", "", "", "", "");
+    var p = new paper("MUSIC", "", "", "", "", "");
+    var p = new paper("SPORTS", "", "", "", "", "");
+    var p = new paper("LOST/FOUND", "", "", "", "", "");
+    var p = new paper("OTHER", "", "", "", "", "");
+
+    var mainText = "BULLETINS - <br><br>";
+    mainText += " * 05.9 - TUITION DUE<br>";
+    mainText += " * 06.1 - LAST DAY TO SIGN UP FOR OFF-WORLD SUMMER ARCHAELOGY FIELD TRIP<br>";
+    mainText += " * 06.2 - STUDENT UNION ORIENTATION MEETING<br>";
+    
+    document.getElementById("mtext").innerHTML=mainText;
+    
+    //In this case the list is empty, do the following:
+    document.getElementById("list").innerHTML=" XX";
+    
+    setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
 }
 
 
