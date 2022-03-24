@@ -158,6 +158,7 @@ function CheckOption()
             case "B":
             case "C":
             case "D":
+            case "F":
                 selectPage = option;
                 gotoPage("select");
             break;
@@ -337,6 +338,9 @@ function LoadSelect()
         case "D":
             LoadPapers();
         break;
+        case "F":
+            LoadDepartments();
+        break;
         default:
         break;
     }
@@ -467,7 +471,47 @@ function LoadBulletins()
 function LoadFaculty()
 {
     papers = [];
-    var p = new paper("GENERAL ADMIN", "", "", "", "", "");
+    papers.push(new paper("TESTING 123 ", "", "", "", "", ""));
+    /*var p = new paper("GENERAL ADMIN", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("BURSAR'S OFFICE", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("FACILITIES", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("BUSINESS", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("EDUCATION", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("ENERGY", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("ENGINEERING", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("HUMANITIES & SCI", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("LAW", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("MEDICINE", "", "", "", "", "");
+    papers.push(p);*/
+
+    var mainText = "FACULTY/STAFF LISTINGS - <br><br>";
+    mainText += "&nbsp;PLEASE MAKE A SELECTION FROM THE LIST AT LEFT TO SEE LISTINGS FOR THOSE SCHOOLS OR ADMINISTRATIVE BRANCHES<br><br>";
+    mainText += "&nbsp;* GENERAL ASSISTANCE: #000<br>";
+    mainText += "&nbsp;* BURSARS'S MAIN OFFICE: #005<br>";
+    mainText += "&nbsp;* PRESIDENT'S OFFICE: #010<br>";
+    mainText += "&nbsp;* SPORTS AND SPECIAL EVENTS: #112<br>";
+    mainText += "&nbsp;* CAMPUS POLICE: #555 / (NON-EMERGENCY): #211/4<br>";
+    
+    document.getElementById("mtext").innerHTML=mainText;
+    setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
+}
+
+//*********************************************
+// Load Departments
+//*********************************************
+function LoadDepartments()
+{
+    papers = [];
+    var p = new paper("ANTHROPOLOGY", "", "", "", "", "");
     papers.push(p);
     p = new paper("BURSAR'S OFFICE", "", "", "", "", "");
     papers.push(p);
@@ -488,17 +532,13 @@ function LoadFaculty()
     p = new paper("MEDICINE", "", "", "", "", "");
     papers.push(p);
 
-    var mainText = "FACULTY/STAFF LISTINGS - <br><br>";
-    mainText += "&nbsp;PLEASE MAKE A SELECTION FROM THE LIST AT LEFT TO SEE LISTINGS FOR THOSE SCHOOLS OR ADMINISTRATIVE BRANCHES<br><br>";
-    mainText += "&nbsp;* GENERAL ASSISTANCE: #000<br>";
-    mainText += "&nbsp;* BURSARS'S MAIN OFFICE: #005<br>";
-    mainText += "&nbsp;* PRESIDENT'S OFFICE: #010<br>";
-    mainText += "&nbsp;* SPORTS AND SPECIAL EVENTS: #112<br>";
-    mainText += "&nbsp;* CAMPUS POLICE: #555 / (NON-EMERGENCY): #211/4<br>";
+    var mainText = "DEPARTMENT LISTINGS - <br><br>";
+    mainText += "CHOOSE FROM THE LIST AT LEFT OR ENTER NUMBER OF DEPARTMENT.<br><br>";
     
     document.getElementById("mtext").innerHTML=mainText;
     setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
 }
+
 
 
 
