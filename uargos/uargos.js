@@ -4,7 +4,7 @@ var user = "";
 var pass = "";
 var option = "";
 var selectPage = "";
-var caret = "&#x203A ";
+var caret = "<span style='background-color:#CF7C40;'>&nbsp;</span>";//"&#x203A ";
 var cursor = "&#x2588" ;
 var date = "0000.00.0";
 var MAXCHARS = 14;
