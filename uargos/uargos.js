@@ -198,6 +198,12 @@ function CheckOption()
             default:
                 if (isNumeric(option) && selectPage=="D")
                     RetrieveListing(option);
+                if (selectPage=="F" && parseInt(option)==30)
+                {
+                    document.getElementById("mtext").innerHTML="";
+                    document.getElementById("mtext").innerHTML="42!<br>42!<br>42!<br>42!<br>42!<br>42!<br>42!<br>42!<br>42!<br>";
+                }
+                    
                 SetUser();
                 option = "";
                 OptionInput("selectinput");
@@ -298,7 +304,7 @@ document.onkeydown = function(event)
         }
         else if (newChar == 8)
             option = option.slice(0, -1);
-        else
+        else if (isAlphaNumeric(newChar))
             option += String.fromCharCode(newChar);
             
         OptionInput("selectinput");
