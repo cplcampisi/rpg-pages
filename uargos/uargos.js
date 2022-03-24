@@ -143,6 +143,7 @@ function CheckOption()
         switch (option)
         {
             case "A":
+            case "B":
             case "D":
                 selectPage = option;
                 gotoPage("select");
