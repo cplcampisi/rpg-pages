@@ -9,6 +9,8 @@ var cursor = "&#x2588" ;
 var date = "0000.00.0";
 
 var papers = [];
+var pages = []; // array to hold pages of individual article
+var currentPage;  //int to mark current page
 
 class paper
 {
@@ -280,6 +282,22 @@ document.onkeydown = function(event)
         {
             gotoPage("select");
         }
+        else if (char == "N")
+        {
+            if (currentPage < pages.length-1)
+            {
+                currentPage++;
+                document.getElementById("arttext").innerHTML=pages[currentPage];
+            }
+        }
+        else if (char == "P")
+        {
+            if (currentPage > 0)
+            {
+                currentPage--;
+                document.getElementById("arttext").innerHTML=pages[currentPage];
+            }
+        }
     }
 }
 //*********************************************
@@ -399,7 +417,13 @@ function ShowPaper(n)
     document.getElementById("artlisting").innerHTML=("LISTING:&nbsp;&nbsp;" + papers[n].refNum.toUpperCase()).slice(0,34);
     document.getElementById("artauthor").innerHTML="AUTHOR(S):&nbsp;&nbsp;" + papers[n].author.toUpperCase();
     document.getElementById("artdept").innerHTML="DEPT:&nbsp;&nbsp;" + papers[n].department.toUpperCase();
-    document.getElementById("arttext").innerHTML=papers[n].abstract;
+
+    //paginate the abstract
+    // .replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    pages = papers[n].abstract.replace(/</g, '&lt;').replace(/>/g, '&gt;').split("*-*-*");
+    currentPage = 0;
+
+    document.getElementById("arttext").innerHTML=pages[0];
     
     document.getElementById("artcommands").innerHTML="R - RETURN TO LISTINGS; N - NEXT PAGE; P - PREVIOUS PAGE";
 }

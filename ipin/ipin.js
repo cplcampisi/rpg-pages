@@ -87,7 +87,7 @@ function ProcessText(page)
     else if (page=="govern")
         lines = governTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="agencies")
-        lines = agenciesTxt.split(/(?:\r\n|\r|\n)/g);
+        lines = agenciesTxt.replace(/</g, '&lt;').replace(/>/g, '&gt;').split(/(?:\r\n|\r|\n)/g);
     else if (page=="military")
         lines = militaryTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="tech")
