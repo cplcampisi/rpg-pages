@@ -450,7 +450,7 @@ function LoadBulletins()
 //*********************************************
 // Load Faculty / Staff
 //*********************************************
-function LoadBulletins()
+function LoadFaculty()
 {
     papers = [];
     var p = new paper("GENERAL ADMIN", "", "", "", "", "");
