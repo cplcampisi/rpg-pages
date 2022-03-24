@@ -356,7 +356,7 @@ function ProcessPapers(paperTxt)
         
         for (var y=0; y<nPara; y++)
         {
-            text = text + lines[i] + "<br>";
+            text = text + lines[i].replace(/</g, '&lt;').replace(/>/g, '&gt;') + "<br>";
             i++;
         }
         
@@ -419,8 +419,7 @@ function ShowPaper(n)
     document.getElementById("artdept").innerHTML="DEPT:&nbsp;&nbsp;" + papers[n].department.toUpperCase();
 
     //paginate the abstract
-    // .replace(/</g, '&lt;').replace(/>/g, '&gt;')
-    pages = papers[n].abstract.replace(/</g, '&lt;').replace(/>/g, '&gt;').split("*-*-*");
+    pages = papers[n].abstract.split("*-*-*");
     currentPage = 0;
 
     document.getElementById("arttext").innerHTML=pages[0];

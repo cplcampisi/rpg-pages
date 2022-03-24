@@ -87,7 +87,7 @@ function ProcessText(page)
     else if (page=="govern")
         lines = governTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="agencies")
-        lines = agenciesTxt.replace(/</g, '&lt;').replace(/>/g, '&gt;').split(/(?:\r\n|\r|\n)/g);
+        lines = agenciesTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="military")
         lines = militaryTxt.split(/(?:\r\n|\r|\n)/g);
     else if (page=="tech")
@@ -110,7 +110,7 @@ function ProcessText(page)
         var text = "";
         for (var j = 0; j < len; j++)
         {
-            text = text + lines[i] + "<br>";
+            text = text + lines[i].replace(/</g, '&lt;').replace(/>/g, '&gt;') + "<br>";
             i++;           
         }
 
