@@ -207,8 +207,6 @@ document.onkeydown = function(event)
         if(!e.ctrlKey && !e.metaKey && !e.altKey)
             newChar = charInput - 32;
     }
-    if (!isAlphaNumeric(newChar))
-        return;
     if (view=="login")
     {
         switch (textfield)
@@ -223,7 +221,7 @@ document.onkeydown = function(event)
                 }
                 else if (newChar == 8)
                     user = user.slice(0, -1);
-                else
+                else if (isAlphaNumeric(newChar))
                     user += String.fromCharCode(newChar);
                     
                 fieldname = "username";
@@ -240,7 +238,7 @@ document.onkeydown = function(event)
                 }
                 else if (newChar == 8)
                     pass = pass.slice(0, -1);
-                else
+                else if (isAlphaNumeric(newChar))
                     pass += String.fromCharCode(newChar);
 
                 fieldname = "password";
@@ -273,7 +271,7 @@ document.onkeydown = function(event)
         }
         else if (newChar == 8)
             option = option.slice(0, -1);
-        else
+        else if (isAlphaNumeric(newChar))
             option += String.fromCharCode(newChar);
             
         OptionInput("homeinput");
