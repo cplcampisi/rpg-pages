@@ -11,6 +11,7 @@ var date = "0000.00.0";
 var papers = []; //consider renaming (used for other list items).
 var pages = []; // array to hold pages of individual article
 var currentPage;  //int to mark current page
+var listStart;
 
 class paper
 {
@@ -180,7 +181,19 @@ function CheckOption()
                 gotoPage("home");
             break;
             case "M":
-                
+                if (pages.length > 23)
+                {
+                    listStart += 23;
+                    if (listStart > pages.length)
+                        listStart = 0;
+                    LoadSelect();
+                }
+                else
+                {
+                    SetUser();
+                    option = "";
+                    OptionInput("selectinput");
+                }
             break;
             default:
                 if (isNumeric(option) && selectPage=="D")
@@ -322,6 +335,7 @@ document.onkeydown = function(event)
 //*********************************************
 function LoadSelect()
 {
+    listStart = 0;
     switch(selectPage)
     {
         case "A":
@@ -397,7 +411,7 @@ function ProcessPapers(paperTxt)
     mainText += "RECENTLY PUBLISHED PAPERS AND PAPERS OF NOTE ARE LISTED ON THIS SCREEN.  PLEASE CHOOSE A PAPER FROM THE LIST.  THIS SCREEN IS PERIODICALLY UPDATED AS NEW PAPERS BECOME AVAILABLE.";
     document.getElementById("mtext").innerHTML=mainText;
     
-    setTimeout(function(){AddPaper(0);}, 200);
+    setTimeout(function(){AddPaper(listStart);}, 200);
 }
 
 //name, title, author, department, refNum, abstract
@@ -469,8 +483,8 @@ function LoadBulletins()
 function LoadFaculty()
 {
     papers = [];
-    papers.push(new paper("TESTING 123 ", "", "", "", "", ""));
-    /*var p = new paper("GENERAL ADMIN", "", "", "", "", "");
+    //papers.push(new paper("TESTING 123 ", "", "", "", "", ""));
+    var p = new paper("GENERAL ADMIN", "", "", "", "", "");
     papers.push(p);
     p = new paper("BURSAR'S OFFICE", "", "", "", "", "");
     papers.push(p);
@@ -489,7 +503,7 @@ function LoadFaculty()
     p = new paper("LAW", "", "", "", "", "");
     papers.push(p);
     p = new paper("MEDICINE", "", "", "", "", "");
-    papers.push(p);*/
+    papers.push(p);
 
     var mainText = "FACULTY/STAFF LISTINGS - <br><br>";
     mainText += "&nbsp;PLEASE MAKE A SELECTION FROM THE LIST AT LEFT TO SEE LISTINGS FOR THOSE SCHOOLS OR ADMINISTRATIVE BRANCHES<br><br>";
@@ -509,27 +523,46 @@ function LoadFaculty()
 function LoadDepartments()
 {
     papers = [];
-    var p = new paper("ANTHROPOLOGY", "", "", "", "", "");
-    papers.push(p);
-    p = new paper("BURSAR'S OFFICE", "", "", "", "", "");
-    papers.push(p);
-    p = new paper("FACILITIES", "", "", "", "", "");
-    papers.push(p);
-    p = new paper("BUSINESS", "", "", "", "", "");
-    papers.push(p);
-    p = new paper("EDUCATION", "", "", "", "", "");
-    papers.push(p);
-    p = new paper("ENERGY", "", "", "", "", "");
-    papers.push(p);
-    p = new paper("ENGINEERING", "", "", "", "", "");
-    papers.push(p);
-    p = new paper("HUMANITIES & SCI", "", "", "", "", "");
-    papers.push(p);
-    p = new paper("LAW", "", "", "", "", "");
-    papers.push(p);
-    p = new paper("MEDICINE", "", "", "", "", "");
-    papers.push(p);
-
+    papers.push(new paper("ANTHROPOLOGY", "", "", "", "", ""));
+    papers.push(new paper("APPLIED PHYSICS", "", "", "", "", ""));
+    papers.push(new paper("ART", "", "", "", "", ""));
+    papers.push(new paper("ASTRONAUTICS", "", "", "", "", ""));
+    papers.push(new paper("BIOCHEMISTRY", "", "", "", "", ""));
+    papers.push(new paper("BIOENGINEERING", "", "", "", "", ""));
+    papers.push(new paper("BIOLOGY", "", "", "", "", ""));
+    papers.push(new paper("BUSINESS", "", "", "", "", ""));
+    papers.push(new paper("CHEMICAL ENG", "", "", "", "", ""));
+    papers.push(new paper("CIVIL ENG", "", "", "", "", ""));
+    papers.push(new paper("CLASSICS", "", "", "", "", ""));
+    papers.push(new paper("COMMUNICATION", "", "", "", "", ""));
+    papers.push(new paper("ECONOMICS", "", "", "", "", ""));
+    papers.push(new paper("ELECTRICAL ENG", "", "", "", "", ""));
+    papers.push(new paper("GENETICS", "", "", "", "", ""));
+    papers.push(new paper("GEOPHYSICS", "", "", "", "", ""));
+    papers.push(new paper("HISTORY", "", "", "", "", ""));
+    papers.push(new paper("HUMANITIES", "", "", "", "", ""));
+    papers.push(new paper("INFORMATION TECH", "", "", "", "", ""));
+    papers.push(new paper("LAW", "", "", "", "", ""));
+    papers.push(new paper("LINGUISTICS", "", "", "", "", ""));
+    papers.push(new paper("MATERIAL SCIENCES", "", "", "", "", ""));
+    papers.push(new paper("MATH", "", "", "", "", ""));
+    papers.push(new paper("MECHANICAL ENG", "", "", "", "", ""));
+    papers.push(new paper("MEDICINE", "", "", "", "", ""));
+    papers.push(new paper("MICROBIOLOGY", "", "", "", "", ""));
+    papers.push(new paper("MUSIC", "", "", "", "", ""));
+    papers.push(new paper("NEUROBIOLOGY", "", "", "", "", ""));
+    papers.push(new paper("PATHOLOGY", "", "", "", "", ""));
+    papers.push(new paper("PHILOSOPHY", "", "", "", "", ""));
+    papers.push(new paper("PHOTO SCI", "", "", "", "", ""));
+    papers.push(new paper("PHYSICS", "", "", "", "", ""));
+    papers.push(new paper("PSYCHOLOGY", "", "", "", "", ""));
+    papers.push(new paper("RELIGIOUS STUDIES", "", "", "", "", ""));
+    papers.push(new paper("SCIENCE", "", "", "", "", ""));
+    papers.push(new paper("SOCIOLOGY", "", "", "", "", ""));
+    papers.push(new paper("PERFORMANCE", "", "", "", "", ""));
+    papers.push(new paper("", "", "", "", "", ""));
+    papers.push(new paper("", "", "", "", "", ""));
+    
     var mainText = "DEPARTMENT LISTINGS - <br><br>";
     mainText += "CHOOSE FROM THE LIST AT LEFT OR ENTER NUMBER OF DEPARTMENT.<br><br>";
     
@@ -566,7 +599,8 @@ function RetrieveListing(option)
 //Consider renaming to show list item, reused for other options.
 function AddPaper(n)
 {
-    if (n >= papers.length)
+    var listEnd = listStart + 22;
+    if (n >= papers.length || n >= listEnd)
     {
         //Finished loading, set commands and option input.
         document.getElementById("commands").innerHTML="H - HOME SCREEN; M - MORE LISTINGS";
