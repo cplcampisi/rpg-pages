@@ -42,7 +42,7 @@ function beep(volume, frequency, type, duration)
 };
 function ErrorBeep()
 {
-    beep(0.5, 170, "square", 150);
+    beep(0.3, 180, "square", 150);
 }
 //***************************************************************************
 // GENERAL
@@ -274,7 +274,7 @@ document.onkeydown = function(event)
                 }
                 else if (newChar == 8)
                     user = user.slice(0, -1);
-                else if (user.length < MAXCHARS)
+                else if (user.length >= MAXCHARS)
                     ErrorBeep();
                 else if (isAlphaNumeric(newChar))
                     user += String.fromCharCode(newChar);
@@ -293,7 +293,7 @@ document.onkeydown = function(event)
                 }
                 else if (newChar == 8)
                     pass = pass.slice(0, -1);
-                else if (pass.length < MAXCHARS)
+                else if (pass.length >= MAXCHARS)
                     ErrorBeep();
                 else if (isAlphaNumeric(newChar))
                     pass += String.fromCharCode(newChar);
@@ -328,7 +328,7 @@ document.onkeydown = function(event)
         }
         else if (newChar == 8)
             option = option.slice(0, -1);
-        else if (option.length < MAXCHARS)
+        else if (option.length >= MAXCHARS)
              ErrorBeep();
         else if (isAlphaNumeric(newChar))
             option += String.fromCharCode(newChar);
@@ -344,7 +344,7 @@ document.onkeydown = function(event)
         }
         else if (newChar == 8)
             option = option.slice(0, -1);
-        else if (option.length < MAXCHARS)
+        else if (option.length >= MAXCHARS)
              ErrorBeep();
         else if (isAlphaNumeric(newChar))
             option += String.fromCharCode(newChar);
