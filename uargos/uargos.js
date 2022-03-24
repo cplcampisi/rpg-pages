@@ -132,7 +132,7 @@ function OptionInput(fieldname)
 {
     var text = "";
     text = caret + option + cursor;
-    
+    document.getElementById(fieldname).innerHTML="";
     document.getElementById(fieldname).innerHTML=text;
 }
 
@@ -144,6 +144,7 @@ function CheckOption()
         {
             case "A":
             case "B":
+            case "C":
             case "D":
                 selectPage = option;
                 gotoPage("select");
@@ -316,6 +317,9 @@ function LoadSelect()
         case "B":
             LoadBulletins();
         break;
+        case "C":
+            LoadFaculty();
+        break;
         case "D":
             LoadPapers();
         break;
@@ -435,13 +439,53 @@ function LoadBulletins()
     papers.push(p);
 
     var mainText = "BULLETINS - <br><br>";
-    mainText += " * 05.9 - TUITION DUE<br>";
-    mainText += " * 06.1 - LAST DAY TO SIGN UP FOR OFF-WORLD SUMMER ARCHAELOGY FIELD TRIP<br>";
-    mainText += " * 06.2 - STUDENT UNION ORIENTATION MEETING<br>";
+    mainText += " * TUITION DUE - 05.9<br>";
+    mainText += " * LAST DAY TO SIGN UP FOR OFF-WORLD SUMMER ARCHAELOGY FIELD TRIP - 06.1<br>";
+    mainText += " * STUDENT UNION ORIENTATION MEETING - 06.2<br>";
     
     document.getElementById("mtext").innerHTML=mainText;
     setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
 }
+
+//*********************************************
+// Load Faculty / Staff
+//*********************************************
+function LoadBulletins()
+{
+    papers = [];
+    var p = new paper("GENERAL ADMIN", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("BURSAR'S OFFICE", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("FACILITIES", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("BUSINESS", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("EDUCATION", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("ENERGY", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("ENGINEERING", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("HUMANITIES & SCI", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("LAW", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("MEDICINE", "", "", "", "", "");
+    papers.push(p);
+
+    var mainText = "FACULTY/STAFF LISTINGS - <br><br>";
+    mainText += " PLEASE MAKE A SELECTION FROM THE LIST AT LEFT TO SEE LISTINGS FOR THOSE SCHOOLS OR ADMINISTRATIVE BRANCHES<br><br>";
+    mainText += " * GENERAL ASSISTANCE: #000<br>";
+    mainText += " * BURSARS'S MAIN OFFICE: #005<br>";
+    mainText += " * PRESIDENT'S OFFICE: #010<br>";
+    mainText += " * SPORTS AND SPECIAL EVENTS: #112<br>";
+    mainText += " * CAMPUS POLICE: #555 / (NON-EMERGENCY): #211/4<br>";
+    
+    document.getElementById("mtext").innerHTML=mainText;
+    setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
+}
+
 
 
 //*********************************************
