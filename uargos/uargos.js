@@ -218,7 +218,7 @@ function CheckOption()
                 if (papers.length > 23)
                 {
                     listStart += 23;
-                    if (listStart > pages.length)
+                    if (listStart > papers.length)
                         listStart = 0;
                     LoadSelect();
                 }
@@ -628,6 +628,8 @@ function ClearSelect()
     document.getElementById("commands").innerHTML="";
     document.getElementById("list").innerHTML="";
     document.getElementById("mtext").innerHTML="";
+    option = "";
+    OptionInput("selectinput");
 }
 function RetrieveListing(option)
 {
