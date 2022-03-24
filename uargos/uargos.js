@@ -42,7 +42,7 @@ function beep(volume, frequency, type, duration)
 };
 function ErrorBeep()
 {
-    beep(0.3, 180, "square", 150);
+    beep(0.16, 200, "square", 150);
 }
 //***************************************************************************
 // GENERAL
@@ -522,7 +522,7 @@ function LoadBulletins()
     mainText += "&nbsp;* STUDENT UNION ORIENTATION MEETING - 06.2<br>";
     
     document.getElementById("mtext").innerHTML=mainText;
-    setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
+    setTimeout(function(){AddPaper(listStart);}, 200);  //Should cause the return options to load.
 }
 
 //*********************************************
@@ -562,7 +562,7 @@ function LoadFaculty()
     mainText += "&nbsp;* CAMPUS POLICE: #555 / (NON-EMERGENCY): #211/4<br>";
     
     document.getElementById("mtext").innerHTML=mainText;
-    setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
+    setTimeout(function(){AddPaper(listStart);}, 200);  //Should cause the return options to load.
 }
 
 //*********************************************
@@ -613,7 +613,7 @@ function LoadDepartments()
     mainText += "CHOOSE FROM THE LIST AT LEFT OR ENTER NUMBER OF DEPARTMENT.<br><br>";
     
     document.getElementById("mtext").innerHTML=mainText;
-    setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
+    setTimeout(function(){AddPaper(listStart);}, 200);  //Should cause the return options to load.
 }
 
 
@@ -629,7 +629,6 @@ function ClearSelect()
     document.getElementById("list").innerHTML="";
     document.getElementById("mtext").innerHTML="";
     option = "";
-    OptionInput("selectinput");
 }
 function RetrieveListing(option)
 {
