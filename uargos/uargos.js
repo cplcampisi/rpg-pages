@@ -8,7 +8,7 @@ var caret = "&#x203A ";
 var cursor = "&#x2588" ;
 var date = "0000.00.0";
 
-var papers = [];
+var papers = []; //consider renaming (used for other list items).
 var pages = []; // array to hold pages of individual article
 var currentPage;  //int to mark current page
 
@@ -373,25 +373,43 @@ function ProcessPapers(paperTxt)
     setTimeout(function(){AddPaper(0);}, 200);
 }
 
-function AddPaper(n)
+//name, title, author, department, refNum, abstract
+function ShowPaper(n)
 {
-    if (n >= papers.length)
-    {
-        //Finished loading, set commands and option input.
-        document.getElementById("commands").innerHTML="H - HOME SCREEN; M - MORE LISTINGS";
-        option = "";
-        OptionInput("selectinput");
-        return;
-    }
+    document.getElementById("arttitle").innerHTML=("TITLE:&nbsp;&nbsp;" + papers[n].title.toUpperCase()).slice(0,65);
+    document.getElementById("artlisting").innerHTML=("LISTING:&nbsp;&nbsp;" + papers[n].refNum.toUpperCase()).slice(0,34);
+    document.getElementById("artauthor").innerHTML="AUTHOR(S):&nbsp;&nbsp;" + papers[n].author.toUpperCase();
+    document.getElementById("artdept").innerHTML="DEPT:&nbsp;&nbsp;" + papers[n].department.toUpperCase();
 
-    var list =  document.getElementById("list").innerHTML;
-    list += pad((n+1).toString(), 3);
-    list += " - ";
-    list += papers[n].name.toUpperCase();
-    list += "<br>";
-    document.getElementById("list").innerHTML=list;
-    setTimeout(function(){AddPaper(n+1);}, 150);
+    //paginate the abstract
+    pages = papers[n].abstract.split("*-*-*");
+    currentPage = 0;
+
+    document.getElementById("arttext").innerHTML=pages[0];
+    
+    document.getElementById("artcommands").innerHTML="R - RETURN TO LISTINGS; N - NEXT PAGE; P - PREVIOUS PAGE";
 }
+//*********************************************
+// Load programs
+//*********************************************
+function LoadPrograms()
+{
+    papers = [];
+
+    var mainText = "PROGRAMS - <br><br>";
+    mainText += "NO PROGRAMS ARE CURRENTLY AVAILABLE.";
+    document.getElementById("mtext").innerHTML=mainText;
+    
+    //In this case the list is empty, do the following:
+    document.getElementById("list").innerHTML=" -XX- ";
+    
+    setTimeout(function(){AddPaper(1);}, 200);  //Should cause the return options to load.
+}
+
+
+//*********************************************
+// Generic Functions related to the select page
+//*********************************************
 function ClearSelect()
 {
     document.getElementById("selectinput").innerHTML="";
@@ -412,19 +430,23 @@ function RetrieveListing(option)
     }
 }
 
-//name, title, author, department, refNum, abstract
-function ShowPaper(n)
+//Consider renaming to show list item, reused for other options.
+function AddPaper(n)
 {
-    document.getElementById("arttitle").innerHTML=("TITLE:&nbsp;&nbsp;" + papers[n].title.toUpperCase()).slice(0,65);
-    document.getElementById("artlisting").innerHTML=("LISTING:&nbsp;&nbsp;" + papers[n].refNum.toUpperCase()).slice(0,34);
-    document.getElementById("artauthor").innerHTML="AUTHOR(S):&nbsp;&nbsp;" + papers[n].author.toUpperCase();
-    document.getElementById("artdept").innerHTML="DEPT:&nbsp;&nbsp;" + papers[n].department.toUpperCase();
+    if (n >= papers.length)
+    {
+        //Finished loading, set commands and option input.
+        document.getElementById("commands").innerHTML="H - HOME SCREEN; M - MORE LISTINGS";
+        option = "";
+        OptionInput("selectinput");
+        return;
+    }
 
-    //paginate the abstract
-    pages = papers[n].abstract.split("*-*-*");
-    currentPage = 0;
-
-    document.getElementById("arttext").innerHTML=pages[0];
-    
-    document.getElementById("artcommands").innerHTML="R - RETURN TO LISTINGS; N - NEXT PAGE; P - PREVIOUS PAGE";
+    var list =  document.getElementById("list").innerHTML;
+    list += pad((n+1).toString(), 3);
+    list += " - ";
+    list += papers[n].name.toUpperCase();
+    list += "<br>";
+    document.getElementById("list").innerHTML=list;
+    setTimeout(function(){AddPaper(n+1);}, 150);
 }
