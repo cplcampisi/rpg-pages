@@ -168,7 +168,7 @@ function CheckOption()
                 
             break;
             default:
-                if (isNumeric(option))
+                if (isNumeric(option) && selectPage=="D")
                     RetrieveListing(option);
                 SetUser();
                 option = "";
@@ -311,6 +311,9 @@ function LoadSelect()
     {
         case "D":
             LoadPapers();
+        break;
+        case "A":
+            LoadPrograms();
         break;
         default:
         break;
