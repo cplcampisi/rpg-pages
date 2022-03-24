@@ -341,7 +341,7 @@ document.onkeydown = function(event)
 //*********************************************
 function LoadSelect()
 {
-    listStart = 0;
+    ClearSelect();
     switch(selectPage)
     {
         case "A":
@@ -566,8 +566,6 @@ function LoadDepartments()
     papers.push(new paper("SCIENCE", "", "", "", "", ""));
     papers.push(new paper("SOCIOLOGY", "", "", "", "", ""));
     papers.push(new paper("PERFORMANCE", "", "", "", "", ""));
-    papers.push(new paper("", "", "", "", "", ""));
-    papers.push(new paper("", "", "", "", "", ""));
     
     var mainText = "DEPARTMENT LISTINGS - <br><br>";
     mainText += "CHOOSE FROM THE LIST AT LEFT OR ENTER NUMBER OF DEPARTMENT.<br><br>";
