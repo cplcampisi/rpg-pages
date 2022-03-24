@@ -440,10 +440,6 @@ function LoadBulletins()
     mainText += " * 06.2 - STUDENT UNION ORIENTATION MEETING<br>";
     
     document.getElementById("mtext").innerHTML=mainText;
-    
-    //In this case the list is empty, do the following:
-    document.getElementById("list").innerHTML=" XX";
-    
     setTimeout(function(){AddPaper(0);}, 200);  //Should cause the return options to load.
 }
 
