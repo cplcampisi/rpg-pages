@@ -420,12 +420,19 @@ function LoadBulletins()
 {
     papers = [];
     var p = new paper("EVENTS", "", "", "", "", "");
-    var p = new paper("RENTALS", "", "", "", "", "");
-    var p = new paper("WANTED", "", "", "", "", "");
-    var p = new paper("MUSIC", "", "", "", "", "");
-    var p = new paper("SPORTS", "", "", "", "", "");
-    var p = new paper("LOST/FOUND", "", "", "", "", "");
-    var p = new paper("OTHER", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("RENTALS", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("WANTED", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("MUSIC", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("SPORTS", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("LOST/FOUND", "", "", "", "", "");
+    papers.push(p);
+    p = new paper("OTHER", "", "", "", "", "");
+    papers.push(p);
 
     var mainText = "BULLETINS - <br><br>";
     mainText += " * 05.9 - TUITION DUE<br>";
