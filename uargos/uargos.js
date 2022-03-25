@@ -268,6 +268,37 @@ function CheckOption()
             break;
         }
     }
+    else if (view=="messages")
+    {
+        switch (option)
+        {
+            case "H":
+                gotoPage("home");
+            break;
+            case "M":
+                if (messages.length > 23)
+                {
+                    listStart += 23;
+                    if (listStart > messages.length)
+                        listStart = 0;
+                    LoadMessages();
+                }
+                else
+                {
+                    SetUser();
+                    option = "";
+                    OptionInput("msginput");
+                }
+            break;
+            default:
+                //if (isNumeric(option) && selectPage=="D")
+                //    RetrieveListing(option);
+                SetUser();
+                option = "";
+                OptionInput("msginput");
+            break;
+        }
+    }
 }
 
 //*********************************************
@@ -714,8 +745,6 @@ function ProcessMessages(msgTxt)
     for (var x=0;x<nMsg;x++)
     {
         i++; //skip separator
-        var name = lines[i];
-        i++;
         var active = lines[i];
         i++;
         var title = lines[i];
