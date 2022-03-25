@@ -13,6 +13,7 @@ var papers = []; //consider renaming (used for other list items).
 var pages = []; // array to hold pages of individual article
 var currentPage;  //int to mark current page
 var listStart;
+var messages = [];
 
 //***************************************************************************
 // AUDIO BEEPS
@@ -60,6 +61,18 @@ class paper
     }
 }
 
+class uamessage
+{
+    constructor(active, title, author, timestamp, text)
+    {
+        this.active = active;
+        this.title = title;
+        this.author = author;
+        this.timestamp = timestamp;
+        this.text = text;
+    }
+}
+
 const urlparam = window.location.search;
 const urlParams = new URLSearchParams(urlparam);
 if (urlParams.has('date'))
@@ -100,7 +113,14 @@ function isAlphaNumeric(code)
     }
     return true;
 };
-
+//Adding blank spaces
+function space(n)
+{
+    var x = "";
+    for (var i=0; i<n; i++)
+        x+="&nbsp;";
+    return x;
+}
 
 //*********************************************
 // Functions for LOGIN
@@ -196,6 +216,10 @@ function CheckOption()
             case "F":
                 selectPage = option;
                 gotoPage("select");
+            break;
+            case "E":
+                selectPage = option;
+                gotoPage("messages");
             break;
             case "Z":
                 gotoPage("login");
@@ -663,4 +687,85 @@ function AddPaper(n)
     list += "<br>";
     document.getElementById("list").innerHTML=list;
     setTimeout(function(){AddPaper(n+1);}, 150);
+}
+
+//*********************************************
+// Message page functions
+//*********************************************
+async function LoadMessages()
+{
+    try
+    {
+      const response = await fetch("messages/"+user+"UAM.txt");
+      var msgTxt = await response.text();
+      ProcessMessages(msgTxt);
+    } catch (err) {
+      console.error(err);
+    }
+}
+function ProcessMessages(msgTxt)
+{
+    messages = [];
+    var lines;
+    lines = msgTxt.split(/(?:\r\n|\r|\n)/g);
+    
+    var nMsg = parseInt(lines[0]);
+    var i = 1; //starting line
+    for (var x=0;x<nMsg;x++)
+    {
+        i++; //skip separator
+        var name = lines[i];
+        i++;
+        var active = lines[i];
+        i++;
+        var title = lines[i];
+        i++;
+        var author = lines[i];
+        i++;
+        var timestamp = lines[i];
+        i++;
+        var nPara = parseInt(lines[i]);
+        i++;
+        var text = "";
+        
+        for (var y=0; y<nPara; y++)
+        {
+            text = text + lines[i].replace(/</g, '&lt;').replace(/>/g, '&gt;') + "<br>";
+            i++;
+        }
+        
+        var m = new uamessage(active, title, author, timestamp, text);
+        messages.push(m);
+    }
+    setTimeout(function(){AddMessage(listStart);}, 200);
+}
+//Consider renaming to show list item, reused for other options.
+function AddMessage(n)
+{
+    var listEnd = listStart + 22;
+    if (n >= messages.length || n > listEnd)
+    {
+        //Finished loading, set commands and option input.
+        document.getElementById("msgcommands").innerHTML="H - HOME SCREEN; M - MORE MESSAGES; W - WRITE MESSAGE";
+        option = "";
+        OptionInput("msginput");
+        return;
+    }
+
+    var list = document.getElementById("msgbox").innerHTML;
+    list += pad((n+1).toString(), 3);
+    list += " | ";
+    list += messages[n].title;
+    list += space(55-messages[n].timestamp.length);
+    list += messages[n].timestamp;
+    list += "<br>";
+    document.getElementById("msgbox").innerHTML=list;
+    setTimeout(function(){AddMessage(n+1);}, 150);
+}
+function ClearMessages()
+{
+    document.getElementById("msinput").innerHTML="";
+    document.getElementById("msgcommands").innerHTML="";
+    document.getElementById("msgbox").innerHTML="";
+    option = "";
 }

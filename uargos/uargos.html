@@ -139,6 +139,14 @@
             listStart = 0;
             LoadSelect();
         }
+        else if (page == "messages")
+        {
+            ClearMessages();
+            SetUser();
+            option = "";
+            listStart = 0;
+            LoadMessages();
+        }
 
         document.getElementById(view).style.display="none";
         document.getElementById(page).style.display="block";
@@ -374,6 +382,63 @@
         <!-- commands -->
         <div id="artcommands" class="com" style="left:34px;top:412px;width:500px;height:22px;">
         
+        </div>
+        
+        <div class="footer" style="left:34px;top:446px;width:552px;height:22px;">
+        U ARGOS | SCI PORTAL - COMMAND LINE REMOTE LINK
+        </div>
+        
+    </div>
+    
+    <!-- -------------------------------------------------------------------------------
+      MESSAGES PAGE
+    ------------------------------------------------------------------------------- -->
+    <div id="messages" style="
+   width: 640px; height: 480px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-color: #000000;
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: none;
+   ">
+        <!-- header -->
+        <div class="texto" style="left:34px;top:5px;width:373px;height:22px;">
+        UNIVERSITY OF ARGOS SCIENCE DEPARMENT PORTAL
+        </div>
+        
+        <!-- user -->
+        <div class="user" style="left:428px;top:5px;width:80px;height:22px;">
+        
+        </div>
+        
+        <!-- date -->
+        <div class="date" style="left:565px;top:5px;width:70px;height:22px;">
+        
+        </div>
+        
+        <!-- divider -->
+        <div class="divider" style="left:34px;top:26px;width:600px;height:1px;">
+        </div>
+        
+        <!-- title -->
+        <div class="title" style="left:200px;top:39px;width:240px;height:22px;">
+        MESSAGES
+        </div>
+        
+        <!-- main text box -->
+        <div id="msgbox" class="textob" style="left:73px;top:81px;width:498px;height:257px;">
+        
+        </div>
+        
+        <!-- commands -->
+        <div id="msgcommands" class="com" style="left:73px;top:381px;width:512px;height:22px;">
+        
+        </div>
+        
+        <!-- input -->
+        <div class="inputo" style="left:76px;top:412px;width:261px;height:25px;"  id="msginput">
         </div>
         
         <div class="footer" style="left:34px;top:446px;width:552px;height:22px;">
