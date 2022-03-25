@@ -114,11 +114,11 @@ function isAlphaNumeric(code)
     return true;
 };
 //Adding blank spaces
-function space(n)
+function emspace(n)
 {
     var x = "";
     for (var i=0; i<n; i++)
-        x+="&nbsp;";
+        x+="&emsp;";
     return x;
 }
 
@@ -785,7 +785,7 @@ function AddMessage(n)
     list += pad((n+1).toString(), 3);
     list += " | ";
     list += messages[n].title;
-    list += space(55-messages[n].timestamp.length);
+    list += emspace(55-messages[n].title.length);
     list += messages[n].timestamp;
     list += "<br>";
     document.getElementById("msgbox").innerHTML=list;
