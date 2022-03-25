@@ -801,7 +801,7 @@ function AddMessage(n)
     list += pad((n+1).toString(), 3);
     list += " | ";
     list += messages[n].title;
-    list += emspace(55-messages[n].title.length);
+    list += emspace(50-messages[n].title.length);
     list += messages[n].timestamp;
     list += "<br>";
     document.getElementById("msgbox").innerHTML=list;
