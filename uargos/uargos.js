@@ -432,6 +432,22 @@ document.onkeydown = function(event)
             }
         }
     }
+    else if(view=="messages")
+    {
+        if (newChar == 13)
+        {
+            CheckOption();
+            //return;
+        }
+        else if (newChar == 8)
+            option = option.slice(0, -1);
+        else if (option.length >= MAXCHARS)
+             ErrorBeep();
+        else if (isAlphaNumeric(newChar))
+            option += String.fromCharCode(newChar);
+            
+        OptionInput("msginput");
+    }
 }
 //*********************************************
 // Load select page
