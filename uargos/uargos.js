@@ -764,7 +764,7 @@ function AddMessage(n)
 }
 function ClearMessages()
 {
-    document.getElementById("msinput").innerHTML="";
+    document.getElementById("msginput").innerHTML="";
     document.getElementById("msgcommands").innerHTML="";
     document.getElementById("msgbox").innerHTML="";
     option = "";
