@@ -221,6 +221,10 @@ function CheckOption()
                 selectPage = option;
                 gotoPage("messages");
             break;
+            case "X":
+                window.location.href = "../gxi50.html"+urlparam+"&skip=1";
+                return;
+            break;
             case "Z":
                 gotoPage("login");
             break;
