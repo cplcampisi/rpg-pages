@@ -112,13 +112,12 @@
     text-align: center;
     font-size: 12px;
 }
-    .res_titleu {
+    .res_title {
     position: absolute;
     padding: 0px;
     font-family: mon1;
     color:#000000;
     text-align: center;
-    text-decoration: underline;
     font-size: 12px;
 }
 
@@ -165,6 +164,23 @@
     font-size: 12px;
     text-transform: uppercase;
 }
+    .res_date {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#14305C;
+    text-align: left;
+    font-size: 12px;
+}
+
+    .res_textbcenter {
+    position: absolute;
+    padding: 0px;
+    font-family: mon1;
+    color:#7F0000;
+    text-align: center;
+    font-size: 12px;
+}
 
 
 </style>  
@@ -210,6 +226,12 @@
             option = "";
             listStart = 0;
             LoadMessages();
+        }
+        else if (page == "home")
+        {
+            SetUser();
+            option = "";
+            OptionInput("xpassword");
         }
 
         document.getElementById(view).style.display="none";
@@ -521,7 +543,7 @@
    background-position:center center;
    background-repeat: no-repeat;
    position: relative;
-   display: block;
+   display: none;
    ">
         <!-- header -->
         <div class="res_texto" style="left:34px;top:5px;width:373px;height:22px;">
@@ -532,11 +554,11 @@
         </div>
         
         <!-- date -->
-        <div class="date" style="left:565px;top:5px;width:70px;height:22px;">
+        <div class="res_date" style="left:565px;top:5px;width:70px;height:22px;">
         </div>
         
         <!-- title -->
-        <div class="res_titleu" style="left:186px;top:44px;width:291px;height:62px;">
+        <div class="res_title" style="left:186px;top:44px;width:291px;height:62px;">
         RESTRICTED ACCESS LOGIN<br>
         <br>
         ENTER 2ND LEVEL PASSWORD

@@ -87,6 +87,10 @@ function SetUser()
     for (var i=0; i<dates.length; i++)
         dates[i].innerHTML=date;
         
+    var dates = document.getElementsByClassName("res_date");
+    for (var i=0; i<dates.length; i++)
+        dates[i].innerHTML=date;
+        
     var users = document.getElementsByClassName("user");
     for (var i=0; i<users.length; i++)
         users[i].innerHTML="USER: "+user;
@@ -262,6 +266,7 @@ function CheckOption()
             case "G":
                 selectPage = option;
                 restricted = true;
+                pass = "";
                 textfield = 0;
                 gotoPage("xlogin");
             break;
