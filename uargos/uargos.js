@@ -193,7 +193,7 @@ function CheckPassword()
         if (user.trim()=="TONY2" && pass.trim()=="BLUFF2")
         {
             text = "LOGGING INTO RESTRICTED ACCESS";
-            setTimeout(function(){gotoPage("home");}, 2000);
+            setTimeout(function(){gotoPage("xselect");}, 2000);
         }
         else
         {
