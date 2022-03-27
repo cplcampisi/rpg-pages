@@ -550,6 +550,7 @@ document.onkeydown = function(event)
                 {
                     option="";
                     pass="";
+                    document.getElementById("xlogintext").innerHTML="";
                     textfield = 0;
                     OptionInput("xpassword");
                     return;
