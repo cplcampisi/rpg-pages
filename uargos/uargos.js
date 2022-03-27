@@ -548,6 +548,7 @@ document.onkeydown = function(event)
             case 4:
                 if (newChar == 82) //R
                 {
+                    option="";
                     OptionInput("xpassword");
                     return;
                 }
