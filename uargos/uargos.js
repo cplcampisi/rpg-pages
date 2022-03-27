@@ -6,6 +6,7 @@ var option = "";
 var selectPage = "";
 var caret = "&#x203A ";
 var cursor = "<span style='background-color:#CF7C40;'>&nbsp;</span>";//"&#x2588" ;
+var cursor2 = "<span style='background-color:#000000;'>&nbsp;</span>";
 var date = "0000.00.0";
 var MAXCHARS = 14;
 
@@ -15,6 +16,7 @@ var currentPage;  //int to mark current page
 var listStart;
 var messages = [];
 var mode;
+var restricted = false;
 
 //***************************************************************************
 // AUDIO BEEPS
@@ -151,16 +153,29 @@ function DeactivateTextField (field)
 {
     var fieldname ="";
     var text = "";
-    switch (field)
+    if (restricted)
     {
-        case 0:
-            fieldname = "username";
-            text = "&nbsp;&nbsp;" + user;
-            break;
-        case 1:
-            fieldname = "password";
-            text = "&nbsp;&nbsp;" + pass;
-            break;
+        switch (field)
+        {
+            case 0:
+                fieldname = "password";
+                text = "&nbsp;&nbsp;" + pass;
+                break;
+        }
+    }
+    else
+    {
+        switch (field)
+        {
+            case 0:
+                fieldname = "username";
+                text = "&nbsp;&nbsp;" + user;
+                break;
+            case 1:
+                fieldname = "password";
+                text = "&nbsp;&nbsp;" + pass;
+                break;
+        }
     }
     
     document.getElementById(fieldname).innerHTML=text;
@@ -169,18 +184,36 @@ function DeactivateTextField (field)
 function CheckPassword()
 {
     var text = "";
-    if (user.trim()=="TONY2" && pass.trim()=="SHEDS")
+    if (restricted)
     {
-        text = "LOGGING INTO SCIENCE PORTAL";
-        setTimeout(function(){gotoPage("home");}, 2000);
+        if (user.trim()=="TONY2" && pass.trim()=="BLUFF2")
+        {
+            text = "LOGGING INTO RESTRICTED ACCESS";
+            setTimeout(function(){gotoPage("home");}, 2000);
+        }
+        else
+        {
+            text="INVALID CREDENTIALS<br>R TO RETRY | A TO ABORT";
+            textfield = 4;
+        }
+        document.getElementById("xlogintext").innerHTML=text;
     }
     else
     {
-        text="INVALID CREDENTIALS<br>R TO RETRY | A TO ABORT";
-        textfield = 4;
+        if (user.trim()=="TONY2" && pass.trim()=="SHEDS")
+        {
+            text = "LOGGING INTO SCIENCE PORTAL";
+            setTimeout(function(){gotoPage("home");}, 2000);
+        }
+        else
+        {
+            text="INVALID CREDENTIALS<br>R TO RETRY | A TO ABORT";
+            textfield = 4;
+        }
+        document.getElementById("logintext").innerHTML=text;
     }
     
-    document.getElementById("logintext").innerHTML=text;
+    
 }
 
 function ResetLogin()
@@ -199,7 +232,11 @@ function ResetLogin()
 function OptionInput(fieldname)
 {
     var text = "";
-    text = caret + option + cursor;
+    if (restricted)
+        text = caret + option + cursor2;
+    else
+        text = caret + option + cursor;
+        
     document.getElementById(fieldname).innerHTML="";
     document.getElementById(fieldname).innerHTML=text;
 }
@@ -221,6 +258,12 @@ function CheckOption()
             case "E":
                 selectPage = option;
                 gotoPage("messages");
+            break;
+            case "G":
+                selectPage = option;
+                restricted = true;
+                textfield = 0;
+                gotoPage("xlogin");
             break;
             case "X":
                 window.location.href = "../gxi50.html"+urlparam+"&skip=1";
@@ -474,6 +517,46 @@ document.onkeydown = function(event)
             option += String.fromCharCode(newChar);
             
         OptionInput("msginput");
+    }
+    else if (view=="xlogin")
+    {
+        switch (textfield)
+        {
+            case 0:
+                if (newChar == 13)
+                {
+                    textfield = 2;
+                    DeactivateTextField(0);
+                    CheckPassword();
+                    return;
+                }
+                else if (newChar == 8)
+                    pass = pass.slice(0, -1);
+                else if (pass.length >= MAXCHARS)
+                    ErrorBeep();
+                else if (isAlphaNumeric(newChar))
+                    pass += String.fromCharCode(newChar);
+
+                fieldname = "xpassword";
+                text = caret + pass + cursor2;
+            break;
+            case 4:
+                if (newChar == 82) //R
+                {
+                    OptionInput("xpassword");
+                    return;
+                }
+                else if (newChar == 65) //A
+                {
+                    gotoPage("home");
+                    return;
+                }
+            break;
+            default:
+                return;
+            break;
+        }
+        document.getElementById(fieldname).innerHTML=text;
     }
 }
 //*********************************************
