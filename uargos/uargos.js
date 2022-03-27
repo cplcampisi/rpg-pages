@@ -549,6 +549,7 @@ document.onkeydown = function(event)
                 if (newChar == 82) //R
                 {
                     option="";
+                    pass="";
                     textfield = 0;
                     OptionInput("xpassword");
                     return;
