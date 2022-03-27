@@ -845,9 +845,9 @@ function DisplayMessage(n)
 {
     ClearMessages();
     //active, title, author, timestamp, text
-    var body = messages[n].title.replace(/</g, '&lt;').replace(/>/g, '&gt;') + "<br>";
+    var body = messages[n].title + "<br>";
     body += "From: " + messages[n].author + " | Received: " + messages[n].timestamp + "<br>";
-    body += messages[n].text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    body += messages[n].text;
     
     document.getElementById("msgbox").innerHTML=body;
     
