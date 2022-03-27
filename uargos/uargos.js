@@ -298,7 +298,7 @@ function CheckOption()
                     }
                 break;
                 default:
-                    var o = parseInt(option);
+                    var o = parseInt(option)-1;
                     if (o >= 0 && o < messages.length)
                     {
                         mode = 1;           //Display specific message
