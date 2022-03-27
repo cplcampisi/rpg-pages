@@ -14,6 +14,7 @@ var pages = []; // array to hold pages of individual article
 var currentPage;  //int to mark current page
 var listStart;
 var messages = [];
+var mode;
 
 //***************************************************************************
 // AUDIO BEEPS
@@ -274,33 +275,55 @@ function CheckOption()
     }
     else if (view=="messages")
     {
-        switch (option)
+        if (mode == 0)
         {
-            case "H":
-                gotoPage("home");
-            break;
-            case "M":
-                if (messages.length > 23)
-                {
-                    listStart += 23;
-                    if (listStart > messages.length)
-                        listStart = 0;
-                    LoadMessages();
-                }
-                else
-                {
+            switch (option)
+            {
+                case "H":
+                    gotoPage("home");
+                break;
+                case "M":
+                    if (messages.length > 23)
+                    {
+                        listStart += 23;
+                        if (listStart > messages.length)
+                            listStart = 0;
+                        LoadMessages();
+                    }
+                    else
+                    {
+                        SetUser();
+                        option = "";
+                        OptionInput("msginput");
+                    }
+                break;
+                default:
+                    var o = parseInt(option);
+                    if (o >= 0 && o < messages.length)
+                    {
+                        mode = 1;           //Display specific message
+                        DisplayMessage(o);
+                    }
                     SetUser();
                     option = "";
                     OptionInput("msginput");
-                }
-            break;
-            default:
-                //if (isNumeric(option) && selectPage=="D")
-                //    RetrieveListing(option);
-                SetUser();
-                option = "";
-                OptionInput("msginput");
-            break;
+                break;
+            }
+        }
+        else if (mode == 1)
+        {
+            switch (option)
+            {
+                case "R":
+                    mode = 0;
+                    gotoPage("messages");
+                break;
+                default:
+                    SetUser();
+                    option = "";
+                    OptionInput("msginput");
+                break;
+            }
         }
     }
 }
@@ -817,4 +840,18 @@ function ClearMessages()
     document.getElementById("msgcommands").innerHTML="";
     document.getElementById("msgbox").innerHTML="";
     option = "";
+}
+function DisplayMessage(n)
+{
+    ClearMessages();
+    //active, title, author, timestamp, text
+    var body = messages[n].title.replace(/</g, '&lt;').replace(/>/g, '&gt;') + "<br>";
+    body += "From: " + messages[n].author + " | Received: " + messages[n].timestamp + "<br>";
+    body += messages[n].text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    
+    document.getElementById("msgbox").innerHTML=body;
+    
+    document.getElementById("msgcommands").innerHTML="R - RETURN TO LIST; W - WRITE MESSAGE";
+    option = "";
+    OptionInput("msginput");
 }
