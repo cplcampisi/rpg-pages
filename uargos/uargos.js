@@ -809,11 +809,13 @@ function ProcessMessages(msgTxt)
         var m = new uamessage(active, title, author, timestamp, text);
         messages.push(m);
     }
+    alert(nMsg);
     setTimeout(function(){AddMessage(listStart);}, 200);
 }
 //Consider renaming to show list item, reused for other options.
 function AddMessage(n)
 {
+    alert("AddMessage()");
     var listEnd = listStart + 22;
     if (n >= messages.length || n > listEnd)
     {
