@@ -374,6 +374,38 @@ function CheckOption()
             }
         }
     }
+    else if (view=="xselect")
+    {
+        switch (option)
+        {
+            case "H":
+                gotoPage("home");
+            break;
+            case "M":
+                if (papers.length > 23)
+                {
+                    listStart += 23;
+                    if (listStart > papers.length)
+                        listStart = 0;
+                    LoadSelect();
+                }
+                else
+                {
+                    SetUser();
+                    option = "";
+                    OptionInput("selectinput");
+                }
+            break;
+            default:
+                if (isNumeric(option) && selectPage=="D")
+                    RetrieveListing(option);
+                
+                SetUser();
+                option = "";
+                OptionInput("selectinput");
+            break;
+        }
+    }
 }
 
 //*********************************************
