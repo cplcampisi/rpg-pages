@@ -1110,7 +1110,7 @@ function AddRPaper(n)
 //name, title, author, department, refNum, abstract
 function ShowRPaper(n)
 {
-    document.getElementById("xarttitle").innerHTML=("TITLE:&nbsp;&nbsp;" + papers[n].title.toUpperCase()).slice(0,65);
+    document.getElementById("xarttitle").innerHTML=(papers[n].title.toUpperCase()).slice(0,65);
 
     //paginate the abstract
     pages = papers[n].abstract.split("*-*-*");
