@@ -615,6 +615,32 @@ document.onkeydown = function(event)
             
         OptionInput("xselectinput");
     }
+    else if(view=="xarticle")
+    {
+        var char = String.fromCharCode(newChar)
+        if (char == "R")
+        {
+            gotoPage("xselect");
+        }
+        else if (char == "N")
+        {
+            if (currentPage < pages.length-1)
+            {
+                currentPage++;
+                document.getElementById("xarttext").innerHTML=""; //clear before to prevent odd behavior
+                document.getElementById("xarttext").innerHTML=pages[currentPage];
+            }
+        }
+        else if (char == "P")
+        {
+            if (currentPage > 0)
+            {
+                currentPage--;
+                document.getElementById("xarttext").innerHTML="";
+                document.getElementById("xarttext").innerHTML=pages[currentPage];
+            }
+        }
+    }
 }
 //*********************************************
 // Load select page
@@ -882,6 +908,14 @@ function RetrieveListing(option)
             ShowPaper(o-1);
         }
     }
+    else if (selectPage == "G")
+    {
+        if (o-1 < papers.length)
+        {
+            gotoPage("xarticle");
+            ShowRPaper(o-1);
+        }
+    }
 }
 
 //Consider renaming to show list item, reused for other options.
@@ -1076,16 +1110,13 @@ function AddRPaper(n)
 //name, title, author, department, refNum, abstract
 function ShowRPaper(n)
 {
-    document.getElementById("arttitle").innerHTML=("TITLE:&nbsp;&nbsp;" + papers[n].title.toUpperCase()).slice(0,65);
-    document.getElementById("artlisting").innerHTML=("LISTING:&nbsp;&nbsp;" + papers[n].refNum.toUpperCase()).slice(0,34);
-    document.getElementById("artauthor").innerHTML="AUTHOR(S):&nbsp;&nbsp;" + papers[n].author.toUpperCase();
-    document.getElementById("artdept").innerHTML="DEPT:&nbsp;&nbsp;" + papers[n].department.toUpperCase();
+    document.getElementById("xarttitle").innerHTML=("TITLE:&nbsp;&nbsp;" + papers[n].title.toUpperCase()).slice(0,65);
 
     //paginate the abstract
     pages = papers[n].abstract.split("*-*-*");
     currentPage = 0;
 
-    document.getElementById("arttext").innerHTML=pages[0];
+    document.getElementById("xarttext").innerHTML=pages[0];
     
-    document.getElementById("artcommands").innerHTML="R - RETURN TO LISTINGS; N - NEXT PAGE; P - PREVIOUS PAGE";
+    document.getElementById("xartcommands").innerHTML="R - RETURN TO LISTINGS; N - NEXT PAGE; P - PREVIOUS PAGE";
 }
