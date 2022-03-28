@@ -1021,7 +1021,7 @@ function AddRPaper(n)
     list += papers[n].name.toUpperCase();
     list += "<br>";
     document.getElementById("xlist").innerHTML=list;
-    setTimeout(function(){AddPaper(n+1);}, 150);
+    setTimeout(function(){AddRPaper(n+1);}, 150);
 }
 
 //name, title, author, department, refNum, abstract
