@@ -1016,6 +1016,7 @@ async function LoadRestricted()
 }
 function ProcessRestricted(paperTxt)
 {
+    document.getElementById("xlist").innerHTML="";
     papers = [];
     var lines;
     lines = paperTxt.split(/(?:\r\n|\r|\n)/g);
