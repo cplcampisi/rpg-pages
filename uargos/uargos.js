@@ -393,16 +393,16 @@ function CheckOption()
                 {
                     SetUser();
                     option = "";
-                    OptionInput("selectinput");
+                    OptionInput("xselectinput");
                 }
             break;
             default:
-                if (isNumeric(option) && selectPage=="D")
+                if (isNumeric(option) && selectPage=="G")
                     RetrieveListing(option);
                 
                 SetUser();
                 option = "";
-                OptionInput("selectinput");
+                OptionInput("xselectinput");
             break;
         }
     }
