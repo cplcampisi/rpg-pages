@@ -162,7 +162,7 @@ function DeactivateTextField (field)
         switch (field)
         {
             case 0:
-                fieldname = "password";
+                fieldname = "xpassword";
                 text = "&nbsp;&nbsp;" + pass;
                 break;
         }
