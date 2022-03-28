@@ -591,6 +591,9 @@ function LoadSelect()
         case "F":
             LoadDepartments();
         break;
+        case "G":
+            LoadRestricted();
+        break;
         default:
         break;
     }
@@ -946,4 +949,94 @@ function DisplayMessage(n)
     document.getElementById("msgcommands").innerHTML="R - RETURN TO LIST; W - WRITE MESSAGE";
     option = "";
     OptionInput("msginput");
+}
+
+//*********************************************
+// Load restricted
+//*********************************************
+async function LoadRestricted()
+{
+    try
+    {
+      const response = await fetch("uarestrict.txt");
+      var paperTxt = await response.text();
+      ProcessRestricted(paperTxt);
+    } catch (err) {
+      console.error(err);
+    }
+
+}
+function ProcessRestricted(paperTxt)
+{
+    papers = [];
+    var lines;
+    lines = paperTxt.split(/(?:\r\n|\r|\n)/g);
+    
+    var nPapers = parseInt(lines[0]);
+    var i = 1; //starting line
+    for (var x=0;x<nPapers;x++)
+    {
+        i++; //skip separator
+        var name = lines[i];
+        i++;
+        var title = lines[i];
+        i++;
+        var nPara = parseInt(lines[i]);
+        i++;
+        var text = "";
+        
+        for (var y=0; y<nPara; y++)
+        {
+            text = text + lines[i].replace(/</g, '&lt;').replace(/>/g, '&gt;') + "<br>";
+            i++;
+        }
+        
+        var p = new paper(name, title, "", "", "", text);
+        papers.push(p);
+    }
+    
+    //var mainText = "RECENT PAPERS - <br><br>";
+   // mainText += "RECENTLY PUBLISHED PAPERS AND PAPERS OF NOTE ARE LISTED ON THIS SCREEN.  PLEASE CHOOSE A PAPER FROM THE LIST.  THIS SCREEN IS PERIODICALLY UPDATED AS NEW PAPERS BECOME AVAILABLE.";
+    //document.getElementById("mtext").innerHTML=mainText;
+    
+    setTimeout(function(){AddRPaper(listStart);}, 200);
+}
+
+//Consider renaming to show list item, reused for other options.
+function AddRPaper(n)
+{
+    var listEnd = listStart + 22;
+    if (n >= papers.length || n > listEnd)
+    {
+        //Finished loading, set commands and option input.
+        document.getElementById("xcommands").innerHTML="H - HOME SCREEN; M - MORE LISTINGS";
+        option = "";
+        OptionInput("xselectinput");
+        return;
+    }
+
+    var list =  document.getElementById("xlist").innerHTML;
+    list += pad((n+1).toString(), 3);
+    list += " - ";
+    list += papers[n].name.toUpperCase();
+    list += "<br>";
+    document.getElementById("xlist").innerHTML=list;
+    setTimeout(function(){AddPaper(n+1);}, 150);
+}
+
+//name, title, author, department, refNum, abstract
+function ShowRPaper(n)
+{
+    document.getElementById("arttitle").innerHTML=("TITLE:&nbsp;&nbsp;" + papers[n].title.toUpperCase()).slice(0,65);
+    document.getElementById("artlisting").innerHTML=("LISTING:&nbsp;&nbsp;" + papers[n].refNum.toUpperCase()).slice(0,34);
+    document.getElementById("artauthor").innerHTML="AUTHOR(S):&nbsp;&nbsp;" + papers[n].author.toUpperCase();
+    document.getElementById("artdept").innerHTML="DEPT:&nbsp;&nbsp;" + papers[n].department.toUpperCase();
+
+    //paginate the abstract
+    pages = papers[n].abstract.split("*-*-*");
+    currentPage = 0;
+
+    document.getElementById("arttext").innerHTML=pages[0];
+    
+    document.getElementById("artcommands").innerHTML="R - RETURN TO LISTINGS; N - NEXT PAGE; P - PREVIOUS PAGE";
 }
