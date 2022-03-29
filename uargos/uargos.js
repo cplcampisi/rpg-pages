@@ -823,7 +823,7 @@ function LoadFaculty()
     var mainText = "FACULTY/STAFF LISTINGS - <br><br>";
     mainText += "&nbsp;PLEASE MAKE A SELECTION FROM THE LIST AT LEFT TO SEE LISTINGS FOR THOSE SCHOOLS OR ADMINISTRATIVE BRANCHES<br><br>";
     mainText += "&nbsp;* GENERAL ASSISTANCE: #000<br>";
-    mainText += "&nbsp;* BURSARS'S MAIN OFFICE: #005<br>";
+    mainText += "&nbsp;* BURSAR'S MAIN OFFICE: #005<br>";
     mainText += "&nbsp;* PRESIDENT'S OFFICE: #010<br>";
     mainText += "&nbsp;* SPORTS AND SPECIAL EVENTS: #112<br>";
     mainText += "&nbsp;* CAMPUS POLICE: #555 / (NON-EMERGENCY): #211/4<br>";
