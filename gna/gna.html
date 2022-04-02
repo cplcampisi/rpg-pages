@@ -121,16 +121,21 @@
         font-size: 12px;
     }
 
+    .backbutton {
+        position: absolute;
+        /*width: 45px;
+        height: 24px;*/
+    }
     
   </style>
   
   <script type="text/javascript" src="gxi.js"></script> 
   <script>
     var date = "0000.00.0";
+    const urlparam = window.location.search;
+    const urlParams = new URLSearchParams(urlparam);
     window.onload=function()  //executes when the page finishes loading
     {
-        const urlparam = window.location.search;
-        const urlParams = new URLSearchParams(urlparam);
         if (urlParams.has('date'))
             date = urlParams.get('date');
 
@@ -139,6 +144,11 @@
             dates[i].innerHTML=date;
             
     };
+
+    function gotoTerminal()
+    {
+        window.location.href = "../gxi50.html"+urlparam+"&skip=1";
+    }
     
   </script>
   <head>
@@ -213,7 +223,8 @@
 
         </div>
 
-        
+        <button class="backbutton" style="left:805px;top:610px;" onclick='gotoTerminal();'>RETURN TO TERMINAL
+        </button>
    
     </div>
   </body>

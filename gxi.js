@@ -188,9 +188,9 @@ function handleSelection()
         initConnection();
         break;
     case 3:  //GNA
-        connectErr = true;
+        //connectErr = true;
         network = "GNA";
-        page = "gna0.html";
+        page = "gna/gna.html";
         initConnection();
         break;
     case 4:  //Planet guide
