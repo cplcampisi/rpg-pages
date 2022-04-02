@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    @font-face { font-family: neo; src: url('../Fonts/neo_gen/Neo Gen Bold.ttf');}
+    @font-face { font-family: xol; src: url('../Fonts/xolonium/Xolonium-Regular.ttf');}
+    @font-face { font-family: xolb; src: url('../Fonts/xolonium/Xolonium-Bold.ttf');}
+    div { position:absolute;}
+    
+    :root {
+        --main-bg-color: #FAF8EE;
+    }
+    .banner {
+        position: absolute;
+        padding: 0px;
+        font-family: xolb;
+        color:#000000;
+        text-align: left;
+        font-size: 36px;
+        font-weight: bold;
+        left:40px;
+        top:10px;
+        width:892px;
+        height:40px;
+    }
+
+    .sub_banner {
+        position: absolute;
+        padding: 0px;
+        font-family: xolb;
+        color:#666666;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        left:40px;
+        top:55px;
+        width:892px;
+        height:30px;
+    }
+
+    .bar {
+        position: absolute;
+        padding: 0px;
+        font-family: xol;
+        color:rgb(233, 233, 233);
+        background-color: rgb(120, 149, 173);
+        text-align: center;
+        line-height:36px;
+        font-size: 12px;
+        font-weight: regular;
+        left:0px;
+        top:70px;
+        width:960px;
+        height:36px;
+    }
+
+    .divider{
+        position:absolute;
+        left:50%;
+        top:10%;
+        bottom:10%;
+        border-left:1px solid rgb(206, 206, 206);
+    }
+
+    .main_story {
+        position: absolute;
+        padding: 0px;
+        font-family: xolb;
+        color:#000000;
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+        border-bottom:1px solid black;
+        left:40px;
+        top:112px;
+        width:620px;
+        height:240px;
+    }
+
+    .main_title {
+        font-family: xolb;
+        color:#000000;
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .main_text {
+        font-family: xol;
+        color:#333333;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .fp_art {
+        position:relative;
+        border-bottom:1px solid #333333;
+        padding-bottom:3px;
+    }
+    .fp_title {
+        position:relative;
+        font-family: xolb;
+        color:#111111;
+        text-align: left;
+        font-size: 16px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+    }
+
+    .fp_text {
+        position:relative;
+        font-family: xol;
+        color:#333333;
+        text-align: left;
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+
+    .date {
+        font-family: neo;
+        color:#444444;
+        text-align: right;
+        font-size: 12px;
+    }
+
+    
+  </style>
+  
+  <script type="text/javascript" src="gxi.js"></script> 
+  <script>
+    var date = "0000.00.0";
+    window.onload=function()  //executes when the page finishes loading
+    {
+        const urlparam = window.location.search;
+        const urlParams = new URLSearchParams(urlparam);
+        if (urlParams.has('date'))
+            date = urlParams.get('date');
+
+        var dates = document.getElementsByClassName("date");
+        for (var i=0; i<dates.length; i++)
+            dates[i].innerHTML=date;
+            
+    };
+    
+  </script>
+  <head>
+    <!-- <title>Title of the document</title> -->
+  </head>
+  <body style="background-color:#000000;">
+    <!-- <h1>Some heading</h1> -->
+    <!-- <p>Some paragraph for example.</p> -->
+
+    <div id="home" style="
+   height: 640px; width: 960px;
+   margin: auto;
+   border: 4px solid #969696;
+   background-color: var(--main-bg-color);
+   background-position:center center;
+   background-repeat: no-repeat;
+   position: relative;
+   display: block;
+   ">
+        <div class="banner">GNA: Galactic News Agency</div>
+        <div class="sub_banner">Independent news agency reporting on all quadrants</div>
+        
+        <!-- date -->
+        <div class="date" style="left:880px;top:15px;width:70px;height:22px;"></div>
+
+        <div class="bar">
+            <div class="divider" style="left:30px"></div>
+            <div style="left:30px;width:150px;height:40px;">HOME</div>
+            <div class="divider" style="left:180px"></div>
+            <div style="left:180px;width:150px;text-align:center">IMPERIAL</div>
+            <div class="divider" style="left:330px"></div>
+            <div style="left:330px;width:150px;text-align:center">QUADRANT</div>
+            <div class="divider" style="left:480px"></div>
+            <div style="left:480px;width:150px;text-align:center">SCIENCE</div>
+            <div class="divider" style="left:630px"></div>
+            <div style="left:630px;width:150px;text-align:center">SPORTS</div>
+            <div class="divider" style="left:780px"></div>
+            <div style="left:780px;width:150px;text-align:center">ABOUT</div>
+            <div class="divider" style="left:930px"></div>
+        </div>
+
+        <div id="mains" class="main_story" style=
+                "background-image: url(./pictures/veorin1.jpg);
+                background-position:center center;
+                background-repeat: no-repeat;">
+            <div id="maintitle" class="main_title">Conflict On Veorin Intensifies!</div>
+            <div id="maintext" class="main_text" style="background-color:var(--main-bg-color);bottom:5px;">Reports of Orraean ground forces having landed on the surface.  Calls for Imperial intervention growing louder!</div>
+        </div>
+
+        <div id="column1" style="left:40px;top:365px;width:300px;height:235px;">
+            <div class="fp_art">
+                <div class="fp_title">Pirates seize Passenger Liner in Q.VI!</div>
+                <div class="fp_text">GNA confirms reports that pirates captured a passenger liner in Quadrant VI.</div>
+            </div>
+            <div class="fp_art">
+                <div class="fp_title">OWC relinquishes control over another planet.</div>
+                <div class="fp_text">The OWC has backed down in another confrontation with the Duchy of Harkor's Colonial Administration, ceding control of a planet in Quadrant V.</div>
+            </div>
+        </div>
+        <div id="column2" style="left:360px;top:365px;width:300px;height:235px;">
+                <div class="fp_art">
+                    <div class="fp_title">Rift traders warn about potential scarcity in Jethric supplies.</div>
+                    <div class="fp_text">Traders in Jaffa report that the number of jethric trading ships arriving there has greatly dropped off in the past six months.</div>
+                </div>
+                <div class="fp_art">
+                    <div class="fp_title">Miners go on strike after negotiations breakdown on Anorisla.</div>
+                    <div class="fp_text">Workers at the important mines on Anorisla have gone on strike.</div>
+                </div>
+        </div>
+
+        <div id="sidecolumn" style="left:680px;top:110px;width:260px;height:490px;border:1px solid black;">
+
+        </div>
+
+        
+   
+    </div>
+  </body>
+</html>
+  </body>
+</html>
