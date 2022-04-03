@@ -184,6 +184,8 @@
 
     function loadPage(n)
     {
+        document.getElementById("ipnews").style.display="none";
+        document.getElementById("iptext").style.display="block";
         document.getElementById("iptitle").innerHTML = pageInfo[n].title;
         document.getElementById("iptext").innerHTML = pageInfo[n].text;
         document.getElementById("ipreturn").setAttribute('onclick','buttonclick("'+view+'");');
