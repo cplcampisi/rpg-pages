@@ -4,6 +4,7 @@
     @font-face { font-family: neo; src: url('../Fonts/neo_gen/Neo Gen.ttf');}
     @font-face { font-family: neob; src: url('../Fonts/neo_gen/Neo Gen Bold.ttf');}
     @font-face { font-family: minf; src: url('../Fonts/mobile_infantry/mobileinfantry.ttf');}
+    @font-face { font-family: xol; src: url('../Fonts/xolonium/Xolonium-Regular.ttf');}
     p { position: absolute; font-family: neob; font-size: 22px; color:#3E7ED9}
     
 .title {
@@ -21,6 +22,15 @@
     padding: 0px;
     font-family: neo;
     color:#8CD5D2;
+    text-align: left;
+    font-size: 14px;
+}
+
+.news {
+    position: absolute;
+    padding: 0px;
+    font-family: xol;
+    color:#61908E;
     text-align: left;
     font-size: 14px;
 }
@@ -182,7 +192,18 @@
     function loadIndPage(info)
     {
         document.getElementById("iptitle").innerHTML = info.title;
-        document.getElementById("iptext").innerHTML = info.text;
+        if (page=="news")
+        {
+            document.getElementById("iptext").style.display="none";
+            document.getElementById("ipnews").innerHTML = info.text;
+            document.getElementById("ipnews").style.display="block";
+        }
+        else
+        {
+            document.getElementById("ipnews").style.display="none";
+            document.getElementById("iptext").innerHTML = info.text;
+            document.getElementById("iptext").style.display="block";
+        }
         document.getElementById("ipreturn").setAttribute('onclick','buttonclick("'+view+'");');
         document.getElementById(view).style.display="none";
         document.getElementById("infopage").style.display="block";
@@ -348,6 +369,9 @@
    
         <!-- TEXT -->
         <div class="text" id="iptext" style="left:78px;top:77px;width:903px;height:420px">
+        </div>
+        
+        <div class="news" id="ipnews" style="left:78px;top:77px;width:903px;height:420px">
         </div>
         
         <div class="hbsbuttons" id="ipreturn" style="left:850px;top:500px;" onclick='buttonclick("home");'>
