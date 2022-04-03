@@ -65,7 +65,7 @@ function ProcessArticles(artTxt)
             i++;
         }
         
-        var p = new article(name, title, abstract, dateline, text);
+        var p = new article(name, title, abstract, dateline, picture, text);
         articles.push(p);
     }
     
