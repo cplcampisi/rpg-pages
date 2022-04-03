@@ -187,7 +187,7 @@
     
   </style>
   
-  <script type="text/javascript" src="gxi.js"></script> 
+  <script type="text/javascript" src="gna.js"></script>
   <script>
     var date = "0000.00.0";
     const urlparam = window.location.search;
@@ -201,12 +201,14 @@
         for (var i=0; i<dates.length; i++)
             dates[i].innerHTML=date;
             
+        gotoHome();
     };
 
     function gotoHome()
     {
         document.getElementById("article").style.display="none";
         document.getElementById("home").style.display="block";
+        LoadArticles();
     }
 
     function gotoArticle(n)
@@ -214,6 +216,7 @@
         //Clear article.
         document.getElementById("home").style.display="none";
         //Load article n
+        ShowArticle(n);
         document.getElementById("article").style.display="block";
     }
 
@@ -241,7 +244,7 @@
    display: block;
    ">
         <div class="banner">GNA: Galactic News Agency</div>
-        <div class="sub_banner">Independent news agency reporting on all quadrants</div>
+        <div class="sub_banner">Independent alternative news agency reporting on all quadrants</div>
         
         <!-- date -->
         <div class="date" style="left:880px;top:15px;width:70px;height:22px;"></div>
@@ -266,29 +269,13 @@
                 "background-image: url(./pictures/veorin1.jpg);
                 background-position:center center;
                 background-repeat: no-repeat;" onclick="gotoArticle(1);">
-            <div id="maintitle" class="main_title" style="background-color:var(--main-bg-color);">Conflict On Veorin Intensifies!</div>
-            <div id="maintext" class="main_text" style="background-color:var(--main-bg-color);">Reports of Orraean ground forces having landed on the surface.  Calls for Imperial intervention growing louder!</div>
+            <div id="maintitle" class="main_title" style="background-color:var(--main-bg-color);"></div>
+            <div id="maintext" class="main_text" style="background-color:var(--main-bg-color);"></div>
         </div>
 
         <div id="column1" style="left:40px;top:365px;width:290px;height:235px;">
-            <div class="fp_art">
-                <div class="fp_title">Pirates seize Passenger Liner in Quadrant VI!</div>
-                <div class="fp_text">&nbsp;&nbsp;&nbsp;&nbsp;GNA confirms reports that pirates captured a passenger liner in Quad VI.</div>
-            </div>
-            <div class="fp_art">
-                <div class="fp_title">OWC relinquishes control over another planet.</div>
-                <div class="fp_text">&nbsp;&nbsp;&nbsp;&nbsp;The OWC has backed down in another confrontation with the Duchy of Harkor's Colonial Administration, ceding control of a planet in Quad V.</div>
-            </div>
         </div>
         <div id="column2" style="left:370px;top:365px;width:290px;height:235px;">
-                <div class="fp_art">
-                    <div class="fp_title">Rift traders warn about potential scarcity in Jethric supplies.</div>
-                    <div class="fp_text">&nbsp;&nbsp;&nbsp;&nbsp;Traders in Jaffa report that the number of jethric trading ships arriving there has greatly dropped off in the past six months.</div>
-                </div>
-                <div class="fp_art">
-                    <div class="fp_title">Miners go on strike after negotiations breakdown.</div>
-                    <div class="fp_text">&nbsp;&nbsp;&nbsp;&nbsp;Workers at the important mines on Anorisla have gone on strike.</div>
-                </div>
         </div>
 
         <div id="sidecolumn" style="left:680px;top:110px;width:260px;height:490px;border:1px solid black;">
@@ -331,14 +318,13 @@
         </div>
 
         <div id="artbody" class="art_body">
-            <div id="arttitle" class="art_title">Conflict On Veorin Intensifies!</div>
+            <div id="arttitle" class="art_title"></div>
             
-            <div id="artpicture" class="art_picture" style=
-                "background-image: url(./pictures/veorin2.jpg);">
+            <div id="artpicture" class="art_picture">
             </div>
             
-            <div id="dateline" class="date_line">Zaar -</div>
-            <div id="arttext" class="art_text">&nbsp;&nbsp;&nbsp;&nbsp;Veorin, a planet in the Archduchy of Zaar (Q.IV), has been the focus of a border conflict between Zaar and Orraes, for nearly two years.  Recently the fighting has intensified, and there are reports of Orraean ground forces having landed on the surface.  The calls for Imperial intervention are growing louder, and it is rare that a planet of Veorin's status should be at the center of a conflict lasting this long.  There are indications that the Empire is finally going to act, especially as the intervention with the conflict in Quadrant II between Bizaan and Esus is winding down.  The only major dissent to the calls for intervention is from Duchy of Harkor, an ally of the Kingdom of Orraes, whose media continues to understate the severity and scale of the fighting.</div>
+            <div id="dateline" class="date_line"></div>
+            <div id="arttext" class="art_text"></div>
         </div>
 
         <div id="artcolumn" style="left:680px;top:110px;width:260px;height:490px;border:1px solid black;">
