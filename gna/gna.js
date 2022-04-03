@@ -83,7 +83,7 @@ function ProcessArticles(artTxt)
     
     for (var n=1; n<articles.length; n++)
     {
-        stories+= "<div class='fp_art'>";
+        stories+= "<div class='fp_art' onclick='gotoArticle("+n.toString()+");'>";
         stories+=  "<div class='fp_title'>" + articles[n].name + "</div>";
         stories+=  "<div class='fp_text'>&nbsp;&nbsp;&nbsp;&nbsp;" + articles[n].abstract + "</div>";
         stories+= "</div>";
