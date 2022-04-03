@@ -156,13 +156,14 @@
     }
     var pageInfo;
     var indPageInfo;
+    var currentPage;
 
     function buttonclick(page)
     {
         if (page=="ent" || page=="news")
         {
             indPageInfo = ProcessIndText(page);
-            view=page;
+            currentPage=page;  //Not sure why view=page doesn't work, but it causes errors later.
             loadIndPage(indPageInfo);
         }
         else
@@ -193,7 +194,7 @@
     function loadIndPage(info)
     {
         document.getElementById("iptitle").innerHTML = info.title;
-        if (view=="news")
+        if (currentPage=="news")
         {
             document.getElementById("iptext").style.display="none";
             document.getElementById("ipnews").innerHTML = info.text;
