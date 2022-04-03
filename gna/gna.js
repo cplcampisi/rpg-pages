@@ -116,9 +116,11 @@ function ShowArticle(n)
     if (articles[n].picture.trim() == "")
     {
         document.getElementById("artpicture").style.display="none";
+        document.getElementById("artgap").style.display="block";
     }
     else
     {
+        document.getElementById("artgap").style.display="none";
         document.getElementById("artpicture").style.backgroundImage="url(pictures/"+articles[n].picture+")";
         document.getElementById("artpicture").style.display="block";
     }
