@@ -1,12 +1,12 @@
 NEWS
 10
-<span style='font-family:neo;color:#8CD5D2'>EMPEROR THREATENS INTERVENTION IN BORDER DISPUTE ON VEORIN</span>
+<span style='font-family:neo;color:#8CD5D2;'>EMPEROR THREATENS INTERVENTION IN BORDER DISPUTE ON VEORIN</span>
   Emperor Ocan I has stated that he intends to send forces to settle the dispute on Veorin.  A minor border dispute between Zaar and Orraes, which both lay claim to the planet of Veorin, began in 2436.  Despite Orraes's demonstrated and clear claims to the planet, the Archduchy of Zaar has refused to remove its occupying force from the planet, and Orraes has been left with no alternative but to use force to dislodge them.  The rumored intervention of the Imperial forces seems ill timed, as political correspondent Fils Hartic points out, the Empire has never before intervened in such a small scale conflict.  
   Further, the Emperor, who has never made it a secret that he favors Zaar in this dispute, is using the threat of force inappropriately, says Fils Hartic, probably as the success for the Rearran Alliance is viewed as an economic threat to Imperial holdings.
 
-<span style='font-family:neo;color:#8CD5D2'>PIRATES CAPTURE EXPRESS LINER NEAR GELEMA</span>
+<span style='font-family:neo;color:#8CD5D2;'>PIRATES CAPTURE EXPRESS LINER NEAR GELEMA</span>
   The Empress Star, of the Blue Star Line, was taken by pirates operating in the Constellation of Qurexe.  The express passenger liner was approaching Gelema when the pirates struck.  No reports of casualties, but it has been claimed that the owners have agreed to pay a ransom.  The unprecedented attack, has caused stock prices among shipping companies to drop sharply.  
   Once again, the weaknesses in security of the Empire are revealed by this latest outrage.  Despite a well known increase in piracy in this quadrant, the Imperial court seems incapable of providing a reasonable response.  Some shipping agents have questioned why the Emperor has decided to ignore the pirates, and instead focus on the border dispute over Veorin.
 
-<span style='font-family:neo;color:#8CD5D2'>DUCAL COLONIAL ADMINISTRATION WINS RIGHTS TO BIVEED</span>
+<span style='font-family:neo;color:#8CD5D2;'>DUCAL COLONIAL ADMINISTRATION WINS RIGHTS TO BIVEED</span>
   Biveed, a planet in Quadrant V, has been acknowledged as properly belonging to the Duchy of Harkor.  The planet's status had been disputed by the Imperial Outer World Committee, but yesterday a judge ruled that the planet rightfully belonged to Harkor.  Lord Hirem, Secretary of the Colonial Administration, lamented that the courts took so long in recognizing Harkor's rightful claims, but welcomed the decision.  "We can now begin the long overdue process of formally incorporating Biveed into the Duchy," he said in a statement yesterday.
