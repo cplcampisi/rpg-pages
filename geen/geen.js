@@ -105,7 +105,7 @@ function ProcessCategory(catTxt)
         else
         {
             //<div class="shortlink" style="top:165px;" onclick="gotoArticle(1);">SEMI-AUTO PISTOL</div>
-            linksHtml += divStart + top.toString() + "px;' onclick=gotoArticle(" + n.toString() + ");'>" + articles[n].link.toUpperCase() + divEnd;
+            linksHtml += divStart + top.toString() + "px;' onclick='gotoArticle(" + n.toString() + ");'>" + articles[n].link.toUpperCase() + divEnd;
             top += 30;
         }
     }
