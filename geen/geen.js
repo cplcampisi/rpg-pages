@@ -39,7 +39,8 @@ function ProcessCategory(catTxt)
     var lines;
     lines = catTxt.split(/(?:\r\n|\r|\n)/g);
 
-    console.log(lines);
+    for (var g=0;g<lines.length;g++)
+        console.log(lines[g]);
 
     var nArt = parseInt(lines[0]);
     var catTitle = lines[1];
