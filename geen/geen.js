@@ -93,7 +93,6 @@ function ProcessCategory(catTxt)
     var divStart = "<div class='shortlink' style='top:";
     var divEnd = "</div>";
     var linksHtml = "";
-    alert(articles.length);
     for (var n=0;n<articles.length;n++)
     {
         //Handle separator
@@ -111,7 +110,7 @@ function ProcessCategory(catTxt)
         }
     }
 
-    document.getElementById("catText").innerHTML=catText;    
+    document.getElementById("catLinks").innerHTML=linksHtml;    
 }
 
 //*********************************************
