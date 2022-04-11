@@ -1,0 +1,129 @@
+18
+Military Small Arms
+
+3
+Laser rifles were the preferred weapon of the legions of the first empire, but during the intermediary period they began to be supplanted by projectile weapons.  While the debate between projectile weapons and energy weapons still continues among some ordnance experts, in practice the majority of infantry are armed with projectile weapons in the form of selective fire assault rifles.  Both seem to have roughly the same effectiveness against armor, and the general opinion is that projectile weapons are easier to build and maintain.  Nevertheless, laser rifles and pistols are not without their adherents and can be found in militaries across the empire.
+
+With the exception of some of the Republics and the Duchy of Harkor, military weapons are traditionally made in small custom batches designed to specifications of the regiment or battalion commander.  Such weapons usually use standardized ammunition (or power packs), and typically have similar performance, notwithstanding partisan disagreements as to which is superior.-------------------
+Bolt Action Rifle
+Bolt Action Rifle
+gewehr88.jpg
+1
+Projectile weapons which require the firer to operate the bolt to chamber a new round after each shot.  They are sometimes found among militia and police, chambered for military ammunition, but are not encountered among first line troops, and are rare even among second and third line forces.  Can be equipped with a bayonet.  Magazine holds 5-10 rounds of ammunition.
+-------------------
+Assault Rifle
+Assault Rifle
+
+1
+Considered the “standard” for infantry across the empire, the profusion of designs makes it hard to generalize.  Typically capable of selective fire (semi or full auto), with detachable magazines of 15, 20, 25 or 30 rounds of ammunition. Can be equipped with a bayonet.
+-------------------
+Submachine Gun
+Submachine Gun (SMG)
+
+1
+Uses pistol sized ammunition, occasionally carried by NCOs, police, and special forces.  Otherwise can be seen with similar variety and features as an Assault Rifle: selective fire, detachable magazines of 15, 20, 25 or 30 rounds of ammunition.  Rarely can be equipped with a bayonet.
+-------------------
+Semi-Auto Rifle
+Semi-Automatic Rifle
+
+1
+A rifle which fires one shot with each pull of the trigger, but automatically chambers a new round from the magazine. Sometimes encountered in small numbers among police and militia, the Duchy of Harkor has begun to mass produce such weapons for their expanded national army.  Capable of using more effective armor piercing ammunition.  Magazine holds 5-10 rounds of ammunition.  Can be equipped with a bayonet.
+-------------------
+Laser Rifle
+Laser Rifle
+
+1
+An energy based weapon which emits a deadly laser beam.  Not as common as Assault Rifles, they are still encountered with enough frequency to be found in most militaries.  The Kingdom of Argos is one of the few nations that has a majority of its permanent infantry equipped with laser rifles.  Selective fire, power packs maintain enough power for between 20-50 shots.
+-------------------
+BBBBBB
+-------------------
+Semi-auto pistol
+Semi-automatic pistol
+
+1
+Most commonly encountered type of pistol, these are usually custom made for officers, but small batches may be made for police and to serve as secondary weapons for certain military personnel. Fires one shot per pull of the trigger.  The magazine holds between 8 to 15 rounds.
+-------------------
+Revolver
+Revolver
+
+1
+Revolvers are preferred by some on account of their greater simplicity and ruggedness, when compared to semi-automatic pistols.  They are almost always of the "double-action" variety, which allow the firer to fire as fast as he can pull the trigger.  Likewise, almost all variants can be operated in "single-action" mode by pulling the hammer back first, which provides a steadier shot.  The cylinder usually holds between 5 to 8 shots.
+-------------------
+Laser Pistol
+Laser Pistol
+
+1
+Laser Pistols are more commonly encountered than laser rifles, on account of being associated with a certain amount of elegance.  Most powerpacks for pistols provide 10-20 shots.
+-------------------
+BBBBBB
+-------------------
+Light MG
+Light Machine Gun (LMG)
+
+1
+Light Machine Guns are fully automatic weapons, capable of being carried by a single soldier, and equipped with a bipod.  They are typically fed from a magazine and fire a more powerful round than an assault rifle (usually the same as used by semi-automatic and bolt-action rifles).  It is customary to have one man per squad equipped with such a weapon, to increase their firepower without significantly decreasing their mobility.  Magazines will hold between 20 and 50 rounds.
+-------------------
+Medium MG
+Medium Machine Gun (MMG)
+
+1
+A Medium Machine Gun uses the same ammunition as a Light Machine Gun, but is typically heavier, mounted on a tripod, and capable of longer sustained fire.  They may be fed by strips or belts (100-250 rounds).
+-------------------
+Heavy MG
+Heavy Machine Gun (HMG)
+
+1
+Heavy Machine Guns are similar to Medium Machine Guns, but they use larger caliber ammunition.  They usually use belts.  Often vehicle mounted, they can be used from tripods, or mounted on fixed installations in permanent defensive positions.
+-------------------
+BBBBBB
+-------------------
+Light Repeater
+Light Repeater
+
+3
+Light Repeaters are the laser equivalent of Light Machine Guns (LMGs).  They are relatively rare - it is more common for regiments armed with laser rifles to use LMGs as support weapons - but light repeaters are employed by some of the laser equipped infantry.  Infantry from the Constellation of Reveen are the unusual exception of being equipped with projectile assault rifles, but supported by light repeaters.  
+
+Fitted with bipods and light enough to be carried by a single solider, most varieties can also be mounted on a tripod, and thus fulfill the role of a Medium Machine Gun (MMG).  The powerpacks typically provide 100-150 shots.  Argosan Light Repeaters can also be fired using their standard laser rifle powerpacks, but with greatly reduced number of shots.
+-------------------
+Heavy Repeater
+Heavy Repeater
+
+3
+Heavy Repeaters are the laser equivalent of Heavy Machine Guns (HMGs).  They are more common than light repeaters, but still not as common as HMGs.  Powerpacks usually only provide around 50 to 100 shots, as the increased use of power per shot drains the packs more quickly.  When mounted to a vehicle a Heavy Repeater might be connected to the vehicle's power plant allowing essentially unlimited shots. 
+-------------------
+BBBBBB
+-------------------
+Ammo/Powerpacks
+Ammunition and Powerpacks
+
+30
+The variety of ammunition is so great across Empire, with many states having adopted their own custom calibers, that it would take too much space to provide a complete list.  Instead, some of the more widely encountered ammunition are provided here.  Harkor ammunition is becoming increasingly common throughout the Confederation, even among some non-member states. There are two methods for describing ammunition: both use a measurement of the caliber followed by either, 1) a description of the intended weapon (pistol, assault rifle, rifle), or 2) a second measurement of the length of the cartridge casing.
+
+Pistol (also for SMG)-
+7 x 17 mil (Ralear)
+7.5 mil pistol (Mara)
+9.2 mil pistol (Harkor)
+10 x 18 mil (Ponto)
+12 mil pistol (old revolver) (Argos)
+
+Assault Rifle-
+6 x 42 mil (Inzaes)
+7 x 35 mil (Mara)
+7 mil AR (Harkor)
+8 mil AR (Esteus)
+
+Rifle (also for LMG and MMG)-
+6.6 x 50 mil (Zaar)
+7.8 mil Rifle (Ponto)
+9 mil Rifle (Harkor)
+9.5 x 61 mil (Mara)
+
+Heavy Machine Gun-
+10.5 mil HR (Ralear)
+12 x 80 mil (Harkor)
+12 x 72 mil (Esteus)
+13 mil HR   (Ponto)
+
+Powerpacks for laser weapons mainly differ by the connections and particular service requirements that militaries impose (amount of power delivered per discharge, length of discharge, etc.).  It is possible, although rarely advisable, to rig a connection to allow a laser weapon to use an incompatible powerpack, and soldiers have been known to do so, but only in times of extreme need.  Civilians will sometimes employ a more permanent "conversion kit" to allow them to continue to use a weapon with locally obtainable packs.  Great care must be taken in either case, and one should never try to use a pack intended for a more powerful category of weapon (e.g. using a powerpack intended for laser rifle in a pistol), without extreme caution.  
+
+Powerpacks matching Argosan standards are probably the most widely used, but Pontonese ones are fairly common as well.  Pistol powerpacks can generally be found in all regions. 
