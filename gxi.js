@@ -199,6 +199,12 @@ function handleSelection()
         page = "planet/planet.html";
         initConnection();
         break;
+    case 6:  //Weapon guide
+        //connectErr = true;
+        network = "GEEN";
+        page = "geen/geen.html";
+        initConnection();
+        break;
     case 9: //custom
         custom = true;
         document.getElementById("customn").style.visibility='visible';
