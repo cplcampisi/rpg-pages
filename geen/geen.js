@@ -39,9 +39,6 @@ function ProcessCategory(catTxt)
     var lines;
     lines = catTxt.split(/(?:\r\n|\r|\n)/g);
 
-    for (var g=0;g<lines.length;g++)
-        console.log(lines[g]);
-
     var nArt = parseInt(lines[0]);
     var catTitle = lines[1];
     var catLink = lines[1];
@@ -60,10 +57,8 @@ function ProcessCategory(catTxt)
     {
         i++; //skip separator
         var link = lines[i];
-        alert(link);
         if (link.trim() == "BBBBBB")
         {
-            alert("sep");
             var b = new article(link.trim(), "", "", "");
             articles.push(b);
             i++;
@@ -101,7 +96,6 @@ function ProcessCategory(catTxt)
     for (var n=0;n<articles.length;n++)
     {
         //Handle separator
-        alert(articles[n].link);
         if (articles[n].link=="BBBBBB")
         {
             //<div class="shortlink" style="top:155px;height:2px;border-bottom:2px solid;"></div>

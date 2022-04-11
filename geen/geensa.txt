@@ -88,7 +88,7 @@ Fitted with bipods and light enough to be carried by a single solider, most vari
 Heavy Repeater
 Heavy Repeater
 
-3
+1
 Heavy Repeaters are the laser equivalent of Heavy Machine Guns (HMGs).  They are more common than light repeaters, but still not as common as HMGs.  Powerpacks usually only provide around 50 to 100 shots, as the increased use of power per shot drains the packs more quickly.  When mounted to a vehicle a Heavy Repeater might be connected to the vehicle's power plant allowing essentially unlimited shots.
 -------------------
 BBBBBB
