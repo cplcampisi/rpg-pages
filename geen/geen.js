@@ -105,7 +105,7 @@ function ProcessCategory(catTxt)
         else
         {
             //<div class="shortlink" style="top:165px;" onclick="gotoArticle(1);">SEMI-AUTO PISTOL</div>
-            linksHtml += divStart + top.toString() + "px;' onclick='gotoArticle(" + n.toString() + ");'>" + articles[n].link.toUpperCase() + divEnd;
+            linksHtml += divStart + top.toString() + "px;' onclick=gotoArticle(" + n.toString() + ");'>" + articles[n].link.toUpperCase() + divEnd;
             top += 30;
         }
     }
@@ -123,6 +123,8 @@ function ShowArticle(n, returnCat)
     document.getElementById("artTitle").innerHTML=articles[n].title.toUpperCase();
     document.getElementById("artText").innerHTML=articles[n].text;
     if (articles[n].picture.trim() != "")
+        document.getElementById("artPic").style.backgroundImage="url(images/"+articles[n].picture+")";
+    else
         document.getElementById("artPic").style.backgroundImage="none";
 
     document.getElementById("artReturn").onclick = function() {gotoCategory(returnCat);};
