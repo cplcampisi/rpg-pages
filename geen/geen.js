@@ -57,9 +57,11 @@ function ProcessCategory(catTxt)
     {
         i++; //skip separator
         var link = lines[i];
-        if (link == "BBBBBB")
+        alert(link);
+        if (link.trim() == "BBBBBB")
         {
-            var b = new article(link, "", "", "");
+            alert("sep");
+            var b = new article(link.trim(), "", "", "");
             articles.push(b);
             i++;
         }
