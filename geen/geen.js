@@ -57,7 +57,7 @@ function ProcessCategory(catTxt)
     {
         i++; //skip separator
         var link = lines[i];
-        if (link = "BBBBBB")
+        if (link == "BBBBBB")
         {
             var b = new article(link, "", "", "");
             articles.push(b);
