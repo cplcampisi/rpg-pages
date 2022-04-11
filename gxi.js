@@ -281,7 +281,7 @@ document.onkeydown = function(event)
         var key_code = event.keyCode;
         if (!connecting)
         {
-            if ((parseInt(key_press)>=0 && parseInt(key_press)<=4) || parseInt(key_press)==9)
+            if ((parseInt(key_press)>=0 && parseInt(key_press)<=6) || parseInt(key_press)==9)
             {
                 sel = parseInt(key_press);
                 document.getElementById("selection").innerHTML=key_press;
