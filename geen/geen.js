@@ -96,6 +96,7 @@ function ProcessCategory(catTxt)
     for (var n=0;n<articles.length;n++)
     {
         //Handle separator
+        alert(articles[n].link);
         if (articles[n].link=="BBBBBB")
         {
             //<div class="shortlink" style="top:155px;height:2px;border-bottom:2px solid;"></div>
