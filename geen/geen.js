@@ -122,7 +122,8 @@ function ShowArticle(n, returnCat)
     //artTitle, artText, artPic, artReturn
     document.getElementById("artTitle").innerHTML=articles[n].title.toUpperCase();
     document.getElementById("artText").innerHTML=articles[n].text;
-    document.getElementById("artPic").style.backgroundImage="url(images/"+articles[n].picture+")";
+    if (articles[n].picture.trim() != "")
+        document.getElementById("artPic").style.backgroundImage="none";
 
     document.getElementById("artReturn").onclick = function() {gotoCategory(returnCat);};
 }
