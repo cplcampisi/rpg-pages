@@ -96,8 +96,15 @@ BBBBBB
 Ammo/Powerpacks
 Ammunition and Powerpacks
 
-30
-The variety of ammunition is so great across Empire, with many states having adopted their own custom calibers, that it would take too much space to provide a complete list.  Instead, some of the more widely encountered ammunition are provided here.  Harkor ammunition is becoming increasingly common throughout the Confederation, even among some non-member states. There are two methods for describing ammunition: both use a measurement of the caliber followed by either, 1) a description of the intended weapon (pistol, assault rifle, rifle), or 2) a second measurement of the length of the cartridge casing.
+5
+The variety of ammunition is so great across Empire, with many states having adopted their own custom calibers, that it would take too much space to provide a complete list.  Instead, some of the more widely encountered ammunition are provided here.  Harkor ammunition is becoming increasingly common throughout the Confederation, even among some non-member states. 
+
+Powerpacks for laser weapons mainly differ by the connections and particular service requirements that militaries impose (amount of power delivered per discharge, length of discharge, etc.).  It is possible, although rarely advisable, to rig a connection to allow a laser weapon to use an incompatible powerpack, and soldiers have been known to do so, but only in times of extreme need.  Civilians will sometimes employ a more permanent "conversion kit" to allow them to continue to use a weapon with locally obtainable packs.  Great care must be taken in either case, and one should never try to use a pack intended for a more powerful category of weapon (e.g. using a powerpack intended for laser rifle in a pistol), without extreme caution.  
+
+Powerpacks matching Argosan standards are probably the most widely used, but Pontonese ones are fairly common as well.  Pistol powerpacks can generally be found in all regions.
+-----------------
+
+There are two methods for describing ammunition: both use a measurement of the caliber followed by either, 1) a description of the intended weapon (pistol, assault rifle, rifle), or 2) a second measurement of the length of the cartridge casing.
 
 Pistol (also for SMG)-
 7 x 17 mil (Ralear)
@@ -122,8 +129,4 @@ Heavy Machine Gun-
 10.5 mil HR (Ralear)
 12 x 80 mil (Harkor)
 12 x 72 mil (Esteus)
-13 mil HR   (Ponto)
-
-Powerpacks for laser weapons mainly differ by the connections and particular service requirements that militaries impose (amount of power delivered per discharge, length of discharge, etc.).  It is possible, although rarely advisable, to rig a connection to allow a laser weapon to use an incompatible powerpack, and soldiers have been known to do so, but only in times of extreme need.  Civilians will sometimes employ a more permanent "conversion kit" to allow them to continue to use a weapon with locally obtainable packs.  Great care must be taken in either case, and one should never try to use a pack intended for a more powerful category of weapon (e.g. using a powerpack intended for laser rifle in a pistol), without extreme caution.  
-
-Powerpacks matching Argosan standards are probably the most widely used, but Pontonese ones are fairly common as well.  Pistol powerpacks can generally be found in all regions. 
+13 mil HR   (Ponto) 
