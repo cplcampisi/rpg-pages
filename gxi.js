@@ -4,11 +4,14 @@ function beep(volume, frequency, type, duration)
     var oscillator = audioCtx.createOscillator();
     var gainNode = audioCtx.createGain();
 
+    //oscillator.connect(gainNode);
+    //gainNode.connect(audioCtx.destination);
+
+    gainNode.gain.value = volume;
+    //gainNode.gain.setValueAtTime(volume, audioCtx.currentTime);
     oscillator.connect(gainNode);
     gainNode.connect(audioCtx.destination);
 
-    //gainNode.gain.value = volume;
-    gainNode.gain.setValueAtTime(volume, audioCtx.currentTime);
     oscillator.frequency.value = frequency;
     oscillator.type = type;
 
@@ -28,7 +31,7 @@ function beep(volume, frequency, type, duration)
 // VIEW0 (INTRO)
 //*************************************************************************
 //*************************************************************************
-var vol = 0;
+var vol = 0.1;
 var ready;
 var view = 0;
 var urlparam = window.location.search;
