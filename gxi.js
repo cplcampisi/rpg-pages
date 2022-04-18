@@ -9,8 +9,8 @@ function beep(volume, frequency, type, duration)
 
     gainNode.gain.value = volume;
     //gainNode.gain.setValueAtTime(volume, audioCtx.currentTime);
-    oscillator.connect(gainNode);
     gainNode.connect(audioCtx.destination);
+    oscillator.connect(gainNode);
 
     oscillator.frequency.value = frequency;
     oscillator.type = type;
