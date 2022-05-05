@@ -13,7 +13,7 @@ Space travel is accomplished with two different types of space engines, called "
 Faster-than-light engines are called Quantum Drives, or "Q-engines."  Quantum Drives work most efficiently when operating in the presence of certain spatial conditions.  Those conditions form Quantum Corridors, also known as "Q-routes", which facilitate interstellar travel.  Quantum Drives can function outside of Quantum Corridors, but the energy requirements are considerably higher, and navigation is difficult.
 -------------------
 COMMUNICATIONS
-LONG RANGE INTERSTELLAR COMMUNICATIONS
+INTERSTELLAR COMMUNICATIONS
 3
 Long range (interplanetary) communications use sub-space communicators which allow nearly instantaneous signaling.  Powerful signals can be sent across the length of the Empire, but few stations/ships have such a powerful installation.  Instead most messages are routed through a network of communication stations operated by the Imperial government.  Depending upon the level of service, interplanetary communications can be routed to a personal comm, or, at the simplest, a written message can be delivered via a local substation.  Man portable designs, about the size of a backpack, are limited in range to roughly a solar system.
 
