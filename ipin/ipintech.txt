@@ -1,12 +1,20 @@
-2-------------------HIGHER EDUCATION
+3
+-------------------
+HIGHER EDUCATION
 INSTITUTES OF HIGHER LEARNING
-1There are many Universities, Research and Technical Institutes, and Academies throughout the Empire.  Almost every inhabited world has at least one, oftentimes many more.  Some institutions, however, receive special recognition from the Emperor, and these are designated STUDIA.
--------------------SPACE TRAVEL
+1
+There are many Universities, Research and Technical Institutes, and Academies throughout the Empire.  Almost every inhabited world has at least one, oftentimes many more.  Some institutions, however, receive special recognition from the Emperor, and these are designated STUDIA.
+-------------------
+SPACE TRAVEL
 SPACE TRAVEL AND PROPULSION
-3Space travel is accomplished with two different types of space engines, called "drives."  Standard, or sub-light, engines are used for maneuvering or to propel spacecraft short distances.  For travelling greater distances faster-than-light engines are necessary.  
+3
+Space travel is accomplished with two different types of space engines, called "drives."  Standard, or sub-light, engines are used for maneuvering or to propel spacecraft short distances.  For travelling greater distances faster-than-light engines are necessary.  
 
 Faster-than-light engines are called Quantum Drives, or "Q-engines."  Quantum Drives work most efficiently when operating in the presence of certain spatial conditions.  Those conditions form Quantum Corridors, also known as "Q-routes", which facilitate interstellar travel.  Quantum Drives can function outside of Quantum Corridors, but the energy requirements are considerably higher, and navigation is difficult.
--------------------COMMUNICATIONS
+-------------------
+COMMUNICATIONS
 LONG RANGE INTERSTELLAR COMMUNICATIONS
-1
-This page unintentionally left blank.
+3
+Long range (interplanetary) communications use sub-space communicators which allow nearly instantaneous signaling.  Powerful signals can be sent across the length of the Empire, but few stations/ships have such a powerful installation.  Instead most messages are routed through a network of communication stations operated by the Imperial government.  Depending upon the level of service, interplanetary communications can be routed to a personal comm, or, at the simplest, a written message can be delivered via a local substation.  Man portable designs, about the size of a backpack, are limited in range to roughly a solar system.
+
+Entertainment services are available across the Empire, accessed through computers or televisors.  At the Imperial level, services like IPIN (Imperial Public Information Network) and HBS (Harkor Broadcasting Service) will be accessible on most inhabited planets.  Regional and local services may also be available. 

@@ -1,16 +1,32 @@
-5
--------------------BUREAU OF WEIGHTS, &c
+6
+-------------------
+BUREAU OF WEIGHTS, &c
 BUREAU OF WEIGHTS . . . REVENUE
-1The Bureau of Weights, Measures, and Revenue establishes standard measurements to be used throughout the Empire, and collects taxes and tariffs.  Most tariffs are collected on trade between the different political regions.-------------------HALL OF RECORDS
+1
+The Bureau of Weights, Measures, and Revenue establishes standard measurements to be used throughout the Empire, and collects taxes and tariffs.  Most tariffs are collected on trade between the different political regions.
+-------------------
+HALL OF RECORDS
 THE HALL OF RECORDS
-1The Hall of Records is responsible for collecting and maintaining records on the persons, planets, political and business entities of the Empire.  Historical information is also maintained by the Hall, and copies of agreements and contracts are registered there.  It also contains the Census Bureau, responsible for coordinating and collating the ten year Imperial Census.-------------------IMPERIAL PUBLIC INFORMATION NETWORK
+1
+The Hall of Records is responsible for collecting and maintaining records on the persons, planets, political and business entities of the Empire.  Historical information is also maintained by the Hall, and copies of agreements and contracts are registered there.  It also contains the Census Bureau, responsible for coordinating and collating the ten year Imperial Census.
+-------------------
+IMPERIAL PUBLIC INFORMATION NETWORK
 IPIN
 1
-IPIN - The Imperial Public Information Network, is the Imperial news and media broadcast network.  It also provides information on demand and directory services.
--------------------OUTER WORLDS COORDINATION COMMITTEE
+IPIN - The Imperial Public Information Network, a division of the Ministry of Posts and Communications, is the Imperial news and media broadcast network.  It also provides information on demand and directory services.
+-------------------
+OUTER WORLDS COORDINATION COMMITTEE
 OUTER WORLDS COMMITTEE
-1The Imperial Outer Worlds Coordination Committee (IOWCC) is charged with providing aid to developing, independent, outer worlds.  Sometimes shortened to the Outer Worlds Committee.
+1
+The Imperial Outer Worlds Coordination Committee (IOWCC) is charged with providing aid to developing, independent, outer worlds.  Sometimes shortened to the Outer Worlds Committee.
 -------------------
 THE IMPERIAL INTELLIGENCE AGENCY
 IMPERIAL INTELLIGENCE AGENCY
-1-----<REDACTED>----- 
+1
+-----<REDACTED>----- 
+IMPERIAL POST AND COMMUNICATIONS 
+IMPERIAL COMMUNICATIONS
+3
+IPTC - Imperial Ministry of Posts and Telecommunications provides for reliable communications across the Empire.  The Telecommunications Service maintains and operates a series of long range communication stations within all regions.  These stations are used to relay both public information services (e.g. IPIN) and private communications.  On some under developed planets, the Telecommunications Service operates the planetary communications, but usually they just provide a link from the locally operated network to the interplanetary network.
+
+The Postal Branch offers mail/parcel service throughout the Empire.  Most service is provided in the form of mail contracts given to existing passenger and cargo lines.  The Postal Branch only directly operates a relatively small number of depots and cutters to provide service to certain underserved (typically unassigned) planets.  Imperial Postal employees and inspectors oversee and monitor contract operations.  
