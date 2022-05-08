@@ -355,14 +355,16 @@
 
     function togglemusic()
     {
-        if (introFanfare.duration > 0)
+        if (introFanfare.paused)
         {
-            introFanfare.pause();
-            //introFanfare.currentTime = 0;
-            introFanfare.fastSeek(0);
+            introFanfare.play();
         }
         else
-            introFanfare.play();
+        {
+            introFanfare.pause();
+            introFanfare.currentTime = 0;
+            //introFanfare.fastSeek(0);
+        }
     }
 
     function buttonclick(page)
