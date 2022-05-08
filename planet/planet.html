@@ -358,7 +358,8 @@
         if (introFanfare.duration > 0)
         {
             introFanfare.pause();
-            introFanfare.currentTime = 0;
+            //introFanfare.currentTime = 0;
+            introFanfare.fastSeek(0);
         }
         else
             introFanfare.play();
