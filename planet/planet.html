@@ -114,6 +114,16 @@
     background-image: url(../Pictures/PlanetBack.jpg);
 }
 
+.musicbutton {
+    position: absolute;
+    padding: 0px;
+    width: 40px;
+    height: 15px;
+    font-family: timesl;
+    font-size: 12px;
+    /*background-image: url(../Pictures/PlanetBack.jpg);*/
+}
+
 .chartbutton {
     position: absolute;
     padding: 0px;
@@ -330,9 +340,10 @@
     {
         //new Audio('../Sounds/FanfareHBS2.mp3').play()
         introFanfare = new Audio('../Sounds/starhustler.mp3');
-        introFanfare.volume = 0.4;
+        introFanfare.volume = 0.3;
         introFanfare.load();
         introFanfare.play();
+        playing = true;
         loadPlanetFile();
         
         //loadTextFiles();
@@ -340,6 +351,17 @@
         //var dates = document.getElementsByClassName("date");
         //for (var i=0; i<dates.length; i++)
         //    dates[i].innerHTML=date;
+    }
+
+    function musicbutton()
+    {
+        if (duration > 0)
+        {
+            introFanfare.pause();
+            introFanfare.currentTime = 0;
+        }
+        else
+            introFanfare.play();
     }
 
     function buttonclick(page)
@@ -496,6 +518,10 @@
                   Welcome<br>
                   Loading Planetary Information
         </p>
+
+        <button class="musicbutton" style="left:302px;top:595px;" onclick='togglemusic();'>
+            MUSIC
+        </button>
         
     </div>
     <!-- -------------------------------------------------------------------------------  
