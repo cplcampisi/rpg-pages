@@ -513,7 +513,7 @@ document.onkeydown = function(event)
         else if (isAlphaNumeric(newChar))
             option += String.fromCharCode(newChar);
             
-        OptionInput("selectinput");
+        //OptionInput("selectinput");
     }
     else if(view=="article")
     {
