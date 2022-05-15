@@ -297,6 +297,8 @@ function CheckOption()
                     listStart += 23;
                     if (listStart > papers.length)
                         listStart = 0;
+                    
+                    ClearSelect();
                     LoadSelect();
                 }
                 else
@@ -337,6 +339,7 @@ function CheckOption()
                         if (listStart > messages.length)
                             listStart = 0;
                         
+                        document.getElementById("selectinput").innerHTML="";
                         ClearSelect();
                         LoadMessages();
                     }
@@ -939,7 +942,7 @@ function AddPaper(n)
     list += papers[n].name.toUpperCase();
     list += "<br>";
     document.getElementById("list").innerHTML=list;
-    setTimeout(function(){AddPaper(n+1);}, 100);
+    setTimeout(function(){AddPaper(n+1);}, 115);
 }
 
 //*********************************************
