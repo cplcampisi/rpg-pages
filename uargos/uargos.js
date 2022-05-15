@@ -654,7 +654,8 @@ function LoadSelect()
 {
     document.getElementById("selectinput").innerHTML="";
     ClearSelect();
-    alert("loadSelect() all should be clear");
+    if (listStart > 1)
+        return;
     switch(selectPage)
     {
         case "A":
