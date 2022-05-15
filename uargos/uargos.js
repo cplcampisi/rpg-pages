@@ -650,12 +650,6 @@ document.onkeydown = function(event)
 function LoadSelect()
 {
     ClearSelect();
-    document.getElementById("selectinput").innerHTML="XXXX";
-    if (listStart > 1)
-    {
-        setTimeout(function(){document.getElementById("selectinput").innerHTML="XXXX";}, 200);
-        return;
-    }
     switch(selectPage)
     {
         case "A":
@@ -930,7 +924,9 @@ function RetrieveListing(option)
 function AddPaper(n)
 {
     var listEnd = listStart + 22;
-    if (n >= papers.length || n > listEnd)
+    if (listEnd > papers.length)
+        n = papers.length-1;
+    if (n > listEnd)
     {
         //Finished loading, set commands and option input.
         document.getElementById("commands").innerHTML="H - HOME SCREEN; M - MORE LISTINGS";
