@@ -336,6 +336,8 @@ function CheckOption()
                         listStart += 23;
                         if (listStart > messages.length)
                             listStart = 0;
+                        
+                        ClearSelect();
                         LoadMessages();
                     }
                     else
@@ -890,7 +892,7 @@ function LoadDepartments()
 // Generic Functions related to the select page
 //*********************************************
 function ClearSelect()
-{
+{ 
     document.getElementById("selectinput").innerHTML="";
     document.getElementById("commands").innerHTML="";
     document.getElementById("list").innerHTML="";
@@ -937,7 +939,7 @@ function AddPaper(n)
     list += papers[n].name.toUpperCase();
     list += "<br>";
     document.getElementById("list").innerHTML=list;
-    setTimeout(function(){AddPaper(n+1);}, 150);
+    setTimeout(function(){AddPaper(n+1);}, 100);
 }
 
 //*********************************************
