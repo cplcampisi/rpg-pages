@@ -298,7 +298,6 @@ function CheckOption()
                     if (listStart > papers.length)
                         listStart = 0;
                     
-                    ClearSelect();
                     LoadSelect();
                 }
                 else
@@ -653,7 +652,10 @@ function LoadSelect()
     ClearSelect();
     document.getElementById("selectinput").innerHTML="XXXX";
     if (listStart > 1)
+    {
+        setTimeout(function(){document.getElementById("selectinput").innerHTML="XXXX";}, 200);
         return;
+    }
     switch(selectPage)
     {
         case "A":
