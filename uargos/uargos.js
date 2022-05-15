@@ -652,7 +652,9 @@ document.onkeydown = function(event)
 //*********************************************
 function LoadSelect()
 {
+    document.getElementById("selectinput").innerHTML="";
     ClearSelect();
+    alert("loadSelect() all should be clear");
     switch(selectPage)
     {
         case "A":
