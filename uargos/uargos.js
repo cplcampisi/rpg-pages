@@ -650,8 +650,8 @@ document.onkeydown = function(event)
 //*********************************************
 function LoadSelect()
 {
-    document.getElementById("selectinput").innerHTML="XXXX";
     ClearSelect();
+    document.getElementById("selectinput").innerHTML="XXXX";
     if (listStart > 1)
         return;
     switch(selectPage)
