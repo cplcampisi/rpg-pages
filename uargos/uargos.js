@@ -339,8 +339,6 @@ function CheckOption()
                         if (listStart > messages.length)
                             listStart = 0;
                         
-                        document.getElementById("selectinput").innerHTML="";
-                        ClearSelect();
                         LoadMessages();
                     }
                     else
@@ -652,7 +650,7 @@ document.onkeydown = function(event)
 //*********************************************
 function LoadSelect()
 {
-    document.getElementById("selectinput").innerHTML="";
+    document.getElementById("selectinput").innerHTML="XXXX";
     ClearSelect();
     if (listStart > 1)
         return;
