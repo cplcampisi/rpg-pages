@@ -925,7 +925,7 @@ function AddPaper(n)
 {
     var listEnd = listStart + 22;
     if (listEnd > papers.length)
-        n = papers.length-1;
+        listEnd = papers.length-1;
     if (n > listEnd)
     {
         //Finished loading, set commands and option input.
