@@ -241,7 +241,7 @@ function OptionInput(fieldname)
     else
         text = caret + option + cursor;
         
-    document.getElementById(fieldname).innerHTML="";
+    //document.getElementById(fieldname).innerHTML="";
     document.getElementById(fieldname).innerHTML=text;
 }
 
