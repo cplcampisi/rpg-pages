@@ -504,7 +504,7 @@ document.onkeydown = function(event)
         if (newChar == 13)
         {
             CheckOption();
-            //return;
+            return;
         }
         else if (newChar == 8)
             option = option.slice(0, -1);
@@ -513,7 +513,7 @@ document.onkeydown = function(event)
         else if (isAlphaNumeric(newChar))
             option += String.fromCharCode(newChar);
             
-        //OptionInput("selectinput");
+        OptionInput("selectinput");
     }
     else if(view=="article")
     {
