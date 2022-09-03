@@ -29,7 +29,7 @@ function beep(volume, frequency, type, duration)
 // VIEW0 (INTRO)
 //*************************************************************************
 //*************************************************************************
-var vol = 0.17;
+var vol = 0.10;
 var ready;
 var view = 0;
 var urlparam = window.location.search;
