@@ -15,7 +15,8 @@ function beep(volume, frequency, type, duration)
 
     oscillator.start();
     gainNode.connect(audioCtx.destination);
-
+    console.log("gain:");
+    console.log(gainNode.gain.value);
     setTimeout(
         function()
         {
