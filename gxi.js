@@ -4,6 +4,8 @@ function beep(volume, frequency, type, duration)
     var oscillator = audioCtx.createOscillator();
     var gainNode = audioCtx.createGain();
 
+    console.log("something");
+    var x = 2+5;
     oscillator.connect(gainNode);
     console.log("testing!");
     console.log("yet more testing");
