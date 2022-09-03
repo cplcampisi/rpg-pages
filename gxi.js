@@ -6,7 +6,7 @@ function beep(volume, frequency, type, duration)
 
     oscillator.connect(gainNode);
 
-    gainNode.gain.value = 0.1;//volume;
+    gainNode.gain.value = 1;//volume;
     console.log("gain:");
     console.log(gainNode.gain.value);
     
