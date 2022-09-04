@@ -39,7 +39,7 @@ body{
     font-family: xol;
     /*color:rgb(99, 165, 162);*/
     /*color:rgb(120, 165, 162);*/
-    color:rgb(146, 214, 177);
+    color:rgb(131, 206, 184);
     text-align: left;
     font-size: 13px;
 }
@@ -155,6 +155,7 @@ body{
         //new Audio('../Sounds/FanfareHBS2.mp3').play()
         introFanfare = new Audio('../Sounds/fanfare1.mp3');
         introFanfare.load();
+        introFanfare.volume = 0.6;
         introFanfare.play();
         
         loadTextFiles();
