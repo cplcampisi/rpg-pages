@@ -9,7 +9,7 @@
 
  /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 16px;
 }
 
 /* Track */
@@ -19,13 +19,57 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(110, 184, 181); 
+  background: rgb(99, 167, 164); 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(61, 114, 112); 
 } 
+
+/* Buttons */
+::-webkit-scrollbar-button
+{
+  display: block;
+  border-style: solid;
+  height: 16px;
+  width: 16px;
+}
+
+
+/* Up */
+::-webkit-scrollbar-button:vertical:decrement
+{
+display:block;
+  border-width: 0 7px 14px 7px;
+  border-color: transparent transparent rgb(99, 167, 164) transparent;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:hover
+{
+  border-color: transparent transparent rgb(61, 114, 112) transparent;
+}
+
+
+/* Down */
+::-webkit-scrollbar-button:vertical:increment
+{
+display:block;
+  border-width: 14px 7px 0 7px;
+  border-color: rgb(99, 167, 164) transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:increment:hover
+{
+  border-color: rgb(61, 114, 112) transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement
+{
+    display: none;
+}
+
 
 .title {
     position: absolute;
@@ -411,7 +455,7 @@ body{
         <div class="text" id="iptext" style="left:78px;top:77px;width:903px;height:420px">
         </div>
         
-        <div class="news" id="ipnews" style="left:78px;top:72px;width:755px;height:490px;background-color:#000000">
+        <div class="news" id="ipnews" style="left:78px;top:72px;width:755px;height:490px;background-color:#0f0f0f">
         </div>
         
         <div class="hbsbuttons" id="ipreturn" style="left:850px;top:500px;" onclick='buttonclick("home");'>
