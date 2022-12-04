@@ -62,7 +62,9 @@ $('div').terminal({
             {
                 var page = "ipin/home.html";
                 var urlparam = window.location.search;
-                window.location.href = page+urlparam;
+                var network = "IPIN";
+                this.echo('[[;#aaaaaa;]   CONNECTING TO '+network+']');
+                setTimeout(function(){window.location.href = page+urlparam;},1000);
                 //this.exec('CONNECT IPIN');
             }
       });
