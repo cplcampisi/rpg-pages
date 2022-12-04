@@ -59,7 +59,12 @@ $('div').terminal({
         this.echo('0.  NONE');
         this.read('\n  CHOOSE > ', opt => {
             if (opt == '1')
-                this.exec('CONNECT IPIN');
+            {
+                var page = "ipin/home.html";
+                var urlparam = window.location.search;
+                window.location.href = page+urlparam;
+                //this.exec('CONNECT IPIN');
+            }
       });
     },
     CONNECT: function(network) {
