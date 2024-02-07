@@ -4,7 +4,8 @@ Military Small Arms
 3
 Laser rifles were the preferred weapon of the legions of the first empire, but during the intermediary period they began to be supplanted by projectile weapons.  While the debate between projectile weapons and energy weapons still continues among some ordnance experts, in practice the majority of infantry are armed with projectile weapons in the form of selective fire assault rifles.  Both seem to have roughly the same effectiveness against armor, and the general opinion is that projectile weapons are easier to build and maintain.  Nevertheless, laser rifles and pistols are not without their adherents and can be found in militaries across the empire.
 
-With the exception of some of the Republics and the Duchy of Harkor, military weapons are traditionally made in small custom batches designed to specifications of the regiment or battalion commander.  Such weapons usually use standardized ammunition (or power packs), and typically have similar performance, notwithstanding partisan disagreements as to which is superior.-------------------
+With the exception of some of the Republics and the Duchy of Harkor, military weapons are traditionally made in small custom batches designed to specifications of the regiment or battalion commander.  Such weapons usually use standardized ammunition (or power packs), and typically have similar performance, notwithstanding partisan disagreements as to which is superior.
+-------------------
 Bolt Action Rifle
 Bolt Action Rifle
 gewehr88.jpg
@@ -97,7 +98,7 @@ Ammo/Powerpacks
 Ammunition and Powerpacks
 
 5
-The variety of ammunition is so great across Empire, with many states having adopted their own custom calibers, that it would take too much space to provide a complete list.  Instead, some of the more widely encountered ammunition are provided here.  Harkor ammunition is becoming increasingly common throughout the Confederation, even among some non-member states. 
+The variety of ammunition is so great across Empire, with many states having adopted their own custom calibers, that it would take too much space to provide a complete list.  Instead, some of the more widely encountered ammunition are provided here.  Harkor ammunition is becoming increasingly common throughout the Confederation, and even among some non-member states. 
 
 Powerpacks for laser weapons mainly differ by the connections and particular service requirements that militaries impose (amount of power delivered per discharge, length of discharge, etc.).  It is possible, although rarely advisable, to rig a connection to allow a laser weapon to use an incompatible powerpack, and soldiers have been known to do so, but only in times of extreme need.  Civilians will sometimes employ a more permanent "conversion kit" to allow them to continue to use a weapon with locally obtainable packs.  Great care must be taken in either case, and one should never try to use a pack intended for a more powerful category of weapon (e.g. using a powerpack intended for laser rifle in a pistol), without extreme caution.  
 
