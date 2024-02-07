@@ -203,7 +203,7 @@ function handleSelection()
         break;
     case 6:  //Weapon guide
         //connectErr = true;
-        network = "GEEN";
+        network = "GRUGGER";
         page = "geen/geen.html";
         initConnection();
         break;
