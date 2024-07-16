@@ -135,7 +135,8 @@ function start1()  //executes when the page finishes loading
     network = "";
     page = "";
     connectErr = false;
-    setTimeout(func1a, 500);  //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.   
+    document.getElementById('main').focus()
+    setTimeout(func1a, 500);  //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.  
 };
 /*function start()
 {
