@@ -80,6 +80,7 @@ function func4()
 function func5()
 {
     document.getElementById("begintext").style.visibility= 'visible';
+    document.getElementById('intro').focus()
     ready = true;
 }
 
